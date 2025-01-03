@@ -1,52 +1,50 @@
 <?xml version="1.0" encoding="utf-8"?>
-<search> 
-  
-  
-    
-    <entry>
-      <title>跨年</title>
-      <link href="/2025/01/03/%E8%B7%A8%E5%B9%B4/"/>
-      <url>/2025/01/03/%E8%B7%A8%E5%B9%B4/</url>
-      
-        <content type="html"><![CDATA[<h1 id="2025"><a href="#2025" class="headerlink" title="2025"></a>2025</h1><p>现在是2025年1月1号，直到网上才知道有跨年活动这一说，回想起来从前的跨年多是窝在家里看跨年晚会，福建的冬天很冷，窝在沙发里，把卧室里的的棉被抱出来，还不够灌着热水的热水袋，还有充电的，手一个脚一个，妈妈还有一个，电视台里的跨年晚会很多，一个一个台地换，浙江台有喜欢的歌手、湖南台还在老歌、央视…遥控器已经坏了好几次了，电池被胶带勉强保持供电。</p><p>晚上打开手机群聊才发现很多人都出门跨年了，过往的跨年更像是元旦假期的附庸，大概是因为没有什么烦恼，所以将要来的下一年和马上离去的没有什么差别，知道夏天来时都要穿着外套。现在却视作节日，图书馆长桌上早早空了，我长长滞留在座位上，我为没有出门感到可惜，那些活动都是从哪里知道的？外面响起烟火燃放的声音，砰，砰，砰。</p><p>我走出图书馆的时候广场上有孩子们拿着烟花棒（一直不知道叫什么），呲呲的温暖的黄火，我还是快步走了。食堂在办节目，竟然有这么多人，热火朝天的气氛叫我没能走进去，我总是擅长在最热闹的地方找到平静，孤独在同一个角落等我。有人拿着相机，我应该出门的。</p><p>路上又有几声烟炮，我感到惊讶，原来我一直不期待能在西安找到烟花，什么时候西安在我的眼里成为了静止的城市，一直不期待从这座古都里寻找到温暖。墙外的车流是谁在归家，灯火红色的和汽车刹车红灯混在一起，我突然想在高高的楼，现在的城市有多少人在欢笑，他是否牵着女朋友的手，要在零点准时拥吻，她是否抱着激动的孩子，孩子今天可以晚睡，明天不用上学。我想起在寒冬歌唱的人们，积累了一年的疲倦总会被新一年到来的希望洗去、氧化、成为旧的事物，比常识更快地成为回忆，归在了去年，留在了身后，尽管没有真正向前，总要在新年的第一天歌唱的，总要在这个时候相拥的，就像太阳总要升起，手机的年份变成2025，我盯着时钟上的虚拟秒针转动，电脑里的晚会倒数3，2，1快了一点。</p><p>我以为这个世界太糟，其实是我的憔悴灵魂在拖着一个早夭的躯干。</p><p>23，24年太糟，太糟，一个一个困境找上了我，被学校和小镇好好锁起的我没有摆脱的能力，性格的弱点把我的头压在显示的水里，我要溺水了，我第一次真切发现。黄晕从远处，从深深的黑蓝的海里穿越而来，我会抬起头的，太阳升起的时候，我要在水面。</p>]]></content>
-      
-      
-      
-        <tags>
-            
-            <tag> 生活 </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>test</title>
-      <link href="/2025/01/03/test/"/>
-      <url>/2025/01/03/test/</url>
-      
-        <content type="html"><![CDATA[<p>下面是代码</p><figure class="highlight c++"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br><span class="line">45</span><br><span class="line">46</span><br><span class="line">47</span><br><span class="line">48</span><br><span class="line">49</span><br><span class="line">50</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">#<span class="keyword">include</span><span class="string">&lt;iostream&gt;</span></span></span><br><span class="line"><span class="keyword">typedef</span> <span class="keyword">struct</span> <span class="title class_">node</span></span><br><span class="line">&#123;</span><br><span class="line"><span class="type">int</span> num, password;</span><br><span class="line"><span class="keyword">struct</span> <span class="title class_">node</span> *next;</span><br><span class="line">&#125;*Linklist;</span><br><span class="line">Linklist H,r,s;</span><br><span class="line"><span class="comment">//循环列表</span></span><br><span class="line"><span class="function"><span class="type">void</span> <span class="title">Create_tlinklist</span><span class="params">(<span class="type">int</span> n)</span></span>&#123;</span><br><span class="line">H = (Linklist)<span class="built_in">malloc</span>(<span class="built_in">sizeof</span>(Linklist));</span><br><span class="line">r = H;</span><br><span class="line"><span class="keyword">for</span>(<span class="type">int</span> i = <span class="number">1</span>; i &lt; n; i++)&#123;</span><br><span class="line">s = (Linklist)<span class="built_in">malloc</span>(<span class="built_in">sizeof</span>(Linklist));</span><br><span class="line">r -&gt; next = s;</span><br><span class="line">r = s;</span><br><span class="line">&#125;</span><br><span class="line">r -&gt; next = H;</span><br><span class="line">s = H;</span><br><span class="line">&#125;</span><br><span class="line"><span class="function"><span class="type">void</span> <span class="title">input_linklist</span><span class="params">(<span class="type">int</span> n)</span></span>&#123;</span><br><span class="line"><span class="type">int</span> x;</span><br><span class="line"><span class="keyword">for</span>(<span class="type">int</span> i = <span class="number">1</span>; i &lt;= n; i++)&#123;</span><br><span class="line"><span class="built_in">scanf</span>(<span class="string">&quot;%d&quot;</span>, &amp;x);</span><br><span class="line">s -&gt; password = x;</span><br><span class="line">s -&gt; num = i;</span><br><span class="line">s = s -&gt; next;</span><br><span class="line">&#125;</span><br><span class="line">s = r;</span><br><span class="line">&#125;</span><br><span class="line"><span class="function"><span class="type">void</span> <span class="title">output_linklist</span><span class="params">(<span class="type">int</span> n,<span class="type">int</span> m)</span></span>&#123;</span><br><span class="line">    <span class="keyword">for</span> (<span class="type">int</span> i = <span class="number">1</span>; i &lt;= n;i++)&#123;</span><br><span class="line">        <span class="keyword">for</span> (<span class="type">int</span> j = <span class="number">1</span>; j &lt;m;j++) s = s-&gt;next;<span class="comment">//找到结点</span></span><br><span class="line">        r = s-&gt;next;</span><br><span class="line">        m = r-&gt;password;</span><br><span class="line">        <span class="built_in">printf</span>(<span class="string">&quot;%d &quot;</span>, r-&gt;num);</span><br><span class="line">        s-&gt;next = r-&gt;next;</span><br><span class="line">        <span class="built_in">free</span>(r);</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="function"><span class="type">int</span> <span class="title">main</span><span class="params">()</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line"><span class="type">int</span> n, m;</span><br><span class="line"><span class="built_in">scanf</span>(<span class="string">&quot;%d %d&quot;</span>, &amp;n, &amp;m);</span><br><span class="line"><span class="built_in">Create_tlinklist</span>(n);</span><br><span class="line"><span class="built_in">input_linklist</span>(n);</span><br><span class="line"><span class="built_in">output_linklist</span>(n,m);</span><br><span class="line"><span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">&#125;</span><br><span class="line"></span><br></pre></td></tr></table></figure>]]></content>
-      
-      
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>first_try</title>
-      <link href="/2025/01/03/first-try/"/>
-      <url>/2025/01/03/first-try/</url>
-      
-        <content type="html"><![CDATA[<blockquote class="blockquote-center">            <i class="fa fa-quote-left"></i>            <p>原神启动 </p>            <i class="fa fa-quote-right"></i>          </blockquote><p>这是一个测试</p><p>图片测试</p><p><img src="https://wx3.sinaimg.cn/orj360/008yTi4Gly1hx4nac74iuj31je21v4gi.jpg"></p><p>测试结束</p>]]></content>
-      
-      
-      
-    </entry>
-    
-    
-  
-  
+<search>
+  <entry>
+    <title>first_try</title>
+    <url>/2025/01/03/first-try/</url>
+    <content><![CDATA[<blockquote class="blockquote-center">
+            <i class="fa fa-quote-left"></i>
+            <p>原神启动 </p>
+
+            <i class="fa fa-quote-right"></i>
+          </blockquote>
+<p>这是一个测试</p>
+<p>图片测试</p>
+<p><img src="https://wx3.sinaimg.cn/orj360/008yTi4Gly1hx4nac74iuj31je21v4gi.jpg"></p>
+<p>测试结束</p>
+]]></content>
+  </entry>
+  <entry>
+    <title>跨年</title>
+    <url>/2025/01/03/%E8%B7%A8%E5%B9%B4/</url>
+    <content><![CDATA[<h1 id="2025"><a href="#2025" class="headerlink" title="2025"></a>2025</h1><p>现在是2025年1月1号，直到网上才知道有跨年活动这一说，回想起来从前的跨年多是窝在家里看跨年晚会，福建的冬天很冷，窝在沙发里，把卧室里的的棉被抱出来，还不够灌着热水的热水袋，还有充电的，手一个脚一个，妈妈还有一个，电视台里的跨年晚会很多，一个一个台地换，浙江台有喜欢的歌手、湖南台还在老歌、央视…遥控器已经坏了好几次了，电池被胶带勉强保持供电。</p>
+<p>晚上打开手机群聊才发现很多人都出门跨年了，过往的跨年更像是元旦假期的附庸，大概是因为没有什么烦恼，所以将要来的下一年和马上离去的没有什么差别，知道夏天来时都要穿着外套。现在却视作节日，图书馆长桌上早早空了，我长长滞留在座位上，我为没有出门感到可惜，那些活动都是从哪里知道的？外面响起烟火燃放的声音，砰，砰，砰。</p>
+<p>我走出图书馆的时候广场上有孩子们拿着烟花棒（一直不知道叫什么），呲呲的温暖的黄火，我还是快步走了。食堂在办节目，竟然有这么多人，热火朝天的气氛叫我没能走进去，我总是擅长在最热闹的地方找到平静，孤独在同一个角落等我。有人拿着相机，我应该出门的。</p>
+<p>路上又有几声烟炮，我感到惊讶，原来我一直不期待能在西安找到烟花，什么时候西安在我的眼里成为了静止的城市，一直不期待从这座古都里寻找到温暖。墙外的车流是谁在归家，灯火红色的和汽车刹车红灯混在一起，我突然想在高高的楼，现在的城市有多少人在欢笑，他是否牵着女朋友的手，要在零点准时拥吻，她是否抱着激动的孩子，孩子今天可以晚睡，明天不用上学。我想起在寒冬歌唱的人们，积累了一年的疲倦总会被新一年到来的希望洗去、氧化、成为旧的事物，比常识更快地成为回忆，归在了去年，留在了身后，尽管没有真正向前，总要在新年的第一天歌唱的，总要在这个时候相拥的，就像太阳总要升起，手机的年份变成2025，我盯着时钟上的虚拟秒针转动，电脑里的晚会倒数3，2，1快了一点。</p>
+<p>我以为这个世界太糟，其实是我的憔悴灵魂在拖着一个早夭的躯干。</p>
+<p>23，24年太糟，太糟，一个一个困境找上了我，被学校和小镇好好锁起的我没有摆脱的能力，性格的弱点把我的头压在显示的水里，我要溺水了，我第一次真切发现。黄晕从远处，从深深的黑蓝的海里穿越而来，我会抬起头的，太阳升起的时候，我要在水面。</p>
+]]></content>
+      <tags>
+        <tag>生活</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>test</title>
+    <url>/2025/01/03/test/</url>
+    <content><![CDATA[<p>下面是代码</p>
+<figure class="highlight c++"><table><tr><td class="code"><pre><span class="line"><span class="meta">#<span class="keyword">include</span><span class="string">&lt;iostream&gt;</span></span></span><br><span class="line"><span class="keyword">typedef</span> <span class="keyword">struct</span> <span class="title class_">node</span></span><br><span class="line">&#123;</span><br><span class="line">	<span class="type">int</span> num, password;</span><br><span class="line">	<span class="keyword">struct</span> <span class="title class_">node</span> *next;</span><br><span class="line">&#125;*Linklist;</span><br><span class="line">Linklist H,r,s;</span><br><span class="line"><span class="comment">//循环列表</span></span><br><span class="line"><span class="function"><span class="type">void</span> <span class="title">Create_tlinklist</span><span class="params">(<span class="type">int</span> n)</span></span>&#123;</span><br><span class="line">	H = (Linklist)<span class="built_in">malloc</span>(<span class="built_in">sizeof</span>(Linklist));</span><br><span class="line">	r = H;</span><br><span class="line">	<span class="keyword">for</span>(<span class="type">int</span> i = <span class="number">1</span>; i &lt; n; i++)&#123;</span><br><span class="line">		s = (Linklist)<span class="built_in">malloc</span>(<span class="built_in">sizeof</span>(Linklist));</span><br><span class="line">		r -&gt; next = s;</span><br><span class="line">		r = s;</span><br><span class="line">	&#125;</span><br><span class="line">	r -&gt; next = H;</span><br><span class="line">	s = H;</span><br><span class="line">&#125;</span><br><span class="line"><span class="function"><span class="type">void</span> <span class="title">input_linklist</span><span class="params">(<span class="type">int</span> n)</span></span>&#123;</span><br><span class="line">	<span class="type">int</span> x;</span><br><span class="line">	<span class="keyword">for</span>(<span class="type">int</span> i = <span class="number">1</span>; i &lt;= n; i++)&#123;</span><br><span class="line">		<span class="built_in">scanf</span>(<span class="string">&quot;%d&quot;</span>, &amp;x);</span><br><span class="line">		s -&gt; password = x;</span><br><span class="line">		s -&gt; num = i;</span><br><span class="line">		s = s -&gt; next;</span><br><span class="line">	&#125;</span><br><span class="line">	s = r;</span><br><span class="line">&#125;</span><br><span class="line"><span class="function"><span class="type">void</span> <span class="title">output_linklist</span><span class="params">(<span class="type">int</span> n,<span class="type">int</span> m)</span></span>&#123;</span><br><span class="line">    <span class="keyword">for</span> (<span class="type">int</span> i = <span class="number">1</span>; i &lt;= n;i++)&#123;</span><br><span class="line">        <span class="keyword">for</span> (<span class="type">int</span> j = <span class="number">1</span>; j &lt;m;j++) s = s-&gt;next;<span class="comment">//找到结点</span></span><br><span class="line">        r = s-&gt;next;</span><br><span class="line">        m = r-&gt;password;</span><br><span class="line">        <span class="built_in">printf</span>(<span class="string">&quot;%d &quot;</span>, r-&gt;num);</span><br><span class="line">        s-&gt;next = r-&gt;next;</span><br><span class="line">        <span class="built_in">free</span>(r);</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="function"><span class="type">int</span> <span class="title">main</span><span class="params">()</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">	<span class="type">int</span> n, m;</span><br><span class="line">	<span class="built_in">scanf</span>(<span class="string">&quot;%d %d&quot;</span>, &amp;n, &amp;m);</span><br><span class="line">	<span class="built_in">Create_tlinklist</span>(n);</span><br><span class="line">	<span class="built_in">input_linklist</span>(n);</span><br><span class="line">	<span class="built_in">output_linklist</span>(n,m);</span><br><span class="line">	<span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">&#125;</span><br><span class="line"></span><br></pre></td></tr></table></figure>]]></content>
+  </entry>
+  <entry>
+    <title>网站图标生成</title>
+    <url>/2025/01/03/%E7%BD%91%E7%AB%99%E5%9B%BE%E6%A0%87%E7%94%9F%E6%88%90/</url>
+    <content><![CDATA[<p><a href="https://www.favicongenerator.io/">https://www.favicongenerator.io/</a></p>
+<p>生成图标的小网站</p>
+<p><img src="/2025/01/03/first-try/icon-512x512.png"></p>
+<p>示例⇧</p>
+]]></content>
+      <tags>
+        <tag>发现</tag>
+      </tags>
+  </entry>
 </search>
