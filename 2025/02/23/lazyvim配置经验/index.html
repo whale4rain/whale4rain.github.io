@@ -20,19 +20,20 @@
     var CONFIG = {"hostname":"whale4rain.github.io","root":"/","scheme":"Mist","version":"7.8.0","exturl":false,"sidebar":{"position":"left","display":"post","padding":18,"offset":12,"onmobile":false},"copycode":{"enable":false,"show_result":false,"style":null},"back2top":{"enable":true,"sidebar":false,"scrollpercent":true},"bookmark":{"enable":false,"color":"#222","save":"auto"},"fancybox":false,"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},"algolia":{"hits":{"per_page":10},"labels":{"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}},"localsearch":{"enable":false,"trigger":"auto","top_n_per_article":1,"unescape":false,"preload":false},"motion":{"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}},"path":"search.xml"};
   </script>
 
-  <meta name="description" content="whale4rain&#39;s blog">
-<meta property="og:type" content="website">
-<meta property="og:title" content="categories">
-<meta property="og:url" content="http://whale4rain.github.io/categories/index.html">
+  <meta name="description" content="lazyvim的相关配置经验">
+<meta property="og:type" content="article">
+<meta property="og:title" content="lazyvim配置经验">
+<meta property="og:url" content="http://whale4rain.github.io/2025/02/23/lazyvim%E9%85%8D%E7%BD%AE%E7%BB%8F%E9%AA%8C/index.html">
 <meta property="og:site_name" content="whale4blog">
-<meta property="og:description" content="whale4rain&#39;s blog">
+<meta property="og:description" content="lazyvim的相关配置经验">
 <meta property="og:locale" content="zh_CN">
-<meta property="article:published_time" content="2025-01-03T12:41:42.000Z">
-<meta property="article:modified_time" content="2025-01-03T12:42:01.330Z">
+<meta property="article:published_time" content="2025-02-23T11:00:03.000Z">
+<meta property="article:modified_time" content="2025-02-23T11:32:05.138Z">
 <meta property="article:author" content="whale4rain">
+<meta property="article:tag" content="tools">
 <meta name="twitter:card" content="summary">
 
-<link rel="canonical" href="http://whale4rain.github.io/categories/">
+<link rel="canonical" href="http://whale4rain.github.io/2025/02/23/lazyvim%E9%85%8D%E7%BD%AE%E7%BB%8F%E9%AA%8C/">
 
 
 <script id="page-configurations">
@@ -40,13 +41,12 @@
   CONFIG.page = {
     sidebar: "",
     isHome : false,
-    isPost : false,
+    isPost : true,
     lang   : 'zh-CN'
   };
 </script>
 
-  <title>categories | whale4blog
-</title>
+  <title>lazyvim配置经验 | whale4blog</title>
   
 
 
@@ -153,51 +153,145 @@
       <div class="main-inner">
         <div class="content-wrap">
           
-  
-  
 
-          <div class="content page posts-expand">
+          <div class="content post posts-expand">
             
 
     
-    
-    
-    <div class="post-block" lang="zh-CN">
+  
+  
+  <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="zh-CN">
+    <link itemprop="mainEntityOfPage" href="http://whale4rain.github.io/2025/02/23/lazyvim%E9%85%8D%E7%BD%AE%E7%BB%8F%E9%AA%8C/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="/images/avatar.png">
+      <meta itemprop="name" content="whale4rain">
+      <meta itemprop="description" content="whale4rain's blog">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="whale4blog">
+    </span>
       <header class="post-header">
+        <h1 class="post-title" itemprop="name headline">
+          lazyvim配置经验
+        </h1>
 
-<h1 class="post-title" itemprop="name headline">categories
-</h1>
+        <div class="post-meta">
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="far fa-calendar"></i>
+              </span>
+              <span class="post-meta-item-text">发表于</span>
+              
 
-<div class="post-meta">
+              <time title="创建时间：2025-02-23 19:00:03 / 修改时间：19:32:05" itemprop="dateCreated datePublished" datetime="2025-02-23T19:00:03+08:00">2025-02-23</time>
+            </span>
+
+          
+            <span class="post-meta-item" title="阅读次数" id="busuanzi_container_page_pv" style="display: none;">
+              <span class="post-meta-item-icon">
+                <i class="fa fa-eye"></i>
+              </span>
+              <span class="post-meta-item-text">阅读次数：</span>
+              <span id="busuanzi_value_page_pv"></span>
+            </span><br>
+            <span class="post-meta-item" title="本文字数">
+              <span class="post-meta-item-icon">
+                <i class="far fa-file-word"></i>
+              </span>
+                <span class="post-meta-item-text">本文字数：</span>
+              <span>262</span>
+            </span>
+            <span class="post-meta-item" title="阅读时长">
+              <span class="post-meta-item-icon">
+                <i class="far fa-clock"></i>
+              </span>
+                <span class="post-meta-item-text">阅读时长 &asymp;</span>
+              <span>1 分钟</span>
+            </span>
+            <div class="post-description">lazyvim的相关配置经验</div>
+
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+        <h1 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h1><p>久闻vim大名，编程过程中手不用离开键盘就可以编程确实十分吸引人，<del>似乎更Geek点？</del>，不过单纯使用原生vim功能确实很少，这时候就要使用现代点的<a target="_blank" rel="noopener" href="https://neovim.io/">nvim</a>,配置确实简单，不过本人还是太懒了，选择使用发行版的nvim，其实有很多，我选择使用lazyvim。</p>
+<h1 id="lazyvim-下载"><a href="#lazyvim-下载" class="headerlink" title="lazyvim 下载"></a>lazyvim 下载</h1><p><a href="lazyvim.org">lazyvim.org</a>官网下载，官网十分详细，下面时Windows系统的下载方法</p>
+<h2 id="Requirements"><a href="#Requirements" class="headerlink" title="Requirements"></a>Requirements</h2><ul>
+<li><p>Neovim &gt;&#x3D; <strong>0.9.0</strong> (needs to be built with <strong>LuaJIT</strong>)</p>
+</li>
+<li><p>Git &gt;&#x3D; <strong>2.19.0</strong> (for partial clones support)</p>
+</li>
+<li><p>a <a target="_blank" rel="noopener" href="https://www.nerdfonts.com/">Nerd Font</a>(v3.0 or greater) ***(optional, but needed to display some icons)***</p>
+</li>
+<li><p><a target="_blank" rel="noopener" href="https://github.com/jesseduffield/lazygit">lazygit</a> ***(optional)***</p>
+</li>
+<li><p>a <strong>C</strong> compiler for <code>nvim-treesitter</code>. See <a target="_blank" rel="noopener" href="https://github.com/nvim-treesitter/nvim-treesitter#requirements">here</a></p>
+</li>
+</ul>
+<h2 id="安装"><a href="#安装" class="headerlink" title="安装"></a>安装</h2><ul>
+<li>备份nvim配置</li>
+</ul>
+<figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta prompt_"># </span><span class="language-bash">required</span></span><br><span class="line">Move-Item $env:LOCALAPPDATA\nvim $env:LOCALAPPDATA\nvim.bak</span><br><span class="line"><span class="meta prompt_">  </span></span><br><span class="line"><span class="meta prompt_"># </span><span class="language-bash">optional but recommended</span></span><br><span class="line">Move-Item $env:LOCALAPPDATA\nvim-data $env:LOCALAPPDATA\nvim-data.bak</span><br></pre></td></tr></table></figure>
+
+<ul>
+<li>克隆项目</li>
+</ul>
+<figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">git clone https://github.com/LazyVim/starter $env:LOCALAPPDATA\nvim</span><br></pre></td></tr></table></figure>
+
+<ul>
+<li>移除<code>.git</code></li>
+</ul>
+<figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">Remove-Item $env:LOCALAPPDATA\nvim\.git -Recurse -Force</span><br></pre></td></tr></table></figure>
+
+<ul>
+<li>开始使用</li>
+</ul>
+<figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">nvim</span><br></pre></td></tr></table></figure>
+
+<p>十分详细的教程：</p>
+<p> <a target="_blank" rel="noopener" href="https://lazyvim-ambitious-devs.phillips.codes/">LazyVim for Ambitious Developers</a></p>
+<h1 id="lazyvim个人配置"><a href="#lazyvim个人配置" class="headerlink" title="lazyvim个人配置"></a>lazyvim个人配置</h1><h2 id="背景透明"><a href="#背景透明" class="headerlink" title="背景透明"></a>背景透明</h2><p> <code>lua\plugins</code>下新建colorscheme.lua文件写入</p>
+<figure class="highlight lua"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">return</span> &#123;</span><br><span class="line">  <span class="string">&quot;tokyonight.nvim&quot;</span>,</span><br><span class="line">  lazy = <span class="literal">true</span>,</span><br><span class="line">  opts = &#123;</span><br><span class="line">    style = <span class="string">&quot;storm&quot;</span>,</span><br><span class="line">    transparent = <span class="literal">true</span>,</span><br><span class="line">    styles = &#123;</span><br><span class="line">      sidebars = <span class="string">&quot;transparent&quot;</span>,</span><br><span class="line">      floats = <span class="string">&quot;transparent&quot;</span>,</span><br><span class="line">    &#125;,</span><br><span class="line">  &#125;,</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+
+
+
+    </div>
+
+    
+    
+    
+
+      <footer class="post-footer">
+          <div class="post-tags">
+              <a href="/tags/tools/" rel="tag"># tools</a>
+          </div>
+
+        
+
+
+        
+    <div class="post-nav">
+      <div class="post-nav-item">
+    <a href="/2025/02/15/%E8%B6%85%E5%BF%AB%E9%80%9F%E3%80%81%E8%B6%85%E7%AE%80%E5%8D%95%E3%80%81%E8%B6%85%E4%BE%BF%E6%8D%B7%E7%9A%84blog%E4%B9%A6%E5%86%99%E6%96%B9%E6%A1%88/" rel="prev" title="超快速、超简单、超便捷的blog书写方案">
+      <i class="fa fa-chevron-left"></i> 超快速、超简单、超便捷的blog书写方案
+    </a></div>
+      <div class="post-nav-item"></div>
+    </div>
+      </footer>
+    
+  </article>
+  
+  
   
 
-</div>
-
-</header>
-
-      
-      
-      
-      <div class="post-body">
-          <div class="category-all-page">
-            <div class="category-all-title">
-              目前共计 9 个分类
-            </div>
-            <div class="category-all">
-              <ul class="category-list"><li class="category-list-item"><a class="category-list-link" href="/categories/%E5%8D%9A%E5%AE%A2/">博客</a><span class="category-list-count">1</span></li><li class="category-list-item"><a class="category-list-link" href="/categories/%E6%96%87%E5%AD%97/">文字</a><span class="category-list-count">2</span><ul class="category-list-child"><li class="category-list-item"><a class="category-list-link" href="/categories/%E6%96%87%E5%AD%97/%E6%B8%B8%E8%AE%B0/">游记</a><span class="category-list-count">1</span></li><li class="category-list-item"><a class="category-list-link" href="/categories/%E6%96%87%E5%AD%97/%E9%98%85%E8%AF%BB/">阅读</a><span class="category-list-count">1</span><ul class="category-list-child"><li class="category-list-item"><a class="category-list-link" href="/categories/%E6%96%87%E5%AD%97/%E9%98%85%E8%AF%BB/%E6%91%98%E6%8A%84/">摘抄</a><span class="category-list-count">1</span></li></ul></li></ul></li><li class="category-list-item"><a class="category-list-link" href="/categories/%E7%85%A7%E7%89%87/">照片</a><span class="category-list-count">1</span><ul class="category-list-child"><li class="category-list-item"><a class="category-list-link" href="/categories/%E7%85%A7%E7%89%87/2024/">2024</a><span class="category-list-count">1</span></li></ul></li><li class="category-list-item"><a class="category-list-link" href="/categories/%E7%94%9F%E6%B4%BB/">生活</a><span class="category-list-count">3</span><ul class="category-list-child"><li class="category-list-item"><a class="category-list-link" href="/categories/%E7%94%9F%E6%B4%BB/%E9%9A%8F%E6%83%B3/">随想</a><span class="category-list-count">3</span></li></ul></li></ul>
-            </div>
-          </div>
-        
-      </div>
-      
-      
-      
-    </div>
-    
-
-    
-    
-    
 
 
           </div>
@@ -248,6 +342,7 @@
 
       <!--noindex-->
       <div class="post-toc-wrap sidebar-panel">
+          <div class="post-toc motion-element"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#%E5%89%8D%E8%A8%80"><span class="nav-number">1.</span> <span class="nav-text">前言</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#lazyvim-%E4%B8%8B%E8%BD%BD"><span class="nav-number">2.</span> <span class="nav-text">lazyvim 下载</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#Requirements"><span class="nav-number">2.1.</span> <span class="nav-text">Requirements</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E5%AE%89%E8%A3%85"><span class="nav-number">2.2.</span> <span class="nav-text">安装</span></a></li></ol></li><li class="nav-item nav-level-1"><a class="nav-link" href="#lazyvim%E4%B8%AA%E4%BA%BA%E9%85%8D%E7%BD%AE"><span class="nav-number">3.</span> <span class="nav-text">lazyvim个人配置</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#%E8%83%8C%E6%99%AF%E9%80%8F%E6%98%8E"><span class="nav-number">3.1.</span> <span class="nav-text">背景透明</span></a></li></ol></li></ol></div>
       </div>
       <!--/noindex-->
 
