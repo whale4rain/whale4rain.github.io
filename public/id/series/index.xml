@@ -5,12 +5,12 @@
     <link>http://localhost:1313/id/series/</link>
     <description>Artikel Terbaru dalam Series pada Whale4Blog</description>
     <generator>Hugo 0.145.0</generator>
-    <language>id</language>
+    <language>id-ID</language>
     <managingEditor>whale</managingEditor>
     
       <webMaster>whale</webMaster>
     <copyright>Copyright 2025 (c) Foxxi</copyright>
-    <lastBuildDate>Thu, 13 Mar 2025 20:16:19 +0800</lastBuildDate>
+    <lastBuildDate>Thu, 13 Mar 2025 20:32:42 +0800</lastBuildDate>
     <atom:link href="http://localhost:1313/id/series/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>

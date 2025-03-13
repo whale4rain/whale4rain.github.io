@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Markdown on Whale4Blog</title>
-    <link>http://localhost:1313/zh/en/tags/markdown/</link>
+    <link>http://localhost:1313/en/tags/markdown/</link>
     <description>Recent Posts in Markdown on Whale4Blog</description>
     <generator>Hugo 0.145.0</generator>
     <language>en-GB</language>
@@ -10,14 +10,14 @@
     
       <webMaster>whale</webMaster>
     <copyright>Copyright 2025 (c) Foxxi</copyright>
-    <lastBuildDate>Thu, 13 Mar 2025 20:20:25 +0800</lastBuildDate>
-    <atom:link href="http://localhost:1313/zh/en/tags/markdown/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 13 Mar 2025 20:32:42 +0800</lastBuildDate>
+    <atom:link href="http://localhost:1313/en/tags/markdown/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Markdown Test</title>
-      <link>http://localhost:1313/zh/en/post/markdown-test/</link>
+      <link>http://localhost:1313/en/post/markdown-test/</link>
       <pubDate>Sun, 26 Jan 2025 00:00:00 +0000</pubDate>
       <author>whale</author>
-      <guid>http://localhost:1313/zh/en/post/markdown-test/</guid>
+      <guid>http://localhost:1313/en/post/markdown-test/</guid>
       <description></description>
       
     </item>

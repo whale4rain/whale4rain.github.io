@@ -14,6 +14,23 @@
         series = 'series'
         tag = 'tags'
 
+[id]
+    contentDir = 'content/id'
+    disabled = false
+    languageCode = 'id-ID'
+    languageDirection = 'ltr'
+    languageName = 'Bahasa Indonesia'
+    [id.pagination]
+        disableAliases = false
+        pagerSize = 12
+        path = 'laman'
+    [id.params.feed]
+        flowlines = false
+    [id.taxonomies]
+        author = 'author'
+        category = 'categories'
+        series = 'series'
+        tag = 'tags'
 
 [zh]
     contentDir = 'content/zh'

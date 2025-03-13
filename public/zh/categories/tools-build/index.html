@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="zh-CN" dir="ltr">
-<head><script src="/zh/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=zh/livereload" data-no-instant defer></script>
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
     <!-- head.html --><!-- meta.html -->
 
 <meta charset="utf-8">
@@ -9,7 +9,7 @@
 <title>Tools Build | Whale4Blog</title>
 <meta name="author" content="whale">
 <meta name="description" content="term | Whale4Blog" >
-<link rel="canonical" href="http://localhost:1313/zh/zh/categories/tools-build/">
+<link rel="canonical" href="http://localhost:1313/zh/categories/tools-build/">
 
 
 
@@ -27,12 +27,12 @@
     <meta property="og:title" content="Tools Build | Whale4Blog" />
     <meta property="og:description" content="term | Whale4Blog" />
     <meta property="og:type" content="website" />
-    <meta property="og:url" content="http://localhost:1313/zh/zh/categories/tools-build/" />
+    <meta property="og:url" content="http://localhost:1313/zh/categories/tools-build/" />
         <meta property="og:image" content="https://repository-images.githubusercontent.com/923527728/46a32a19-69ac-45b3-91a4-c4d299fb234b" />
-    <meta property="og:site_name" content="Whale4Blog" /><link rel="alternate" type="application/rss+xml" href="http://localhost:1313/zh/zh/categories/tools-build/index.xml" title="Whale4Blog" />
+    <meta property="og:site_name" content="Whale4Blog" /><link rel="alternate" type="application/rss+xml" href="http://localhost:1313/zh/categories/tools-build/index.xml" title="Whale4Blog" />
     <!-- js.html -->
-    <script src="http://localhost:1313/zh/js/hugo-brewm.min.js" defer></script><!-- css.html -->
-    <link rel="stylesheet" href="http://localhost:1313/zh/css/hugo-brewm.min.css">
+    <script src="http://localhost:1313/js/hugo-brewm.min.js" defer></script><!-- css.html -->
+    <link rel="stylesheet" href="http://localhost:1313/css/hugo-brewm.min.css">
     <!-- css/inline.html -->
     <style>
          
@@ -54,7 +54,7 @@
         </a>
     </nav>
     
-        <a id="logo" href="http://localhost:1313/zh/zh/" aria-label="Whale4Blog">
+        <a id="logo" href="http://localhost:1313/zh/" aria-label="Whale4Blog">
                 <img id="logomark--dark" src="https://example.com/logoMarkDark.svg" alt="Whale4Blog" />
                 <img id="logomark" src="https://example.com/logoMark.svg" alt="Whale4Blog" />
                 <!-- logotype.html --><svg id="logotype" xmlns="http://www.w3.org/2000/svg" version="1.1" width="280pt">
@@ -175,7 +175,7 @@
     <div id="search" class="on-hull">
         <div role="presentation" class="screening js-cgpn"></div>
     </div>
-    <script src="http://localhost:1313/zh/pagefind/pagefind-ui.js" type="text/javascript"></script>
+    <script src="http://localhost:1313/pagefind/pagefind-ui.js" type="text/javascript"></script>
     <script>
         let pageFindInitialized = false;
         const initPageFind = function(event) {
@@ -266,19 +266,48 @@
 </details>
             <!-- i18n.html -->
 
-            <a id="has-i18n" class="on-deck"
-                href="http://localhost:1313/zh/en/" title="Switch Language toEnglish"
-                aria-label="English"
-                >
+        <details id="has-i18n" class="presentation js-details" name="on-deck">
+            <summary class="anchor on-deck" aria-label="Language Selections">
+            
                 <img
-                    src="https://raw.githubusercontent.com/lipis/flag-icons/c95b262e5ee2366cad4c5aecc4a5ad86220c9ab9/flags/4x3/gb.svg" alt=""
+                    src="https://raw.githubusercontent.com/lipis/flag-icons/c95b262e5ee2366cad4c5aecc4a5ad86220c9ab9/flags/4x3/cn.svg" alt=""
                     width="64" height="48"
-                    aria-hidden="true"
+                    loading="lazy"
                     >
-                <span class="act iso639" aria-hidden="true">ZH</span>
-                <span class="alt iso639" aria-hidden="true">EN</span>
-                <span class="t t2">English</span>
-            </a>
+                <span class="iso639" aria-hidden="true">ZH</span>
+                <span class="languangeName">简体中文</span>
+            
+            </summary>
+
+            <!-- on hull -->
+            <nav id="i18n-menu" aria-label="Language Selections">
+                <ul class="on-plank">
+                    <li>
+                        <a href="http://localhost:1313/id/" aria-label="Change language to Bahasa Indonesia">
+                            <img
+                                src="https://raw.githubusercontent.com/lipis/flag-icons/c95b262e5ee2366cad4c5aecc4a5ad86220c9ab9/flags/4x3/id.svg" alt=""
+                                width="64" height="48"
+                                aria-hidden="true"
+                                loading="lazy"
+                                >
+                            <span>Bahasa Indonesia</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="http://localhost:1313/en/" aria-label="Change language to English">
+                            <img
+                                src="https://raw.githubusercontent.com/lipis/flag-icons/c95b262e5ee2366cad4c5aecc4a5ad86220c9ab9/flags/4x3/gb.svg" alt=""
+                                width="64" height="48"
+                                aria-hidden="true"
+                                loading="lazy"
+                                >
+                            <span>English</span>
+                        </a>
+                    </li>
+                </ul>
+                <div class="screening js-cgpn" role="presentation" aria-hidden="true"></div>
+            </nav>
+        </details>
 
         </nav>
         <div id="top-nav-screen" class="screening js-cpn" role="presentation" aria-hidden="true"></div>
@@ -323,7 +352,7 @@
             <ul role="presentation" class="breadcrumb">
                     <!-- breadcrumb.html -->
         <li>
-            <a href="http://localhost:1313/zh/zh/categories/" aria-current="true">Categories
+            <a href="http://localhost:1313/zh/categories/" aria-current="true">Categories
             </a>
         </li>
     <li>
@@ -420,7 +449,7 @@
         <a class="underline" href="http://localhost:1313/zh/post/lazyvim%E9%85%8D%E7%BD%AE%E7%BB%8F%E9%AA%8C/" aria-label="Lazyvim配置经验"></a>
         
         <section class="has-cover">
-                <img class="flowlines" src="https://raw.githubusercontent.com/foxihd/hugo-et-hd/master/static/svg/flowlines/17.svg" alt="" style="object-position: 27% 31%" loading="lazy">
+                <img class="flowlines" src="https://raw.githubusercontent.com/foxihd/hugo-et-hd/master/static/svg/flowlines/3.svg" alt="" style="object-position: 64% 47%" loading="lazy">
             <div class="par" id="desc-2">使用lazyvim配置使用nvim经验
             </div>
         </section>
@@ -454,7 +483,7 @@
                 <div id="main-footer-secondary" class="column" style="--col: 15rem">
                         <div id="coffee-counter">
                             <strong class="section-title">Coffee Stat</strong>
-                            <p>Making this website has taken at least 6 cups of coffee, if not more.</p>
+                            <p>Making this website has taken at least 7 cups of coffee, if not more.</p>
                         </div>                    
                     <!-- menu.html -->
     <nav id="menu-footer" class="has-aria-label-top" aria-label="Let&#39;s keep in touch!">

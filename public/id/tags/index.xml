@@ -5,12 +5,120 @@
     <link>http://localhost:1313/id/tags/</link>
     <description>Artikel Terbaru dalam Tags pada Whale4Blog</description>
     <generator>Hugo 0.145.0</generator>
-    <language>id</language>
+    <language>id-ID</language>
     <managingEditor>whale</managingEditor>
     
       <webMaster>whale</webMaster>
     <copyright>Copyright 2025 (c) Foxxi</copyright>
-    <lastBuildDate>Thu, 13 Mar 2025 20:16:19 +0800</lastBuildDate>
+    <lastBuildDate>Thu, 13 Mar 2025 20:32:42 +0800</lastBuildDate>
     <atom:link href="http://localhost:1313/id/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Alt</title>
+      <link>http://localhost:1313/id/tags/alt/</link>
+      <pubDate>Sat, 22 Feb 2025 00:00:00 +0000</pubDate>
+      <author>whale</author>
+      <guid>http://localhost:1313/id/tags/alt/</guid>
+      <description></description>
+      
+    </item>
+    <item>
+      <title>Audio</title>
+      <link>http://localhost:1313/id/tags/audio/</link>
+      <pubDate>Sat, 22 Feb 2025 00:00:00 +0000</pubDate>
+      <author>whale</author>
+      <guid>http://localhost:1313/id/tags/audio/</guid>
+      <description></description>
+      
+    </item>
+    <item>
+      <title>Authoring</title>
+      <link>http://localhost:1313/id/tags/authoring/</link>
+      <pubDate>Sat, 22 Feb 2025 00:00:00 +0000</pubDate>
+      <author>whale</author>
+      <guid>http://localhost:1313/id/tags/authoring/</guid>
+      <description></description>
+      
+    </item>
+    <item>
+      <title>Gambar</title>
+      <link>http://localhost:1313/id/tags/gambar/</link>
+      <pubDate>Sat, 22 Feb 2025 00:00:00 +0000</pubDate>
+      <author>whale</author>
+      <guid>http://localhost:1313/id/tags/gambar/</guid>
+      <description></description>
+      
+    </item>
+    <item>
+      <title>Konten</title>
+      <link>http://localhost:1313/id/tags/konten/</link>
+      <pubDate>Sat, 22 Feb 2025 00:00:00 +0000</pubDate>
+      <author>whale</author>
+      <guid>http://localhost:1313/id/tags/konten/</guid>
+      <description></description>
+      
+    </item>
+    <item>
+      <title>Media</title>
+      <link>http://localhost:1313/id/tags/media/</link>
+      <pubDate>Sat, 22 Feb 2025 00:00:00 +0000</pubDate>
+      <author>whale</author>
+      <guid>http://localhost:1313/id/tags/media/</guid>
+      <description></description>
+      
+    </item>
+    <item>
+      <title>Sampul</title>
+      <link>http://localhost:1313/id/tags/sampul/</link>
+      <pubDate>Sat, 22 Feb 2025 00:00:00 +0000</pubDate>
+      <author>whale</author>
+      <guid>http://localhost:1313/id/tags/sampul/</guid>
+      <description></description>
+      
+    </item>
+    <item>
+      <title>Cover</title>
+      <link>http://localhost:1313/id/tags/cover/</link>
+      <pubDate>Mon, 03 Feb 2025 00:00:00 +0000</pubDate>
+      <author>whale</author>
+      <guid>http://localhost:1313/id/tags/cover/</guid>
+      <description></description>
+      
+    </item>
+    <item>
+      <title>Redaksi</title>
+      <link>http://localhost:1313/id/tags/redaksi/</link>
+      <pubDate>Mon, 03 Feb 2025 00:00:00 +0000</pubDate>
+      <author>whale</author>
+      <guid>http://localhost:1313/id/tags/redaksi/</guid>
+      <description></description>
+      
+    </item>
+    <item>
+      <title>Riwayat</title>
+      <link>http://localhost:1313/id/tags/riwayat/</link>
+      <pubDate>Mon, 03 Feb 2025 00:00:00 +0000</pubDate>
+      <author>whale</author>
+      <guid>http://localhost:1313/id/tags/riwayat/</guid>
+      <description></description>
+      
+    </item>
+    <item>
+      <title>Taxonomy</title>
+      <link>http://localhost:1313/id/tags/taxonomy/</link>
+      <pubDate>Mon, 03 Feb 2025 00:00:00 +0000</pubDate>
+      <author>whale</author>
+      <guid>http://localhost:1313/id/tags/taxonomy/</guid>
+      <description></description>
+      
+    </item>
+    <item>
+      <title>Terms</title>
+      <link>http://localhost:1313/id/tags/terms/</link>
+      <pubDate>Mon, 03 Feb 2025 00:00:00 +0000</pubDate>
+      <author>whale</author>
+      <guid>http://localhost:1313/id/tags/terms/</guid>
+      <description></description>
+      
+    </item>
   </channel>
 </rss>

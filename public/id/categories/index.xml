@@ -5,12 +5,21 @@
     <link>http://localhost:1313/id/categories/</link>
     <description>Artikel Terbaru dalam Categories pada Whale4Blog</description>
     <generator>Hugo 0.145.0</generator>
-    <language>id</language>
+    <language>id-ID</language>
     <managingEditor>whale</managingEditor>
     
       <webMaster>whale</webMaster>
     <copyright>Copyright 2025 (c) Foxxi</copyright>
-    <lastBuildDate>Thu, 13 Mar 2025 20:16:19 +0800</lastBuildDate>
+    <lastBuildDate>Thu, 13 Mar 2025 20:32:42 +0800</lastBuildDate>
     <atom:link href="http://localhost:1313/id/categories/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Configuration</title>
+      <link>http://localhost:1313/id/categories/configuration/</link>
+      <pubDate>Sun, 26 Jan 2025 00:00:00 +0000</pubDate>
+      <author>whale</author>
+      <guid>http://localhost:1313/id/categories/configuration/</guid>
+      <description></description>
+      
+    </item>
   </channel>
 </rss>

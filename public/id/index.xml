@@ -5,12 +5,93 @@
     <link>http://localhost:1313/id/</link>
     <description>Artikel Terbaru pada Whale4Blog</description>
     <generator>Hugo 0.145.0</generator>
-    <language>id</language>
+    <language>id-ID</language>
     <managingEditor>whale</managingEditor>
     
       <webMaster>whale</webMaster>
     <copyright>Copyright 2025 (c) Foxxi</copyright>
-    <lastBuildDate>Thu, 13 Mar 2025 20:16:19 +0800</lastBuildDate>
+    <lastBuildDate>Thu, 13 Mar 2025 20:32:42 +0800</lastBuildDate>
     <atom:link href="http://localhost:1313/id/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Menambahkan Gambar Sampul dan Artikel Audio</title>
+      <link>http://localhost:1313/id/pos/mengatur-sampul-dan-audio/</link>
+      <pubDate>Sat, 22 Feb 2025 00:00:00 +0000</pubDate>
+      <author>whale</author>
+      <guid>http://localhost:1313/id/pos/mengatur-sampul-dan-audio/</guid>
+      <description></description>
+      <enclosure url="https://upload.wikimedia.org/wikipedia/commons/4/4d/Cat_and_styrofoam_%E2%80%93_electrostatic_charge_%28235112299%29.jpg" length="0" type="image/jpeg" />
+    </item>
+    <item>
+      <title>Mengatur Entri `Terms`</title>
+      <link>http://localhost:1313/id/pos/mengatur-entri-terms/</link>
+      <pubDate>Mon, 03 Feb 2025 00:00:00 +0000</pubDate>
+      <author>whale</author>
+      <guid>http://localhost:1313/id/pos/mengatur-entri-terms/</guid>
+      <description></description>
+      
+    </item>
+    <item>
+      <title>Mengatur Riwayat Redaksi</title>
+      <link>http://localhost:1313/id/pos/mengatur-riwayat-redaksi/</link>
+      <pubDate>Mon, 03 Feb 2025 00:00:00 +0000</pubDate>
+      <author>whale</author>
+      <guid>http://localhost:1313/id/pos/mengatur-riwayat-redaksi/</guid>
+      <description></description>
+      
+    </item>
+    <item>
+      <title>Menambahkan Diskusi</title>
+      <link>http://localhost:1313/id/pos/mengatur-diskusi/</link>
+      <pubDate>Sun, 26 Jan 2025 00:00:00 +0000</pubDate>
+      <author>whale</author>
+      <guid>http://localhost:1313/id/pos/mengatur-diskusi/</guid>
+      <description></description>
+      
+    </item>
+    <item>
+      <title>Mengatur Logo dan Aksen Warna</title>
+      <link>http://localhost:1313/id/pos/mengatur-logo-dan-aksen-warna/</link>
+      <pubDate>Sun, 26 Jan 2025 00:00:00 +0000</pubDate>
+      <author>whale</author>
+      <guid>http://localhost:1313/id/pos/mengatur-logo-dan-aksen-warna/</guid>
+      <description></description>
+      
+    </item>
+    <item>
+      <title>Mengatur Menu</title>
+      <link>http://localhost:1313/id/pos/mengatur-menu/</link>
+      <pubDate>Sun, 26 Jan 2025 00:00:00 +0000</pubDate>
+      <author>whale</author>
+      <guid>http://localhost:1313/id/pos/mengatur-menu/</guid>
+      <description></description>
+      
+    </item>
+    <item>
+      <title>Mengatur Pagefind</title>
+      <link>http://localhost:1313/id/pos/mengatur-pagefind/</link>
+      <pubDate>Sun, 26 Jan 2025 00:00:00 +0000</pubDate>
+      <author>whale</author>
+      <guid>http://localhost:1313/id/pos/mengatur-pagefind/</guid>
+      <description></description>
+      
+    </item>
+    <item>
+      <title>Mengatur Slide Beranda</title>
+      <link>http://localhost:1313/id/pos/mengatur-slide/</link>
+      <pubDate>Sun, 26 Jan 2025 00:00:00 +0000</pubDate>
+      <author>whale</author>
+      <guid>http://localhost:1313/id/pos/mengatur-slide/</guid>
+      <description></description>
+      
+    </item>
+    <item>
+      <title>Tes Markdown</title>
+      <link>http://localhost:1313/id/pos/tes-markdown/</link>
+      <pubDate>Sun, 26 Jan 2025 00:00:00 +0000</pubDate>
+      <author>whale</author>
+      <guid>http://localhost:1313/id/pos/tes-markdown/</guid>
+      <description></description>
+      
+    </item>
   </channel>
 </rss>
