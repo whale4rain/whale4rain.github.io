@@ -1,0 +1,138 @@
+
+[[main]]
+  name       = 'Series'
+  identifier = 'series'
+  pageRef    = '/series'
+  weight     = 1
+
+  [[main]]
+    name       = 'A Series'
+    identifier = 'series1'
+    pageRef    = '/'
+    parent     = 'series'
+    Post       = 'Example with post/description'
+
+  [[main]]
+    name       = 'Another series'
+    identifier = 'series2'
+    pageRef    = '/'
+    parent     = 'series'
+
+  [[main]]
+    name       = 'Sustainable Development'
+    identifier = 'series.sdg'
+    pageRef    = '/'
+    parent     = 'series'
+    Post       = 'Nested Menu example'
+
+
+[[main]]
+  name       = 'Works'
+  identifier = 'works'
+  pageRef    = '/'
+  weight     = 2
+
+  [[main]]
+    name       = 'Commission'
+    identifier = 'commission'
+    pageRef    = '/'
+    parent     = 'works'
+    Post       = 'Example Menu'
+    weight     = 1
+
+  [[main]]
+    name       = 'Project'
+    identifier = 'project'
+    pageRef    = '/'
+    parent     = 'works'
+    Post       = 'My current projects'
+    weight     = 2
+
+  [[main]]
+    name       = 'Gallery'
+    identifier = 'gallery'
+    pageRef    = '/'
+    parent     = 'works'
+    Post       = 'Well, actually, silly stuff'
+    weight     = 3
+
+[[more]]
+  name       = 'Resources'
+  identifier = 'resources'
+  pageRef    = '/'
+  weight     = 3
+
+[[more]]
+  name       = 'About'
+  identifier = 'about'
+  pageRef    = '/'
+  weight     = 5
+
+  [[more]]
+  name       = 'Author'
+  identifier = 'author'
+  pageRef    = '/author'
+  parent     = 'about'
+  weight     = 2
+
+[[author-name]]
+  name       = ''
+  identifier = '@user-name'
+  pageRef    = '/'
+  weight     = 1
+  pre        = 'bluesky'
+
+[[author-name]]
+  identifier = 'discord'
+  pageRef    = '/'
+  weight     = 2
+  pre        = 'discord'
+
+[[author-name]]
+  name       = ''
+  identifier = 'mastodon'
+  pageRef    = '/'
+  weight     = 3
+  pre        = 'mastodon'
+
+[[more]]
+  name       = 'More Menu'
+  identifier = 'more.menu'
+  pageRef    = '/'
+  weight     = 99
+
+
+[[footer]]
+  identifier = 'figma'
+  pageRef    = '/'
+  weight     = 1
+  name       = 'figma'
+  pre        = 'figma'
+
+[[footer]]
+  identifier = 'hashnode'
+  pageRef    = '/'
+  weight     = 2
+  name       = 'hashnode'
+  pre        = 'hashnode'
+
+[[footer]]
+  identifier = 'email'
+  pageRef    = '/'
+  weight     = 3
+  name       = 'email'
+  pre        = 'email'
+
+[[footer]]
+  identifier = 'linkedin'
+  pageRef    = '/'
+  weight     = 4
+  name       = 'linkedin'
+  pre        = 'linkedin'
+
+[[footer]]
+  identifier = 'karyakarsa'
+  pageRef    = '/'
+  weight     = 5
+  name       = 'karya karsa'
+  pre        = 'karyakarsa'

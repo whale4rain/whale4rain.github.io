@@ -1,0 +1,1219 @@
+<!DOCTYPE html>
+<html lang="en-GB" dir="ltr">
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+    <!-- head.html --><!-- meta.html -->
+
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>使用hexo快速构建个人博客网站方案 | Whale4Blog</title>
+<meta name="author" content="[whale]">
+<meta name="description" content="使快速构建一个简单基本免费的blog书写方案，使用github page &#43; hexo&#43; cloudflare &#43; obsidian" >
+<meta name="keywords" content="web build,tools,easy">
+<link rel="canonical" href="http://localhost:1313/en/zh/post/%E4%BD%BF%E7%94%A8hexo%E5%BF%AB%E9%80%9F%E6%9E%84%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2%E7%BD%91%E7%AB%99%E6%96%B9%E6%A1%88/">
+
+
+
+    <link rel="me" href="https://example.com/@username">
+
+    
+    <!-- twitterCard -->
+    
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="使用hexo快速构建个人博客网站方案 | Whale4Blog" />
+    <meta name="twitter:description" content="使快速构建一个简单基本免费的blog书写方案，使用github page &#43; hexo&#43; cloudflare &#43; obsidian" />
+        <meta name="twitter:image" content="https://cdn.jsdelivr.net/gh/whale4rain/picx-images-hosting@master/20250313/image.7snd6xto8o.png" />
+    
+    <!-- openGraph -->
+    <meta property="og:title" content="使用hexo快速构建个人博客网站方案 | Whale4Blog" />
+    <meta property="og:description" content="使快速构建一个简单基本免费的blog书写方案，使用github page &#43; hexo&#43; cloudflare &#43; obsidian" />
+    <meta property="og:type" content="article" />
+    <meta property="og:url" content="http://localhost:1313/en/zh/post/%E4%BD%BF%E7%94%A8hexo%E5%BF%AB%E9%80%9F%E6%9E%84%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2%E7%BD%91%E7%AB%99%E6%96%B9%E6%A1%88/" />
+        <meta property="og:image" content="https://cdn.jsdelivr.net/gh/whale4rain/picx-images-hosting@master/20250313/image.7snd6xto8o.png" />
+    <meta property="og:site_name" content="Whale4Blog" /><!-- js.html -->
+    <script src="http://localhost:1313/js/hugo-brewm.min.js" defer></script><!-- css.html -->
+    <link rel="stylesheet" href="http://localhost:1313/css/hugo-brewm.min.css">
+    <!-- css/inline.html -->
+    <style>
+         
+        body {max-width: 786px; margin: auto; padding: 2rem;}
+        img {max-width: 86vw;}
+    </style>
+    
+    
+        <meta name="fediverse:creator" content="@username@example.com">
+    
+        
+    <!-- css/verbatim.html -->
+        <link href="http://localhost:1313/css/typesetting/verbatim.min.css" rel="stylesheet" type="text/css">
+    
+</head>
+<body  id="post" >
+    <!-- header.html -->
+<header class="pagewidth">
+    <div id="background-header" class="background" aria-hidden="true"></div>
+    
+    <nav aria-label="Bypass">
+        <a id="to-content" class="underline" href="#content" aria-label="Skip to Main Content">
+            <span>Skip to Main Content</span>
+            <kbd class="key" aria-hidden="true">c</kbd>
+            <span class="screening" aria-hidden="true"></span>
+        </a>
+    </nav>
+    
+        <a id="logo" href="http://localhost:1313/en/" aria-label="Whale4Blog">
+                <img id="logomark--dark" src="https://example.com/logoMarkDark.svg" alt="Whale4Blog" />
+                <img id="logomark" src="https://example.com/logoMark.svg" alt="Whale4Blog" />
+                <!-- logotype.html --><svg id="logotype" xmlns="http://www.w3.org/2000/svg" version="1.1" width="280pt">
+            <text id="logotype__text" y="19.5pt" x="0">Whale4Blog</text>
+        </svg>
+        </a>
+    
+    <details class="presentation" id="top-nav">
+        <summary class="on-deck">
+            <span class="t t2">Navigation</span>
+            <span class="menu-icon" role="presentation"></span>
+        </summary>
+        <nav tabindex="-1" aria-label="Top">
+            <!-- menu.html -->
+<details id="has-main-menu" class="presentation" open>
+    <summary  class="hide"  aria-label="Main Menu">
+        <span>Main Menu</span>
+    </summary>
+        
+        <nav id="main-menu" aria-label="Main Menu">
+            <ul class="l1 " role="presentation" tabindex="-1" >
+                
+    
+        <li role="presentation">
+    <details class="presentation js-details" aria-expanded="true"
+        name="on-deck"  >
+        <summary class="anchor  on-deck ">
+            
+            <span >Series</span>
+        </summary>
+        <ul class="l2  on-plank " role="presentation">
+            
+    
+        <li role="presentation">
+    <a   class=has-desc href=http://localhost:1313/en/
+            aria-label="A Series"
+            aria-description="Example with post/description">
+        
+            <span>A Series</span>
+    </a>
+        </li>
+        <li role="presentation">
+    <a   href=http://localhost:1313/en/>
+        
+            <span>Another series</span>
+    </a>
+        </li>
+        <li role="presentation">
+    <details class="presentation js-details" aria-expanded="true"
+          >
+        <summary class="anchor ">
+            
+            <span  class="has-aria-label" aria-label="Nested Menu example" >Sustainable Development</span>
+        </summary>
+        <ul class="l3 " role="presentation">
+            
+    
+        <li role="presentation">
+    <a   href=http://localhost:1313/en/>
+        
+            <span>Affordable and Clean Energy</span>
+    </a>
+        </li>
+        <li role="presentation">
+    <a   href=http://localhost:1313/en/>
+        
+            <span>Clean Water and Sanitation</span>
+    </a>
+        </li>
+        <li role="presentation">
+    <a   href=http://localhost:1313/en/>
+        
+            <span>Climate Action</span>
+    </a>
+        </li>
+        <li role="presentation">
+    <a   href=http://localhost:1313/en/>
+        
+            <span>Decent Work and Economic Growth</span>
+    </a>
+        </li>
+        <li role="presentation">
+    <a   href=http://localhost:1313/en/>
+        
+            <span>Gender Equality</span>
+    </a>
+        </li>
+        <li role="presentation">
+    <a   href=http://localhost:1313/en/>
+        
+            <span>Good Health and Well-being</span>
+    </a>
+        </li>
+        <li role="presentation">
+    <a   href=http://localhost:1313/en/>
+        
+            <span>Industry, Innovation and Infrastructure</span>
+    </a>
+        </li>
+        <li role="presentation">
+    <a   href=http://localhost:1313/en/>
+        
+            <span>Life Below Water</span>
+    </a>
+        </li>
+        <li role="presentation">
+    <a   href=http://localhost:1313/en/>
+        
+            <span>Life on Land</span>
+    </a>
+        </li>
+        <li role="presentation">
+    <a   href=http://localhost:1313/en/>
+        
+            <span>No Poverty</span>
+    </a>
+        </li>
+        <li role="presentation">
+    <a   href=http://localhost:1313/en/>
+        
+            <span>Partnerships for the Goals</span>
+    </a>
+        </li>
+        <li role="presentation">
+    <a   href=http://localhost:1313/en/>
+        
+            <span>Peace, Justice and Strong Institutions</span>
+    </a>
+        </li>
+        <li role="presentation">
+    <a   href=http://localhost:1313/en/>
+        
+            <span>Quality Education</span>
+    </a>
+        </li>
+        <li role="presentation">
+    <a   href=http://localhost:1313/en/>
+        
+            <span>Reduced Inequalities</span>
+    </a>
+        </li>
+        <li role="presentation">
+    <a   href=http://localhost:1313/en/>
+        
+            <span>Responsible Consumption and Production</span>
+    </a>
+        </li>
+        <li role="presentation">
+    <a   href=http://localhost:1313/en/>
+        
+            <span>Sustainable Cities and Communities</span>
+    </a>
+        </li>
+        <li role="presentation">
+    <a   href=http://localhost:1313/en/>
+        
+            <span>Zero Hunger</span>
+    </a>
+        </li>
+                <li class="parent-anchor">
+                    <a href=http://localhost:1313/en/ aria-label="See all:Sustainable Development">
+                        
+                        <span aria-hidden="true"> Sustainable Development</span>
+                    </a>
+                </li>
+        </ul>
+    </details>
+        </li>
+                <li class="parent-anchor">
+                    <a href=http://localhost:1313/en/series/ aria-label="See all:Series">
+                        
+                        <span aria-hidden="true"> Series</span>
+                    </a>
+                </li>
+        </ul><div class="screening js-cpn" role="presentation" aria-hidden="true"></div>
+    </details>
+        </li>
+        <li role="presentation">
+    <details class="presentation js-details" aria-expanded="true"
+        name="on-deck"  >
+        <summary class="anchor  on-deck ">
+            
+            <span >Works</span>
+        </summary>
+        <ul class="l2  on-plank " role="presentation">
+            
+    
+        <li role="presentation">
+    <a   class=has-desc href=http://localhost:1313/en/
+            aria-label="Commission"
+            aria-description="Example Menu">
+        
+            <span>Commission</span>
+    </a>
+        </li>
+        <li role="presentation">
+    <a   class=has-desc href=http://localhost:1313/en/
+            aria-label="Project"
+            aria-description="My current projects">
+        
+            <span>Project</span>
+    </a>
+        </li>
+        <li role="presentation">
+    <a   class=has-desc href=http://localhost:1313/en/
+            aria-label="Gallery"
+            aria-description="Well, actually, silly stuff">
+        
+            <span>Gallery</span>
+    </a>
+        </li>
+                <li class="parent-anchor">
+                    <a href=http://localhost:1313/en/ aria-label="See all:Works">
+                        
+                        <span aria-hidden="true"> Works</span>
+                    </a>
+                </li>
+        </ul><div class="screening js-cpn" role="presentation" aria-hidden="true"></div>
+    </details>
+        </li>
+        <li role="presentation">
+    <a   class=on-deck href=https://github.com/foxihd/hugo-brewm>
+        <i class="icon github" aria-hidden="true"></i>
+            <span>Fork!</span>
+    </a>
+        </li>
+            </ul>
+        </nav>
+</details>
+            <!-- search.html -->
+<details id="has-search" class="presentation js-details" name="on-deck">
+    <summary class="on-deck" accesskey="q" aria-keyshortcuts="q">
+        <span class="t t2">Search</span>
+    </summary>
+    
+        <!-- pagefind.html -->
+    <div id="search" class="on-hull">
+        <div role="presentation" class="screening js-cgpn"></div>
+    </div>
+    <script src="http://localhost:1313/pagefind/pagefind-ui.js" type="text/javascript"></script>
+    <script>
+        let pageFindInitialized = false;
+        const initPageFind = function(event) {
+            if (!pageFindInitialized) {
+                new PagefindUI({
+                    element: "#search",
+                    showImages: false,
+                    translations: {
+                        placeholder: "Search"
+                    }
+                });
+                pageFindInitialized = true;
+                document.removeEventListener('DOMContentLoaded', initPageFind);
+            }
+        };
+        document.addEventListener('DOMContentLoaded', initPageFind);
+    </script>
+        <noscript id="has-search-fallback" class="on-hull">
+                
+    <!-- duckduckgo.html -->
+    <form id="duckduckgo" class="form on-plank"
+        name="x" action="//duckduckgo.com/"
+        role="search" aria-label="[i18n] searchDuckDuckGo">
+        <input type="hidden" value="localhost:1313" name="sites"></input>
+        <input type="hidden" value="1" name="kh"></input>
+        <input type="hidden" value="1" name="kn"></input>
+        <input type="hidden" value="1" name="kac"></input>
+        <input class="ldots form__input" type="search" placeholder="Search" name="q"></input>
+        <button class="form__button" type="submit" aria-label="Search">
+            <img src="https://duckduckgo.com/assets/logo_header.v109.svg" alt="" role="presentation" aria-hidden="true">
+        </button>
+    </form>
+    <div role="presentation" class="screening js-cgpn"></div>
+        </noscript>
+    
+</details>
+            <!-- menu.html -->
+<details id="has-more-menu" class="presentation js-details" name="on-deck" >
+    <summary  accesskey="=" class="on-deck"  aria-label="More Menu">
+        <span class="t t2">More Menu</span>
+            <span class="menu-icon" role="presentation"></span>
+    </summary>
+        <!-- on hull -->
+        <nav id="more-menu" aria-label="More Menu">
+            <ul class="l1  on-plank " role="presentation" tabindex="-1" >
+                
+    
+        <li role="presentation">
+    <a   href=http://localhost:1313/en/>
+        
+            <span>Resources</span>
+    </a>
+        </li>
+        <li role="presentation">
+    <details class="presentation js-details" aria-expanded="true"
+         open >
+        <summary class="anchor ">
+            
+            <span >About</span>
+        </summary>
+        <ul class="l2 " role="presentation">
+            
+    
+        <li role="presentation">
+    <a   href=http://localhost:1313/en/>
+        
+            <span>Sustainability</span>
+    </a>
+        </li>
+        <li role="presentation">
+    <a   href=http://localhost:1313/en/author/>
+        
+            <span>Author</span>
+    </a>
+        </li>
+                <li class="parent-anchor">
+                    <a href=http://localhost:1313/en/ aria-label="See all:About">
+                        
+                        <span aria-hidden="true"> About</span>
+                    </a>
+                </li>
+        </ul>
+    </details>
+        </li>
+        <li role="presentation">
+    <details class="presentation js-details" aria-expanded="true"
+         open >
+        <summary class="anchor ">
+            
+            <span >More Menu</span>
+        </summary>
+        <ul class="l2 " role="presentation">
+            
+    
+        <li role="presentation">
+    <details class="presentation js-details" aria-expanded="true"
+          >
+        <summary class="anchor ">
+            
+            <span >That</span>
+        </summary>
+        <ul class="l3 " role="presentation">
+            
+    
+        <li role="presentation">
+    <details class="presentation js-details" aria-expanded="true"
+          >
+        <summary class="anchor ">
+            
+            <span >Never</span>
+        </summary>
+        <ul class="l4 " role="presentation">
+            
+    
+        <li role="presentation">
+    <details class="presentation js-details" aria-expanded="true"
+          >
+        <summary class="anchor ">
+            
+            <span >Too</span>
+        </summary>
+        <ul class="l5 " role="presentation">
+            
+    
+        <li role="presentation">
+    <a   href=http://localhost:1313/en/>
+        
+            <span>Deep</span>
+    </a>
+        </li>
+                <li class="parent-anchor">
+                    <a href=http://localhost:1313/en/ aria-label="See all:Too">
+                        
+                        <span aria-hidden="true"> Too</span>
+                    </a>
+                </li>
+        </ul>
+    </details>
+        </li>
+                <li class="parent-anchor">
+                    <a href=http://localhost:1313/en/ aria-label="See all:Never">
+                        
+                        <span aria-hidden="true"> Never</span>
+                    </a>
+                </li>
+        </ul>
+    </details>
+        </li>
+                <li class="parent-anchor">
+                    <a href=http://localhost:1313/en/ aria-label="See all:That">
+                        
+                        <span aria-hidden="true"> That</span>
+                    </a>
+                </li>
+        </ul>
+    </details>
+        </li>
+                <li class="parent-anchor">
+                    <a href=http://localhost:1313/en/ aria-label="See all:More Menu">
+                        
+                        <span aria-hidden="true"> More Menu</span>
+                    </a>
+                </li>
+        </ul>
+    </details>
+        </li>
+            </ul>
+            <div class="screening js-cgpn" role="presentation" aria-hidden="true"></div>
+        </nav>
+</details>
+            <!-- i18n.html -->
+
+        <details id="has-i18n" class="presentation js-details" name="on-deck">
+            <summary class="anchor on-deck" aria-label="Language Selections">
+            
+                <img
+                    src="https://raw.githubusercontent.com/lipis/flag-icons/c95b262e5ee2366cad4c5aecc4a5ad86220c9ab9/flags/4x3/gb.svg" alt=""
+                    width="64" height="48"
+                    loading="lazy"
+                    >
+                <span class="iso639" aria-hidden="true">EN</span>
+                <span class="languangeName">English</span>
+            
+            </summary>
+
+            <!-- on hull -->
+            <nav id="i18n-menu" aria-label="Language Selections">
+                <ul class="on-plank">
+                    <li>
+                        <a href="http://localhost:1313/zh/" aria-label="Change language to 简体中文">
+                            <img
+                                src="https://raw.githubusercontent.com/lipis/flag-icons/c95b262e5ee2366cad4c5aecc4a5ad86220c9ab9/flags/4x3/cn.svg" alt=""
+                                width="64" height="48"
+                                aria-hidden="true"
+                                loading="lazy"
+                                >
+                            <span>简体中文</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="http://localhost:1313/id/" aria-label="Change language to ">
+                            <img
+                                src="https://raw.githubusercontent.com/lipis/flag-icons/c95b262e5ee2366cad4c5aecc4a5ad86220c9ab9/flags/4x3/.svg" alt=""
+                                width="64" height="48"
+                                aria-hidden="true"
+                                loading="lazy"
+                                >
+                            <span></span>
+                        </a>
+                    </li>
+                </ul>
+                <div class="screening js-cgpn" role="presentation" aria-hidden="true"></div>
+            </nav>
+        </details>
+
+        </nav>
+        <div id="top-nav-screen" class="screening js-cpn" role="presentation" aria-hidden="true"></div>
+    </details>
+</header>
+    
+    <!-- [main] baseof.html -->
+    <main id="page">
+        <!-- main/header.html -->
+        <header class="pagewidth">
+            
+            <!-- menu.html -->
+    <menu role="presentation">
+        <li>
+            <a id="print-button" class="hide" href="javascript:window.print()" title="Print" role="button" aria-label="Print">
+                <span class="t" role="tooltip">Print</span>
+            </a>
+        </li>
+        <li>
+            <a id="navigatorShare" href="#share" title="Share" role="button" aria-label="Share">
+                <span class="t" role="tooltip">Share</span>
+            </a>
+        </li>
+        <li>
+            <a id="copyPermalink"  href="javascript:navigator.clipboard.writeText(window.location.href)" title="Copy URL" role="button" aria-label="Copy URL">
+                <span id="copy" class="t" role="tooltip">Copy URL</span>
+                <span id="isCopying" style="display: none;">Copying...</span>
+                <span id="copyText" style="display: none;">Copy URL</span>
+            </a>
+        </li>
+    </menu>
+    <button id="back" class="hide" type="button" onclick="history.back();" aria-label="Go Back">
+        <span class="t" role="tooltip">Go Back</span>
+    </button>
+            
+                <!-- nav.html -->
+<details class="presentation" aria-expanded="true" id="has-breadcrumb" open>
+    <summary id="breadcrumb" tabindex="-1">
+        <span>Breadcrumb</span>
+    </summary>
+        <nav aria-labelledby="breadcrumb">
+            <ul role="presentation" class="breadcrumb">
+                    <!-- breadcrumb.html -->
+        <li>
+            <a href="http://localhost:1313/en/zh/" aria-current="true">test
+            </a>
+        </li>
+        <li>
+            <a href="http://localhost:1313/en/zh/post/" aria-current="true">Pos
+            </a>
+        </li>
+    <li>
+        <a href="" aria-current="page" tabindex="-1">使用hexo快速构建个人博客网站方案
+        </a>
+    </li>
+            </ul>
+        </nav>
+</details>
+        </header>
+        <div id="top" role="presentation">
+            
+        </div>
+        
+
+    <article id="main-article" class="pagewidth"
+        role="document" aria-labelledby="title"
+            data-pagefind-body>
+        <header class="textwidth" aria-labelledby="title">
+            <!-- title.html -->
+        <hgroup data-bionRead-safe>
+            <h1 id="title"
+                    data-pagefind-meta="title"
+                >使用hexo快速构建个人博客网站方案</h1>
+            <p  class="subtitle"
+                role="doc-subtitle">使快速构建一个简单基本免费的blog书写方案，使用github page &#43; hexo&#43; cloudflare &#43; obsidian</p>
+        </hgroup>
+            <div id="doc-author" class="textsw author">
+                            
+                            <a href="http://localhost:1313/en/author/whale/">Whale</a>
+            </div>
+            <!-- timestamp.html-->
+    <div >
+        <time class="doc-publish-date" datetime="2025-03-13T19:34:07&#43;08:00" data-time-label="Published on">March 13, 2025</time>
+    </div>
+        </header>
+        <!-- audio.html -->
+        <section aria-labelledby="Title" id="content" data-bionRead-safe>
+                <blockquote>
+<blockquote>
+<p>Note!!
+可能有缺失的图片，此blog为旧版，现在转为使用hugo
+参考更新的blog:<a href=""></a></p></blockquote></blockquote>
+<h2 id="前言">前言</h2>
+<p>计算机的芝士零散，有些内容容易忘记，而各种笔记方案皆不尽人意，而构建一个blog网站可以满足各种个性化需求同时满足有时的写作欲望，一个blog网站也足够私人可以更适应书写。所以打算构建一个简单的博客网站来承载这些需求。
+而构建一个blog网站的方法多样，应为现有知识和代码能力还有精力尚不足以满足完全搓一个完整的网站，而写作需求又十分紧急，所以组合一下现有的足够简单和舒适的方案来满足需求。</p>
+<p>##效果展示</p>
+<p><img src="https://cdn.jsdelivr.net/gh/whale4rain/picx-images-hosting@master/20250313/image.7snd6xto8o.png" alt="image"></p>
+<p><img src="https://cdn.jsdelivr.net/gh/whale4rain/picx-images-hosting@master/20250313/image.4n7v7zzijm.webp" alt="image"></p>
+<h2 id="github-page部署网站">GitHub page部署网站</h2>
+<p>部署blog网站，GitHub page 想必是比较简单和省钱的方案之一，</p>
+<ul>
+<li>新建仓库，注意要求以<code>username.github.io</code>为名</li>
+<li>访问<code>username.github.io</code>观察是否完成</li>
+</ul>
+<h2 id="hexo构建网站">hexo构建网站</h2>
+<p><a href="https://hexo.io/zh-cn/docs/">Hexo</a> 是一个快速、简洁且高效的博客框架。
+前置要求：<a href="https://nodejs.org/zh-cn">Node.js</a> , <a href="https://git-scm.com/">git</a>
+进入网页直接下载即可
+hexo下载
+<code>npm install -g hexo-cli</code>
+新建网站文件，这个文件就是网站的主体</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-shell" data-lang="shell"><span class="line"><span class="cl">hexo init &lt;floder&gt;
+</span></span><span class="line"><span class="cl"><span class="nb">cd</span> &lt;floder&gt;
+</span></span><span class="line"><span class="cl">npm install
+</span></span></code></pre></div><p>会得到文件夹结构如下：</p>
+<pre tabindex="0"><code>.  
+├── _config.yml  配置文件
+├── package.json  下载的应用程序配置文件
+├── scaffolds  模板文件（在obsidian配置中有用）
+├── source 主要改动文件，写blog类的都在这里
+|   ├── _drafts  草稿
+|   └── _posts  推文（？），网站上显示的文章内容
+└── themes 存放hexo的theme相关文件
+</code></pre><h3 id="重要的命令">重要的命令</h3>
+<ul>
+<li>新建网站<code>hexo init [floder]</code></li>
+<li>新建文章<code>hexo new [layout] &lt;title&gt;</code></li>
+</ul>
+<table>
+  <thead>
+      <tr>
+          <th>layout</th>
+          <th>路径</th>
+          <th>简单说明</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td>post</td>
+          <td>source/_posts</td>
+          <td>网站上访问的推文</td>
+      </tr>
+      <tr>
+          <td>page</td>
+          <td>source</td>
+          <td>导航栏上的各种标签</td>
+      </tr>
+      <tr>
+          <td>draft</td>
+          <td>source/_dragt</td>
+          <td>草稿</td>
+      </tr>
+  </tbody>
+</table>
+<ul>
+<li>生成总体文件（编辑blog需经过这一步）<code>hexo generate</code>,常用<code>hexo g -d</code>直接部署</li>
+<li>发布草稿<code>hexo publish [layout] &lt;filename&gt;</code></li>
+<li>本地测试网站效果<code>hexo server</code>,然后访问<a href="http://localhost:4000/">http://localhost:4000/</a>在浏览器观察效果</li>
+<li>清除缓存文件，清理文件<code>hexo clean</code>可以很快清理网站文件夹</li>
+</ul>
+<h3 id="当你想要写一篇博客时主要步骤如下">当你想要写一篇博客时主要步骤如下：</h3>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-shell" data-lang="shell"><span class="line"><span class="cl">hexo i my_blog
+</span></span><span class="line"><span class="cl">heox n post 一篇博客
+</span></span><span class="line"><span class="cl">写blog
+</span></span><span class="line"><span class="cl"><span class="o">(</span>测试:hexo server<span class="o">)</span>
+</span></span><span class="line"><span class="cl">hexo g -d
+</span></span></code></pre></div><p><em>使用hexo-server前</em>
+<code>npm install hexo-server --save</code></p>
+<h3 id="部署网站">部署网站</h3>
+<p>首先下载插件
+<code>npm install hexo-deployer-git --save</code>
+然后对_config.yml进行编辑（<code>ctrl+f</code>查询<code>deloy</code>）
+示例：</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-yml" data-lang="yml"><span class="line"><span class="cl"><span class="nt">deploy</span><span class="p">:</span><span class="w">  
+</span></span></span><span class="line"><span class="cl"><span class="w">  </span><span class="nt">type</span><span class="p">:</span><span class="w"> </span><span class="l">git  </span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">  </span><span class="nt">repo</span><span class="p">:</span><span class="w"> </span><span class="l">&lt;repository url&gt;</span><span class="w"> </span><span class="c">#https://github.com/yourname/yourname.github.io  </span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">  </span><span class="nt">branch</span><span class="p">:</span><span class="w"> </span><span class="l">main  </span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">  </span><span class="nt">token</span><span class="p">:</span><span class="w"> 
+</span></span></span></code></pre></div><p><strong>token来源：</strong>
+访问<a href="https://github.com/settings/tokens">https://github.com/settings/tokens</a></p>
+<p>![[Pasted image 20250214235739.png]]
+右下角<code>Generate new token(classic)</code>
+得到token后<strong>复制</strong>得到一长串复制进上面
+完成后就可以通过<code>hexo g -d</code>一键完成网站部署</p>
+<h3 id="theme选择">theme选择</h3>
+<p>hexo的主题多样，可以在[[themes]]上寻找喜欢的主题
+这里以NexT示例:
+<img src="https://hexo.io/themes/screenshots/NexT@2x.jpg" alt=""></p>
+<p>安装:</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-shell" data-lang="shell"><span class="line"><span class="cl"><span class="nb">cd</span> my_blog
+</span></span><span class="line"><span class="cl">npm install hexo-theme-next
+</span></span></code></pre></div><p>NexT的主题有四个风格选项</p>
+<ul>
+<li>muse</li>
+<li>mist</li>
+<li>pisces</li>
+<li>gemini
+可以在_config.yml中修改<code>theme: next</code>来修改主题风格
+如此你就得到了一个美观的博客网站</li>
+</ul>
+<h1 id="自定义域名代理设置">自定义域名代理设置</h1>
+<p>国内访问github page往往速度慢甚至无法访问，而访问<code>username.github.io</code>似乎比较复杂，如果想要一个酷炫的网站名，可以跟着下面步骤来：</p>
+<h2 id="购买域名">购买域名</h2>
+<p>可以在各种卖域名网站进行购买，这里不做推荐，一个域名往往价格不是很高，大可以选一个便宜有意思的来作为网站域名。</p>
+<h3 id="在阿里云购买">在阿里云购买</h3>
+<p>进入阿里云网站登录，大家都有支付宝什么的十分方便，左上角菜单进入<strong>域名</strong>界面，
+![[Pasted image 20250215001947.png]]
+推荐可以怪一点，价格更加低廉
+注册后需要实名认证的步骤不做赘叙，这里可能需要等待一段时间</p>
+<h2 id="cloudfare-代理设置">Cloudfare 代理设置</h2>
+<p>Cloudfare胜在免费(追重要的一点)，在国内不挂梯子可以以相对较好的速度访问网站</p>
+<ol>
+<li>注册</li>
+<li>新建域，使用你购买的域名</li>
+<li>左侧DNS设置</li>
+<li>增加记录
+![[Pasted image 20250215002724.png]]
+下面四个A类型和CNAME写上，内容如上，IP地址是github.io的地址，域名根据自己的进行修改
+把下面的NS
+![[Pasted image 20250215003322.png]]
+复制到（不同运营商可能不一样）
+![[Pasted image 20250215003623.png]]
+测试：</li>
+</ol>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-shell" data-lang="shell"><span class="line"><span class="cl">dig yourweb.cn +noall +answer
+</span></span></code></pre></div><p>得到ip不是原先设置的ip地址说明代理成功</p>
+<h2 id="github最后设置">github最后设置</h2>
+<p>在网站仓库最右边的<code>setting</code>中的<code>Pages</code>中<code>Custom domain</code>中
+![[Pasted image 20250215004047.png]]
+save后一段时间后完成网站部署的全部步骤</p>
+<h2 id="obsidian简化blog书写">obsidian简化blog书写</h2>
+<p>书写blog使用markdown语言，markdown是一个十分简单的排版语言
+查询<a href="https://markdown.com.cn/">https://markdown.com.cn/</a>学习语法教程
+但是在vscdoe中写markdown有些怪怪的，typora之类的更适合单个markdown的书写，使用obsidian可以很好的实现一个blog网站的长时间持续性的blog书写</p>
+<ol>
+<li>下载obsidian
+访问<a href="https://obsidian.md/download">https://obsidian.md/download</a>下载obsidian</li>
+<li>使用obsidian打开my_blog文件夹</li>
+<li>设置中的忽略文件中除了source之外的都加入忽略文件中防止跑进关系图谱里</li>
+</ol>
+<p>![[Pasted image 20250215004955.png]]
+4. 修改模板文件夹位置
+![[Pasted image 20250215005238.png]]
+5. 第三方插件中安装Commander，Shell commands(可选)
+相关设置举例：
+![[Pasted image 20250215005352.png]]
+![[Pasted image 20250215005406.png]]
+这样可以简洁地实现在左侧快捷地发布文章和清理文件
+6. blog书写
+在blog中可以简单地新建文件，左侧栏中地插入模板选项后将文件移入source/_posts中完成书写</p>
+<h2 id="结语">结语</h2>
+<p>上面是十分简单地blog网站与书写方案，还有许多有趣地框架和项目来帮助你书写blog，搭建网站，你也可以从零开始实现一个blog网站。不过，我始终相信书写才是第一位的，即不断地书写才能不断地创造，实现，发展。在ai取代人类的话题中，保持创造的人是无法被取代的。</p>
+
+        </section>
+        <footer>
+            
+    <nav id="keywords" aria-label="Tags">
+        <span>Tags:&nbsp;</span>
+        
+        <!-- terms.html -->
+    <ul class="delimiter" role="presentation">
+            <li><a href="http://localhost:1313/en/tags/web-build/">Web Build</a></li>
+            <li><a href="http://localhost:1313/en/tags/tools/">Tools</a></li>
+            <li><a href="http://localhost:1313/en/tags/easy/">Easy</a></li>
+    </ul>
+    </nav>
+        </footer>
+    </article>
+    <hr class="hide" style="margin: 1in 0;">
+    <div id="contentinfo" class="pagewidth" role="contentinfo" data-pagefind-ignore="all">
+            <!-- related.html -->
+    <nav id="related" aria-label="You might also like">
+        <strong class="section-title">You might also like</strong><ol>
+                    <li><a href="http://localhost:1313/en/zh/post/lazyvim%E9%85%8D%E7%BD%AE%E7%BB%8F%E9%AA%8C/">Lazyvim配置经验</a></li>
+                </ol>
+    </nav>
+            <!-- history.html -->
+            <!-- colophon.html -->
+    <div id="colophon" style="display: none;" aria-live="polite">
+        <strong class="section-title">Colophon</strong>
+        <div class="f">
+            <div id="qr" role="img" aria-label="QR code"></div>
+            <div class="verbose">
+                <div class="has-aria-label-top" aria-label="使用hexo快速构建个人博客网站方案"><span>http://localhost:1313/en/zh/post/%E4%BD%BF%E7%94%A8hexo%E5%BF%AB%E9%80%9F%E6%9E%84%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2%E7%BD%91%E7%AB%99%E6%96%B9%E6%A1%88/</span></div>
+                <div><span>This page is accessed on: </span><time id="time-stamp"></time></div>
+                <div><span>This page is built on: </span><time datetime="2025-03-13T20:16:18&#43;08:00">2025-03-13T20:16:18&#43;08:00</time></div>
+                
+            </div>
+        </div>
+    </div>
+        
+    <div id="contribute">
+        <strong class="section-title">Enjoy this article?</strong>
+        <br>
+        <span>
+            Awesome!
+            You can also support me by making the following contributions:
+        </span>
+        <!-- menu.html -->
+<details id="has-contrib-menu" class="presentation" open>
+    <summary  class="hide"  aria-label="Contribute">
+        <span>Contribute</span>
+    </summary>
+        
+        <nav id="contrib-menu" aria-label="Contribute">
+            <ul class="l1 " role="presentation" tabindex="-1" >
+                
+    
+        <li role="presentation">
+    <a   href=https://github.com/sponsors/foxihd/>
+        <i class="icon githubsponsors" aria-hidden="true"></i>
+            <span>Become Github Sponsors</span>
+    </a>
+        </li>
+            </ul>
+        </nav>
+</details>
+    </div>
+            <!-- nav.html -->
+<details class="presentation" aria-expanded="true" id="has-share" open>
+    <summary id="share" tabindex="-1">
+        <span>Share</span>
+    </summary>
+        <nav aria-labelledby="share">
+            <ul role="presentation" class="share">
+                    <!-- share.html -->
+    <li id="has-mastodon">
+        <!-- mastodon.html -->
+    <form class="form" id="mastodon" action="//sharetomastodon.github.io/" target="_blank" rel="noopener noreferrer">
+        <input id="mastodonTitle" type="hidden" name="title" value="使用hexo快速构建个人博客网站方案">
+        <input id="mastodonPermalink" type="hidden" name="url" value="http://localhost:1313/en/zh/post/%E4%BD%BF%E7%94%A8hexo%E5%BF%AB%E9%80%9F%E6%9E%84%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2%E7%BD%91%E7%AB%99%E6%96%B9%E6%A1%88/">
+        <input id="mastodonText" type="hidden" name="text" value="使用hexo快速构建个人博客网站方案 http://localhost:1313/en/zh/post/%E4%BD%BF%E7%94%A8hexo%E5%BF%AB%E9%80%9F%E6%9E%84%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2%E7%BD%91%E7%AB%99%E6%96%B9%E6%A1%88/" disabled>
+        <input id="mastodonInstance" type="url" class="ldots form__input" placeholder="Enter Mastodon instance (https://www.example.com)" aria-label="Mastodon instance URL">
+        <button class="form__button" type="submit" aria-label="Share on Mastodon">
+            <i class="icon mastodon" aria-hidden="true"></i>
+            <span class="t" role="tooltip">Share on Mastodon</span>
+        </button>
+    </form>
+    </li>
+    <li>
+        <a href="mailto:?subject=%e4%bd%bf%e7%94%a8hexo%e5%bf%ab%e9%80%9f%e6%9e%84%e5%bb%ba%e4%b8%aa%e4%ba%ba%e5%8d%9a%e5%ae%a2%e7%bd%91%e7%ab%99%e6%96%b9%e6%a1%88&body=http%3a%2f%2flocalhost%3a1313%2fen%2fzh%2fpost%2f%25E4%25BD%25BF%25E7%2594%25A8hexo%25E5%25BF%25AB%25E9%2580%259F%25E6%259E%2584%25E5%25BB%25BA%25E4%25B8%25AA%25E4%25BA%25BA%25E5%258D%259A%25E5%25AE%25A2%25E7%25BD%2591%25E7%25AB%2599%25E6%2596%25B9%25E6%25A1%2588%2f" role="button" aria-label="Share on Email">
+            <i class="email" aria-hidden="true"></i>
+            <span class="t" role="tooltip">Share on Email</span>
+        </a>
+    </li>
+    <li>
+        <a href="whatsapp://send?text=%e4%bd%bf%e7%94%a8hexo%e5%bf%ab%e9%80%9f%e6%9e%84%e5%bb%ba%e4%b8%aa%e4%ba%ba%e5%8d%9a%e5%ae%a2%e7%bd%91%e7%ab%99%e6%96%b9%e6%a1%88%20http%3a%2f%2flocalhost%3a1313%2fen%2fzh%2fpost%2f%25E4%25BD%25BF%25E7%2594%25A8hexo%25E5%25BF%25AB%25E9%2580%259F%25E6%259E%2584%25E5%25BB%25BA%25E4%25B8%25AA%25E4%25BA%25BA%25E5%258D%259A%25E5%25AE%25A2%25E7%25BD%2591%25E7%25AB%2599%25E6%2596%25B9%25E6%25A1%2588%2f" role="button" aria-label="Share on Whatsapp">
+            <i class="whatsapp" aria-hidden="true"></i>
+            <span class="t" role="tooltip">Share on Whatsapp</span>
+        </a>
+    </li>
+    <li>
+        <a rel="noopener noreferrer" target="_blank" href="https://telegram.me/share/url?text=%e4%bd%bf%e7%94%a8hexo%e5%bf%ab%e9%80%9f%e6%9e%84%e5%bb%ba%e4%b8%aa%e4%ba%ba%e5%8d%9a%e5%ae%a2%e7%bd%91%e7%ab%99%e6%96%b9%e6%a1%88&amp;url=http://localhost:1313/en/zh/post/%E4%BD%BF%E7%94%A8hexo%E5%BF%AB%E9%80%9F%E6%9E%84%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2%E7%BD%91%E7%AB%99%E6%96%B9%E6%A1%88/" role="button"
+            aria-label="Share on Telegram in new tab">
+            <i class="telegram" aria-hidden="true"></i>
+            <span class="t" role="tooltip">Share on Telegram</span>
+        </a>
+    </li>
+    <li>
+        <a rel="noopener noreferrer" target="_blank" href="https://bsky.app/intent/compose?text=%e4%bd%bf%e7%94%a8hexo%e5%bf%ab%e9%80%9f%e6%9e%84%e5%bb%ba%e4%b8%aa%e4%ba%ba%e5%8d%9a%e5%ae%a2%e7%bd%91%e7%ab%99%e6%96%b9%e6%a1%88&amp;url=http://localhost:1313/en/zh/post/%E4%BD%BF%E7%94%A8hexo%E5%BF%AB%E9%80%9F%E6%9E%84%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2%E7%BD%91%E7%AB%99%E6%96%B9%E6%A1%88/" role="button"
+            aria-label="Share on Bluesky in new tab">
+            <i class="bluesky" aria-hidden="true"></i>
+            <span class="t" role="tooltip">Share on Bluesky</span>
+        </a>
+    </li>
+    <li>
+        <a rel="noopener noreferrer" target="_blank" href="https://facebook.com/sharer/sharer.php?u=http://localhost:1313/en/zh/post/%E4%BD%BF%E7%94%A8hexo%E5%BF%AB%E9%80%9F%E6%9E%84%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2%E7%BD%91%E7%AB%99%E6%96%B9%E6%A1%88/" role="button"
+            aria-label="Share on Facebook in new tab">
+            <i class="facebook" aria-hidden="true"></i>
+            <span class="t" role="tooltip">Share on Facebook</span>
+        </a>
+    </li>
+    <li>
+        <a rel="noopener noreferrer" target="_blank" href="https://news.ycombinator.com/submitlink?u=http://localhost:1313/en/zh/post/%E4%BD%BF%E7%94%A8hexo%E5%BF%AB%E9%80%9F%E6%9E%84%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2%E7%BD%91%E7%AB%99%E6%96%B9%E6%A1%88/&amp;t=%e4%bd%bf%e7%94%a8hexo%e5%bf%ab%e9%80%9f%e6%9e%84%e5%bb%ba%e4%b8%aa%e4%ba%ba%e5%8d%9a%e5%ae%a2%e7%bd%91%e7%ab%99%e6%96%b9%e6%a1%88" role="button"
+            aria-label="Share on Hackernews in new tab">
+            <i class="hackernews" aria-hidden="true"></i>
+            <span class="t" role="tooltip">Share on Hackernews</span>
+        </a>
+    </li>
+    <li>
+        <a rel="noopener noreferrer" target="_blank" href="https://www.linkedin.com/shareArticle?mini=true&amp;url=http://localhost:1313/en/zh/post/%E4%BD%BF%E7%94%A8hexo%E5%BF%AB%E9%80%9F%E6%9E%84%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2%E7%BD%91%E7%AB%99%E6%96%B9%E6%A1%88/&amp;title=%e4%bd%bf%e7%94%a8hexo%e5%bf%ab%e9%80%9f%e6%9e%84%e5%bb%ba%e4%b8%aa%e4%ba%ba%e5%8d%9a%e5%ae%a2%e7%bd%91%e7%ab%99%e6%96%b9%e6%a1%88&amp;summary=%e4%bd%bf%e7%94%a8hexo%e5%bf%ab%e9%80%9f%e6%9e%84%e5%bb%ba%e4%b8%aa%e4%ba%ba%e5%8d%9a%e5%ae%a2%e7%bd%91%e7%ab%99%e6%96%b9%e6%a1%88&amp;source=http://localhost:1313/en/zh/post/%E4%BD%BF%E7%94%A8hexo%E5%BF%AB%E9%80%9F%E6%9E%84%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2%E7%BD%91%E7%AB%99%E6%96%B9%E6%A1%88/" role="button"
+            aria-label="Share on Linkedin in new tab">
+            <i class="linkedin" aria-hidden="true"></i>
+            <span class="t" role="tooltip">Share on Linkedin</span>
+        </a>
+    </li>
+    <li>
+        <a rel="noopener noreferrer" target="_blank" href="https://pinterest.com/pin/create/button/?url=http://localhost:1313/en/zh/post/%E4%BD%BF%E7%94%A8hexo%E5%BF%AB%E9%80%9F%E6%9E%84%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2%E7%BD%91%E7%AB%99%E6%96%B9%E6%A1%88/&amp;media=http://localhost:1313/en/zh/post/%E4%BD%BF%E7%94%A8hexo%E5%BF%AB%E9%80%9F%E6%9E%84%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2%E7%BD%91%E7%AB%99%E6%96%B9%E6%A1%88/&amp;description=%e4%bd%bf%e7%94%a8hexo%e5%bf%ab%e9%80%9f%e6%9e%84%e5%bb%ba%e4%b8%aa%e4%ba%ba%e5%8d%9a%e5%ae%a2%e7%bd%91%e7%ab%99%e6%96%b9%e6%a1%88" role="button"
+            aria-label="Share on Pinterest in new tab">
+            <i class="pinterest" aria-hidden="true"></i>
+            <span class="t" role="tooltip">Share on Pinterest</span>
+        </a>
+    </li>
+    <li>
+        <a rel="noopener noreferrer" target="_blank" href="https://reddit.com/submit/?url=http://localhost:1313/en/zh/post/%E4%BD%BF%E7%94%A8hexo%E5%BF%AB%E9%80%9F%E6%9E%84%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2%E7%BD%91%E7%AB%99%E6%96%B9%E6%A1%88/&amp;resubmit=true&amp;title=%e4%bd%bf%e7%94%a8hexo%e5%bf%ab%e9%80%9f%e6%9e%84%e5%bb%ba%e4%b8%aa%e4%ba%ba%e5%8d%9a%e5%ae%a2%e7%bd%91%e7%ab%99%e6%96%b9%e6%a1%88" role="button"
+            aria-label="Share on Reddit in new tab">
+            <i class="reddit" aria-hidden="true"></i>
+            <span class="t" role="tooltip">Share on Reddit</span>
+        </a>
+    </li>
+    <li>
+        <a rel="noopener noreferrer" target="_blank" href="https://www.tumblr.com/widgets/share/tool?posttype=link&amp;title=%e4%bd%bf%e7%94%a8hexo%e5%bf%ab%e9%80%9f%e6%9e%84%e5%bb%ba%e4%b8%aa%e4%ba%ba%e5%8d%9a%e5%ae%a2%e7%bd%91%e7%ab%99%e6%96%b9%e6%a1%88&amp;caption=%e4%bd%bf%e7%94%a8hexo%e5%bf%ab%e9%80%9f%e6%9e%84%e5%bb%ba%e4%b8%aa%e4%ba%ba%e5%8d%9a%e5%ae%a2%e7%bd%91%e7%ab%99%e6%96%b9%e6%a1%88&amp;content=http://localhost:1313/en/zh/post/%E4%BD%BF%E7%94%A8hexo%E5%BF%AB%E9%80%9F%E6%9E%84%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2%E7%BD%91%E7%AB%99%E6%96%B9%E6%A1%88/&amp;canonicalUrl=http://localhost:1313/en/zh/post/%E4%BD%BF%E7%94%A8hexo%E5%BF%AB%E9%80%9F%E6%9E%84%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2%E7%BD%91%E7%AB%99%E6%96%B9%E6%A1%88/" role="button"
+            aria-label="Share on Tumblr in new tab">
+            <i class="tumblr" aria-hidden="true"></i>
+            <span class="t" role="tooltip">Share on Tumblr</span>
+        </a>
+    </li>
+    <li>
+        <a rel="noopener noreferrer" target="_blank" href="http://vk.com/share.php?title=%e4%bd%bf%e7%94%a8hexo%e5%bf%ab%e9%80%9f%e6%9e%84%e5%bb%ba%e4%b8%aa%e4%ba%ba%e5%8d%9a%e5%ae%a2%e7%bd%91%e7%ab%99%e6%96%b9%e6%a1%88&amp;url=http://localhost:1313/en/zh/post/%E4%BD%BF%E7%94%A8hexo%E5%BF%AB%E9%80%9F%E6%9E%84%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2%E7%BD%91%E7%AB%99%E6%96%B9%E6%A1%88/" role="button"
+            aria-label="Share on Vk in new tab">
+            <i class="vk" aria-hidden="true"></i>
+            <span class="t" role="tooltip">Share on Vk</span>
+        </a>
+    </li>
+    <li>
+        <a rel="noopener noreferrer" target="_blank" href="https://twitter.com/intent/tweet/?text=%e4%bd%bf%e7%94%a8hexo%e5%bf%ab%e9%80%9f%e6%9e%84%e5%bb%ba%e4%b8%aa%e4%ba%ba%e5%8d%9a%e5%ae%a2%e7%bd%91%e7%ab%99%e6%96%b9%e6%a1%88&amp;url=http://localhost:1313/en/zh/post/%E4%BD%BF%E7%94%A8hexo%E5%BF%AB%E9%80%9F%E6%9E%84%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2%E7%BD%91%E7%AB%99%E6%96%B9%E6%A1%88/" role="button"
+            aria-label="Share on Twitter in new tab">
+            <i class="twitter" aria-hidden="true"></i>
+            <span class="t" role="tooltip">Share on Twitter</span>
+        </a>
+    </li>
+    <li>
+        <a rel="noopener noreferrer" target="_blank" href="https://www.xing.com/app/user?op=share;url=http://localhost:1313/en/zh/post/%E4%BD%BF%E7%94%A8hexo%E5%BF%AB%E9%80%9F%E6%9E%84%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2%E7%BD%91%E7%AB%99%E6%96%B9%E6%A1%88/;title=%e4%bd%bf%e7%94%a8hexo%e5%bf%ab%e9%80%9f%e6%9e%84%e5%bb%ba%e4%b8%aa%e4%ba%ba%e5%8d%9a%e5%ae%a2%e7%bd%91%e7%ab%99%e6%96%b9%e6%a1%88" role="button"
+            aria-label="Share on Xing in new tab">
+            <i class="xing" aria-hidden="true"></i>
+            <span class="t" role="tooltip">Share on Xing</span>
+        </a>
+    </li>
+            </ul>
+        </nav>
+</details>
+    </div>
+    <div class="pagewidth">
+        </div>
+        <!-- main/footer.html -->
+    <hr class="hide">
+        <footer id="main-footer">
+            <div class="column column--multicols pagewidth" style="--multicols: 2"><div id="main-footer-primary"
+                        aria-labelledby="footer-1">
+                        <p><strong class="section-title">Foxx Edelweiss <i class="icon copyleft"></i> 2025</strong></p>
+<p>Some rights reserved.</p>
+<br>
+<strong class="section-title">Impressum</strong>
+<p>Lorem ipsum dolor sit amet.</p>
+
+                    </div>
+                <div id="main-footer-secondary" class="column" style="--col: 15rem">
+                        <div
+                            aria-labelledby="footer-2">
+                            <p><strong class="section-title">Foxx Edelweiss <i class="icon copyleft"></i> 2025</strong></p>
+<p>Some rights reserved.</p>
+<br>
+<strong class="section-title">Impressum</strong>
+<p>Lorem ipsum dolor sit amet.</p>
+
+                        </div>
+                        <div
+                            aria-labelledby="footer-2">
+                            <p><strong class="section-title">whale4rain <i class="icon copyleft"></i> 2025</strong></p>
+<p>Some rights reserved.</p>
+<br>
+<strong class="section-title">noting here</strong>
+<p>hello world!</p>
+
+                        </div>
+                        <div id="coffee-counter">
+                            <strong class="section-title">Coffee Stat</strong>
+                            <p>Making this website has taken at least 52 cups of coffee, if not more.</p>
+                        </div>                    
+                    <!-- menu.html -->
+    <nav id="menu-footer" class="has-aria-label-top" aria-label="Let&#39;s keep in touch!">
+        <ul role="presentation">
+            <li><a href="http://localhost:1313/en/" aria-label="figma">        
+                    <i class="icon figma" aria-hidden="true"></i>
+                    <span class="t" role="tooltip">figma</span>
+                </a>
+            </li>
+            <li><a href="http://localhost:1313/en/" aria-label="hashnode">        
+                    <i class="icon hashnode" aria-hidden="true"></i>
+                    <span class="t" role="tooltip">hashnode</span>
+                </a>
+            </li>
+            <li><a href="http://localhost:1313/en/" aria-label="email">        
+                    <i class="icon email" aria-hidden="true"></i>
+                    <span class="t" role="tooltip">email</span>
+                </a>
+            </li>
+            <li><a href="http://localhost:1313/en/" aria-label="linkedin">        
+                    <i class="icon linkedin" aria-hidden="true"></i>
+                    <span class="t" role="tooltip">linkedin</span>
+                </a>
+            </li>
+            <li><a href="http://localhost:1313/en/" aria-label="karya karsa">        
+                    <i class="icon karyakarsa" aria-hidden="true"></i>
+                    <span class="t" role="tooltip">karya karsa</span>
+                </a>
+            </li>
+        </ul>
+    </nav>
+                </div>
+            </div>
+        </footer>
+    </main>
+    <!-- footer.html -->
+<footer id="body-footer" class="pagewidth" style="display: none;">
+    <div id="background-footer" class="background" role="presentation"></div>
+    <!-- focusMode.html -->
+    <div id="focusMode" class="hide">
+        <input
+            id="defocusAuxElement"
+            accesskey="d" type="checkbox"
+            onclick="focusMode()"
+            aria-keyshortcuts="d"
+            aria-label="Focus Mode"
+            >
+            <label id="focusModeButton" for="defocusAuxElement" aria-label="Focus Mode">
+                ⦿ <span class="t" role="tooltip">Focus Mode</span>
+            </label>
+    </div>
+    <!-- a11y.html --><details id="has-a11y" class="presentation js-details" name="on-deck" aria-haspopup="true" aria-labelledby="has-a11y-summary">
+    <summary id="has-a11y-summary" accesskey="a" aria-keyshortcuts="a">
+        <span>&nbsp;Accessibility</span>
+        <kbd class="key" aria-hidden="true">a</kbd>
+    </summary>
+    <!-- a11y console -->
+    <fieldset id="a11y" role="region" disabled>
+        <!-- brightness & contrast -->
+        <div id="setColorScheme" role="group" aria-label="Color Settings">
+            <!-- darkMode.html -->
+    <input
+        id="lightSwitch"
+        type="checkbox"
+        onclick="setColor()"
+        aria-label="Dark Mode"
+        >
+        <label for="lightSwitch">
+            <div class="has-aria-label off" role="status" aria-label="Light"></div>
+            <div class="has-aria-label on" role="status" aria-label="Dark"></div>
+            <div id="lightSwitchIndicator" aria-hidden="true"></div>
+        </label>
+            <!-- contrast.html -->
+    <fieldset id="setContrast">
+        <legend>Contrast</legend>
+        <input
+            id="lessContrast"
+            type="radio" name="setContrast" value="less"
+            onclick="setColor()"
+            >
+            <label for="lessContrast">
+                <span>Low</span>
+            </label>
+        <input
+            id="defaultContrast"
+            type="radio" name="setContrast" value="default"
+            onclick="setColor()"
+            >
+            <label for="defaultContrast">
+                <span>Default</span>
+            </label>
+        <input
+            id="moreContrast"
+            type="radio" name="setContrast" value="more"
+            onclick="setColor()"
+            >
+            <label for="moreContrast">
+                <span>High</span>
+            </label>
+    </fieldset>
+        </div>
+        <!-- colorPalette.html -->
+    <div id="setColorPalette" style="display:none;">
+        <label for="colorPalette">Color Palette</label>
+        <select id="colorPalette" name="colorPalette" oninput="setColorPalette()" aria-label="Color Palette">
+            <option value="defaultColor">Default</option>
+            <option value="deuteranopia">Deuteranopia</option>
+            <option value="protanopia">Protanopia</option>
+            <option value="tritanopia">Tritanopia</option>
+            <option value="monochrome">Monochrome</option>
+        </select>
+    </div>
+        <!-- fontsize.html -->
+    <div class="has-aria-label-top" aria-label="Font Size">
+        <label class="range" for="fontSize" aria-label="Font Size">
+            <input
+                id="fontSize"
+                type="range" min="8" max="12" step="0.5"
+                oninput="setFontSize()">
+            <output
+                id="fontSizeState"
+                onclick="resetFontSize()"
+                aria-live="polite"
+                >10</output>
+        </label>
+    </div>
+        <!-- baselineStretch.html -->
+    <div id="setBaselineStretch" class="has-aria-label-top" aria-label="Baseline Stretch">
+        <label class="range" for="baselineStretch">
+            <input
+                id="baselineStretch"
+                type="range" min="0.8" max="1.2" step="0.05"
+                oninput="setStretch()"
+                >
+            <output
+                id="baselineStretchState"
+                onclick="resetStretch()"
+                aria-live="polite"
+                >1</output>
+        </label>
+    </div>
+        <!-- OpenDyslexic.html -->
+    <div id="setOpenDyslexic">
+        <input
+            id="OpenDyslexic"
+            type="checkbox"
+            onclick="useOpenDyslexic()"
+            aria-label="Use OpenDyslexic Font"
+            >
+            <label
+                class="has-aria-label-top"
+                for="OpenDyslexic"
+                aria-label="Use OpenDyslexic Font"
+                >
+                <span id="OpenDyslexicState" aria-hidden="true">
+                    <span id="OpenDyslexicIndicator"></span>
+                </span>
+            </label>
+    </div>
+        <!-- menu.html -->
+    <menu
+        id="a11y-menu"
+        class="hide"
+        role="toolbar"
+        aria-label="Accessibility Menu Controls"
+        >
+        <button
+            id="saveButton" class="reverse"
+            onclick="saveA11y()"
+            disabled>Save
+        </button>
+        <button
+            id="resetButton" class="has-aria-label"
+            onclick="resetA11y()"
+            aria-label="Reset"
+            disabled>
+        </button>
+        <button
+            id="closeButton" class="has-aria-label"
+            onclick="closeA11yConsole()"
+            aria-label="Close"
+            >
+        </button>
+    </menu>
+        <noscript>
+            <center id="noScript" role="alert">Uh-oh... Javascript is disabled!</center>
+        </noscript>
+        <center id="noLocalStorage" class="hide" role="alert">LocalStorage is not available in your browser. Settings won&#39;t be saved.</center>
+    </fieldset>
+    <div class="screening js-cpn" role="presentation" aria-hidden="true"></div>
+</details>
+
+
+    <!-- bionread.html -->
+    <div id="useBionRead" class="hide">
+        <input
+            id="bionReadSwitch"
+            accesskey="b" type="checkbox"
+            onclick="bionRead()"
+            aria-keyshortcuts="b"
+            aria-label="BionRead Mode"
+            >
+            <label id="bionReadButton" for="bionReadSwitch">
+                <span><strong>Bion</strong>Read</span>
+                <kbd class="key" aria-hidden="true">b</kbd>
+            </label>
+    </div>
+    <!-- [top] bypass block -->
+    <nav aria-label="Bypass">
+        <a id="to-top" href="#top" title="To Content Top" accesskey="c" aria-keyshortcuts="c" aria-label="To Content Top">
+            <kbd class="key" aria-hidden="true">c</kbd>
+        </a>
+    </nav>
+</footer>
+
+    
+    <!-- [post] single.html --><script>document.getElementById('setColorPalette').setAttribute('style', 'display:flex;');</script>
+    <div id="bionReadSnapshot" hidden></div>
+    <!-- [background] baseof.html -->
+    <div id="background-body"
+        role="presentation">
+        <div id="grain" hidden></div>
+        <div id="dwclock" hidden>
+            <div id="min">
+                <div class="hand"></div>
+            </div>
+            <div id="hour">
+                <div class="hand"></div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

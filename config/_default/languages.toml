@@ -1,0 +1,32 @@
+[en]
+    contentDir = 'content/en'
+    disabled = false
+    languageCode = 'en-GB'
+    languageDirection = 'ltr'
+    languageName = 'English'
+    [en.pagination]
+        disableAliases = false
+        pagerSize = 12
+        path = 'page'
+    [en.taxonomies]
+        author = 'author'
+        category = 'categories'
+        series = 'series'
+        tag = 'tags'
+
+
+[zh]
+    contentDir = 'content/zh'
+    disabled = false
+    languageCode = 'zh-CN'
+    languageDirection = 'ltr'
+    languageName = '简体中文'
+    [zh.pagination]
+        disableAliases = false
+        pagerSize = 12
+        path = 'page'
+    [zh.taxonomies]
+        author = 'author'
+        category = 'categories'
+        series = 'series'
+        tag = 'tags'

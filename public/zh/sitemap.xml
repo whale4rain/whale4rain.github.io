@@ -1,0 +1,146 @@
+
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  <url>
+    <loc>http://localhost:1313/zh/zh/author/</loc>
+    <lastmod>2025-03-13T19:34:07+08:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <xhtml:link rel="alternate" hreflang="en-GB" href="http://localhost:1313/zh/en/author/" />
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="http://localhost:1313/zh/zh/author/" />
+  </url>
+  <url>
+    <loc>http://localhost:1313/zh/zh/categories/</loc>
+    <lastmod>2025-03-13T19:34:07+08:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <xhtml:link rel="alternate" hreflang="en-GB" href="http://localhost:1313/zh/en/categories/" />
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="http://localhost:1313/zh/zh/categories/" />
+  </url>
+  <url>
+    <loc>http://localhost:1313/zh/zh/tags/easy/</loc>
+    <lastmod>2025-03-13T19:34:07+08:00</lastmod>
+    <changefreq>monthly</changefreq>
+    </url>
+  <url>
+    <loc>http://localhost:1313/zh/zh/post/</loc>
+    <lastmod>2025-03-13T19:34:07+08:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <xhtml:link rel="alternate" hreflang="en-GB" href="http://localhost:1313/zh/en/post/" />
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="http://localhost:1313/zh/zh/post/" />
+  </url>
+  <url>
+    <loc>http://localhost:1313/zh/zh/tags/</loc>
+    <lastmod>2025-03-13T19:34:07+08:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <xhtml:link rel="alternate" hreflang="en-GB" href="http://localhost:1313/zh/en/tags/" />
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="http://localhost:1313/zh/zh/tags/" />
+  </url>
+  <url>
+    <loc>http://localhost:1313/zh/zh/</loc>
+    <lastmod>2025-03-13T19:34:07+08:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <xhtml:link rel="alternate" hreflang="en-GB" href="http://localhost:1313/zh/en/" />
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="http://localhost:1313/zh/zh/" />
+  </url>
+  <url>
+    <loc>http://localhost:1313/zh/zh/tags/tools/</loc>
+    <lastmod>2025-03-13T19:34:07+08:00</lastmod>
+    <changefreq>monthly</changefreq>
+    </url>
+  <url>
+    <loc>http://localhost:1313/zh/zh/categories/tools-build/</loc>
+    <lastmod>2025-03-13T19:34:07+08:00</lastmod>
+    <changefreq>monthly</changefreq>
+    </url>
+  <url>
+    <loc>http://localhost:1313/zh/zh/tags/web-build/</loc>
+    <lastmod>2025-03-13T19:34:07+08:00</lastmod>
+    <changefreq>monthly</changefreq>
+    </url>
+  <url>
+    <loc>http://localhost:1313/zh/zh/author/whale/</loc>
+    <lastmod>2025-03-13T19:34:07+08:00</lastmod>
+    <changefreq>monthly</changefreq>
+    </url>
+  <url>
+    <loc>http://localhost:1313/zh/zh/post/%E4%BD%BF%E7%94%A8hexo%E5%BF%AB%E9%80%9F%E6%9E%84%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2%E7%BD%91%E7%AB%99%E6%96%B9%E6%A1%88/</loc>
+    <lastmod>2025-03-13T19:34:07+08:00</lastmod>
+    <changefreq>monthly</changefreq>
+    </url>
+  <url>
+    <loc>http://localhost:1313/zh/zh/post/lazyvim%E9%85%8D%E7%BD%AE%E7%BB%8F%E9%AA%8C/</loc>
+    <lastmod>2025-03-13T19:26:36+08:00</lastmod>
+    <changefreq>monthly</changefreq>
+    </url>
+  <url>
+    <loc>http://localhost:1313/zh/zh/tags/nvim/</loc>
+    <lastmod>2025-03-13T19:26:36+08:00</lastmod>
+    <changefreq>monthly</changefreq>
+    </url>
+  <url>
+    <loc>http://localhost:1313/zh/zh/tags/old/</loc>
+    <lastmod>2025-03-13T19:26:36+08:00</lastmod>
+    <changefreq>monthly</changefreq>
+    </url>
+  <url>
+    <loc>http://localhost:1313/zh/zh/categories/authoring/</loc>
+    <lastmod>2025-02-03T00:00:00+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <xhtml:link rel="alternate" hreflang="en-GB" href="http://localhost:1313/zh/en/categories/authoring/" />
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="http://localhost:1313/zh/zh/categories/authoring/" />
+  </url>
+  <url>
+    <loc>http://localhost:1313/zh/zh/tags/authoring/</loc>
+    <lastmod>2025-02-03T00:00:00+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <xhtml:link rel="alternate" hreflang="en-GB" href="http://localhost:1313/zh/en/tags/authoring/" />
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="http://localhost:1313/zh/zh/tags/authoring/" />
+  </url>
+  <url>
+    <loc>http://localhost:1313/zh/zh/tags/history/</loc>
+    <lastmod>2025-02-03T00:00:00+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <xhtml:link rel="alternate" hreflang="en-GB" href="http://localhost:1313/zh/en/tags/history/" />
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="http://localhost:1313/zh/zh/tags/history/" />
+  </url>
+  <url>
+    <loc>http://localhost:1313/zh/zh/tags/redaction/</loc>
+    <lastmod>2025-02-03T00:00:00+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <xhtml:link rel="alternate" hreflang="en-GB" href="http://localhost:1313/zh/en/tags/redaction/" />
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="http://localhost:1313/zh/zh/tags/redaction/" />
+  </url>
+  <url>
+    <loc>http://localhost:1313/zh/zh/post/authoring-redaction-history/</loc>
+    <lastmod>2025-02-03T00:00:00+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <xhtml:link rel="alternate" hreflang="en-GB" href="http://localhost:1313/zh/en/post/authoring-redaction-history/" />
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="http://localhost:1313/zh/zh/post/authoring-redaction-history/" />
+  </url>
+  <url>
+    <loc>http://localhost:1313/zh/zh/tags/2024/</loc>
+    <lastmod>2025-01-05T20:12:11+08:00</lastmod>
+    <changefreq>monthly</changefreq>
+    </url>
+  <url>
+    <loc>http://localhost:1313/zh/zh/post/2024%E6%8B%8D%E7%9A%84%E7%85%A7%E7%89%87/</loc>
+    <lastmod>2025-01-05T20:12:11+08:00</lastmod>
+    <changefreq>monthly</changefreq>
+    </url>
+  <url>
+    <loc>http://localhost:1313/zh/zh/categories/picture/</loc>
+    <lastmod>2025-01-05T20:12:11+08:00</lastmod>
+    <changefreq>monthly</changefreq>
+    </url>
+  <url>
+    <loc>http://localhost:1313/zh/zh/tags/picture/</loc>
+    <lastmod>2025-01-05T20:12:11+08:00</lastmod>
+    <changefreq>monthly</changefreq>
+    </url>
+  <url>
+    <loc>http://localhost:1313/zh/zh/series/</loc>
+    
+    <changefreq>monthly</changefreq>
+    <xhtml:link rel="alternate" hreflang="en-GB" href="http://localhost:1313/zh/en/series/" />
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="http://localhost:1313/zh/zh/series/" />
+  </url>
+</urlset>

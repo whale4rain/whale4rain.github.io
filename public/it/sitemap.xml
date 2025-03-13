@@ -1,0 +1,32 @@
+
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  <url>
+    <loc>http://localhost:1313/hugo-brewm/it/categories/</loc>
+    
+    <changefreq>monthly</changefreq>
+    <xhtml:link rel="alternate" hreflang="en-GB" href="http://localhost:1313/hugo-brewm/en/categories/" /><xhtml:link rel="alternate" hreflang="id-ID" href="http://localhost:1313/hugo-brewm/id/categories/" />
+    <xhtml:link rel="alternate" hreflang="it-IT" href="http://localhost:1313/hugo-brewm/it/categories/" />
+  </url>
+  <url>
+    <loc>http://localhost:1313/hugo-brewm/it/</loc>
+    
+    <changefreq>monthly</changefreq>
+    <xhtml:link rel="alternate" hreflang="en-GB" href="http://localhost:1313/hugo-brewm/en/" /><xhtml:link rel="alternate" hreflang="id-ID" href="http://localhost:1313/hugo-brewm/id/" />
+    <xhtml:link rel="alternate" hreflang="it-IT" href="http://localhost:1313/hugo-brewm/it/" />
+  </url>
+  <url>
+    <loc>http://localhost:1313/hugo-brewm/it/series/</loc>
+    
+    <changefreq>monthly</changefreq>
+    <xhtml:link rel="alternate" hreflang="en-GB" href="http://localhost:1313/hugo-brewm/en/series/" /><xhtml:link rel="alternate" hreflang="id-ID" href="http://localhost:1313/hugo-brewm/id/series/" />
+    <xhtml:link rel="alternate" hreflang="it-IT" href="http://localhost:1313/hugo-brewm/it/series/" />
+  </url>
+  <url>
+    <loc>http://localhost:1313/hugo-brewm/it/tags/</loc>
+    
+    <changefreq>monthly</changefreq>
+    <xhtml:link rel="alternate" hreflang="en-GB" href="http://localhost:1313/hugo-brewm/en/tags/" /><xhtml:link rel="alternate" hreflang="id-ID" href="http://localhost:1313/hugo-brewm/id/tags/" />
+    <xhtml:link rel="alternate" hreflang="it-IT" href="http://localhost:1313/hugo-brewm/it/tags/" />
+  </url>
+</urlset>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Nvim on Whale4Blog</title>
+    <link>http://localhost:1313/en/tags/nvim/</link>
+    <description>Recent Posts in Nvim on Whale4Blog</description>
+    <generator>Hugo 0.145.0</generator>
+    <language>en-GB</language>
+    <managingEditor>whale</managingEditor>
+    
+      <webMaster>whale</webMaster>
+    <copyright>Copyright 2025 (c) Foxxi</copyright>
+    <lastBuildDate>Thu, 13 Mar 2025 20:16:18 +0800</lastBuildDate>
+    <atom:link href="http://localhost:1313/en/tags/nvim/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Lazyvim配置经验</title>
+      <link>http://localhost:1313/en/zh/post/lazyvim%E9%85%8D%E7%BD%AE%E7%BB%8F%E9%AA%8C/</link>
+      <pubDate>Thu, 13 Mar 2025 19:26:36 +0800</pubDate>
+      <author>whale</author>
+      <guid>http://localhost:1313/en/zh/post/lazyvim%E9%85%8D%E7%BD%AE%E7%BB%8F%E9%AA%8C/</guid>
+      <description></description>
+      
+    </item>
+  </channel>
+</rss>

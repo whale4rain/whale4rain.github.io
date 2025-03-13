@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Series on Whale4Blog</title>
+    <link>http://localhost:1313/zh/zh/series/</link>
+    <description>Recent Posts in Series on Whale4Blog</description>
+    <generator>Hugo 0.145.0</generator>
+    <language>zh-CN</language>
+    <managingEditor>whale</managingEditor>
+    
+      <webMaster>whale</webMaster>
+    <copyright>Copyright 2025 (c) Foxxi</copyright>
+    <lastBuildDate>Thu, 13 Mar 2025 20:20:25 +0800</lastBuildDate>
+    <atom:link href="http://localhost:1313/zh/zh/series/index.xml" rel="self" type="application/rss+xml" />
+  </channel>
+</rss>

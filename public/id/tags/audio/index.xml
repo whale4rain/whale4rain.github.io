@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Audio on Whale4Blog</title>
+    <link>http://localhost:1313/id/tags/audio/</link>
+    <description>Artikel Terbaru dalam Audio pada Whale4Blog</description>
+    <generator>Hugo 0.145.0</generator>
+    <language>id-ID</language>
+    <managingEditor>whale</managingEditor>
+    
+      <webMaster>whale</webMaster>
+    <copyright>Copyright 2025 (c) Foxxi</copyright>
+    <lastBuildDate>Thu, 13 Mar 2025 19:49:56 +0800</lastBuildDate>
+    <atom:link href="http://localhost:1313/id/tags/audio/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Menambahkan Gambar Sampul dan Artikel Audio</title>
+      <link>http://localhost:1313/id/pos/mengatur-sampul-dan-audio/</link>
+      <pubDate>Sat, 22 Feb 2025 00:00:00 +0000</pubDate>
+      <author>whale</author>
+      <guid>http://localhost:1313/id/pos/mengatur-sampul-dan-audio/</guid>
+      <description></description>
+      <enclosure url="https://upload.wikimedia.org/wikipedia/commons/4/4d/Cat_and_styrofoam_%E2%80%93_electrostatic_charge_%28235112299%29.jpg" length="0" type="image/jpeg" />
+    </item>
+  </channel>
+</rss>
