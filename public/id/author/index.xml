@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Author on Whale4Blog</title>
-    <link>http://localhost:1313/id/author/</link>
+    <link>http://localhost:1313/zh/id/author/</link>
     <description>Artikel Terbaru dalam Author pada Whale4Blog</description>
     <generator>Hugo 0.145.0</generator>
     <language>id-ID</language>
@@ -10,7 +10,7 @@
     
       <webMaster>whale</webMaster>
     <copyright>Copyright 2025 (c) Foxxi</copyright>
-    <lastBuildDate>Thu, 13 Mar 2025 20:32:42 +0800</lastBuildDate>
-    <atom:link href="http://localhost:1313/id/author/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 14 Mar 2025 00:07:38 +0800</lastBuildDate>
+    <atom:link href="http://localhost:1313/zh/id/author/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>

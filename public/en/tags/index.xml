@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on Whale4Blog</title>
-    <link>http://localhost:1313/en/tags/</link>
+    <link>http://localhost:1313/zh/en/tags/</link>
     <description>Recent Posts in Tags on Whale4Blog</description>
     <generator>Hugo 0.145.0</generator>
     <language>en-GB</language>
@@ -10,194 +10,194 @@
     
       <webMaster>whale</webMaster>
     <copyright>Copyright 2025 (c) Foxxi</copyright>
-    <lastBuildDate>Thu, 13 Mar 2025 20:32:42 +0800</lastBuildDate>
-    <atom:link href="http://localhost:1313/en/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 14 Mar 2025 00:07:38 +0800</lastBuildDate>
+    <atom:link href="http://localhost:1313/zh/en/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Alt</title>
-      <link>http://localhost:1313/en/tags/alt/</link>
+      <link>http://localhost:1313/zh/en/tags/alt/</link>
       <pubDate>Sat, 22 Feb 2025 00:00:00 +0000</pubDate>
       <author>whale</author>
-      <guid>http://localhost:1313/en/tags/alt/</guid>
+      <guid>http://localhost:1313/zh/en/tags/alt/</guid>
       <description></description>
       
     </item>
     <item>
       <title>Audio</title>
-      <link>http://localhost:1313/en/tags/audio/</link>
+      <link>http://localhost:1313/zh/en/tags/audio/</link>
       <pubDate>Sat, 22 Feb 2025 00:00:00 +0000</pubDate>
       <author>whale</author>
-      <guid>http://localhost:1313/en/tags/audio/</guid>
+      <guid>http://localhost:1313/zh/en/tags/audio/</guid>
       <description></description>
       
     </item>
     <item>
       <title>Authoring</title>
-      <link>http://localhost:1313/en/tags/authoring/</link>
+      <link>http://localhost:1313/zh/en/tags/authoring/</link>
       <pubDate>Sat, 22 Feb 2025 00:00:00 +0000</pubDate>
       <author>whale</author>
-      <guid>http://localhost:1313/en/tags/authoring/</guid>
+      <guid>http://localhost:1313/zh/en/tags/authoring/</guid>
       <description></description>
       
     </item>
     <item>
       <title>Content</title>
-      <link>http://localhost:1313/en/tags/content/</link>
+      <link>http://localhost:1313/zh/en/tags/content/</link>
       <pubDate>Sat, 22 Feb 2025 00:00:00 +0000</pubDate>
       <author>whale</author>
-      <guid>http://localhost:1313/en/tags/content/</guid>
+      <guid>http://localhost:1313/zh/en/tags/content/</guid>
       <description></description>
       
     </item>
     <item>
       <title>Cover</title>
-      <link>http://localhost:1313/en/tags/cover/</link>
+      <link>http://localhost:1313/zh/en/tags/cover/</link>
       <pubDate>Sat, 22 Feb 2025 00:00:00 +0000</pubDate>
       <author>whale</author>
-      <guid>http://localhost:1313/en/tags/cover/</guid>
+      <guid>http://localhost:1313/zh/en/tags/cover/</guid>
       <description></description>
       
     </item>
     <item>
       <title>Images</title>
-      <link>http://localhost:1313/en/tags/images/</link>
+      <link>http://localhost:1313/zh/en/tags/images/</link>
       <pubDate>Sat, 22 Feb 2025 00:00:00 +0000</pubDate>
       <author>whale</author>
-      <guid>http://localhost:1313/en/tags/images/</guid>
+      <guid>http://localhost:1313/zh/en/tags/images/</guid>
       <description></description>
       
     </item>
     <item>
       <title>Media</title>
-      <link>http://localhost:1313/en/tags/media/</link>
+      <link>http://localhost:1313/zh/en/tags/media/</link>
       <pubDate>Sat, 22 Feb 2025 00:00:00 +0000</pubDate>
       <author>whale</author>
-      <guid>http://localhost:1313/en/tags/media/</guid>
+      <guid>http://localhost:1313/zh/en/tags/media/</guid>
       <description></description>
       
     </item>
     <item>
       <title>History</title>
-      <link>http://localhost:1313/en/tags/history/</link>
+      <link>http://localhost:1313/zh/en/tags/history/</link>
       <pubDate>Mon, 03 Feb 2025 00:00:00 +0000</pubDate>
       <author>whale</author>
-      <guid>http://localhost:1313/en/tags/history/</guid>
+      <guid>http://localhost:1313/zh/en/tags/history/</guid>
       <description></description>
       
     </item>
     <item>
       <title>Redaction</title>
-      <link>http://localhost:1313/en/tags/redaction/</link>
+      <link>http://localhost:1313/zh/en/tags/redaction/</link>
       <pubDate>Mon, 03 Feb 2025 00:00:00 +0000</pubDate>
       <author>whale</author>
-      <guid>http://localhost:1313/en/tags/redaction/</guid>
+      <guid>http://localhost:1313/zh/en/tags/redaction/</guid>
       <description></description>
       
     </item>
     <item>
       <title>Taxonomy</title>
-      <link>http://localhost:1313/en/tags/taxonomy/</link>
+      <link>http://localhost:1313/zh/en/tags/taxonomy/</link>
       <pubDate>Mon, 03 Feb 2025 00:00:00 +0000</pubDate>
       <author>whale</author>
-      <guid>http://localhost:1313/en/tags/taxonomy/</guid>
+      <guid>http://localhost:1313/zh/en/tags/taxonomy/</guid>
       <description></description>
       
     </item>
     <item>
       <title>Terms</title>
-      <link>http://localhost:1313/en/tags/terms/</link>
+      <link>http://localhost:1313/zh/en/tags/terms/</link>
       <pubDate>Mon, 03 Feb 2025 00:00:00 +0000</pubDate>
       <author>whale</author>
-      <guid>http://localhost:1313/en/tags/terms/</guid>
+      <guid>http://localhost:1313/zh/en/tags/terms/</guid>
       <description></description>
       
     </item>
     <item>
       <title>Accent</title>
-      <link>http://localhost:1313/en/tags/accent/</link>
+      <link>http://localhost:1313/zh/en/tags/accent/</link>
       <pubDate>Sun, 26 Jan 2025 00:00:00 +0000</pubDate>
       <author>whale</author>
-      <guid>http://localhost:1313/en/tags/accent/</guid>
+      <guid>http://localhost:1313/zh/en/tags/accent/</guid>
       <description></description>
       
     </item>
     <item>
       <title>Color</title>
-      <link>http://localhost:1313/en/tags/color/</link>
+      <link>http://localhost:1313/zh/en/tags/color/</link>
       <pubDate>Sun, 26 Jan 2025 00:00:00 +0000</pubDate>
       <author>whale</author>
-      <guid>http://localhost:1313/en/tags/color/</guid>
+      <guid>http://localhost:1313/zh/en/tags/color/</guid>
       <description></description>
       
     </item>
     <item>
       <title>Configuration</title>
-      <link>http://localhost:1313/en/tags/configuration/</link>
+      <link>http://localhost:1313/zh/en/tags/configuration/</link>
       <pubDate>Sun, 26 Jan 2025 00:00:00 +0000</pubDate>
       <author>whale</author>
-      <guid>http://localhost:1313/en/tags/configuration/</guid>
+      <guid>http://localhost:1313/zh/en/tags/configuration/</guid>
       <description></description>
       
     </item>
     <item>
       <title>Discussion</title>
-      <link>http://localhost:1313/en/tags/discussion/</link>
+      <link>http://localhost:1313/zh/en/tags/discussion/</link>
       <pubDate>Sun, 26 Jan 2025 00:00:00 +0000</pubDate>
       <author>whale</author>
-      <guid>http://localhost:1313/en/tags/discussion/</guid>
+      <guid>http://localhost:1313/zh/en/tags/discussion/</guid>
       <description></description>
       
     </item>
     <item>
       <title>Footer</title>
-      <link>http://localhost:1313/en/tags/footer/</link>
+      <link>http://localhost:1313/zh/en/tags/footer/</link>
       <pubDate>Sun, 26 Jan 2025 00:00:00 +0000</pubDate>
       <author>whale</author>
-      <guid>http://localhost:1313/en/tags/footer/</guid>
+      <guid>http://localhost:1313/zh/en/tags/footer/</guid>
       <description></description>
       
     </item>
     <item>
       <title>Logo</title>
-      <link>http://localhost:1313/en/tags/logo/</link>
+      <link>http://localhost:1313/zh/en/tags/logo/</link>
       <pubDate>Sun, 26 Jan 2025 00:00:00 +0000</pubDate>
       <author>whale</author>
-      <guid>http://localhost:1313/en/tags/logo/</guid>
+      <guid>http://localhost:1313/zh/en/tags/logo/</guid>
       <description></description>
       
     </item>
     <item>
       <title>Markdown</title>
-      <link>http://localhost:1313/en/tags/markdown/</link>
+      <link>http://localhost:1313/zh/en/tags/markdown/</link>
       <pubDate>Sun, 26 Jan 2025 00:00:00 +0000</pubDate>
       <author>whale</author>
-      <guid>http://localhost:1313/en/tags/markdown/</guid>
+      <guid>http://localhost:1313/zh/en/tags/markdown/</guid>
       <description></description>
       
     </item>
     <item>
       <title>Menu</title>
-      <link>http://localhost:1313/en/tags/menu/</link>
+      <link>http://localhost:1313/zh/en/tags/menu/</link>
       <pubDate>Sun, 26 Jan 2025 00:00:00 +0000</pubDate>
       <author>whale</author>
-      <guid>http://localhost:1313/en/tags/menu/</guid>
+      <guid>http://localhost:1313/zh/en/tags/menu/</guid>
       <description></description>
       
     </item>
     <item>
       <title>Pagefind</title>
-      <link>http://localhost:1313/en/tags/pagefind/</link>
+      <link>http://localhost:1313/zh/en/tags/pagefind/</link>
       <pubDate>Sun, 26 Jan 2025 00:00:00 +0000</pubDate>
       <author>whale</author>
-      <guid>http://localhost:1313/en/tags/pagefind/</guid>
+      <guid>http://localhost:1313/zh/en/tags/pagefind/</guid>
       <description></description>
       
     </item>
     <item>
       <title>Slide</title>
-      <link>http://localhost:1313/en/tags/slide/</link>
+      <link>http://localhost:1313/zh/en/tags/slide/</link>
       <pubDate>Sun, 26 Jan 2025 00:00:00 +0000</pubDate>
       <author>whale</author>
-      <guid>http://localhost:1313/en/tags/slide/</guid>
+      <guid>http://localhost:1313/zh/en/tags/slide/</guid>
       <description></description>
       
     </item>
