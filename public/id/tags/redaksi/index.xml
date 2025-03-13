@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Redaksi on Whale4Blog</title>
-    <link>http://localhost:1313/zh/id/tags/redaksi/</link>
+    <link>http://localhost:1313/id/tags/redaksi/</link>
     <description>Artikel Terbaru dalam Redaksi pada Whale4Blog</description>
     <generator>Hugo 0.145.0</generator>
     <language>id-ID</language>
@@ -10,14 +10,14 @@
     
       <webMaster>whale</webMaster>
     <copyright>Copyright 2025 (c) Foxxi</copyright>
-    <lastBuildDate>Fri, 14 Mar 2025 00:23:01 +0800</lastBuildDate>
-    <atom:link href="http://localhost:1313/zh/id/tags/redaksi/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 14 Mar 2025 00:49:45 +0800</lastBuildDate>
+    <atom:link href="http://localhost:1313/id/tags/redaksi/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Mengatur Riwayat Redaksi</title>
-      <link>http://localhost:1313/zh/id/pos/mengatur-riwayat-redaksi/</link>
+      <link>http://localhost:1313/id/pos/mengatur-riwayat-redaksi/</link>
       <pubDate>Mon, 03 Feb 2025 00:00:00 +0000</pubDate>
       <author>whale</author>
-      <guid>http://localhost:1313/zh/id/pos/mengatur-riwayat-redaksi/</guid>
+      <guid>http://localhost:1313/id/pos/mengatur-riwayat-redaksi/</guid>
       <description></description>
       
     </item>

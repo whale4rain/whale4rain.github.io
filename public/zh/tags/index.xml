@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on Whale4Blog</title>
-    <link>http://localhost:1313/zh/zh/tags/</link>
+    <link>http://localhost:1313/zh/tags/</link>
     <description>[i18n] recent [i18n] in Tags [i18n] on Whale4Blog</description>
     <generator>Hugo 0.145.0</generator>
     <language>zh-CN</language>
@@ -10,77 +10,77 @@
     
       <webMaster>whale</webMaster>
     <copyright>Copyright 2025 (c) Foxxi</copyright>
-    <lastBuildDate>Fri, 14 Mar 2025 00:23:01 +0800</lastBuildDate>
-    <atom:link href="http://localhost:1313/zh/zh/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 14 Mar 2025 00:49:45 +0800</lastBuildDate>
+    <atom:link href="http://localhost:1313/zh/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Easy</title>
-      <link>http://localhost:1313/zh/zh/tags/easy/</link>
+      <link>http://localhost:1313/zh/tags/easy/</link>
       <pubDate>Thu, 13 Mar 2025 19:34:07 +0800</pubDate>
       <author>whale</author>
-      <guid>http://localhost:1313/zh/zh/tags/easy/</guid>
+      <guid>http://localhost:1313/zh/tags/easy/</guid>
       <description></description>
       
     </item>
     <item>
       <title>Tools</title>
-      <link>http://localhost:1313/zh/zh/tags/tools/</link>
+      <link>http://localhost:1313/zh/tags/tools/</link>
       <pubDate>Thu, 13 Mar 2025 19:34:07 +0800</pubDate>
       <author>whale</author>
-      <guid>http://localhost:1313/zh/zh/tags/tools/</guid>
+      <guid>http://localhost:1313/zh/tags/tools/</guid>
       <description></description>
       
     </item>
     <item>
       <title>Web Build</title>
-      <link>http://localhost:1313/zh/zh/tags/web-build/</link>
+      <link>http://localhost:1313/zh/tags/web-build/</link>
       <pubDate>Thu, 13 Mar 2025 19:34:07 +0800</pubDate>
       <author>whale</author>
-      <guid>http://localhost:1313/zh/zh/tags/web-build/</guid>
+      <guid>http://localhost:1313/zh/tags/web-build/</guid>
       <description></description>
       
     </item>
     <item>
       <title>Nvim</title>
-      <link>http://localhost:1313/zh/zh/tags/nvim/</link>
+      <link>http://localhost:1313/zh/tags/nvim/</link>
       <pubDate>Thu, 13 Mar 2025 19:26:36 +0800</pubDate>
       <author>whale</author>
-      <guid>http://localhost:1313/zh/zh/tags/nvim/</guid>
+      <guid>http://localhost:1313/zh/tags/nvim/</guid>
       <description></description>
       
     </item>
     <item>
       <title>Old</title>
-      <link>http://localhost:1313/zh/zh/tags/old/</link>
+      <link>http://localhost:1313/zh/tags/old/</link>
       <pubDate>Thu, 13 Mar 2025 19:26:36 +0800</pubDate>
       <author>whale</author>
-      <guid>http://localhost:1313/zh/zh/tags/old/</guid>
+      <guid>http://localhost:1313/zh/tags/old/</guid>
       <description></description>
       
     </item>
     <item>
       <title>Authoring</title>
-      <link>http://localhost:1313/zh/zh/tags/authoring/</link>
+      <link>http://localhost:1313/zh/tags/authoring/</link>
       <pubDate>Mon, 03 Feb 2025 00:00:00 +0000</pubDate>
       <author>whale</author>
-      <guid>http://localhost:1313/zh/zh/tags/authoring/</guid>
+      <guid>http://localhost:1313/zh/tags/authoring/</guid>
       <description></description>
       
     </item>
     <item>
       <title>History</title>
-      <link>http://localhost:1313/zh/zh/tags/history/</link>
+      <link>http://localhost:1313/zh/tags/history/</link>
       <pubDate>Mon, 03 Feb 2025 00:00:00 +0000</pubDate>
       <author>whale</author>
-      <guid>http://localhost:1313/zh/zh/tags/history/</guid>
+      <guid>http://localhost:1313/zh/tags/history/</guid>
       <description></description>
       
     </item>
     <item>
       <title>Redaction</title>
-      <link>http://localhost:1313/zh/zh/tags/redaction/</link>
+      <link>http://localhost:1313/zh/tags/redaction/</link>
       <pubDate>Mon, 03 Feb 2025 00:00:00 +0000</pubDate>
       <author>whale</author>
-      <guid>http://localhost:1313/zh/zh/tags/redaction/</guid>
+      <guid>http://localhost:1313/zh/tags/redaction/</guid>
       <description></description>
       
     </item>

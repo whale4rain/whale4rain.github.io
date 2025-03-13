@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Categories on Whale4Blog</title>
-    <link>http://localhost:1313/zh/zh/categories/</link>
+    <link>http://localhost:1313/zh/categories/</link>
     <description>[i18n] recent [i18n] in Categories [i18n] on Whale4Blog</description>
     <generator>Hugo 0.145.0</generator>
     <language>zh-CN</language>
@@ -10,23 +10,23 @@
     
       <webMaster>whale</webMaster>
     <copyright>Copyright 2025 (c) Foxxi</copyright>
-    <lastBuildDate>Fri, 14 Mar 2025 00:23:01 +0800</lastBuildDate>
-    <atom:link href="http://localhost:1313/zh/zh/categories/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 14 Mar 2025 00:49:45 +0800</lastBuildDate>
+    <atom:link href="http://localhost:1313/zh/categories/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Tools Build</title>
-      <link>http://localhost:1313/zh/zh/categories/tools-build/</link>
+      <link>http://localhost:1313/zh/categories/tools-build/</link>
       <pubDate>Thu, 13 Mar 2025 19:34:07 +0800</pubDate>
       <author>whale</author>
-      <guid>http://localhost:1313/zh/zh/categories/tools-build/</guid>
+      <guid>http://localhost:1313/zh/categories/tools-build/</guid>
       <description></description>
       
     </item>
     <item>
       <title>Authoring</title>
-      <link>http://localhost:1313/zh/zh/categories/authoring/</link>
+      <link>http://localhost:1313/zh/categories/authoring/</link>
       <pubDate>Mon, 03 Feb 2025 00:00:00 +0000</pubDate>
       <author>whale</author>
-      <guid>http://localhost:1313/zh/zh/categories/authoring/</guid>
+      <guid>http://localhost:1313/zh/categories/authoring/</guid>
       <description></description>
       
     </item>

@@ -1,5 +1,5 @@
 ## Base URL for the site
-baseURL = 'https://whale4rain.github.io/zh'
+baseURL = 'https://whale4rain.github.io'
 ## Site title
 title = 'Whale4Blog'
 ## Use hugo-brewm theme
@@ -184,9 +184,9 @@ copyright = 'Copyright 2025 (c) Foxxi'
         ## Use web safe fonts (will overide font selection below)
         webSafe = false
         ## Serif font selection
-        roman = 'crimson'
+        roman = 'Noto Serif CJK SC'
         ## Sans-serif font selection
-        sans = 'inter'
+        sans = 'Noto Sans CJK SC'
         ## use typeface stored in local server (pleaase download font's uri first)
         localHost = false
 

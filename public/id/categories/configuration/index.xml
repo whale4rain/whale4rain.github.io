@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Configuration on Whale4Blog</title>
-    <link>http://localhost:1313/zh/id/categories/configuration/</link>
+    <link>http://localhost:1313/id/categories/configuration/</link>
     <description>Artikel Terbaru dalam Configuration pada Whale4Blog</description>
     <generator>Hugo 0.145.0</generator>
     <language>id-ID</language>
@@ -10,32 +10,32 @@
     
       <webMaster>whale</webMaster>
     <copyright>Copyright 2025 (c) Foxxi</copyright>
-    <lastBuildDate>Fri, 14 Mar 2025 00:23:01 +0800</lastBuildDate>
-    <atom:link href="http://localhost:1313/zh/id/categories/configuration/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 14 Mar 2025 00:49:45 +0800</lastBuildDate>
+    <atom:link href="http://localhost:1313/id/categories/configuration/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Menambahkan Diskusi</title>
-      <link>http://localhost:1313/zh/id/pos/mengatur-diskusi/</link>
+      <link>http://localhost:1313/id/pos/mengatur-diskusi/</link>
       <pubDate>Sun, 26 Jan 2025 00:00:00 +0000</pubDate>
       <author>whale</author>
-      <guid>http://localhost:1313/zh/id/pos/mengatur-diskusi/</guid>
+      <guid>http://localhost:1313/id/pos/mengatur-diskusi/</guid>
       <description></description>
       
     </item>
     <item>
       <title>Mengatur Footer Utama</title>
-      <link>http://localhost:1313/zh/id/pos/mengatur-footer-situs/</link>
+      <link>http://localhost:1313/id/pos/mengatur-footer-situs/</link>
       <pubDate>Sun, 26 Jan 2025 00:00:00 +0000</pubDate>
       <author>whale</author>
-      <guid>http://localhost:1313/zh/id/pos/mengatur-footer-situs/</guid>
+      <guid>http://localhost:1313/id/pos/mengatur-footer-situs/</guid>
       <description></description>
       
     </item>
     <item>
       <title>Tes Markdown</title>
-      <link>http://localhost:1313/zh/id/pos/tes-markdown/</link>
+      <link>http://localhost:1313/id/pos/tes-markdown/</link>
       <pubDate>Sun, 26 Jan 2025 00:00:00 +0000</pubDate>
       <author>whale</author>
-      <guid>http://localhost:1313/zh/id/pos/tes-markdown/</guid>
+      <guid>http://localhost:1313/id/pos/tes-markdown/</guid>
       <description></description>
       
     </item>
