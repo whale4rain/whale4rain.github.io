@@ -1,5 +1,5 @@
 ## Base URL for the site
-baseURL = 'https://whale4rain.github.io/'
+baseURL = 'https://whale4rain.github.io/zh/'
 ## Site title
 title = 'Whale4Blog'
 ## Use hugo-brewm theme
