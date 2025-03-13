@@ -2,6 +2,13 @@
 <sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <sitemap>
+    <loc>http://localhost:1313/zh/zh/sitemap.xml</loc>
+    
+      <lastmod>2025-03-13T20:21:00+08:00</lastmod>
+    
+  </sitemap>
+  
+  <sitemap>
     <loc>http://localhost:1313/zh/en/sitemap.xml</loc>
     
       <lastmod>2025-03-13T20:21:00+08:00</lastmod>
@@ -12,13 +19,6 @@
     <loc>http://localhost:1313/zh/id/sitemap.xml</loc>
     
       <lastmod>2025-03-13T20:34:23+08:00</lastmod>
-    
-  </sitemap>
-  
-  <sitemap>
-    <loc>http://localhost:1313/zh/zh/sitemap.xml</loc>
-    
-      <lastmod>2025-03-13T20:21:00+08:00</lastmod>
     
   </sitemap>
   

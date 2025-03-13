@@ -46,9 +46,9 @@
 <header class="pagewidth">
     <div id="background-header" class="background" aria-hidden="true"></div>
     
-    <nav aria-label="Bypass">
-        <a id="to-content" class="underline" href="#list-posts" aria-label="Skip to Main Content">
-            <span>Skip to Main Content</span>
+    <nav aria-label="[i18n] bypass">
+        <a id="to-content" class="underline" href="#list-posts" aria-label="[i18n] toContent">
+            <span>[i18n] toContent</span>
             <kbd class="key" aria-hidden="true">c</kbd>
             <span class="screening" aria-hidden="true"></span>
         </a>
@@ -64,17 +64,17 @@
     
     <details class="presentation" id="top-nav">
         <summary class="on-deck">
-            <span class="t t2">Navigation</span>
+            <span class="t t2">[i18n] nav</span>
             <span class="menu-icon" role="presentation"></span>
         </summary>
-        <nav tabindex="-1" aria-label="Top">
+        <nav tabindex="-1" aria-label="[i18n] top-nav">
             <!-- menu.html -->
 <details id="has-main-menu" class="presentation" open>
-    <summary  class="hide"  aria-label="Main Menu">
-        <span>Main Menu</span>
+    <summary  class="hide"  aria-label="[i18n] main">
+        <span>[i18n] main</span>
     </summary>
         
-        <nav id="main-menu" aria-label="Main Menu">
+        <nav id="main-menu" aria-label="[i18n] main">
             <ul class="l1 " role="presentation" tabindex="-1" >
                 
     
@@ -111,7 +111,7 @@
     </a>
         </li>
                 <li class="parent-anchor">
-                    <a href=http://localhost:1313/zh/series/ aria-label="See all:Series">
+                    <a href=http://localhost:1313/zh/series/ aria-label="[i18n] seeAll:Series">
                         
                         <span aria-hidden="true"> Series</span>
                     </a>
@@ -154,7 +154,7 @@
     </a>
         </li>
                 <li class="parent-anchor">
-                    <a href=http://localhost:1313/zh/ aria-label="See all:Works">
+                    <a href=http://localhost:1313/zh/ aria-label="[i18n] seeAll:Works">
                         
                         <span aria-hidden="true"> Works</span>
                     </a>
@@ -168,7 +168,7 @@
             <!-- search.html -->
 <details id="has-search" class="presentation js-details" name="on-deck">
     <summary class="on-deck" accesskey="q" aria-keyshortcuts="q">
-        <span class="t t2">Search</span>
+        <span class="t t2">[i18n] search</span>
     </summary>
     
         <!-- pagefind.html -->
@@ -184,7 +184,7 @@
                     element: "#search",
                     showImages: false,
                     translations: {
-                        placeholder: "Search"
+                        placeholder: "[i18n] search"
                     }
                 });
                 pageFindInitialized = true;
@@ -203,8 +203,8 @@
         <input type="hidden" value="1" name="kh"></input>
         <input type="hidden" value="1" name="kn"></input>
         <input type="hidden" value="1" name="kac"></input>
-        <input class="ldots form__input" type="search" placeholder="Search" name="q"></input>
-        <button class="form__button" type="submit" aria-label="Search">
+        <input class="ldots form__input" type="search" placeholder="[i18n] search" name="q"></input>
+        <button class="form__button" type="submit" aria-label="[i18n] search">
             <img src="https://duckduckgo.com/assets/logo_header.v109.svg" alt="" role="presentation" aria-hidden="true">
         </button>
     </form>
@@ -214,12 +214,12 @@
 </details>
             <!-- menu.html -->
 <details id="has-more-menu" class="presentation js-details" name="on-deck" >
-    <summary  accesskey="=" class="on-deck"  aria-label="More Menu">
-        <span class="t t2">More Menu</span>
+    <summary  accesskey="=" class="on-deck"  aria-label="[i18n] more">
+        <span class="t t2">[i18n] more</span>
             <span class="menu-icon" role="presentation"></span>
     </summary>
         <!-- on hull -->
-        <nav id="more-menu" aria-label="More Menu">
+        <nav id="more-menu" aria-label="[i18n] more">
             <ul class="l1  on-plank " role="presentation" tabindex="-1" >
                 
     
@@ -246,7 +246,7 @@
     </a>
         </li>
                 <li class="parent-anchor">
-                    <a href=http://localhost:1313/zh/ aria-label="See all:About">
+                    <a href=http://localhost:1313/zh/ aria-label="[i18n] seeAll:About">
                         
                         <span aria-hidden="true"> About</span>
                     </a>
@@ -267,7 +267,7 @@
             <!-- i18n.html -->
 
         <details id="has-i18n" class="presentation js-details" name="on-deck">
-            <summary class="anchor on-deck" aria-label="Language Selections">
+            <summary class="anchor on-deck" aria-label="[i18n] selectLang">
             
                 <img
                     src="https://raw.githubusercontent.com/lipis/flag-icons/c95b262e5ee2366cad4c5aecc4a5ad86220c9ab9/flags/4x3/cn.svg" alt=""
@@ -280,7 +280,7 @@
             </summary>
 
             <!-- on hull -->
-            <nav id="i18n-menu" aria-label="Language Selections">
+            <nav id="i18n-menu" aria-label="[i18n] selectLang">
                 <ul class="on-plank">
                     <li>
                         <a href="http://localhost:1313/zh/id/" aria-label="Change language to Bahasa Indonesia">
@@ -322,31 +322,31 @@
             <!-- menu.html -->
     <menu role="presentation">
         <li>
-            <a id="print-button" class="hide" href="javascript:window.print()" title="Print" role="button" aria-label="Print">
-                <span class="t" role="tooltip">Print</span>
+            <a id="print-button" class="hide" href="javascript:window.print()" title="[i18n] print" role="button" aria-label="[i18n] print">
+                <span class="t" role="tooltip">[i18n] print</span>
             </a>
         </li>
         <li>
-            <a id="navigatorShare" href="javascript:navigator.share({title: document.title, url: window.location.href})" title="Share" role="button" aria-label="Share">
-                <span class="t" role="tooltip">Share</span>
+            <a id="navigatorShare" href="javascript:navigator.share({title: document.title, url: window.location.href})" title="[i18n] share" role="button" aria-label="[i18n] share">
+                <span class="t" role="tooltip">[i18n] share</span>
             </a>
         </li>
         <li>
-            <a id="copyPermalink"  href="javascript:navigator.clipboard.writeText(window.location.href)" title="Copy URL" role="button" aria-label="Copy URL">
-                <span id="copy" class="t" role="tooltip">Copy URL</span>
-                <span id="isCopying" style="display: none;">Copying...</span>
-                <span id="copyText" style="display: none;">Copy URL</span>
+            <a id="copyPermalink"  href="javascript:navigator.clipboard.writeText(window.location.href)" title="[i18n] copy" role="button" aria-label="[i18n] copy">
+                <span id="copy" class="t" role="tooltip">[i18n] copy</span>
+                <span id="isCopying" style="display: none;">[i18n] copying</span>
+                <span id="copyText" style="display: none;">[i18n] copy</span>
             </a>
         </li>
     </menu>
-    <button id="back" class="hide" type="button" onclick="history.back();" aria-label="Go Back">
-        <span class="t" role="tooltip">Go Back</span>
+    <button id="back" class="hide" type="button" onclick="history.back();" aria-label="[i18n] back">
+        <span class="t" role="tooltip">[i18n] back</span>
     </button>
             
                 <!-- nav.html -->
 <details class="presentation" aria-expanded="true" id="has-breadcrumb" open>
     <summary id="breadcrumb" tabindex="-1">
-        <span>Breadcrumb</span>
+        <span>[i18n] breadcrumb</span>
     </summary>
         <nav aria-labelledby="breadcrumb">
             <ul role="presentation" class="breadcrumb">
@@ -371,7 +371,7 @@
         
             <section id="list-posts" class="pagewidth">
                 <header id="author" class="section-title">
-                    <strong>Post by:Whale
+                    <strong>[i18n] postsBy:Whale
                     </strong>
                 </header>
                     <div role="feed" aria-busy="false">
@@ -384,7 +384,7 @@
             <div>
                 <span>
                                 <a href="http://localhost:1313/zh/author/whale/">Whale</a>
-                        <span>in</span>
+                        <span>[i18n] in</span>
                             <!-- terms.html -->
     <ul class="inline" role="presentation">
             <li><a href="http://localhost:1313/zh/categories/tools-build/">Tools Build</a></li>
@@ -394,7 +394,7 @@
                 
                 <!-- timestamp.html-->
     <div >
-        <time class="doc-publish-date" datetime="2025-03-13T19:34:07&#43;08:00" data-time-label="Published on">2025年3月13日</time>
+        <time class="doc-publish-date" datetime="2025-03-13T19:34:07&#43;08:00" data-time-label="[i18n] published [i18n] on">2025年3月13日</time>
     </div>
             </div>
             <a href="http://localhost:1313/zh/post/%E4%BD%BF%E7%94%A8hexo%E5%BF%AB%E9%80%9F%E6%9E%84%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2%E7%BD%91%E7%AB%99%E6%96%B9%E6%A1%88/" tabindex="-1">
@@ -404,12 +404,12 @@
         <a class="underline" href="http://localhost:1313/zh/post/%E4%BD%BF%E7%94%A8hexo%E5%BF%AB%E9%80%9F%E6%9E%84%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2%E7%BD%91%E7%AB%99%E6%96%B9%E6%A1%88/" aria-label="使用hexo快速构建个人博客网站方案"></a>
         
         <section class="has-cover">
-                <img src=https://cdn.jsdelivr.net/gh/whale4rain/picx-images-hosting@master/20250313/image.7snd6xto8o.png alt="Featured image: .page.Title" loading="lazy">
+                <img src=https://cdn.jsdelivr.net/gh/whale4rain/picx-images-hosting@master/20250313/image.7snd6xto8o.png alt="[i18n] featuredImg: .page.Title" loading="lazy">
             <div class="par" id="desc-1">使快速构建一个简单基本免费的blog书写方案，使用github page + hexo+ cloudflare + obsidian
             </div>
         </section>
         <footer>
-            <span class="readingTime">2 min read
+            <span class="readingTime">2 [i18n] readingtime
             </span>
             
                 <!-- terms.html -->
@@ -429,7 +429,7 @@
             <div>
                 <span>
                                 <a href="http://localhost:1313/zh/author/whale/">Whale</a>
-                        <span>in</span>
+                        <span>[i18n] in</span>
                             <!-- terms.html -->
     <ul class="inline" role="presentation">
             <li><a href="http://localhost:1313/zh/categories/tools-build/">Tools Build</a></li>
@@ -439,7 +439,7 @@
                 
                 <!-- timestamp.html-->
     <div >
-        <time class="doc-publish-date" datetime="2025-03-13T19:26:36&#43;08:00" data-time-label="Published on">2025年3月13日</time>
+        <time class="doc-publish-date" datetime="2025-03-13T19:26:36&#43;08:00" data-time-label="[i18n] published [i18n] on">2025年3月13日</time>
     </div>
             </div>
             <a href="http://localhost:1313/zh/post/lazyvim%E9%85%8D%E7%BD%AE%E7%BB%8F%E9%AA%8C/" tabindex="-1">
@@ -449,12 +449,12 @@
         <a class="underline" href="http://localhost:1313/zh/post/lazyvim%E9%85%8D%E7%BD%AE%E7%BB%8F%E9%AA%8C/" aria-label="Lazyvim配置经验"></a>
         
         <section class="has-cover">
-                <img class="flowlines" src="https://raw.githubusercontent.com/foxihd/hugo-et-hd/master/static/svg/flowlines/20.svg" alt="" style="object-position: 14% 75%" loading="lazy">
+                <img class="flowlines" src="https://raw.githubusercontent.com/foxihd/hugo-et-hd/master/static/svg/flowlines/16.svg" alt="" style="object-position: 12% 44%" loading="lazy">
             <div class="par" id="desc-2">使用lazyvim配置使用nvim经验
             </div>
         </section>
         <footer>
-            <span class="readingTime">1 min read
+            <span class="readingTime">1 [i18n] readingtime
             </span>
             
                 <!-- terms.html -->
@@ -474,7 +474,7 @@
             <div>
                 <span>
                                 <a href="http://localhost:1313/zh/author/whale/">Whale</a>
-                        <span>in</span>
+                        <span>[i18n] in</span>
                             <!-- terms.html -->
     <ul class="inline" role="presentation">
             <li><a href="http://localhost:1313/zh/categories/authoring/">Authoring</a></li>
@@ -484,8 +484,8 @@
                 
                 <!-- timestamp.html-->
     <div class="date-has-label">
-        <time class="doc-publish-date" datetime="2025-02-03T00:00:00&#43;00:00" data-time-label="Published on">2025年2月3日</time>
-            <time class="doc-lastmod-date" datetime="2025-03-13T20:21:00&#43;08:00" data-time-label="Modified on">2025年3月13日</time>
+        <time class="doc-publish-date" datetime="2025-02-03T00:00:00&#43;00:00" data-time-label="[i18n] published [i18n] on">2025年2月3日</time>
+            <time class="doc-lastmod-date" datetime="2025-03-13T20:21:00&#43;08:00" data-time-label="[i18n] modified [i18n] on">2025年3月13日</time>
     </div>
             </div>
             <a href="http://localhost:1313/zh/post/authoring-redaction-history/" tabindex="-1">
@@ -495,12 +495,12 @@
         <a class="underline" href="http://localhost:1313/zh/post/authoring-redaction-history/" aria-label="跨年"></a>
         
         <section class="has-cover">
-                <img class="flowlines" src="https://raw.githubusercontent.com/foxihd/hugo-et-hd/master/static/svg/flowlines/12.svg" alt="" style="object-position: 30% 65%" loading="lazy">
+                <img class="flowlines" src="https://raw.githubusercontent.com/foxihd/hugo-et-hd/master/static/svg/flowlines/8.svg" alt="" style="object-position: 77% 3%" loading="lazy">
             <div class="par" id="desc-3">test file
             </div>
         </section>
         <footer>
-            <span class="readingTime">1 min read
+            <span class="readingTime">1 [i18n] readingtime
             </span>
             
                 <!-- terms.html -->
@@ -528,11 +528,11 @@
                     </div>
                 <div id="main-footer-secondary" class="column" style="--col: 15rem">
                         <div id="coffee-counter">
-                            <strong class="section-title">Coffee Stat</strong>
-                            <p>Making this website has taken at least 7 cups of coffee, if not more.</p>
+                            <strong class="section-title">[i18n] coffeeStat</strong>
+                            <p>[i18n] coffeeCount7 [i18n] cup[i18n] coffeeCountPost</p>
                         </div>                    
                     <!-- menu.html -->
-    <nav id="menu-footer" class="has-aria-label-top" aria-label="Let&#39;s keep in touch!">
+    <nav id="menu-footer" class="has-aria-label-top" aria-label="[i18n] keepInTouch">
         <ul role="presentation">
             <li><a href="http://localhost:1313/zh/" aria-label="figma">        
                     <i class="icon figma" aria-hidden="true"></i>
@@ -575,43 +575,43 @@
             accesskey="d" type="checkbox"
             onclick="focusMode()"
             aria-keyshortcuts="d"
-            aria-label="Focus Mode"
+            aria-label="[i18n] focusMode"
             >
-            <label id="focusModeButton" for="defocusAuxElement" aria-label="Focus Mode">
-                ⦿ <span class="t" role="tooltip">Focus Mode</span>
+            <label id="focusModeButton" for="defocusAuxElement" aria-label="[i18n] focusMode">
+                ⦿ <span class="t" role="tooltip">[i18n] focusMode</span>
             </label>
     </div>
     <!-- a11y.html --><details id="has-a11y" class="presentation js-details" name="on-deck" aria-haspopup="true" aria-labelledby="has-a11y-summary">
     <summary id="has-a11y-summary" accesskey="a" aria-keyshortcuts="a">
-        <span>&nbsp;Accessibility</span>
+        <span>&nbsp;[i18n] accessibility</span>
         <kbd class="key" aria-hidden="true">a</kbd>
     </summary>
     <!-- a11y console -->
     <fieldset id="a11y" role="region" disabled>
         <!-- brightness & contrast -->
-        <div id="setColorScheme" role="group" aria-label="Color Settings">
+        <div id="setColorScheme" role="group" aria-label="[i18n] colorSettings">
             <!-- darkMode.html -->
     <input
         id="lightSwitch"
         type="checkbox"
         onclick="setColor()"
-        aria-label="Dark Mode"
+        aria-label="[i18n] darkMode"
         >
         <label for="lightSwitch">
-            <div class="has-aria-label off" role="status" aria-label="Light"></div>
-            <div class="has-aria-label on" role="status" aria-label="Dark"></div>
+            <div class="has-aria-label off" role="status" aria-label="[i18n] light"></div>
+            <div class="has-aria-label on" role="status" aria-label="[i18n] dark"></div>
             <div id="lightSwitchIndicator" aria-hidden="true"></div>
         </label>
             <!-- contrast.html -->
     <fieldset id="setContrast">
-        <legend>Contrast</legend>
+        <legend>[i18n] contrast</legend>
         <input
             id="lessContrast"
             type="radio" name="setContrast" value="less"
             onclick="setColor()"
             >
             <label for="lessContrast">
-                <span>Low</span>
+                <span>[i18n] lessContrast</span>
             </label>
         <input
             id="defaultContrast"
@@ -619,7 +619,7 @@
             onclick="setColor()"
             >
             <label for="defaultContrast">
-                <span>Default</span>
+                <span>[i18n] defaultContrast</span>
             </label>
         <input
             id="moreContrast"
@@ -627,24 +627,24 @@
             onclick="setColor()"
             >
             <label for="moreContrast">
-                <span>High</span>
+                <span>[i18n] moreContrast</span>
             </label>
     </fieldset>
         </div>
         <!-- colorPalette.html -->
     <div id="setColorPalette" style="display:none;">
-        <label for="colorPalette">Color Palette</label>
-        <select id="colorPalette" name="colorPalette" oninput="setColorPalette()" aria-label="Color Palette">
-            <option value="defaultColor">Default</option>
-            <option value="deuteranopia">Deuteranopia</option>
-            <option value="protanopia">Protanopia</option>
-            <option value="tritanopia">Tritanopia</option>
-            <option value="monochrome">Monochrome</option>
+        <label for="colorPalette">[i18n] colorPalette</label>
+        <select id="colorPalette" name="colorPalette" oninput="setColorPalette()" aria-label="[i18n] colorPalette">
+            <option value="defaultColor">[i18n] defaultColor</option>
+            <option value="deuteranopia">[i18n] deuteranopia</option>
+            <option value="protanopia">[i18n] protanopia</option>
+            <option value="tritanopia">[i18n] tritanopia</option>
+            <option value="monochrome">[i18n] monochrome</option>
         </select>
     </div>
         <!-- fontsize.html -->
-    <div class="has-aria-label-top" aria-label="Font Size">
-        <label class="range" for="fontSize" aria-label="Font Size">
+    <div class="has-aria-label-top" aria-label="[i18n] fontSize">
+        <label class="range" for="fontSize" aria-label="[i18n] fontSize">
             <input
                 id="fontSize"
                 type="range" min="8" max="12" step="0.5"
@@ -657,7 +657,7 @@
         </label>
     </div>
         <!-- baselineStretch.html -->
-    <div id="setBaselineStretch" class="has-aria-label-top" aria-label="Baseline Stretch">
+    <div id="setBaselineStretch" class="has-aria-label-top" aria-label="[i18n] baselineStretch">
         <label class="range" for="baselineStretch">
             <input
                 id="baselineStretch"
@@ -677,12 +677,12 @@
             id="OpenDyslexic"
             type="checkbox"
             onclick="useOpenDyslexic()"
-            aria-label="Use OpenDyslexic Font"
+            aria-label="[i18n] OpenDyslexic"
             >
             <label
                 class="has-aria-label-top"
                 for="OpenDyslexic"
-                aria-label="Use OpenDyslexic Font"
+                aria-label="[i18n] OpenDyslexic"
                 >
                 <span id="OpenDyslexicState" aria-hidden="true">
                     <span id="OpenDyslexicIndicator"></span>
@@ -694,30 +694,30 @@
         id="a11y-menu"
         class="hide"
         role="toolbar"
-        aria-label="Accessibility Menu Controls"
+        aria-label="[i18n] menuControls"
         >
         <button
             id="saveButton" class="reverse"
             onclick="saveA11y()"
-            disabled>Save
+            disabled>[i18n] save
         </button>
         <button
             id="resetButton" class="has-aria-label"
             onclick="resetA11y()"
-            aria-label="Reset"
+            aria-label="[i18n] reset"
             disabled>
         </button>
         <button
             id="closeButton" class="has-aria-label"
             onclick="closeA11yConsole()"
-            aria-label="Close"
+            aria-label="[i18n] close"
             >
         </button>
     </menu>
         <noscript>
-            <center id="noScript" role="alert">Uh-oh... Javascript is disabled!</center>
+            <center id="noScript" role="alert">[i18n] noScript</center>
         </noscript>
-        <center id="noLocalStorage" class="hide" role="alert">LocalStorage is not available in your browser. Settings won&#39;t be saved.</center>
+        <center id="noLocalStorage" class="hide" role="alert">[i18n] noLocalStorage</center>
     </fieldset>
     <div class="screening js-cpn" role="presentation" aria-hidden="true"></div>
 </details>
@@ -730,7 +730,7 @@
             accesskey="b" type="checkbox"
             onclick="bionRead()"
             aria-keyshortcuts="b"
-            aria-label="BionRead Mode"
+            aria-label="[i18n] bionRead"
             >
             <label id="bionReadButton" for="bionReadSwitch">
                 <span><strong>Bion</strong>Read</span>
@@ -738,8 +738,8 @@
             </label>
     </div>
     <!-- [top] bypass block -->
-    <nav aria-label="Bypass">
-        <a id="to-top" href="#top" title="To Content Top" accesskey="c" aria-keyshortcuts="c" aria-label="To Content Top">
+    <nav aria-label="[i18n] bypass">
+        <a id="to-top" href="#top" title="[i18n] toTop" accesskey="c" aria-keyshortcuts="c" aria-label="[i18n] toTop">
             <kbd class="key" aria-hidden="true">c</kbd>
         </a>
     </nav>

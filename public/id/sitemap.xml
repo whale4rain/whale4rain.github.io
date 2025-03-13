@@ -191,7 +191,7 @@
     <loc>http://localhost:1313/zh/id/series/</loc>
     
     <changefreq>monthly</changefreq>
-    <xhtml:link rel="alternate" hreflang="en-GB" href="http://localhost:1313/zh/en/series/" /><xhtml:link rel="alternate" hreflang="zh-CN" href="http://localhost:1313/zh/zh/series/" />
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="http://localhost:1313/zh/zh/series/" /><xhtml:link rel="alternate" hreflang="en-GB" href="http://localhost:1313/zh/en/series/" />
     <xhtml:link rel="alternate" hreflang="id-ID" href="http://localhost:1313/zh/id/series/" />
   </url>
 </urlset>

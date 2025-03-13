@@ -1,5 +1,5 @@
 ## Base URL for the site
-baseURL = 'https://whale4rain.github.io/zh/'
+baseURL = 'https://whale4rain.github.io/zh'
 ## Site title
 title = 'Whale4Blog'
 ## Use hugo-brewm theme
@@ -9,7 +9,7 @@ enableGitInfo = true
 ## Convert all URLs to absolute URLs
 canonifyURLs = true
 ## Default language for content
-defaultContentLanguage = 'en'
+defaultContentLanguage = 'zh'
 ## Put default language in subdirectory
 defaultContentLanguageInSubdir = true
 ## Show placeholder for missing translations
@@ -135,9 +135,9 @@ copyright = 'Copyright 2025 (c) Foxxi'
     ## Logo configuration
     [params.logo]
         ## Light mode logo mark
-        #logoMark = 'https://example.com/logoMark.svg'
+        # logoMark = '../../static/favicon-32x32.png'
         ## Dark mode logo mark
-        # logoMarkDark = 'https://example.com/logoMarkDark.svg'
+        # logoMarkDark = '../../static/favicon-32x32.png'
         ## Enable logo type
         logoType = true
 

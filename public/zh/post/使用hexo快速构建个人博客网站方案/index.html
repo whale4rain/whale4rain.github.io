@@ -53,9 +53,9 @@
 <header class="pagewidth">
     <div id="background-header" class="background" aria-hidden="true"></div>
     
-    <nav aria-label="Bypass">
-        <a id="to-content" class="underline" href="#content" aria-label="Skip to Main Content">
-            <span>Skip to Main Content</span>
+    <nav aria-label="[i18n] bypass">
+        <a id="to-content" class="underline" href="#content" aria-label="[i18n] toContent">
+            <span>[i18n] toContent</span>
             <kbd class="key" aria-hidden="true">c</kbd>
             <span class="screening" aria-hidden="true"></span>
         </a>
@@ -71,17 +71,17 @@
     
     <details class="presentation" id="top-nav">
         <summary class="on-deck">
-            <span class="t t2">Navigation</span>
+            <span class="t t2">[i18n] nav</span>
             <span class="menu-icon" role="presentation"></span>
         </summary>
-        <nav tabindex="-1" aria-label="Top">
+        <nav tabindex="-1" aria-label="[i18n] top-nav">
             <!-- menu.html -->
 <details id="has-main-menu" class="presentation" open>
-    <summary  class="hide"  aria-label="Main Menu">
-        <span>Main Menu</span>
+    <summary  class="hide"  aria-label="[i18n] main">
+        <span>[i18n] main</span>
     </summary>
         
-        <nav id="main-menu" aria-label="Main Menu">
+        <nav id="main-menu" aria-label="[i18n] main">
             <ul class="l1 " role="presentation" tabindex="-1" >
                 
     
@@ -118,7 +118,7 @@
     </a>
         </li>
                 <li class="parent-anchor">
-                    <a href=http://localhost:1313/zh/series/ aria-label="See all:Series">
+                    <a href=http://localhost:1313/zh/series/ aria-label="[i18n] seeAll:Series">
                         
                         <span aria-hidden="true"> Series</span>
                     </a>
@@ -161,7 +161,7 @@
     </a>
         </li>
                 <li class="parent-anchor">
-                    <a href=http://localhost:1313/zh/ aria-label="See all:Works">
+                    <a href=http://localhost:1313/zh/ aria-label="[i18n] seeAll:Works">
                         
                         <span aria-hidden="true"> Works</span>
                     </a>
@@ -175,7 +175,7 @@
             <!-- search.html -->
 <details id="has-search" class="presentation js-details" name="on-deck">
     <summary class="on-deck" accesskey="q" aria-keyshortcuts="q">
-        <span class="t t2">Search</span>
+        <span class="t t2">[i18n] search</span>
     </summary>
     
         <!-- pagefind.html -->
@@ -191,7 +191,7 @@
                     element: "#search",
                     showImages: false,
                     translations: {
-                        placeholder: "Search"
+                        placeholder: "[i18n] search"
                     }
                 });
                 pageFindInitialized = true;
@@ -210,8 +210,8 @@
         <input type="hidden" value="1" name="kh"></input>
         <input type="hidden" value="1" name="kn"></input>
         <input type="hidden" value="1" name="kac"></input>
-        <input class="ldots form__input" type="search" placeholder="Search" name="q"></input>
-        <button class="form__button" type="submit" aria-label="Search">
+        <input class="ldots form__input" type="search" placeholder="[i18n] search" name="q"></input>
+        <button class="form__button" type="submit" aria-label="[i18n] search">
             <img src="https://duckduckgo.com/assets/logo_header.v109.svg" alt="" role="presentation" aria-hidden="true">
         </button>
     </form>
@@ -221,12 +221,12 @@
 </details>
             <!-- menu.html -->
 <details id="has-more-menu" class="presentation js-details" name="on-deck" >
-    <summary  accesskey="=" class="on-deck"  aria-label="More Menu">
-        <span class="t t2">More Menu</span>
+    <summary  accesskey="=" class="on-deck"  aria-label="[i18n] more">
+        <span class="t t2">[i18n] more</span>
             <span class="menu-icon" role="presentation"></span>
     </summary>
         <!-- on hull -->
-        <nav id="more-menu" aria-label="More Menu">
+        <nav id="more-menu" aria-label="[i18n] more">
             <ul class="l1  on-plank " role="presentation" tabindex="-1" >
                 
     
@@ -253,7 +253,7 @@
     </a>
         </li>
                 <li class="parent-anchor">
-                    <a href=http://localhost:1313/zh/ aria-label="See all:About">
+                    <a href=http://localhost:1313/zh/ aria-label="[i18n] seeAll:About">
                         
                         <span aria-hidden="true"> About</span>
                     </a>
@@ -274,7 +274,7 @@
             <!-- i18n.html -->
 
         <details id="has-i18n" class="presentation js-details" name="on-deck">
-            <summary class="anchor on-deck" aria-label="Language Selections">
+            <summary class="anchor on-deck" aria-label="[i18n] selectLang">
             
                 <img
                     src="https://raw.githubusercontent.com/lipis/flag-icons/c95b262e5ee2366cad4c5aecc4a5ad86220c9ab9/flags/4x3/cn.svg" alt=""
@@ -287,7 +287,7 @@
             </summary>
 
             <!-- on hull -->
-            <nav id="i18n-menu" aria-label="Language Selections">
+            <nav id="i18n-menu" aria-label="[i18n] selectLang">
                 <ul class="on-plank">
                     <li>
                         <a href="http://localhost:1313/zh/id/" aria-label="Change language to Bahasa Indonesia">
@@ -329,31 +329,31 @@
             <!-- menu.html -->
     <menu role="presentation">
         <li>
-            <a id="print-button" class="hide" href="javascript:window.print()" title="Print" role="button" aria-label="Print">
-                <span class="t" role="tooltip">Print</span>
+            <a id="print-button" class="hide" href="javascript:window.print()" title="[i18n] print" role="button" aria-label="[i18n] print">
+                <span class="t" role="tooltip">[i18n] print</span>
             </a>
         </li>
         <li>
-            <a id="navigatorShare" href="#share" title="Share" role="button" aria-label="Share">
-                <span class="t" role="tooltip">Share</span>
+            <a id="navigatorShare" href="#share" title="[i18n] share" role="button" aria-label="[i18n] share">
+                <span class="t" role="tooltip">[i18n] share</span>
             </a>
         </li>
         <li>
-            <a id="copyPermalink"  href="javascript:navigator.clipboard.writeText(window.location.href)" title="Copy URL" role="button" aria-label="Copy URL">
-                <span id="copy" class="t" role="tooltip">Copy URL</span>
-                <span id="isCopying" style="display: none;">Copying...</span>
-                <span id="copyText" style="display: none;">Copy URL</span>
+            <a id="copyPermalink"  href="javascript:navigator.clipboard.writeText(window.location.href)" title="[i18n] copy" role="button" aria-label="[i18n] copy">
+                <span id="copy" class="t" role="tooltip">[i18n] copy</span>
+                <span id="isCopying" style="display: none;">[i18n] copying</span>
+                <span id="copyText" style="display: none;">[i18n] copy</span>
             </a>
         </li>
     </menu>
-    <button id="back" class="hide" type="button" onclick="history.back();" aria-label="Go Back">
-        <span class="t" role="tooltip">Go Back</span>
+    <button id="back" class="hide" type="button" onclick="history.back();" aria-label="[i18n] back">
+        <span class="t" role="tooltip">[i18n] back</span>
     </button>
             
                 <!-- nav.html -->
 <details class="presentation" aria-expanded="true" id="has-breadcrumb" open>
     <summary id="breadcrumb" tabindex="-1">
-        <span>Breadcrumb</span>
+        <span>[i18n] breadcrumb</span>
     </summary>
         <nav aria-labelledby="breadcrumb">
             <ul role="presentation" class="breadcrumb">
@@ -393,7 +393,7 @@
             </div>
             <!-- timestamp.html-->
     <div >
-        <time class="doc-publish-date" datetime="2025-03-13T19:34:07&#43;08:00" data-time-label="Published on">2025年3月13日</time>
+        <time class="doc-publish-date" datetime="2025-03-13T19:34:07&#43;08:00" data-time-label="[i18n] published [i18n] on">2025年3月13日</time>
     </div>
         </header>
         <!-- audio.html -->
@@ -567,8 +567,8 @@ save后一段时间后完成网站部署的全部步骤</p>
         </section>
         <footer>
             
-    <nav id="keywords" aria-label="Tags">
-        <span>Tags:&nbsp;</span>
+    <nav id="keywords" aria-label="[i18n] tags">
+        <span>[i18n] tags:&nbsp;</span>
         
         <!-- terms.html -->
     <ul class="delimiter" role="presentation">
@@ -582,21 +582,21 @@ save后一段时间后完成网站部署的全部步骤</p>
     <hr class="hide" style="margin: 1in 0;">
     <div id="contentinfo" class="pagewidth" role="contentinfo" data-pagefind-ignore="all">
             <!-- related.html -->
-    <nav id="related" aria-label="You might also like">
-        <strong class="section-title">You might also like</strong><ol>
+    <nav id="related" aria-label="[i18n] related">
+        <strong class="section-title">[i18n] related</strong><ol>
                     <li><a href="http://localhost:1313/zh/post/lazyvim%E9%85%8D%E7%BD%AE%E7%BB%8F%E9%AA%8C/">Lazyvim配置经验</a></li>
                 </ol>
     </nav>
             <!-- history.html -->
             <!-- colophon.html -->
     <div id="colophon" style="display: none;" aria-live="polite">
-        <strong class="section-title">Colophon</strong>
+        <strong class="section-title">[i18n] colophon</strong>
         <div class="f">
             <div id="qr" role="img" aria-label="QR code"></div>
             <div class="verbose">
                 <div class="has-aria-label-top" aria-label="使用hexo快速构建个人博客网站方案"><span>http://localhost:1313/zh/zh/post/%E4%BD%BF%E7%94%A8hexo%E5%BF%AB%E9%80%9F%E6%9E%84%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2%E7%BD%91%E7%AB%99%E6%96%B9%E6%A1%88/</span></div>
-                <div><span>This page is accessed on: </span><time id="time-stamp"></time></div>
-                <div><span>This page is built on: </span><time datetime="2025-03-14T00:07:38&#43;08:00">2025-03-14T00:07:38&#43;08:00</time></div>
+                <div><span>[i18n] accessTime: </span><time id="time-stamp"></time></div>
+                <div><span>[i18n] buildTime: </span><time datetime="2025-03-14T00:23:01&#43;08:00">2025-03-14T00:23:01&#43;08:00</time></div>
                 
             </div>
         </div>
@@ -605,7 +605,7 @@ save后一段时间后完成网站部署的全部步骤</p>
             <!-- nav.html -->
 <details class="presentation" aria-expanded="true" id="has-share" open>
     <summary id="share" tabindex="-1">
-        <span>Share</span>
+        <span>[i18n] share</span>
     </summary>
         <nav aria-labelledby="share">
             <ul role="presentation" class="share">
@@ -617,99 +617,99 @@ save后一段时间后完成网站部署的全部步骤</p>
         <input id="mastodonPermalink" type="hidden" name="url" value="http://localhost:1313/zh/zh/post/%E4%BD%BF%E7%94%A8hexo%E5%BF%AB%E9%80%9F%E6%9E%84%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2%E7%BD%91%E7%AB%99%E6%96%B9%E6%A1%88/">
         <input id="mastodonText" type="hidden" name="text" value="使用hexo快速构建个人博客网站方案 http://localhost:1313/zh/zh/post/%E4%BD%BF%E7%94%A8hexo%E5%BF%AB%E9%80%9F%E6%9E%84%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2%E7%BD%91%E7%AB%99%E6%96%B9%E6%A1%88/" disabled>
         <input id="mastodonInstance" type="url" class="ldots form__input" placeholder="Enter Mastodon instance (https://www.example.com)" aria-label="Mastodon instance URL">
-        <button class="form__button" type="submit" aria-label="Share on Mastodon">
+        <button class="form__button" type="submit" aria-label="[i18n] shareOn Mastodon">
             <i class="icon mastodon" aria-hidden="true"></i>
-            <span class="t" role="tooltip">Share on Mastodon</span>
+            <span class="t" role="tooltip">[i18n] shareOn Mastodon</span>
         </button>
     </form>
     </li>
     <li>
-        <a href="mailto:?subject=%e4%bd%bf%e7%94%a8hexo%e5%bf%ab%e9%80%9f%e6%9e%84%e5%bb%ba%e4%b8%aa%e4%ba%ba%e5%8d%9a%e5%ae%a2%e7%bd%91%e7%ab%99%e6%96%b9%e6%a1%88&body=http%3a%2f%2flocalhost%3a1313%2fzh%2fzh%2fpost%2f%25E4%25BD%25BF%25E7%2594%25A8hexo%25E5%25BF%25AB%25E9%2580%259F%25E6%259E%2584%25E5%25BB%25BA%25E4%25B8%25AA%25E4%25BA%25BA%25E5%258D%259A%25E5%25AE%25A2%25E7%25BD%2591%25E7%25AB%2599%25E6%2596%25B9%25E6%25A1%2588%2f" role="button" aria-label="Share on Email">
+        <a href="mailto:?subject=%e4%bd%bf%e7%94%a8hexo%e5%bf%ab%e9%80%9f%e6%9e%84%e5%bb%ba%e4%b8%aa%e4%ba%ba%e5%8d%9a%e5%ae%a2%e7%bd%91%e7%ab%99%e6%96%b9%e6%a1%88&body=http%3a%2f%2flocalhost%3a1313%2fzh%2fzh%2fpost%2f%25E4%25BD%25BF%25E7%2594%25A8hexo%25E5%25BF%25AB%25E9%2580%259F%25E6%259E%2584%25E5%25BB%25BA%25E4%25B8%25AA%25E4%25BA%25BA%25E5%258D%259A%25E5%25AE%25A2%25E7%25BD%2591%25E7%25AB%2599%25E6%2596%25B9%25E6%25A1%2588%2f" role="button" aria-label="[i18n] shareOn [i18n] email">
             <i class="email" aria-hidden="true"></i>
-            <span class="t" role="tooltip">Share on Email</span>
+            <span class="t" role="tooltip">[i18n] shareOn [i18n] email</span>
         </a>
     </li>
     <li>
-        <a href="whatsapp://send?text=%e4%bd%bf%e7%94%a8hexo%e5%bf%ab%e9%80%9f%e6%9e%84%e5%bb%ba%e4%b8%aa%e4%ba%ba%e5%8d%9a%e5%ae%a2%e7%bd%91%e7%ab%99%e6%96%b9%e6%a1%88%20http%3a%2f%2flocalhost%3a1313%2fzh%2fzh%2fpost%2f%25E4%25BD%25BF%25E7%2594%25A8hexo%25E5%25BF%25AB%25E9%2580%259F%25E6%259E%2584%25E5%25BB%25BA%25E4%25B8%25AA%25E4%25BA%25BA%25E5%258D%259A%25E5%25AE%25A2%25E7%25BD%2591%25E7%25AB%2599%25E6%2596%25B9%25E6%25A1%2588%2f" role="button" aria-label="Share on Whatsapp">
+        <a href="whatsapp://send?text=%e4%bd%bf%e7%94%a8hexo%e5%bf%ab%e9%80%9f%e6%9e%84%e5%bb%ba%e4%b8%aa%e4%ba%ba%e5%8d%9a%e5%ae%a2%e7%bd%91%e7%ab%99%e6%96%b9%e6%a1%88%20http%3a%2f%2flocalhost%3a1313%2fzh%2fzh%2fpost%2f%25E4%25BD%25BF%25E7%2594%25A8hexo%25E5%25BF%25AB%25E9%2580%259F%25E6%259E%2584%25E5%25BB%25BA%25E4%25B8%25AA%25E4%25BA%25BA%25E5%258D%259A%25E5%25AE%25A2%25E7%25BD%2591%25E7%25AB%2599%25E6%2596%25B9%25E6%25A1%2588%2f" role="button" aria-label="[i18n] shareOn Whatsapp">
             <i class="whatsapp" aria-hidden="true"></i>
-            <span class="t" role="tooltip">Share on Whatsapp</span>
+            <span class="t" role="tooltip">[i18n] shareOn Whatsapp</span>
         </a>
     </li>
     <li>
         <a rel="noopener noreferrer" target="_blank" href="https://telegram.me/share/url?text=%e4%bd%bf%e7%94%a8hexo%e5%bf%ab%e9%80%9f%e6%9e%84%e5%bb%ba%e4%b8%aa%e4%ba%ba%e5%8d%9a%e5%ae%a2%e7%bd%91%e7%ab%99%e6%96%b9%e6%a1%88&amp;url=http://localhost:1313/zh/zh/post/%E4%BD%BF%E7%94%A8hexo%E5%BF%AB%E9%80%9F%E6%9E%84%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2%E7%BD%91%E7%AB%99%E6%96%B9%E6%A1%88/" role="button"
-            aria-label="Share on Telegram in new tab">
+            aria-label="[i18n] shareOn Telegram [i18n] inNewTab">
             <i class="telegram" aria-hidden="true"></i>
-            <span class="t" role="tooltip">Share on Telegram</span>
+            <span class="t" role="tooltip">[i18n] shareOn Telegram</span>
         </a>
     </li>
     <li>
         <a rel="noopener noreferrer" target="_blank" href="https://bsky.app/intent/compose?text=%e4%bd%bf%e7%94%a8hexo%e5%bf%ab%e9%80%9f%e6%9e%84%e5%bb%ba%e4%b8%aa%e4%ba%ba%e5%8d%9a%e5%ae%a2%e7%bd%91%e7%ab%99%e6%96%b9%e6%a1%88&amp;url=http://localhost:1313/zh/zh/post/%E4%BD%BF%E7%94%A8hexo%E5%BF%AB%E9%80%9F%E6%9E%84%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2%E7%BD%91%E7%AB%99%E6%96%B9%E6%A1%88/" role="button"
-            aria-label="Share on Bluesky in new tab">
+            aria-label="[i18n] shareOn Bluesky [i18n] inNewTab">
             <i class="bluesky" aria-hidden="true"></i>
-            <span class="t" role="tooltip">Share on Bluesky</span>
+            <span class="t" role="tooltip">[i18n] shareOn Bluesky</span>
         </a>
     </li>
     <li>
         <a rel="noopener noreferrer" target="_blank" href="https://facebook.com/sharer/sharer.php?u=http://localhost:1313/zh/zh/post/%E4%BD%BF%E7%94%A8hexo%E5%BF%AB%E9%80%9F%E6%9E%84%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2%E7%BD%91%E7%AB%99%E6%96%B9%E6%A1%88/" role="button"
-            aria-label="Share on Facebook in new tab">
+            aria-label="[i18n] shareOn Facebook [i18n] inNewTab">
             <i class="facebook" aria-hidden="true"></i>
-            <span class="t" role="tooltip">Share on Facebook</span>
+            <span class="t" role="tooltip">[i18n] shareOn Facebook</span>
         </a>
     </li>
     <li>
         <a rel="noopener noreferrer" target="_blank" href="https://news.ycombinator.com/submitlink?u=http://localhost:1313/zh/zh/post/%E4%BD%BF%E7%94%A8hexo%E5%BF%AB%E9%80%9F%E6%9E%84%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2%E7%BD%91%E7%AB%99%E6%96%B9%E6%A1%88/&amp;t=%e4%bd%bf%e7%94%a8hexo%e5%bf%ab%e9%80%9f%e6%9e%84%e5%bb%ba%e4%b8%aa%e4%ba%ba%e5%8d%9a%e5%ae%a2%e7%bd%91%e7%ab%99%e6%96%b9%e6%a1%88" role="button"
-            aria-label="Share on Hackernews in new tab">
+            aria-label="[i18n] shareOn Hackernews [i18n] inNewTab">
             <i class="hackernews" aria-hidden="true"></i>
-            <span class="t" role="tooltip">Share on Hackernews</span>
+            <span class="t" role="tooltip">[i18n] shareOn Hackernews</span>
         </a>
     </li>
     <li>
         <a rel="noopener noreferrer" target="_blank" href="https://www.linkedin.com/shareArticle?mini=true&amp;url=http://localhost:1313/zh/zh/post/%E4%BD%BF%E7%94%A8hexo%E5%BF%AB%E9%80%9F%E6%9E%84%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2%E7%BD%91%E7%AB%99%E6%96%B9%E6%A1%88/&amp;title=%e4%bd%bf%e7%94%a8hexo%e5%bf%ab%e9%80%9f%e6%9e%84%e5%bb%ba%e4%b8%aa%e4%ba%ba%e5%8d%9a%e5%ae%a2%e7%bd%91%e7%ab%99%e6%96%b9%e6%a1%88&amp;summary=%e4%bd%bf%e7%94%a8hexo%e5%bf%ab%e9%80%9f%e6%9e%84%e5%bb%ba%e4%b8%aa%e4%ba%ba%e5%8d%9a%e5%ae%a2%e7%bd%91%e7%ab%99%e6%96%b9%e6%a1%88&amp;source=http://localhost:1313/zh/zh/post/%E4%BD%BF%E7%94%A8hexo%E5%BF%AB%E9%80%9F%E6%9E%84%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2%E7%BD%91%E7%AB%99%E6%96%B9%E6%A1%88/" role="button"
-            aria-label="Share on Linkedin in new tab">
+            aria-label="[i18n] shareOn Linkedin [i18n] inNewTab">
             <i class="linkedin" aria-hidden="true"></i>
-            <span class="t" role="tooltip">Share on Linkedin</span>
+            <span class="t" role="tooltip">[i18n] shareOn Linkedin</span>
         </a>
     </li>
     <li>
         <a rel="noopener noreferrer" target="_blank" href="https://pinterest.com/pin/create/button/?url=http://localhost:1313/zh/zh/post/%E4%BD%BF%E7%94%A8hexo%E5%BF%AB%E9%80%9F%E6%9E%84%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2%E7%BD%91%E7%AB%99%E6%96%B9%E6%A1%88/&amp;media=http://localhost:1313/zh/zh/post/%E4%BD%BF%E7%94%A8hexo%E5%BF%AB%E9%80%9F%E6%9E%84%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2%E7%BD%91%E7%AB%99%E6%96%B9%E6%A1%88/&amp;description=%e4%bd%bf%e7%94%a8hexo%e5%bf%ab%e9%80%9f%e6%9e%84%e5%bb%ba%e4%b8%aa%e4%ba%ba%e5%8d%9a%e5%ae%a2%e7%bd%91%e7%ab%99%e6%96%b9%e6%a1%88" role="button"
-            aria-label="Share on Pinterest in new tab">
+            aria-label="[i18n] shareOn Pinterest [i18n] inNewTab">
             <i class="pinterest" aria-hidden="true"></i>
-            <span class="t" role="tooltip">Share on Pinterest</span>
+            <span class="t" role="tooltip">[i18n] shareOn Pinterest</span>
         </a>
     </li>
     <li>
         <a rel="noopener noreferrer" target="_blank" href="https://reddit.com/submit/?url=http://localhost:1313/zh/zh/post/%E4%BD%BF%E7%94%A8hexo%E5%BF%AB%E9%80%9F%E6%9E%84%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2%E7%BD%91%E7%AB%99%E6%96%B9%E6%A1%88/&amp;resubmit=true&amp;title=%e4%bd%bf%e7%94%a8hexo%e5%bf%ab%e9%80%9f%e6%9e%84%e5%bb%ba%e4%b8%aa%e4%ba%ba%e5%8d%9a%e5%ae%a2%e7%bd%91%e7%ab%99%e6%96%b9%e6%a1%88" role="button"
-            aria-label="Share on Reddit in new tab">
+            aria-label="[i18n] shareOn Reddit [i18n] inNewTab">
             <i class="reddit" aria-hidden="true"></i>
-            <span class="t" role="tooltip">Share on Reddit</span>
+            <span class="t" role="tooltip">[i18n] shareOn Reddit</span>
         </a>
     </li>
     <li>
         <a rel="noopener noreferrer" target="_blank" href="https://www.tumblr.com/widgets/share/tool?posttype=link&amp;title=%e4%bd%bf%e7%94%a8hexo%e5%bf%ab%e9%80%9f%e6%9e%84%e5%bb%ba%e4%b8%aa%e4%ba%ba%e5%8d%9a%e5%ae%a2%e7%bd%91%e7%ab%99%e6%96%b9%e6%a1%88&amp;caption=%e4%bd%bf%e7%94%a8hexo%e5%bf%ab%e9%80%9f%e6%9e%84%e5%bb%ba%e4%b8%aa%e4%ba%ba%e5%8d%9a%e5%ae%a2%e7%bd%91%e7%ab%99%e6%96%b9%e6%a1%88&amp;content=http://localhost:1313/zh/zh/post/%E4%BD%BF%E7%94%A8hexo%E5%BF%AB%E9%80%9F%E6%9E%84%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2%E7%BD%91%E7%AB%99%E6%96%B9%E6%A1%88/&amp;canonicalUrl=http://localhost:1313/zh/zh/post/%E4%BD%BF%E7%94%A8hexo%E5%BF%AB%E9%80%9F%E6%9E%84%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2%E7%BD%91%E7%AB%99%E6%96%B9%E6%A1%88/" role="button"
-            aria-label="Share on Tumblr in new tab">
+            aria-label="[i18n] shareOn Tumblr [i18n] inNewTab">
             <i class="tumblr" aria-hidden="true"></i>
-            <span class="t" role="tooltip">Share on Tumblr</span>
+            <span class="t" role="tooltip">[i18n] shareOn Tumblr</span>
         </a>
     </li>
     <li>
         <a rel="noopener noreferrer" target="_blank" href="http://vk.com/share.php?title=%e4%bd%bf%e7%94%a8hexo%e5%bf%ab%e9%80%9f%e6%9e%84%e5%bb%ba%e4%b8%aa%e4%ba%ba%e5%8d%9a%e5%ae%a2%e7%bd%91%e7%ab%99%e6%96%b9%e6%a1%88&amp;url=http://localhost:1313/zh/zh/post/%E4%BD%BF%E7%94%A8hexo%E5%BF%AB%E9%80%9F%E6%9E%84%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2%E7%BD%91%E7%AB%99%E6%96%B9%E6%A1%88/" role="button"
-            aria-label="Share on Vk in new tab">
+            aria-label="[i18n] shareOn Vk [i18n] inNewTab">
             <i class="vk" aria-hidden="true"></i>
-            <span class="t" role="tooltip">Share on Vk</span>
+            <span class="t" role="tooltip">[i18n] shareOn Vk</span>
         </a>
     </li>
     <li>
         <a rel="noopener noreferrer" target="_blank" href="https://twitter.com/intent/tweet/?text=%e4%bd%bf%e7%94%a8hexo%e5%bf%ab%e9%80%9f%e6%9e%84%e5%bb%ba%e4%b8%aa%e4%ba%ba%e5%8d%9a%e5%ae%a2%e7%bd%91%e7%ab%99%e6%96%b9%e6%a1%88&amp;url=http://localhost:1313/zh/zh/post/%E4%BD%BF%E7%94%A8hexo%E5%BF%AB%E9%80%9F%E6%9E%84%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2%E7%BD%91%E7%AB%99%E6%96%B9%E6%A1%88/" role="button"
-            aria-label="Share on Twitter in new tab">
+            aria-label="[i18n] shareOn Twitter [i18n] inNewTab">
             <i class="twitter" aria-hidden="true"></i>
-            <span class="t" role="tooltip">Share on Twitter</span>
+            <span class="t" role="tooltip">[i18n] shareOn Twitter</span>
         </a>
     </li>
     <li>
         <a rel="noopener noreferrer" target="_blank" href="https://www.xing.com/app/user?op=share;url=http://localhost:1313/zh/zh/post/%E4%BD%BF%E7%94%A8hexo%E5%BF%AB%E9%80%9F%E6%9E%84%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2%E7%BD%91%E7%AB%99%E6%96%B9%E6%A1%88/;title=%e4%bd%bf%e7%94%a8hexo%e5%bf%ab%e9%80%9f%e6%9e%84%e5%bb%ba%e4%b8%aa%e4%ba%ba%e5%8d%9a%e5%ae%a2%e7%bd%91%e7%ab%99%e6%96%b9%e6%a1%88" role="button"
-            aria-label="Share on Xing in new tab">
+            aria-label="[i18n] shareOn Xing [i18n] inNewTab">
             <i class="xing" aria-hidden="true"></i>
-            <span class="t" role="tooltip">Share on Xing</span>
+            <span class="t" role="tooltip">[i18n] shareOn Xing</span>
         </a>
     </li>
             </ul>
@@ -732,11 +732,11 @@ save后一段时间后完成网站部署的全部步骤</p>
                     </div>
                 <div id="main-footer-secondary" class="column" style="--col: 15rem">
                         <div id="coffee-counter">
-                            <strong class="section-title">Coffee Stat</strong>
-                            <p>Making this website has taken at least 7 cups of coffee, if not more.</p>
+                            <strong class="section-title">[i18n] coffeeStat</strong>
+                            <p>[i18n] coffeeCount7 [i18n] cup[i18n] coffeeCountPost</p>
                         </div>                    
                     <!-- menu.html -->
-    <nav id="menu-footer" class="has-aria-label-top" aria-label="Let&#39;s keep in touch!">
+    <nav id="menu-footer" class="has-aria-label-top" aria-label="[i18n] keepInTouch">
         <ul role="presentation">
             <li><a href="http://localhost:1313/zh/" aria-label="figma">        
                     <i class="icon figma" aria-hidden="true"></i>
@@ -779,43 +779,43 @@ save后一段时间后完成网站部署的全部步骤</p>
             accesskey="d" type="checkbox"
             onclick="focusMode()"
             aria-keyshortcuts="d"
-            aria-label="Focus Mode"
+            aria-label="[i18n] focusMode"
             >
-            <label id="focusModeButton" for="defocusAuxElement" aria-label="Focus Mode">
-                ⦿ <span class="t" role="tooltip">Focus Mode</span>
+            <label id="focusModeButton" for="defocusAuxElement" aria-label="[i18n] focusMode">
+                ⦿ <span class="t" role="tooltip">[i18n] focusMode</span>
             </label>
     </div>
     <!-- a11y.html --><details id="has-a11y" class="presentation js-details" name="on-deck" aria-haspopup="true" aria-labelledby="has-a11y-summary">
     <summary id="has-a11y-summary" accesskey="a" aria-keyshortcuts="a">
-        <span>&nbsp;Accessibility</span>
+        <span>&nbsp;[i18n] accessibility</span>
         <kbd class="key" aria-hidden="true">a</kbd>
     </summary>
     <!-- a11y console -->
     <fieldset id="a11y" role="region" disabled>
         <!-- brightness & contrast -->
-        <div id="setColorScheme" role="group" aria-label="Color Settings">
+        <div id="setColorScheme" role="group" aria-label="[i18n] colorSettings">
             <!-- darkMode.html -->
     <input
         id="lightSwitch"
         type="checkbox"
         onclick="setColor()"
-        aria-label="Dark Mode"
+        aria-label="[i18n] darkMode"
         >
         <label for="lightSwitch">
-            <div class="has-aria-label off" role="status" aria-label="Light"></div>
-            <div class="has-aria-label on" role="status" aria-label="Dark"></div>
+            <div class="has-aria-label off" role="status" aria-label="[i18n] light"></div>
+            <div class="has-aria-label on" role="status" aria-label="[i18n] dark"></div>
             <div id="lightSwitchIndicator" aria-hidden="true"></div>
         </label>
             <!-- contrast.html -->
     <fieldset id="setContrast">
-        <legend>Contrast</legend>
+        <legend>[i18n] contrast</legend>
         <input
             id="lessContrast"
             type="radio" name="setContrast" value="less"
             onclick="setColor()"
             >
             <label for="lessContrast">
-                <span>Low</span>
+                <span>[i18n] lessContrast</span>
             </label>
         <input
             id="defaultContrast"
@@ -823,7 +823,7 @@ save后一段时间后完成网站部署的全部步骤</p>
             onclick="setColor()"
             >
             <label for="defaultContrast">
-                <span>Default</span>
+                <span>[i18n] defaultContrast</span>
             </label>
         <input
             id="moreContrast"
@@ -831,24 +831,24 @@ save后一段时间后完成网站部署的全部步骤</p>
             onclick="setColor()"
             >
             <label for="moreContrast">
-                <span>High</span>
+                <span>[i18n] moreContrast</span>
             </label>
     </fieldset>
         </div>
         <!-- colorPalette.html -->
     <div id="setColorPalette" style="display:none;">
-        <label for="colorPalette">Color Palette</label>
-        <select id="colorPalette" name="colorPalette" oninput="setColorPalette()" aria-label="Color Palette">
-            <option value="defaultColor">Default</option>
-            <option value="deuteranopia">Deuteranopia</option>
-            <option value="protanopia">Protanopia</option>
-            <option value="tritanopia">Tritanopia</option>
-            <option value="monochrome">Monochrome</option>
+        <label for="colorPalette">[i18n] colorPalette</label>
+        <select id="colorPalette" name="colorPalette" oninput="setColorPalette()" aria-label="[i18n] colorPalette">
+            <option value="defaultColor">[i18n] defaultColor</option>
+            <option value="deuteranopia">[i18n] deuteranopia</option>
+            <option value="protanopia">[i18n] protanopia</option>
+            <option value="tritanopia">[i18n] tritanopia</option>
+            <option value="monochrome">[i18n] monochrome</option>
         </select>
     </div>
         <!-- fontsize.html -->
-    <div class="has-aria-label-top" aria-label="Font Size">
-        <label class="range" for="fontSize" aria-label="Font Size">
+    <div class="has-aria-label-top" aria-label="[i18n] fontSize">
+        <label class="range" for="fontSize" aria-label="[i18n] fontSize">
             <input
                 id="fontSize"
                 type="range" min="8" max="12" step="0.5"
@@ -861,7 +861,7 @@ save后一段时间后完成网站部署的全部步骤</p>
         </label>
     </div>
         <!-- baselineStretch.html -->
-    <div id="setBaselineStretch" class="has-aria-label-top" aria-label="Baseline Stretch">
+    <div id="setBaselineStretch" class="has-aria-label-top" aria-label="[i18n] baselineStretch">
         <label class="range" for="baselineStretch">
             <input
                 id="baselineStretch"
@@ -881,12 +881,12 @@ save后一段时间后完成网站部署的全部步骤</p>
             id="OpenDyslexic"
             type="checkbox"
             onclick="useOpenDyslexic()"
-            aria-label="Use OpenDyslexic Font"
+            aria-label="[i18n] OpenDyslexic"
             >
             <label
                 class="has-aria-label-top"
                 for="OpenDyslexic"
-                aria-label="Use OpenDyslexic Font"
+                aria-label="[i18n] OpenDyslexic"
                 >
                 <span id="OpenDyslexicState" aria-hidden="true">
                     <span id="OpenDyslexicIndicator"></span>
@@ -898,30 +898,30 @@ save后一段时间后完成网站部署的全部步骤</p>
         id="a11y-menu"
         class="hide"
         role="toolbar"
-        aria-label="Accessibility Menu Controls"
+        aria-label="[i18n] menuControls"
         >
         <button
             id="saveButton" class="reverse"
             onclick="saveA11y()"
-            disabled>Save
+            disabled>[i18n] save
         </button>
         <button
             id="resetButton" class="has-aria-label"
             onclick="resetA11y()"
-            aria-label="Reset"
+            aria-label="[i18n] reset"
             disabled>
         </button>
         <button
             id="closeButton" class="has-aria-label"
             onclick="closeA11yConsole()"
-            aria-label="Close"
+            aria-label="[i18n] close"
             >
         </button>
     </menu>
         <noscript>
-            <center id="noScript" role="alert">Uh-oh... Javascript is disabled!</center>
+            <center id="noScript" role="alert">[i18n] noScript</center>
         </noscript>
-        <center id="noLocalStorage" class="hide" role="alert">LocalStorage is not available in your browser. Settings won&#39;t be saved.</center>
+        <center id="noLocalStorage" class="hide" role="alert">[i18n] noLocalStorage</center>
     </fieldset>
     <div class="screening js-cpn" role="presentation" aria-hidden="true"></div>
 </details>
@@ -934,7 +934,7 @@ save后一段时间后完成网站部署的全部步骤</p>
             accesskey="b" type="checkbox"
             onclick="bionRead()"
             aria-keyshortcuts="b"
-            aria-label="BionRead Mode"
+            aria-label="[i18n] bionRead"
             >
             <label id="bionReadButton" for="bionReadSwitch">
                 <span><strong>Bion</strong>Read</span>
@@ -942,8 +942,8 @@ save后一段时间后完成网站部署的全部步骤</p>
             </label>
     </div>
     <!-- [top] bypass block -->
-    <nav aria-label="Bypass">
-        <a id="to-top" href="#top" title="To Content Top" accesskey="c" aria-keyshortcuts="c" aria-label="To Content Top">
+    <nav aria-label="[i18n] bypass">
+        <a id="to-top" href="#top" title="[i18n] toTop" accesskey="c" aria-keyshortcuts="c" aria-label="[i18n] toTop">
             <kbd class="key" aria-hidden="true">c</kbd>
         </a>
     </nav>
