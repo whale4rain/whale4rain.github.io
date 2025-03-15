@@ -7,9 +7,9 @@ date = '2025-03-13T19:26:36+08:00'
 type = "post"
 draft = false
 translationKey = ""
-tags = ["nvim","tools","old"]
-categories = ["tools build"]
-image = ""
+tags = ["nvim","tools","configuration","lazyvim"]
+categories = ["how-to","configuration"]
+image = "https://user-images.githubusercontent.com/292349/213447056-92290767-ea16-430c-8727-ce994c93e9cc.png"
 +++
 # 前言
 

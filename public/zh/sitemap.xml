@@ -3,48 +3,82 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>http://localhost:1313/zh/author/</loc>
-    <lastmod>2025-03-13T20:21:00+08:00</lastmod>
+    <lastmod>2025-03-14T18:20:58+08:00</lastmod>
     <changefreq>monthly</changefreq>
     <xhtml:link rel="alternate" hreflang="en-GB" href="http://localhost:1313/en/author/" /><xhtml:link rel="alternate" hreflang="id-ID" href="http://localhost:1313/id/author/" />
     <xhtml:link rel="alternate" hreflang="zh-CN" href="http://localhost:1313/zh/author/" />
   </url>
   <url>
     <loc>http://localhost:1313/zh/categories/</loc>
-    <lastmod>2025-03-13T20:21:00+08:00</lastmod>
+    <lastmod>2025-03-14T18:20:58+08:00</lastmod>
     <changefreq>monthly</changefreq>
     <xhtml:link rel="alternate" hreflang="en-GB" href="http://localhost:1313/en/categories/" /><xhtml:link rel="alternate" hreflang="id-ID" href="http://localhost:1313/id/categories/" />
     <xhtml:link rel="alternate" hreflang="zh-CN" href="http://localhost:1313/zh/categories/" />
   </url>
   <url>
-    <loc>http://localhost:1313/zh/tags/easy/</loc>
-    <lastmod>2025-03-13T19:34:07+08:00</lastmod>
+    <loc>http://localhost:1313/zh/categories/configuration/</loc>
+    <lastmod>2025-03-14T18:20:58+08:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <xhtml:link rel="alternate" hreflang="en-GB" href="http://localhost:1313/en/categories/configuration/" /><xhtml:link rel="alternate" hreflang="id-ID" href="http://localhost:1313/id/categories/configuration/" />
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="http://localhost:1313/zh/categories/configuration/" />
+  </url>
+  <url>
+    <loc>http://localhost:1313/zh/tags/configuration/</loc>
+    <lastmod>2025-03-14T18:20:58+08:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <xhtml:link rel="alternate" hreflang="en-GB" href="http://localhost:1313/en/tags/configuration/" />
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="http://localhost:1313/zh/tags/configuration/" />
+  </url>
+  <url>
+    <loc>http://localhost:1313/zh/categories/how-to/</loc>
+    <lastmod>2025-03-14T18:20:58+08:00</lastmod>
+    <changefreq>monthly</changefreq>
+    </url>
+  <url>
+    <loc>http://localhost:1313/zh/tags/lazy.nvim/</loc>
+    <lastmod>2025-03-14T18:20:58+08:00</lastmod>
+    <changefreq>monthly</changefreq>
+    </url>
+  <url>
+    <loc>http://localhost:1313/zh/tags/nvim/</loc>
+    <lastmod>2025-03-14T18:20:58+08:00</lastmod>
     <changefreq>monthly</changefreq>
     </url>
   <url>
     <loc>http://localhost:1313/zh/tags/</loc>
-    <lastmod>2025-03-13T20:21:00+08:00</lastmod>
+    <lastmod>2025-03-14T18:20:58+08:00</lastmod>
     <changefreq>monthly</changefreq>
     <xhtml:link rel="alternate" hreflang="en-GB" href="http://localhost:1313/en/tags/" /><xhtml:link rel="alternate" hreflang="id-ID" href="http://localhost:1313/id/tags/" />
     <xhtml:link rel="alternate" hreflang="zh-CN" href="http://localhost:1313/zh/tags/" />
   </url>
   <url>
-    <loc>http://localhost:1313/zh/tags/tools/</loc>
-    <lastmod>2025-03-13T19:34:07+08:00</lastmod>
-    <changefreq>monthly</changefreq>
-    </url>
-  <url>
-    <loc>http://localhost:1313/zh/categories/tools-build/</loc>
-    <lastmod>2025-03-13T19:34:07+08:00</lastmod>
-    <changefreq>monthly</changefreq>
-    </url>
-  <url>
-    <loc>http://localhost:1313/zh/tags/web-build/</loc>
-    <lastmod>2025-03-13T19:34:07+08:00</lastmod>
-    <changefreq>monthly</changefreq>
-    </url>
-  <url>
     <loc>http://localhost:1313/zh/author/whale/</loc>
-    <lastmod>2025-03-13T20:21:00+08:00</lastmod>
+    <lastmod>2025-03-14T18:20:58+08:00</lastmod>
+    <changefreq>monthly</changefreq>
+    </url>
+  <url>
+    <loc>http://localhost:1313/zh/post/%E6%89%93%E9%80%A0%E4%B8%93%E5%B1%9E%E4%BD%A0%E7%9A%84nvim%E9%85%8D%E7%BD%AE%E6%8C%87%E8%A5%BF/</loc>
+    <lastmod>2025-03-14T18:20:58+08:00</lastmod>
+    <changefreq>monthly</changefreq>
+    </url>
+  <url>
+    <loc>http://localhost:1313/zh/tags/deprecated/</loc>
+    <lastmod>2025-03-13T19:34:07+08:00</lastmod>
+    <changefreq>monthly</changefreq>
+    </url>
+  <url>
+    <loc>http://localhost:1313/zh/tags/hexo/</loc>
+    <lastmod>2025-03-13T19:34:07+08:00</lastmod>
+    <changefreq>monthly</changefreq>
+    </url>
+  <url>
+    <loc>http://localhost:1313/zh/tags/how-to/</loc>
+    <lastmod>2025-03-13T19:34:07+08:00</lastmod>
+    <changefreq>monthly</changefreq>
+    </url>
+  <url>
+    <loc>http://localhost:1313/zh/tags/web/</loc>
+    <lastmod>2025-03-13T19:34:07+08:00</lastmod>
     <changefreq>monthly</changefreq>
     </url>
   <url>
@@ -53,55 +87,20 @@
     <changefreq>monthly</changefreq>
     </url>
   <url>
+    <loc>http://localhost:1313/zh/tags/lazyvim/</loc>
+    <lastmod>2025-03-13T19:26:36+08:00</lastmod>
+    <changefreq>monthly</changefreq>
+    </url>
+  <url>
     <loc>http://localhost:1313/zh/post/lazyvim%E9%85%8D%E7%BD%AE%E7%BB%8F%E9%AA%8C/</loc>
     <lastmod>2025-03-13T19:26:36+08:00</lastmod>
     <changefreq>monthly</changefreq>
     </url>
   <url>
-    <loc>http://localhost:1313/zh/tags/nvim/</loc>
+    <loc>http://localhost:1313/zh/tags/tools/</loc>
     <lastmod>2025-03-13T19:26:36+08:00</lastmod>
     <changefreq>monthly</changefreq>
     </url>
-  <url>
-    <loc>http://localhost:1313/zh/tags/old/</loc>
-    <lastmod>2025-03-13T19:26:36+08:00</lastmod>
-    <changefreq>monthly</changefreq>
-    </url>
-  <url>
-    <loc>http://localhost:1313/zh/categories/authoring/</loc>
-    <lastmod>2025-03-13T20:21:00+08:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <xhtml:link rel="alternate" hreflang="en-GB" href="http://localhost:1313/en/categories/authoring/" />
-    <xhtml:link rel="alternate" hreflang="zh-CN" href="http://localhost:1313/zh/categories/authoring/" />
-  </url>
-  <url>
-    <loc>http://localhost:1313/zh/tags/authoring/</loc>
-    <lastmod>2025-03-13T20:21:00+08:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <xhtml:link rel="alternate" hreflang="en-GB" href="http://localhost:1313/en/tags/authoring/" /><xhtml:link rel="alternate" hreflang="id-ID" href="http://localhost:1313/id/tags/authoring/" />
-    <xhtml:link rel="alternate" hreflang="zh-CN" href="http://localhost:1313/zh/tags/authoring/" />
-  </url>
-  <url>
-    <loc>http://localhost:1313/zh/tags/history/</loc>
-    <lastmod>2025-03-13T20:21:00+08:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <xhtml:link rel="alternate" hreflang="en-GB" href="http://localhost:1313/en/tags/history/" />
-    <xhtml:link rel="alternate" hreflang="zh-CN" href="http://localhost:1313/zh/tags/history/" />
-  </url>
-  <url>
-    <loc>http://localhost:1313/zh/tags/redaction/</loc>
-    <lastmod>2025-03-13T20:21:00+08:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <xhtml:link rel="alternate" hreflang="en-GB" href="http://localhost:1313/en/tags/redaction/" />
-    <xhtml:link rel="alternate" hreflang="zh-CN" href="http://localhost:1313/zh/tags/redaction/" />
-  </url>
-  <url>
-    <loc>http://localhost:1313/zh/post/authoring-redaction-history/</loc>
-    <lastmod>2025-03-13T20:21:00+08:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <xhtml:link rel="alternate" hreflang="en-GB" href="http://localhost:1313/en/post/authoring-redaction-history/" /><xhtml:link rel="alternate" hreflang="id-ID" href="http://localhost:1313/id/pos/mengatur-riwayat-redaksi/" />
-    <xhtml:link rel="alternate" hreflang="zh-CN" href="http://localhost:1313/zh/post/authoring-redaction-history/" />
-  </url>
   <url>
     <loc>http://localhost:1313/zh/post/</loc>
     <lastmod>2025-03-13T20:21:00+08:00</lastmod>

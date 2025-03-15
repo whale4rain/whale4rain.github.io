@@ -19,7 +19,7 @@
     <loc>http://localhost:1313/id/tags/authoring/</loc>
     <lastmod>2025-03-13T20:34:23+08:00</lastmod>
     <changefreq>monthly</changefreq>
-    <xhtml:link rel="alternate" hreflang="en-GB" href="http://localhost:1313/en/tags/authoring/" /><xhtml:link rel="alternate" hreflang="zh-CN" href="http://localhost:1313/zh/tags/authoring/" />
+    <xhtml:link rel="alternate" hreflang="en-GB" href="http://localhost:1313/en/tags/authoring/" />
     <xhtml:link rel="alternate" hreflang="id-ID" href="http://localhost:1313/id/tags/authoring/" />
   </url>
   <url>
@@ -83,7 +83,7 @@
     <loc>http://localhost:1313/id/pos/mengatur-riwayat-redaksi/</loc>
     <lastmod>2025-03-13T20:34:23+08:00</lastmod>
     <changefreq>monthly</changefreq>
-    <xhtml:link rel="alternate" hreflang="en-GB" href="http://localhost:1313/en/post/authoring-redaction-history/" /><xhtml:link rel="alternate" hreflang="zh-CN" href="http://localhost:1313/zh/post/authoring-redaction-history/" />
+    <xhtml:link rel="alternate" hreflang="en-GB" href="http://localhost:1313/en/post/authoring-redaction-history/" />
     <xhtml:link rel="alternate" hreflang="id-ID" href="http://localhost:1313/id/pos/mengatur-riwayat-redaksi/" />
   </url>
   <url>
@@ -121,7 +121,7 @@
     <loc>http://localhost:1313/id/categories/configuration/</loc>
     <lastmod>2025-03-13T20:34:23+08:00</lastmod>
     <changefreq>monthly</changefreq>
-    <xhtml:link rel="alternate" hreflang="en-GB" href="http://localhost:1313/en/categories/configuration/" />
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="http://localhost:1313/zh/categories/configuration/" /><xhtml:link rel="alternate" hreflang="en-GB" href="http://localhost:1313/en/categories/configuration/" />
     <xhtml:link rel="alternate" hreflang="id-ID" href="http://localhost:1313/id/categories/configuration/" />
   </url>
   <url>

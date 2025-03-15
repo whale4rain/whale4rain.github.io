@@ -1,0 +1,1215 @@
+<!DOCTYPE html>
+<html lang="zh-CN" dir="ltr">
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+    <!-- head.html --><!-- meta.html -->
+
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>打造专属你的nvim配置指西 | Whale4Blog</title>
+<meta name="author" content="[whale]">
+<meta name="description" content="从0到1配置个性化的nvim完全攻略" >
+<meta name="keywords" content="nvim,lazy.nvim,configuration">
+<link rel="canonical" href="http://localhost:1313/zh/post/%E6%89%93%E9%80%A0%E4%B8%93%E5%B1%9E%E4%BD%A0%E7%9A%84nvim%E9%85%8D%E7%BD%AE%E6%8C%87%E8%A5%BF/">
+
+
+
+    <link rel="me" href="https://example.com/@username">
+
+    
+    <!-- twitterCard -->
+    
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="打造专属你的nvim配置指西 | Whale4Blog" />
+    <meta name="twitter:description" content="从0到1配置个性化的nvim完全攻略" />
+        <meta name="twitter:image" content="https://jsd.cdn.zzko.cn/gh/whale4rain/picx-images-hosting@master/20250315/image.lvvvcsql2.webp" />
+    
+    <!-- openGraph -->
+    <meta property="og:title" content="打造专属你的nvim配置指西 | Whale4Blog" />
+    <meta property="og:description" content="从0到1配置个性化的nvim完全攻略" />
+    <meta property="og:type" content="article" />
+    <meta property="og:url" content="http://localhost:1313/zh/post/%E6%89%93%E9%80%A0%E4%B8%93%E5%B1%9E%E4%BD%A0%E7%9A%84nvim%E9%85%8D%E7%BD%AE%E6%8C%87%E8%A5%BF/" />
+        <meta property="og:image" content="https://jsd.cdn.zzko.cn/gh/whale4rain/picx-images-hosting@master/20250315/image.lvvvcsql2.webp" />
+    <meta property="og:site_name" content="Whale4Blog" /><!-- js.html -->
+    <script src="http://localhost:1313/js/hugo-brewm.min.js" defer></script><!-- css.html -->
+    <link rel="stylesheet" href="http://localhost:1313/css/hugo-brewm.min.css">
+    <!-- css/inline.html -->
+    <style>
+         
+        body {max-width: 786px; margin: auto; padding: 2rem;}
+        img {max-width: 86vw;}
+    </style>
+    
+    
+        <meta name="fediverse:creator" content="@username@example.com">
+    
+        
+    <!-- css/verbatim.html -->
+        <link href="http://localhost:1313/css/typesetting/verbatim.min.css" rel="stylesheet" type="text/css">
+    
+</head>
+<body >
+    <!-- header.html -->
+<header class="pagewidth">
+    <div id="background-header" class="background" aria-hidden="true"></div>
+    
+    <nav aria-label="[i18n] bypass">
+        <a id="to-content" class="underline" href="#content" aria-label="[i18n] toContent">
+            <span>[i18n] toContent</span>
+            <kbd class="key" aria-hidden="true">c</kbd>
+            <span class="screening" aria-hidden="true"></span>
+        </a>
+    </nav>
+    
+        <a id="logo" href="http://localhost:1313/zh/" aria-label="Whale4Blog">
+                <img id="logomark--dark" src="https://example.com/logoMarkDark.svg" alt="Whale4Blog" />
+                <img id="logomark" src="https://example.com/logoMark.svg" alt="Whale4Blog" />
+                <!-- logotype.html --><svg id="logotype" xmlns="http://www.w3.org/2000/svg" version="1.1" width="280pt">
+            <text id="logotype__text" y="19.5pt" x="0">Whale4Blog</text>
+        </svg>
+        </a>
+    
+    <details class="presentation" id="top-nav">
+        <summary class="on-deck">
+            <span class="t t2">[i18n] nav</span>
+            <span class="menu-icon" role="presentation"></span>
+        </summary>
+        <nav tabindex="-1" aria-label="[i18n] top-nav">
+            <!-- menu.html -->
+<details id="has-main-menu" class="presentation" open>
+    <summary  class="hide"  aria-label="[i18n] main">
+        <span>[i18n] main</span>
+    </summary>
+        
+        <nav id="main-menu" aria-label="[i18n] main">
+            <ul class="l1 " role="presentation" tabindex="-1" >
+                
+    
+        <li role="presentation">
+    <details class="presentation js-details" aria-expanded="true"
+        name="on-deck"  >
+        <summary class="anchor  on-deck ">
+            
+            <span >Series</span>
+        </summary>
+        <ul class="l2  on-plank " role="presentation">
+            
+    
+        <li role="presentation">
+    <a   class=has-desc href=http://localhost:1313/zh/
+            aria-label="A Series"
+            aria-description="Example with post/description">
+        
+            <span>A Series</span>
+    </a>
+        </li>
+        <li role="presentation">
+    <a   href=http://localhost:1313/zh/>
+        
+            <span>Another series</span>
+    </a>
+        </li>
+        <li role="presentation">
+    <a   class=has-desc href=http://localhost:1313/zh/
+            aria-label="Sustainable Development"
+            aria-description="Nested Menu example">
+        
+            <span>Sustainable Development</span>
+    </a>
+        </li>
+                <li class="parent-anchor">
+                    <a href=http://localhost:1313/zh/series/ aria-label="[i18n] seeAll:Series">
+                        
+                        <span aria-hidden="true"> Series</span>
+                    </a>
+                </li>
+        </ul><div class="screening js-cpn" role="presentation" aria-hidden="true"></div>
+    </details>
+        </li>
+        <li role="presentation">
+    <details class="presentation js-details" aria-expanded="true"
+        name="on-deck"  >
+        <summary class="anchor  on-deck ">
+            
+            <span >Works</span>
+        </summary>
+        <ul class="l2  on-plank " role="presentation">
+            
+    
+        <li role="presentation">
+    <a   class=has-desc href=http://localhost:1313/zh/
+            aria-label="Commission"
+            aria-description="Example Menu">
+        
+            <span>Commission</span>
+    </a>
+        </li>
+        <li role="presentation">
+    <a   class=has-desc href=http://localhost:1313/zh/
+            aria-label="Project"
+            aria-description="My current projects">
+        
+            <span>Project</span>
+    </a>
+        </li>
+        <li role="presentation">
+    <a   class=has-desc href=http://localhost:1313/zh/
+            aria-label="Gallery"
+            aria-description="Well, actually, silly stuff">
+        
+            <span>Gallery</span>
+    </a>
+        </li>
+                <li class="parent-anchor">
+                    <a href=http://localhost:1313/zh/ aria-label="[i18n] seeAll:Works">
+                        
+                        <span aria-hidden="true"> Works</span>
+                    </a>
+                </li>
+        </ul><div class="screening js-cpn" role="presentation" aria-hidden="true"></div>
+    </details>
+        </li>
+            </ul>
+        </nav>
+</details>
+            <!-- search.html -->
+<details id="has-search" class="presentation js-details" name="on-deck">
+    <summary class="on-deck" accesskey="q" aria-keyshortcuts="q">
+        <span class="t t2">[i18n] search</span>
+    </summary>
+    
+        <!-- pagefind.html -->
+    <div id="search" class="on-hull">
+        <div role="presentation" class="screening js-cgpn"></div>
+    </div>
+    <script src="http://localhost:1313/pagefind/pagefind-ui.js" type="text/javascript"></script>
+    <script>
+        let pageFindInitialized = false;
+        const initPageFind = function(event) {
+            if (!pageFindInitialized) {
+                new PagefindUI({
+                    element: "#search",
+                    showImages: false,
+                    translations: {
+                        placeholder: "[i18n] search"
+                    }
+                });
+                pageFindInitialized = true;
+                document.removeEventListener('DOMContentLoaded', initPageFind);
+            }
+        };
+        document.addEventListener('DOMContentLoaded', initPageFind);
+    </script>
+        <noscript id="has-search-fallback" class="on-hull">
+                
+    <!-- duckduckgo.html -->
+    <form id="duckduckgo" class="form on-plank"
+        name="x" action="//duckduckgo.com/"
+        role="search" aria-label="[i18n] searchDuckDuckGo">
+        <input type="hidden" value="localhost:1313" name="sites"></input>
+        <input type="hidden" value="1" name="kh"></input>
+        <input type="hidden" value="1" name="kn"></input>
+        <input type="hidden" value="1" name="kac"></input>
+        <input class="ldots form__input" type="search" placeholder="[i18n] search" name="q"></input>
+        <button class="form__button" type="submit" aria-label="[i18n] search">
+            <img src="https://duckduckgo.com/assets/logo_header.v109.svg" alt="" role="presentation" aria-hidden="true">
+        </button>
+    </form>
+    <div role="presentation" class="screening js-cgpn"></div>
+        </noscript>
+    
+</details>
+            <!-- menu.html -->
+<details id="has-more-menu" class="presentation js-details" name="on-deck" >
+    <summary  accesskey="=" class="on-deck"  aria-label="[i18n] more">
+        <span class="t t2">[i18n] more</span>
+            <span class="menu-icon" role="presentation"></span>
+    </summary>
+        <!-- on hull -->
+        <nav id="more-menu" aria-label="[i18n] more">
+            <ul class="l1  on-plank " role="presentation" tabindex="-1" >
+                
+    
+        <li role="presentation">
+    <a   href=http://localhost:1313/zh/>
+        
+            <span>Resources</span>
+    </a>
+        </li>
+        <li role="presentation">
+    <details class="presentation js-details" aria-expanded="true"
+         open >
+        <summary class="anchor ">
+            
+            <span >About</span>
+        </summary>
+        <ul class="l2 " role="presentation">
+            
+    
+        <li role="presentation">
+    <a   href=http://localhost:1313/zh/author/>
+        
+            <span>Author</span>
+    </a>
+        </li>
+                <li class="parent-anchor">
+                    <a href=http://localhost:1313/zh/ aria-label="[i18n] seeAll:About">
+                        
+                        <span aria-hidden="true"> About</span>
+                    </a>
+                </li>
+        </ul>
+    </details>
+        </li>
+        <li role="presentation">
+    <a   href=http://localhost:1313/zh/>
+        
+            <span>More Menu</span>
+    </a>
+        </li>
+            </ul>
+            <div class="screening js-cgpn" role="presentation" aria-hidden="true"></div>
+        </nav>
+</details>
+            <!-- i18n.html -->
+
+        <details id="has-i18n" class="presentation js-details" name="on-deck">
+            <summary class="anchor on-deck" aria-label="[i18n] selectLang">
+            
+                <img
+                    src="https://raw.githubusercontent.com/lipis/flag-icons/c95b262e5ee2366cad4c5aecc4a5ad86220c9ab9/flags/4x3/cn.svg" alt=""
+                    width="64" height="48"
+                    loading="lazy"
+                    >
+                <span class="iso639" aria-hidden="true">ZH</span>
+                <span class="languangeName">简体中文</span>
+            
+            </summary>
+
+            <!-- on hull -->
+            <nav id="i18n-menu" aria-label="[i18n] selectLang">
+                <ul class="on-plank">
+                    <li>
+                        <a href="http://localhost:1313/id/" aria-label="Change language to Bahasa Indonesia">
+                            <img
+                                src="https://raw.githubusercontent.com/lipis/flag-icons/c95b262e5ee2366cad4c5aecc4a5ad86220c9ab9/flags/4x3/id.svg" alt=""
+                                width="64" height="48"
+                                aria-hidden="true"
+                                loading="lazy"
+                                >
+                            <span>Bahasa Indonesia</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="http://localhost:1313/en/" aria-label="Change language to English">
+                            <img
+                                src="https://raw.githubusercontent.com/lipis/flag-icons/c95b262e5ee2366cad4c5aecc4a5ad86220c9ab9/flags/4x3/gb.svg" alt=""
+                                width="64" height="48"
+                                aria-hidden="true"
+                                loading="lazy"
+                                >
+                            <span>English</span>
+                        </a>
+                    </li>
+                </ul>
+                <div class="screening js-cgpn" role="presentation" aria-hidden="true"></div>
+            </nav>
+        </details>
+
+        </nav>
+        <div id="top-nav-screen" class="screening js-cpn" role="presentation" aria-hidden="true"></div>
+    </details>
+</header>
+    
+    <!-- [main] baseof.html -->
+    <main id="page">
+        <!-- main/header.html -->
+        <header class="pagewidth">
+            
+            <!-- menu.html -->
+    <menu role="presentation">
+        <li>
+            <a id="print-button" class="hide" href="javascript:window.print()" title="[i18n] print" role="button" aria-label="[i18n] print">
+                <span class="t" role="tooltip">[i18n] print</span>
+            </a>
+        </li>
+        <li>
+            <a id="navigatorShare" href="#share" title="[i18n] share" role="button" aria-label="[i18n] share">
+                <span class="t" role="tooltip">[i18n] share</span>
+            </a>
+        </li>
+        <li>
+            <a id="copyPermalink"  href="javascript:navigator.clipboard.writeText(window.location.href)" title="[i18n] copy" role="button" aria-label="[i18n] copy">
+                <span id="copy" class="t" role="tooltip">[i18n] copy</span>
+                <span id="isCopying" style="display: none;">[i18n] copying</span>
+                <span id="copyText" style="display: none;">[i18n] copy</span>
+            </a>
+        </li>
+    </menu>
+    <button id="back" class="hide" type="button" onclick="history.back();" aria-label="[i18n] back">
+        <span class="t" role="tooltip">[i18n] back</span>
+    </button>
+            
+                <!-- nav.html -->
+<details class="presentation" aria-expanded="true" id="has-breadcrumb" open>
+    <summary id="breadcrumb" tabindex="-1">
+        <span>[i18n] breadcrumb</span>
+    </summary>
+        <nav aria-labelledby="breadcrumb">
+            <ul role="presentation" class="breadcrumb">
+                    <!-- breadcrumb.html -->
+        <li>
+            <a href="http://localhost:1313/zh/post/" aria-current="true">Pos
+            </a>
+        </li>
+    <li>
+        <a href="" aria-current="page" tabindex="-1">打造专属你的nvim配置指西
+        </a>
+    </li>
+            </ul>
+        </nav>
+</details>
+        </header>
+        <div id="top" role="presentation">
+            
+        </div>
+        
+
+    <article id="main-article" class="pagewidth"
+        role="document" aria-labelledby="title"
+            data-pagefind-ignore="all">
+        <header class="textwidth" aria-labelledby="title">
+            <!-- title.html -->
+        <hgroup data-bionRead-safe>
+            <h1 id="title"
+                >打造专属你的nvim配置指西</h1>
+            <p  class="subtitle"
+                role="doc-subtitle">从0到1配置个性化的nvim完全攻略</p>
+        </hgroup>
+            <div id="doc-author" class="textsw author">
+                            
+                            <a href="http://localhost:1313/zh/author/whale/">Whale</a>
+            </div>
+            <!-- timestamp.html-->
+    <div >
+        <time class="doc-publish-date" datetime="2025-03-14T18:20:58&#43;08:00" data-time-label="[i18n] published [i18n] on">2025年3月14日</time>
+    </div>
+        </header>
+        <!-- audio.html -->
+        <section aria-labelledby="Title" id="content" data-bionRead-safe>
+                <h2 id="前前言">前前言</h2>
+<p>在配置完lazyvim，更新后报错，加上lazyvim的各种配置不是很对我胃口于是转向自己配置一个nvim，在lazy.nvim进行插件管理后发现配置一个nvim比你想象的简单，同时也可一个个人定制化的代码工具。</p>
+<h2 id="why-nivm">Why nivm?</h2>
+<p>一开始见到vim的时候觉得各种操作，什么hjkl控制移动，什么normal、insert、visual模式，只觉得麻烦和反人类。但是因为课程原因，强调命令行使用和操作的时候频繁的键盘鼠标切换让我难以专注，但是nvim的使用却更加舒服，而在不熟练时对于小项目的开发也非常舒服，而nvim在代码编辑这一操作上确实方便很多，转回各种文本编辑环境的时候还有些不适应。</p>
+<p>当然各种ide也有相应的快捷键，但是当面对无数个<code>ctrl+who</code>时</p>
+<blockquote>
+<p>你的名字是？</p></blockquote>
+<p>这时候就会佩服vim切换模式编辑这一设计的高明之处——提供统一连续的操作逻辑，编辑时就编辑，操作时就操作，选择时就选择，明确同时减少中断，而相应的体验会在使用的越熟练时更加舒服。</p>
+<h2 id="start-from-installration">Start from installration</h2>
+<p>访问neovim官网下载nvim<a href="https://neovim.io/">https://neovim.io/</a></p>
+<p>也可以在仓库release界面下载https://github.com/neovim/neovim/releases</p>
+<p>有了nvim还不够，nvim具有强大丰富的社区和插件，这就有各种不同的插件管理方案，我选择了lazy.nvim，和lazyvim不同，lazy.nvim不是一个nvim的发行版，不是一个开包即用的nvim，而是一个新兴的插件管理器，官网下载https://lazy.folke.io/installation</p>
+<p><strong>Requirements<a href="https://lazy.folke.io/#%EF%B8%8F-requirements"></a></strong></p>
+<ul>
+<li>Neovim &gt;= <strong>0.8.0</strong> (needs to be built with <strong>LuaJIT</strong>)</li>
+<li>Git &gt;= <strong>2.19.0</strong> (for partial clones support)</li>
+</ul>
+<p>这时候可以开始配置了！</p>
+<p>你也可以参考youtube上的教学视频，十分详细，对配置过程十分详细，也有对使用的说明，非常值得参考！https://youtu.be/6pAG3BHurdM</p>
+<h2 id="how-to-config-nvim">How to config nvim?</h2>
+<p>要知道如何配置，首先要知道配置逻辑，是点击安装按钮安装，还是在对应配置文件下添加代码，还是在文件夹中粘贴配置文件，安装nvim后，配置文件夹可能没有自动创建，下面让我们来手动操作：</p>
+<p>** For Linux/Macos**</p>
+<p>新建<code>.config/nvim</code>文件</p>
+<p>** For windows **</p>
+<p>新建<code>$env:LOCALAPPDATA\nvim</code>也就是<code>C:\Users\Yourself\AppData\Local\nvim</code></p>
+<p>之后的操作对于不同系统都是一样的，这同样意味着你配置一次后可以非常方便的在其他系统使用同样的配置文件（可能有的地方需要修改）</p>
+<p>在这个文件夹下构建下面的结构</p>
+<pre tabindex="0"><code>|   init.lua 
++---lua //核心配置文件夹
+    +---config  //除插件外的配置文件
+    |       colorscheme.lua  //主题配置
+    |       keymaps.lua      //键位设置
+    |       lazy.lua         //lazy.nvim管理插件
+    |       options.lua      //全局配置
+    |
+    \---plugins  //插件配置文件
+        |
+        \---lsp  //lsp配置(先不用管)
+</code></pre><p>像上面创建文件及文件夹后我们进入下一步配置</p>
+<h2 id="overall-configration-in-config">Overall Configration in config</h2>
+<p>在配置插件文件之前，我们先了解config中的各个配置文件并进行配置，而你已经发现我们配置nvim使用的是<code>lua</code>语言，放心即使不会lua也可以实现完整的配置，因为lua是和python一样易读方便，而且也基本不需要确切的语法知识。</p>
+<p>你可以阅读来<a href="https://learnxinyminutes.com/lua/">learn Lua in Y minutes</a>先了解lua语言</p>
+<h3 id="initlua">init.lua</h3>
+<p>init.lua可以差不多视作neovim配置的中枢，在其他配置文件的内容都在init.lua中整合，使用如下语法</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-lua" data-lang="lua"><span class="line"><span class="cl"><span class="n">require</span><span class="p">(</span><span class="s2">&#34;config.options&#34;</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl"><span class="n">require</span><span class="p">(</span><span class="s2">&#34;config.keymaps&#34;</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl"><span class="n">require</span><span class="p">(</span><span class="s2">&#34;config.lazy&#34;</span><span class="p">)</span>
+</span></span></code></pre></div><p>在option.lua,keymaps.lua,lazy.lua中的配置只有在init.lua整合后才会发挥作用</p>
+<p>而繁多插件因为我们使用了lazy.nvim管理插件，其配置都在lazy.lua中进行配置</p>
+<h3 id="optionslua">options.lua</h3>
+<p>这个文件中放置nvim的各种配置</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-lua" data-lang="lua"><span class="line"><span class="cl"><span class="kd">local</span> <span class="n">opt</span> <span class="o">=</span> <span class="n">vim.opt</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="c1">-- Hint: use `:h &lt;option&gt;` to figure out the meaning if needed</span>
+</span></span><span class="line"><span class="cl"><span class="n">opt.clipboard</span> <span class="o">=</span> <span class="s2">&#34;unnamedplus&#34;</span> <span class="c1">-- use system clipboard</span>
+</span></span><span class="line"><span class="cl"><span class="n">opt.completeopt</span> <span class="o">=</span> <span class="p">{</span> <span class="s2">&#34;menu&#34;</span><span class="p">,</span> <span class="s2">&#34;menuone&#34;</span><span class="p">,</span> <span class="s2">&#34;noselect&#34;</span> <span class="p">}</span>
+</span></span><span class="line"><span class="cl"><span class="n">opt.mouse</span> <span class="o">=</span> <span class="s2">&#34;a&#34;</span> <span class="c1">-- allow the mouse to be used in Nvim</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="c1">-- Tab</span>
+</span></span><span class="line"><span class="cl"><span class="n">opt.autoindent</span> <span class="o">=</span> <span class="kc">true</span>
+</span></span><span class="line"><span class="cl"><span class="n">opt.tabstop</span> <span class="o">=</span> <span class="mi">4</span> <span class="c1">-- number of visual spaces per TAB</span>
+</span></span><span class="line"><span class="cl"><span class="n">opt.softtabstop</span> <span class="o">=</span> <span class="mi">4</span> <span class="c1">-- number of spacesin tab when editing</span>
+</span></span><span class="line"><span class="cl"><span class="n">opt.shiftwidth</span> <span class="o">=</span> <span class="mi">4</span> <span class="c1">-- insert 4 spaces on a tab</span>
+</span></span><span class="line"><span class="cl"><span class="n">opt.expandtab</span> <span class="o">=</span> <span class="kc">true</span> <span class="c1">-- tabs are spaces, mainly because of python</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="c1">-- UI config</span>
+</span></span><span class="line"><span class="cl"><span class="n">opt.number</span> <span class="o">=</span> <span class="kc">true</span> <span class="c1">-- show absolute number</span>
+</span></span><span class="line"><span class="cl"><span class="n">opt.relativenumber</span> <span class="o">=</span> <span class="kc">true</span> <span class="c1">-- add numbers to each line on the left side</span>
+</span></span><span class="line"><span class="cl"><span class="n">opt.cursorline</span> <span class="o">=</span> <span class="kc">true</span> <span class="c1">-- highlight cursor line underneath the cursor horizontally</span>
+</span></span><span class="line"><span class="cl"><span class="n">opt.splitbelow</span> <span class="o">=</span> <span class="kc">true</span> <span class="c1">-- open new vertical split bottom</span>
+</span></span><span class="line"><span class="cl"><span class="n">opt.splitright</span> <span class="o">=</span> <span class="kc">true</span> <span class="c1">-- open new horizontal splits right</span>
+</span></span><span class="line"><span class="cl"><span class="n">opt.termguicolors</span> <span class="o">=</span> <span class="kc">true</span> <span class="c1">-- enabl 24-bit RGB color in the TUI</span>
+</span></span><span class="line"><span class="cl"><span class="n">opt.showmode</span> <span class="o">=</span> <span class="kc">false</span> <span class="c1">-- we are experienced, wo don&#39;t need the &#34;-- INSERT --&#34; mode hint</span>
+</span></span><span class="line"><span class="cl"><span class="n">opt.signcolumn</span> <span class="o">=</span> <span class="s2">&#34;yes&#34;</span> <span class="c1">-- always show sign column</span>
+</span></span><span class="line"><span class="cl"><span class="c1">-- Searching</span>
+</span></span><span class="line"><span class="cl"><span class="n">opt.incsearch</span> <span class="o">=</span> <span class="kc">true</span> <span class="c1">-- search as characters are entered</span>
+</span></span><span class="line"><span class="cl"><span class="n">opt.hlsearch</span> <span class="o">=</span> <span class="kc">false</span> <span class="c1">-- do not highlight matches</span>
+</span></span><span class="line"><span class="cl"><span class="n">opt.ignorecase</span> <span class="o">=</span> <span class="kc">true</span> <span class="c1">-- ignore case in searches by default</span>
+</span></span><span class="line"><span class="cl"><span class="n">opt.smartcase</span> <span class="o">=</span> <span class="kc">true</span> <span class="c1">-- but make it case sensitive if an uppercase is entered</span>
+</span></span></code></pre></div><p>这些配置是相对总体的配置，比如对Tab对窗口的配置等，对UI的配置，因为很多内容都在插件中有直接的配置，所以这里的配置需求不是很多</p>
+<h3 id="keymaplua">keymap.lua</h3>
+<p>通过调整默认快捷键来得到更加舒服的编程体验</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-lua" data-lang="lua"><span class="line"><span class="cl"><span class="c1">-- define common options</span>
+</span></span><span class="line"><span class="cl"><span class="kd">local</span> <span class="n">opts</span> <span class="o">=</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">	<span class="n">noremap</span> <span class="o">=</span> <span class="kc">true</span><span class="p">,</span> <span class="c1">-- non-recursive</span>
+</span></span><span class="line"><span class="cl">	<span class="n">silent</span> <span class="o">=</span> <span class="kc">true</span><span class="p">,</span> <span class="c1">-- do not show message</span>
+</span></span><span class="line"><span class="cl"><span class="p">}</span>
+</span></span><span class="line"><span class="cl"><span class="n">vim.g</span><span class="p">.</span><span class="n">mapleader</span> <span class="o">=</span> <span class="s2">&#34; &#34;</span> <span class="c1">-- set leader to space</span>
+</span></span><span class="line"><span class="cl"><span class="kd">local</span> <span class="n">keymap</span> <span class="o">=</span> <span class="n">vim.keymap</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="c1">-----------------</span>
+</span></span><span class="line"><span class="cl"><span class="c1">-- Insert mode --</span>
+</span></span><span class="line"><span class="cl"><span class="c1">-----------------</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="n">keymap.set</span><span class="p">(</span><span class="s2">&#34;i&#34;</span><span class="p">,</span> <span class="s2">&#34;jk&#34;</span><span class="p">,</span> <span class="s2">&#34;&lt;Esc&gt;&#34;</span><span class="p">,</span> <span class="n">opts</span><span class="p">)</span> <span class="c1">-- jk to escape</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="c1">-----------------</span>
+</span></span><span class="line"><span class="cl"><span class="c1">-- Normal mode --</span>
+</span></span><span class="line"><span class="cl"><span class="c1">-----------------</span>
+</span></span><span class="line"><span class="cl"><span class="c1">-- switch $ to 9</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="n">keymap.set</span><span class="p">(</span><span class="s2">&#34;n&#34;</span><span class="p">,</span> <span class="s2">&#34;9&#34;</span><span class="p">,</span> <span class="s2">&#34;$&#34;</span><span class="p">,</span> <span class="n">opts</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="c1">-- Hint: see `:h vim.map.set()`</span>
+</span></span><span class="line"><span class="cl"><span class="c1">-- Better window navigation</span>
+</span></span><span class="line"><span class="cl"><span class="n">keymap.set</span><span class="p">(</span><span class="s2">&#34;n&#34;</span><span class="p">,</span> <span class="s2">&#34;&lt;C-h&gt;&#34;</span><span class="p">,</span> <span class="s2">&#34;&lt;C-w&gt;h&#34;</span><span class="p">,</span> <span class="n">opts</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl"><span class="n">keymap.set</span><span class="p">(</span><span class="s2">&#34;n&#34;</span><span class="p">,</span> <span class="s2">&#34;&lt;C-j&gt;&#34;</span><span class="p">,</span> <span class="s2">&#34;&lt;C-w&gt;j&#34;</span><span class="p">,</span> <span class="n">opts</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl"><span class="n">keymap.set</span><span class="p">(</span><span class="s2">&#34;n&#34;</span><span class="p">,</span> <span class="s2">&#34;&lt;C-k&gt;&#34;</span><span class="p">,</span> <span class="s2">&#34;&lt;C-w&gt;k&#34;</span><span class="p">,</span> <span class="n">opts</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl"><span class="n">keymap.set</span><span class="p">(</span><span class="s2">&#34;n&#34;</span><span class="p">,</span> <span class="s2">&#34;&lt;C-l&gt;&#34;</span><span class="p">,</span> <span class="s2">&#34;&lt;C-w&gt;l&#34;</span><span class="p">,</span> <span class="n">opts</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl"><span class="n">keymap.set</span><span class="p">(</span><span class="s2">&#34;n&#34;</span><span class="p">,</span> <span class="s2">&#34;&lt;leader&gt;sv&#34;</span><span class="p">,</span> <span class="s2">&#34;&lt;C-w&gt;v&#34;</span><span class="p">,</span> <span class="n">opts</span><span class="p">)</span> <span class="c1">-- split window vertically</span>
+</span></span><span class="line"><span class="cl"><span class="n">keymap.set</span><span class="p">(</span><span class="s2">&#34;n&#34;</span><span class="p">,</span> <span class="s2">&#34;&lt;leader&gt;sh&#34;</span><span class="p">,</span> <span class="s2">&#34;&lt;C-w&gt;s&#34;</span><span class="p">,</span> <span class="n">opts</span><span class="p">)</span> <span class="c1">-- split window horizontally</span>
+</span></span><span class="line"><span class="cl"><span class="c1">-- Better buffer navigation</span>
+</span></span><span class="line"><span class="cl"><span class="n">keymap.set</span><span class="p">(</span><span class="s2">&#34;n&#34;</span><span class="p">,</span> <span class="s2">&#34;&lt;leader&gt;bn&#34;</span><span class="p">,</span> <span class="s2">&#34;:BufferLineCycleNext&lt;CR&gt;&#34;</span><span class="p">,</span> <span class="n">opts</span><span class="p">)</span> <span class="c1">-- next buffer</span>
+</span></span><span class="line"><span class="cl"><span class="n">keymap.set</span><span class="p">(</span><span class="s2">&#34;n&#34;</span><span class="p">,</span> <span class="s2">&#34;&lt;leader&gt;bp&#34;</span><span class="p">,</span> <span class="s2">&#34;:BufferLineCyclePrev&lt;CR&gt;&#34;</span><span class="p">,</span> <span class="n">opts</span><span class="p">)</span> <span class="c1">-- previous buffer</span>
+</span></span><span class="line"><span class="cl"><span class="n">keymap.set</span><span class="p">(</span><span class="s2">&#34;n&#34;</span><span class="p">,</span> <span class="s2">&#34;&lt;leader&gt;bd&#34;</span><span class="p">,</span> <span class="s2">&#34;:BufferLineCloseLeft&lt;CR&gt;&#34;</span><span class="p">,</span> <span class="n">opts</span><span class="p">)</span> <span class="c1">-- close buffer</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="c1">--取消高亮</span>
+</span></span><span class="line"><span class="cl"><span class="n">keymap.set</span><span class="p">(</span><span class="s2">&#34;n&#34;</span><span class="p">,</span> <span class="s2">&#34;&lt;leader&gt;nh&#34;</span><span class="p">,</span> <span class="s2">&#34;:nohl&lt;CR&gt;&#34;</span><span class="p">,</span> <span class="n">opts</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl"><span class="c1">-- Resize with arrows</span>
+</span></span><span class="line"><span class="cl"><span class="c1">-- delta: 2 lines</span>
+</span></span><span class="line"><span class="cl"><span class="n">keymap.set</span><span class="p">(</span><span class="s2">&#34;n&#34;</span><span class="p">,</span> <span class="s2">&#34;&lt;C-Up&gt;&#34;</span><span class="p">,</span> <span class="s2">&#34;:resize -2&lt;CR&gt;&#34;</span><span class="p">,</span> <span class="n">opts</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl"><span class="n">keymap.set</span><span class="p">(</span><span class="s2">&#34;n&#34;</span><span class="p">,</span> <span class="s2">&#34;&lt;C-Down&gt;&#34;</span><span class="p">,</span> <span class="s2">&#34;:resize +2&lt;CR&gt;&#34;</span><span class="p">,</span> <span class="n">opts</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl"><span class="n">keymap.set</span><span class="p">(</span><span class="s2">&#34;n&#34;</span><span class="p">,</span> <span class="s2">&#34;&lt;C-Left&gt;&#34;</span><span class="p">,</span> <span class="s2">&#34;:vertical resize -2&lt;CR&gt;&#34;</span><span class="p">,</span> <span class="n">opts</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl"><span class="n">keymap.set</span><span class="p">(</span><span class="s2">&#34;n&#34;</span><span class="p">,</span> <span class="s2">&#34;&lt;C-Right&gt;&#34;</span><span class="p">,</span> <span class="s2">&#34;:vertical resize +2&lt;CR&gt;&#34;</span><span class="p">,</span> <span class="n">opts</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl"><span class="n">keymap.set</span><span class="p">(</span><span class="s2">&#34;n&#34;</span><span class="p">,</span> <span class="s2">&#34;&lt;leader&gt;wd&#34;</span><span class="p">,</span> <span class="s2">&#34;&lt;cmd&gt;close&lt;CR&gt;&#34;</span><span class="p">,</span> <span class="p">{</span> <span class="n">desc</span> <span class="o">=</span> <span class="s2">&#34;Close current split&#34;</span> <span class="p">})</span> <span class="c1">-- close current split window</span>
+</span></span><span class="line"><span class="cl"><span class="c1">-------------------</span>
+</span></span><span class="line"><span class="cl"><span class="c1">--plugin&#39;s keymap--</span>
+</span></span><span class="line"><span class="cl"><span class="c1">-------------------</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="c1">-- Treesitter context</span>
+</span></span><span class="line"><span class="cl"><span class="n">vim.keymap</span><span class="p">.</span><span class="n">set</span><span class="p">(</span><span class="s2">&#34;n&#34;</span><span class="p">,</span> <span class="s2">&#34;[c&#34;</span><span class="p">,</span> <span class="kr">function</span><span class="p">()</span>
+</span></span><span class="line"><span class="cl">	<span class="n">require</span><span class="p">(</span><span class="s2">&#34;treesitter-context&#34;</span><span class="p">).</span><span class="n">go_to_context</span><span class="p">(</span><span class="n">vim.v</span><span class="p">.</span><span class="n">count1</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl"><span class="kr">end</span><span class="p">,</span> <span class="n">opts</span><span class="p">)</span> <span class="c1">--- go to previous context</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="c1">-----------------</span>
+</span></span><span class="line"><span class="cl"><span class="c1">-- Visual mode --</span>
+</span></span><span class="line"><span class="cl"><span class="c1">-----------------</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="c1">-- Hint: start visual mode with the same area as the previous area and the same mode</span>
+</span></span><span class="line"><span class="cl"><span class="n">keymap.set</span><span class="p">(</span><span class="s2">&#34;v&#34;</span><span class="p">,</span> <span class="s2">&#34;&lt;&#34;</span><span class="p">,</span> <span class="s2">&#34;&lt;gv&#34;</span><span class="p">,</span> <span class="n">opts</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl"><span class="n">keymap.set</span><span class="p">(</span><span class="s2">&#34;v&#34;</span><span class="p">,</span> <span class="s2">&#34;&gt;&#34;</span><span class="p">,</span> <span class="s2">&#34;&gt;gv&#34;</span><span class="p">,</span> <span class="n">opts</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl"><span class="n">keymap.set</span><span class="p">(</span><span class="s2">&#34;v&#34;</span><span class="p">,</span> <span class="s2">&#34;J&#34;</span><span class="p">,</span> <span class="s2">&#34;:m &#39;&gt;+1&lt;CR&gt;gv=gv&#34;</span><span class="p">,</span> <span class="n">opts</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl"><span class="n">keymap.set</span><span class="p">(</span><span class="s2">&#34;v&#34;</span><span class="p">,</span> <span class="s2">&#34;K&#34;</span><span class="p">,</span> <span class="s2">&#34;:m &#39;&lt;-2&lt;CR&gt;gv=gv&#34;</span><span class="p">,</span> <span class="n">opts</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="c1">-----------------</span>
+</span></span><span class="line"><span class="cl"><span class="c1">---Visual Blok --</span>
+</span></span><span class="line"><span class="cl"><span class="c1">-----------------</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="n">keymap.set</span><span class="p">(</span><span class="s2">&#34;x&#34;</span><span class="p">,</span> <span class="s2">&#34;I&#34;</span><span class="p">,</span> <span class="s2">&#34;I&#34;</span><span class="p">,</span> <span class="n">opts</span><span class="p">)</span> <span class="c1">-- 确保 Shift + I 正常工作</span>
+</span></span></code></pre></div><p>其中<code>keymap.set(&quot;i&quot;, &quot;jk&quot;, &quot;&lt;Esc&gt;&quot;, opts) -- jk to escape</code>比较推荐，毕竟频繁使用遥远的<code>esc</code>对小指很不友好，而两种模式的切换是十分频繁，所以使用<code>jk</code>双键来替代<code>esc</code>。</p>
+<p>其中plugin的配置可以等对应插件配置完成后再进行配置</p>
+<p>其他的配置可以自己尝试不做赘述。</p>
+<h3 id="lazylua">lazy.lua</h3>
+<p>lazy.lua中的配置是接下来插件管理的核心，我们只用在lazy.lua中添加代码，重新打开nvim就可以<strong>自动</strong>开始下载<code>lazy.nvim</code>这一插件管理工具，下载完成后再<code>normal</code>中输入<code>:Lazy</code>就会出现下面界面：</p>
+<p><img src="https://jsd.cdn.zzko.cn/gh/whale4rain/picx-images-hosting@master/20250315/image.58hixalmct.png" alt="image"></p>
+<p>这就是lazy.nvim的插件配置的ui界面，下面出现的是已经配置的插件的相关信息，参考中间的快捷键可以很快的实现插件的管理，比如各种插件会经常更新，这时可以按快捷键<code>U</code>实现插件的更新。</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-lua" data-lang="lua"><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="c1">--https://youtu.be/6pAG3BHurdM</span>
+</span></span><span class="line"><span class="cl"><span class="kd">local</span> <span class="n">lazypath</span> <span class="o">=</span> <span class="n">vim.fn</span><span class="p">.</span><span class="n">stdpath</span><span class="p">(</span><span class="s2">&#34;data&#34;</span><span class="p">)</span> <span class="o">..</span> <span class="s2">&#34;/lazy/lazy.nvim&#34;</span>
+</span></span><span class="line"><span class="cl"><span class="kr">if</span> <span class="ow">not</span> <span class="p">(</span><span class="n">vim.uv</span> <span class="ow">or</span> <span class="n">vim.loop</span><span class="p">).</span><span class="n">fs_stat</span><span class="p">(</span><span class="n">lazypath</span><span class="p">)</span> <span class="kr">then</span>
+</span></span><span class="line"><span class="cl">  <span class="kd">local</span> <span class="n">lazyrepo</span> <span class="o">=</span> <span class="s2">&#34;https://github.com/folke/lazy.nvim.git&#34;</span>
+</span></span><span class="line"><span class="cl">  <span class="kd">local</span> <span class="n">out</span> <span class="o">=</span> <span class="n">vim.fn</span><span class="p">.</span><span class="n">system</span><span class="p">({</span> <span class="s2">&#34;git&#34;</span><span class="p">,</span> <span class="s2">&#34;clone&#34;</span><span class="p">,</span> <span class="s2">&#34;--filter=blob:none&#34;</span><span class="p">,</span> <span class="s2">&#34;--branch=stable&#34;</span><span class="p">,</span> <span class="n">lazyrepo</span><span class="p">,</span> <span class="n">lazypath</span> <span class="p">})</span>
+</span></span><span class="line"><span class="cl">  <span class="kr">if</span> <span class="n">vim.v</span><span class="p">.</span><span class="n">shell_error</span> <span class="o">~=</span> <span class="mi">0</span> <span class="kr">then</span>
+</span></span><span class="line"><span class="cl">    <span class="n">vim.api</span><span class="p">.</span><span class="n">nvim_echo</span><span class="p">({</span>
+</span></span><span class="line"><span class="cl">      <span class="p">{</span> <span class="s2">&#34;Failed to clone lazy.nvim:</span><span class="se">\n</span><span class="s2">&#34;</span><span class="p">,</span> <span class="s2">&#34;ErrorMsg&#34;</span> <span class="p">},</span>
+</span></span><span class="line"><span class="cl">      <span class="p">{</span> <span class="n">out</span><span class="p">,</span> <span class="s2">&#34;WarningMsg&#34;</span> <span class="p">},</span>
+</span></span><span class="line"><span class="cl">      <span class="p">{</span> <span class="s2">&#34;</span><span class="se">\n</span><span class="s2">Press any key to exit...&#34;</span> <span class="p">},</span>
+</span></span><span class="line"><span class="cl">    <span class="p">},</span> <span class="kc">true</span><span class="p">,</span> <span class="p">{})</span>
+</span></span><span class="line"><span class="cl">    <span class="n">vim.fn</span><span class="p">.</span><span class="n">getchar</span><span class="p">()</span>
+</span></span><span class="line"><span class="cl">    <span class="n">os.exit</span><span class="p">(</span><span class="mi">1</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">  <span class="kr">end</span>
+</span></span><span class="line"><span class="cl"><span class="kr">end</span>
+</span></span><span class="line"><span class="cl"><span class="n">vim.opt</span><span class="p">.</span><span class="n">rtp</span><span class="p">:</span><span class="n">prepend</span><span class="p">(</span><span class="n">lazypath</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="c1">-- Make sure to setup `mapleader` and `maplocalleader` before</span>
+</span></span><span class="line"><span class="cl"><span class="c1">-- loading lazy.nvim so that mappings are correct.</span>
+</span></span><span class="line"><span class="cl"><span class="c1">-- This is also a good place to setup other settings (vim.opt)</span>
+</span></span><span class="line"><span class="cl"><span class="n">vim.g</span><span class="p">.</span><span class="n">mapleader</span> <span class="o">=</span> <span class="s2">&#34; &#34;</span>
+</span></span><span class="line"><span class="cl"><span class="n">vim.g</span><span class="p">.</span><span class="n">maplocalleader</span> <span class="o">=</span> <span class="s2">&#34;</span><span class="se">\\</span><span class="s2">&#34;</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="c1">-- Setup lazy.nvim</span>
+</span></span><span class="line"><span class="cl"><span class="n">require</span><span class="p">(</span><span class="s2">&#34;lazy&#34;</span><span class="p">).</span><span class="n">setup</span><span class="p">({</span>
+</span></span><span class="line"><span class="cl">  <span class="n">spec</span> <span class="o">=</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">    <span class="c1">-- import your plugins</span>
+</span></span><span class="line"><span class="cl">    <span class="p">{</span> <span class="n">import</span> <span class="o">=</span> <span class="s2">&#34;plugins&#34;</span> <span class="p">},</span>
+</span></span><span class="line"><span class="cl">    <span class="p">{</span> <span class="n">import</span> <span class="o">=</span> <span class="s2">&#34;config.colorscheme&#34;</span><span class="p">},</span>
+</span></span><span class="line"><span class="cl">    <span class="p">{</span> <span class="n">import</span> <span class="o">=</span> <span class="s2">&#34;plugins.lsp&#34;</span><span class="p">}</span>
+</span></span><span class="line"><span class="cl">  <span class="p">},</span>
+</span></span><span class="line"><span class="cl">  <span class="c1">-- Configure any other settings here. See the documentation for more details.</span>
+</span></span><span class="line"><span class="cl">  <span class="c1">-- colorscheme that will be used when installing plugins.</span>
+</span></span><span class="line"><span class="cl">  <span class="n">install</span> <span class="o">=</span> <span class="p">{</span> <span class="n">colorscheme</span> <span class="o">=</span> <span class="p">{</span> <span class="s2">&#34;oxocarbon&#34;</span> <span class="p">}</span> <span class="p">},</span>
+</span></span><span class="line"><span class="cl">  <span class="c1">-- automatically check for plugin updates</span>
+</span></span><span class="line"><span class="cl">  <span class="n">checker</span> <span class="o">=</span> <span class="p">{</span> <span class="n">enabled</span> <span class="o">=</span> <span class="kc">true</span> <span class="p">},</span>
+</span></span><span class="line"><span class="cl"><span class="p">})</span>
+</span></span></code></pre></div><p>其中主要修改<code>spec</code>和<code>colorscheme</code>的内容，其中</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-lua" data-lang="lua"><span class="line"><span class="cl"><span class="n">spec</span> <span class="o">=</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">    <span class="c1">-- import your plugins</span>
+</span></span><span class="line"><span class="cl">    <span class="p">{</span> <span class="n">import</span> <span class="o">=</span> <span class="s2">&#34;plugins&#34;</span> <span class="p">},</span>
+</span></span><span class="line"><span class="cl">    <span class="p">{</span> <span class="n">import</span> <span class="o">=</span> <span class="s2">&#34;config.colorscheme&#34;</span><span class="p">},</span>
+</span></span><span class="line"><span class="cl">    <span class="p">{</span> <span class="n">import</span> <span class="o">=</span> <span class="s2">&#34;plugins.lsp&#34;</span><span class="p">}</span>
+</span></span><span class="line"><span class="cl">  <span class="p">},</span>
+</span></span></code></pre></div><p>就是指明配置的插件的位置，即是插件配置文件的放置处，<code>colorscheme</code>是主题的指明，而插件的安装只需要再plugins中放置插件配置再启动nvim就会自动安装</p>
+<h3 id="主题配置">主题配置</h3>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-lua" data-lang="lua"><span class="line"><span class="cl"><span class="kr">return</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">    <span class="p">{</span>
+</span></span><span class="line"><span class="cl">        <span class="s2">&#34;nyoom-engineering/oxocarbon.nvim&#34;</span><span class="p">,</span>
+</span></span><span class="line"><span class="cl">        <span class="c1">-- Add in any other configuration; </span>
+</span></span><span class="line"><span class="cl">        <span class="c1">--   event = foo, </span>
+</span></span><span class="line"><span class="cl">        <span class="c1">--   config = bar</span>
+</span></span><span class="line"><span class="cl">        <span class="c1">--   end,</span>
+</span></span><span class="line"><span class="cl">        <span class="n">config</span> <span class="o">=</span> <span class="kr">function</span><span class="p">()</span>
+</span></span><span class="line"><span class="cl">            <span class="n">vim.cmd</span><span class="p">.</span><span class="n">colorscheme</span><span class="p">(</span><span class="s2">&#34;oxocarbon&#34;</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">            <span class="c1">-- 透明背景</span>
+</span></span><span class="line"><span class="cl">            <span class="c1">--vim.api.nvim_set_hl(0, &#34;Normal&#34;, { bg = &#34;none&#34; })</span>
+</span></span><span class="line"><span class="cl">            <span class="c1">--vim.api.nvim_set_hl(0, &#34;NormalFloat&#34;, { bg = &#34;none&#34; })</span>
+</span></span><span class="line"><span class="cl">            <span class="c1">--vim.api.nvim_set_hl(0, &#34;NormalNC&#34;, { bg = &#34;none&#34; })</span>
+</span></span><span class="line"><span class="cl">        <span class="kr">end</span>
+</span></span><span class="line"><span class="cl">    <span class="p">},</span>
+</span></span><span class="line"><span class="cl"><span class="p">}</span>
+</span></span></code></pre></div><p>这就是lazy.nvim配置文件的配置框架</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-lua" data-lang="lua"><span class="line"><span class="cl"><span class="kr">return</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">    <span class="s2">&#34;插件的仓库名&#34;</span><span class="p">,</span>
+</span></span><span class="line"><span class="cl">    <span class="c1">--下面可以没有</span>
+</span></span><span class="line"><span class="cl">    <span class="n">config</span> <span class="o">=</span> <span class="kr">function</span><span class="p">()</span>
+</span></span><span class="line"><span class="cl">        <span class="p">...</span> <span class="c1">--p配置设置</span>
+</span></span><span class="line"><span class="cl">    <span class="kr">end</span>
+</span></span><span class="line"><span class="cl"><span class="p">}</span>
+</span></span></code></pre></div><p>你可以在colorscheme.lua中添加其他的其他的主题配置</p>
+<p>而添加其他插件可以访问对应插件的仓库，下面一般会有配置的说明，如果没有直接写出<code>lazy.nvim</code>插件的配置，但是都可以直接转换成上面格式直接使用。</p>
+<h3 id="插件配置">插件配置</h3>
+<p>我的插件如下，插件名称和插件名称不必相同</p>
+<p>核心插件使用⭐标明</p>
+<pre tabindex="0"><code>│  auto-session.lua    //自动保存当前工作区
+│  autopairs.lua       //自动补全括号⭐⭐
+│  buffer.lua          //缓冲区美化，就是上面的标签页⭐⭐
+│  comment.lua         //快速注释 gcc注释⭐
+│  flash.lua           //更好的查找，使用两个按键找的目标点⭐
+│  formatting.lua      //格式化
+│  gitsigns.lua        //git显示修改信息
+│  greeter.lua         //启动页，打开nvim出现的界面⭐⭐
+│  indent-blankline.lua//缩进显示
+│  linting.lua         //bug，warning显示
+│  noice.lua           //更好的同时
+│  null-ls.lua         //lsp的rust支持不好，在这里配置lsp不提供的语言支持
+│  nvim-cmp.lua        //提示自动补全⭐⭐
+│  nvim-navic.lua      //更好的:控制界面等⭐⭐
+│  nvim-notify.lua     //配合noice更好的通知
+│  nvim-tree.lua       //文件树支持⭐⭐
+│  nvim-treesitter-context.lua //前函数置显示
+│  nvim-treesitter.lua //代码高亮⭐⭐
+│  rustaceanvim.lua    //rust支持
+│  status.lua          //底下状态行⭐⭐
+│  surround.lua        //快速修改{}()之间的内容和修改surround⭐
+│  telescope.lua       //快速查找文件⭐⭐
+│  todo-comments.lua   //todo显示
+│  toggleterm.lua      //终端⭐⭐
+│  touble.lua          //快速定位bug,warning
+│  vim-maximizer.lua   //快速最大化窗口
+│  which-key.lua       //提示快捷键⭐⭐
+│
+└─lsp                  //lsp配置⭐⭐
+        lspconfig.lua
+        mason.lua
+</code></pre><p>除了lsp配置都比较简单，可以直接进行自己的修改</p>
+<h3 id="lsp配置">lsp配置</h3>
+<p>lsp定义是“The Language Server Protocol (LSP) defines the protocol used between an editor or IDE and a language server that provides language features like auto complete, go to definition, find all references etc.（语言服务器协议（LSP）定义了编辑器或IDE与语言服务器之间使用的协议，该协议提供了自动完成，转到定义，查找所有引用等语言功能。）”</p>
+<p>其实就是为vim提供“自动完成，转到定义，查找所有引用等语言功能”，就是像vscode配置各种语言相同的功能，我们使用Mason来lsp管理</p>
+<ol>
+<li>mason.lua配置</li>
+<li>lspconfig.lua配置</li>
+</ol>
+<p>两个配置都要有</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-lua" data-lang="lua"><span class="line"><span class="cl"><span class="kr">return</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">	<span class="s2">&#34;williamboman/mason.nvim&#34;</span><span class="p">,</span>
+</span></span><span class="line"><span class="cl">	<span class="n">dependencies</span> <span class="o">=</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">		<span class="s2">&#34;williamboman/mason-lspconfig.nvim&#34;</span><span class="p">,</span>
+</span></span><span class="line"><span class="cl">		<span class="s2">&#34;WhoIsSethDaniel/mason-tool-installer.nvim&#34;</span><span class="p">,</span>
+</span></span><span class="line"><span class="cl">	<span class="p">},</span>
+</span></span><span class="line"><span class="cl">	<span class="n">config</span> <span class="o">=</span> <span class="kr">function</span><span class="p">()</span>
+</span></span><span class="line"><span class="cl">		<span class="c1">-- import mason</span>
+</span></span><span class="line"><span class="cl">		<span class="kd">local</span> <span class="n">mason</span> <span class="o">=</span> <span class="n">require</span><span class="p">(</span><span class="s2">&#34;mason&#34;</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">		<span class="c1">-- import mason-lspconfig</span>
+</span></span><span class="line"><span class="cl">		<span class="kd">local</span> <span class="n">mason_lspconfig</span> <span class="o">=</span> <span class="n">require</span><span class="p">(</span><span class="s2">&#34;mason-lspconfig&#34;</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">		<span class="kd">local</span> <span class="n">mason_tool_installer</span> <span class="o">=</span> <span class="n">require</span><span class="p">(</span><span class="s2">&#34;mason-tool-installer&#34;</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">		<span class="c1">-- enable mason and configure icons</span>
+</span></span><span class="line"><span class="cl">		<span class="n">mason.setup</span><span class="p">({</span>
+</span></span><span class="line"><span class="cl">			<span class="n">ui</span> <span class="o">=</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">				<span class="n">icons</span> <span class="o">=</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">					<span class="n">package_installed</span> <span class="o">=</span> <span class="s2">&#34;✓&#34;</span><span class="p">,</span>
+</span></span><span class="line"><span class="cl">					<span class="n">package_pending</span> <span class="o">=</span> <span class="s2">&#34;➜&#34;</span><span class="p">,</span>
+</span></span><span class="line"><span class="cl">					<span class="n">package_uninstalled</span> <span class="o">=</span> <span class="s2">&#34;✗&#34;</span><span class="p">,</span>
+</span></span><span class="line"><span class="cl">				<span class="p">},</span>
+</span></span><span class="line"><span class="cl">			<span class="p">},</span>
+</span></span><span class="line"><span class="cl">		<span class="p">})</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">		<span class="n">mason_lspconfig.setup</span><span class="p">({</span>
+</span></span><span class="line"><span class="cl">			<span class="c1">-- list of servers for mason to install</span>
+</span></span><span class="line"><span class="cl">			<span class="n">ensure_installed</span> <span class="o">=</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">				<span class="s2">&#34;ts_ls&#34;</span><span class="p">,</span>
+</span></span><span class="line"><span class="cl">				<span class="s2">&#34;html&#34;</span><span class="p">,</span>
+</span></span><span class="line"><span class="cl">				<span class="s2">&#34;cssls&#34;</span><span class="p">,</span>
+</span></span><span class="line"><span class="cl">				<span class="s2">&#34;tailwindcss&#34;</span><span class="p">,</span>
+</span></span><span class="line"><span class="cl">				<span class="s2">&#34;svelte&#34;</span><span class="p">,</span>
+</span></span><span class="line"><span class="cl">				<span class="s2">&#34;lua_ls&#34;</span><span class="p">,</span>
+</span></span><span class="line"><span class="cl">				<span class="s2">&#34;graphql&#34;</span><span class="p">,</span>
+</span></span><span class="line"><span class="cl">				<span class="s2">&#34;emmet_ls&#34;</span><span class="p">,</span>
+</span></span><span class="line"><span class="cl">				<span class="s2">&#34;prismals&#34;</span><span class="p">,</span>
+</span></span><span class="line"><span class="cl">				<span class="s2">&#34;pyright&#34;</span><span class="p">,</span>
+</span></span><span class="line"><span class="cl">			<span class="p">},</span>
+</span></span><span class="line"><span class="cl">		<span class="p">})</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">		<span class="n">mason_tool_installer.setup</span><span class="p">({</span>
+</span></span><span class="line"><span class="cl">			<span class="n">ensure_installed</span> <span class="o">=</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">				<span class="s2">&#34;prettier&#34;</span><span class="p">,</span> <span class="c1">-- prettier formatter</span>
+</span></span><span class="line"><span class="cl">				<span class="s2">&#34;stylua&#34;</span><span class="p">,</span> <span class="c1">-- lua formatter</span>
+</span></span><span class="line"><span class="cl">				<span class="s2">&#34;isort&#34;</span><span class="p">,</span> <span class="c1">-- python formatter</span>
+</span></span><span class="line"><span class="cl">				<span class="s2">&#34;black&#34;</span><span class="p">,</span> <span class="c1">-- python formatter</span>
+</span></span><span class="line"><span class="cl">				<span class="s2">&#34;pylint&#34;</span><span class="p">,</span> <span class="c1">-- python linter</span>
+</span></span><span class="line"><span class="cl">				<span class="s2">&#34;eslint_d&#34;</span><span class="p">,</span> <span class="c1">-- js linter</span>
+</span></span><span class="line"><span class="cl">			<span class="p">},</span>
+</span></span><span class="line"><span class="cl">		<span class="p">})</span>
+</span></span><span class="line"><span class="cl">	<span class="kr">end</span><span class="p">,</span>
+</span></span><span class="line"><span class="cl"><span class="p">}</span>
+</span></span></code></pre></div><p>下面lspconfig配置</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-lua" data-lang="lua"><span class="line"><span class="cl"><span class="kr">return</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">	<span class="s2">&#34;neovim/nvim-lspconfig&#34;</span><span class="p">,</span>
+</span></span><span class="line"><span class="cl">	<span class="n">event</span> <span class="o">=</span> <span class="p">{</span> <span class="s2">&#34;BufReadPre&#34;</span><span class="p">,</span> <span class="s2">&#34;BufNewFile&#34;</span> <span class="p">},</span>
+</span></span><span class="line"><span class="cl">	<span class="n">dependencies</span> <span class="o">=</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">		<span class="s2">&#34;hrsh7th/cmp-nvim-lsp&#34;</span><span class="p">,</span>
+</span></span><span class="line"><span class="cl">		<span class="p">{</span> <span class="s2">&#34;antosha417/nvim-lsp-file-operations&#34;</span><span class="p">,</span> <span class="n">config</span> <span class="o">=</span> <span class="kc">true</span> <span class="p">},</span>
+</span></span><span class="line"><span class="cl">		<span class="p">{</span> <span class="s2">&#34;folke/neodev.nvim&#34;</span><span class="p">,</span> <span class="n">opts</span> <span class="o">=</span> <span class="p">{}</span> <span class="p">},</span>
+</span></span><span class="line"><span class="cl">	<span class="p">},</span>
+</span></span><span class="line"><span class="cl">	<span class="n">config</span> <span class="o">=</span> <span class="kr">function</span><span class="p">()</span>
+</span></span><span class="line"><span class="cl">		<span class="c1">-- import lspconfig plugin</span>
+</span></span><span class="line"><span class="cl">		<span class="kd">local</span> <span class="n">lspconfig</span> <span class="o">=</span> <span class="n">require</span><span class="p">(</span><span class="s2">&#34;lspconfig&#34;</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">		<span class="c1">-- import mason_lspconfig plugin</span>
+</span></span><span class="line"><span class="cl">		<span class="kd">local</span> <span class="n">mason_lspconfig</span> <span class="o">=</span> <span class="n">require</span><span class="p">(</span><span class="s2">&#34;mason-lspconfig&#34;</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">		<span class="c1">-- import cmp-nvim-lsp plugin</span>
+</span></span><span class="line"><span class="cl">		<span class="kd">local</span> <span class="n">cmp_nvim_lsp</span> <span class="o">=</span> <span class="n">require</span><span class="p">(</span><span class="s2">&#34;cmp_nvim_lsp&#34;</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">		<span class="kd">local</span> <span class="n">keymap</span> <span class="o">=</span> <span class="n">vim.keymap</span> <span class="c1">-- for conciseness</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">		<span class="n">vim.api</span><span class="p">.</span><span class="n">nvim_create_autocmd</span><span class="p">(</span><span class="s2">&#34;LspAttach&#34;</span><span class="p">,</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">			<span class="n">group</span> <span class="o">=</span> <span class="n">vim.api</span><span class="p">.</span><span class="n">nvim_create_augroup</span><span class="p">(</span><span class="s2">&#34;UserLspConfig&#34;</span><span class="p">,</span> <span class="p">{}),</span>
+</span></span><span class="line"><span class="cl">			<span class="n">callback</span> <span class="o">=</span> <span class="kr">function</span><span class="p">(</span><span class="n">ev</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">				<span class="c1">-- Buffer local mappings.</span>
+</span></span><span class="line"><span class="cl">				<span class="c1">-- See `:help vim.lsp.*` for documentation on any of the below functions</span>
+</span></span><span class="line"><span class="cl">				<span class="kd">local</span> <span class="n">opts</span> <span class="o">=</span> <span class="p">{</span> <span class="n">buffer</span> <span class="o">=</span> <span class="n">ev.buf</span><span class="p">,</span> <span class="n">silent</span> <span class="o">=</span> <span class="kc">true</span> <span class="p">}</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">				<span class="c1">-- set keybinds</span>
+</span></span><span class="line"><span class="cl">				<span class="n">opts.desc</span> <span class="o">=</span> <span class="s2">&#34;Show LSP references&#34;</span>
+</span></span><span class="line"><span class="cl">				<span class="n">keymap.set</span><span class="p">(</span><span class="s2">&#34;n&#34;</span><span class="p">,</span> <span class="s2">&#34;gR&#34;</span><span class="p">,</span> <span class="s2">&#34;&lt;cmd&gt;Telescope lsp_references&lt;CR&gt;&#34;</span><span class="p">,</span> <span class="n">opts</span><span class="p">)</span> <span class="c1">-- show definition, references</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">				<span class="n">opts.desc</span> <span class="o">=</span> <span class="s2">&#34;Go to declaration&#34;</span>
+</span></span><span class="line"><span class="cl">				<span class="n">keymap.set</span><span class="p">(</span><span class="s2">&#34;n&#34;</span><span class="p">,</span> <span class="s2">&#34;gD&#34;</span><span class="p">,</span> <span class="n">vim.lsp</span><span class="p">.</span><span class="n">buf.declaration</span><span class="p">,</span> <span class="n">opts</span><span class="p">)</span> <span class="c1">-- go to declaration</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">				<span class="n">opts.desc</span> <span class="o">=</span> <span class="s2">&#34;Show LSP definitions&#34;</span>
+</span></span><span class="line"><span class="cl">				<span class="n">keymap.set</span><span class="p">(</span><span class="s2">&#34;n&#34;</span><span class="p">,</span> <span class="s2">&#34;gd&#34;</span><span class="p">,</span> <span class="s2">&#34;&lt;cmd&gt;Telescope lsp_definitions&lt;CR&gt;&#34;</span><span class="p">,</span> <span class="n">opts</span><span class="p">)</span> <span class="c1">-- show lsp definitions</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">				<span class="n">opts.desc</span> <span class="o">=</span> <span class="s2">&#34;Show LSP implementations&#34;</span>
+</span></span><span class="line"><span class="cl">				<span class="n">keymap.set</span><span class="p">(</span><span class="s2">&#34;n&#34;</span><span class="p">,</span> <span class="s2">&#34;gi&#34;</span><span class="p">,</span> <span class="s2">&#34;&lt;cmd&gt;Telescope lsp_implementations&lt;CR&gt;&#34;</span><span class="p">,</span> <span class="n">opts</span><span class="p">)</span> <span class="c1">-- show lsp implementations</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">				<span class="n">opts.desc</span> <span class="o">=</span> <span class="s2">&#34;Show LSP type definitions&#34;</span>
+</span></span><span class="line"><span class="cl">				<span class="n">keymap.set</span><span class="p">(</span><span class="s2">&#34;n&#34;</span><span class="p">,</span> <span class="s2">&#34;gt&#34;</span><span class="p">,</span> <span class="s2">&#34;&lt;cmd&gt;Telescope lsp_type_definitions&lt;CR&gt;&#34;</span><span class="p">,</span> <span class="n">opts</span><span class="p">)</span> <span class="c1">-- show lsp type definitions</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">				<span class="n">opts.desc</span> <span class="o">=</span> <span class="s2">&#34;See available code actions&#34;</span>
+</span></span><span class="line"><span class="cl">				<span class="n">keymap.set</span><span class="p">({</span> <span class="s2">&#34;n&#34;</span><span class="p">,</span> <span class="s2">&#34;v&#34;</span> <span class="p">},</span> <span class="s2">&#34;&lt;leader&gt;ca&#34;</span><span class="p">,</span> <span class="n">vim.lsp</span><span class="p">.</span><span class="n">buf.code_action</span><span class="p">,</span> <span class="n">opts</span><span class="p">)</span> <span class="c1">-- see available code actions, in visual mode will apply to selection</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">				<span class="n">opts.desc</span> <span class="o">=</span> <span class="s2">&#34;Smart rename&#34;</span>
+</span></span><span class="line"><span class="cl">				<span class="n">keymap.set</span><span class="p">(</span><span class="s2">&#34;n&#34;</span><span class="p">,</span> <span class="s2">&#34;&lt;leader&gt;rn&#34;</span><span class="p">,</span> <span class="n">vim.lsp</span><span class="p">.</span><span class="n">buf.rename</span><span class="p">,</span> <span class="n">opts</span><span class="p">)</span> <span class="c1">-- smart rename</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">				<span class="n">opts.desc</span> <span class="o">=</span> <span class="s2">&#34;Show buffer diagnostics&#34;</span>
+</span></span><span class="line"><span class="cl">				<span class="n">keymap.set</span><span class="p">(</span><span class="s2">&#34;n&#34;</span><span class="p">,</span> <span class="s2">&#34;&lt;leader&gt;D&#34;</span><span class="p">,</span> <span class="s2">&#34;&lt;cmd&gt;Telescope diagnostics bufnr=0&lt;CR&gt;&#34;</span><span class="p">,</span> <span class="n">opts</span><span class="p">)</span> <span class="c1">-- show  diagnostics for file</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">				<span class="n">opts.desc</span> <span class="o">=</span> <span class="s2">&#34;Show line diagnostics&#34;</span>
+</span></span><span class="line"><span class="cl">				<span class="n">keymap.set</span><span class="p">(</span><span class="s2">&#34;n&#34;</span><span class="p">,</span> <span class="s2">&#34;&lt;leader&gt;d&#34;</span><span class="p">,</span> <span class="n">vim.diagnostic</span><span class="p">.</span><span class="n">open_float</span><span class="p">,</span> <span class="n">opts</span><span class="p">)</span> <span class="c1">-- show diagnostics for line</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">				<span class="n">opts.desc</span> <span class="o">=</span> <span class="s2">&#34;Go to previous diagnostic&#34;</span>
+</span></span><span class="line"><span class="cl">				<span class="n">keymap.set</span><span class="p">(</span><span class="s2">&#34;n&#34;</span><span class="p">,</span> <span class="s2">&#34;[d&#34;</span><span class="p">,</span> <span class="n">vim.diagnostic</span><span class="p">.</span><span class="n">goto_prev</span><span class="p">,</span> <span class="n">opts</span><span class="p">)</span> <span class="c1">-- jump to previous diagnostic in buffer</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">				<span class="n">opts.desc</span> <span class="o">=</span> <span class="s2">&#34;Go to next diagnostic&#34;</span>
+</span></span><span class="line"><span class="cl">				<span class="n">keymap.set</span><span class="p">(</span><span class="s2">&#34;n&#34;</span><span class="p">,</span> <span class="s2">&#34;]d&#34;</span><span class="p">,</span> <span class="n">vim.diagnostic</span><span class="p">.</span><span class="n">goto_next</span><span class="p">,</span> <span class="n">opts</span><span class="p">)</span> <span class="c1">-- jump to next diagnostic in buffer</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">				<span class="n">opts.desc</span> <span class="o">=</span> <span class="s2">&#34;Show documentation for what is under cursor&#34;</span>
+</span></span><span class="line"><span class="cl">				<span class="n">keymap.set</span><span class="p">(</span><span class="s2">&#34;n&#34;</span><span class="p">,</span> <span class="s2">&#34;K&#34;</span><span class="p">,</span> <span class="n">vim.lsp</span><span class="p">.</span><span class="n">buf.hover</span><span class="p">,</span> <span class="n">opts</span><span class="p">)</span> <span class="c1">-- show documentation for what is under cursor</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">				<span class="n">opts.desc</span> <span class="o">=</span> <span class="s2">&#34;Restart LSP&#34;</span>
+</span></span><span class="line"><span class="cl">				<span class="n">keymap.set</span><span class="p">(</span><span class="s2">&#34;n&#34;</span><span class="p">,</span> <span class="s2">&#34;&lt;leader&gt;rs&#34;</span><span class="p">,</span> <span class="s2">&#34;:LspRestart&lt;CR&gt;&#34;</span><span class="p">,</span> <span class="n">opts</span><span class="p">)</span> <span class="c1">-- mapping to restart lsp if necessary</span>
+</span></span><span class="line"><span class="cl">			<span class="kr">end</span><span class="p">,</span>
+</span></span><span class="line"><span class="cl">		<span class="p">})</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">		<span class="c1">-- used to enable autocompletion (assign to every lsp server config)</span>
+</span></span><span class="line"><span class="cl">		<span class="kd">local</span> <span class="n">capabilities</span> <span class="o">=</span> <span class="n">cmp_nvim_lsp.default_capabilities</span><span class="p">()</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">		<span class="c1">-- Change the Diagnostic symbols in the sign column (gutter)</span>
+</span></span><span class="line"><span class="cl">		<span class="c1">-- (not in youtube nvim video)</span>
+</span></span><span class="line"><span class="cl">		<span class="kd">local</span> <span class="n">signs</span> <span class="o">=</span> <span class="p">{</span> <span class="n">Error</span> <span class="o">=</span> <span class="s2">&#34; &#34;</span><span class="p">,</span> <span class="n">Warn</span> <span class="o">=</span> <span class="s2">&#34; &#34;</span><span class="p">,</span> <span class="n">Hint</span> <span class="o">=</span> <span class="s2">&#34;󰠠 &#34;</span><span class="p">,</span> <span class="n">Info</span> <span class="o">=</span> <span class="s2">&#34; &#34;</span> <span class="p">}</span>
+</span></span><span class="line"><span class="cl">		<span class="kr">for</span> <span class="n">type</span><span class="p">,</span> <span class="n">icon</span> <span class="kr">in</span> <span class="n">pairs</span><span class="p">(</span><span class="n">signs</span><span class="p">)</span> <span class="kr">do</span>
+</span></span><span class="line"><span class="cl">			<span class="kd">local</span> <span class="n">hl</span> <span class="o">=</span> <span class="s2">&#34;DiagnosticSign&#34;</span> <span class="o">..</span> <span class="n">type</span>
+</span></span><span class="line"><span class="cl">			<span class="n">vim.fn</span><span class="p">.</span><span class="n">sign_define</span><span class="p">(</span><span class="n">hl</span><span class="p">,</span> <span class="p">{</span> <span class="n">text</span> <span class="o">=</span> <span class="n">icon</span><span class="p">,</span> <span class="n">texthl</span> <span class="o">=</span> <span class="n">hl</span><span class="p">,</span> <span class="n">numhl</span> <span class="o">=</span> <span class="s2">&#34;&#34;</span> <span class="p">})</span>
+</span></span><span class="line"><span class="cl">		<span class="kr">end</span>
+</span></span><span class="line"><span class="cl">	<span class="kr">end</span><span class="p">,</span>
+</span></span><span class="line"><span class="cl"><span class="p">}</span>
+</span></span></code></pre></div><p><code>ensure_installed</code>中的是安装的语言配置，重新打开nvim安装完成后<code>:Mason</code>会出现下面界面，可以直接在下面配置语言，安装语言，DAP是debug支持，Linter是错误显示，Formatter是格式化代码，移动到对应语言下<code>I</code>安装，<code>X</code>卸载，非常方便，但是rust似乎没有很好的支持，参考前面我的rust配置可以配置</p>
+<p><img src="https://jsd.cdn.zzko.cn/gh/whale4rain/picx-images-hosting@master/20250315/image.5fkqst200t.webp" alt="image"></p>
+<h3 id="使用todo">使用TODO</h3>
+
+        </section>
+        <footer>
+            
+    <nav id="keywords" aria-label="[i18n] tags">
+        <span>[i18n] tags:&nbsp;</span>
+        
+        <!-- terms.html -->
+    <ul class="delimiter" role="presentation">
+            <li><a href="http://localhost:1313/zh/tags/nvim/">Nvim</a></li>
+            <li><a href="http://localhost:1313/zh/tags/lazy.nvim/">Lazy.nvim</a></li>
+            <li><a href="http://localhost:1313/zh/tags/configuration/">Configuration</a></li>
+    </ul>
+    </nav>
+        </footer>
+    </article>
+    <hr class="hide" style="margin: 1in 0;">
+    <div id="contentinfo" class="pagewidth" role="contentinfo" data-pagefind-ignore="all">
+            <!-- related.html -->
+    <nav id="related" aria-label="[i18n] related">
+        <strong class="section-title">[i18n] related</strong><ol>
+                    <li><a href="http://localhost:1313/zh/post/lazyvim%E9%85%8D%E7%BD%AE%E7%BB%8F%E9%AA%8C/">Lazyvim配置经验</a></li>
+                </ol>
+    </nav>
+            <!-- history.html -->
+            <!-- colophon.html -->
+    <div id="colophon" style="display: none;" aria-live="polite">
+        <strong class="section-title">[i18n] colophon</strong>
+        <div class="f">
+            <div id="qr" role="img" aria-label="QR code"></div>
+            <div class="verbose">
+                <div class="has-aria-label-top" aria-label="打造专属你的nvim配置指西"><span>http://localhost:1313/zh/post/%E6%89%93%E9%80%A0%E4%B8%93%E5%B1%9E%E4%BD%A0%E7%9A%84nvim%E9%85%8D%E7%BD%AE%E6%8C%87%E8%A5%BF/</span></div>
+                <div><span>[i18n] accessTime: </span><time id="time-stamp"></time></div>
+                <div><span>[i18n] buildTime: </span><time datetime="2025-03-15T23:52:29&#43;08:00">2025-03-15T23:52:29&#43;08:00</time></div>
+                
+            </div>
+        </div>
+    </div>
+        
+            <!-- nav.html -->
+<details class="presentation" aria-expanded="true" id="has-share" open>
+    <summary id="share" tabindex="-1">
+        <span>[i18n] share</span>
+    </summary>
+        <nav aria-labelledby="share">
+            <ul role="presentation" class="share">
+                    <!-- share.html -->
+    <li id="has-mastodon">
+        <!-- mastodon.html -->
+    <form class="form" id="mastodon" action="//sharetomastodon.github.io/" target="_blank" rel="noopener noreferrer">
+        <input id="mastodonTitle" type="hidden" name="title" value="打造专属你的nvim配置指西">
+        <input id="mastodonPermalink" type="hidden" name="url" value="http://localhost:1313/zh/post/%E6%89%93%E9%80%A0%E4%B8%93%E5%B1%9E%E4%BD%A0%E7%9A%84nvim%E9%85%8D%E7%BD%AE%E6%8C%87%E8%A5%BF/">
+        <input id="mastodonText" type="hidden" name="text" value="打造专属你的nvim配置指西 http://localhost:1313/zh/post/%E6%89%93%E9%80%A0%E4%B8%93%E5%B1%9E%E4%BD%A0%E7%9A%84nvim%E9%85%8D%E7%BD%AE%E6%8C%87%E8%A5%BF/" disabled>
+        <input id="mastodonInstance" type="url" class="ldots form__input" placeholder="Enter Mastodon instance (https://www.example.com)" aria-label="Mastodon instance URL">
+        <button class="form__button" type="submit" aria-label="[i18n] shareOn Mastodon">
+            <i class="icon mastodon" aria-hidden="true"></i>
+            <span class="t" role="tooltip">[i18n] shareOn Mastodon</span>
+        </button>
+    </form>
+    </li>
+    <li>
+        <a href="mailto:?subject=%e6%89%93%e9%80%a0%e4%b8%93%e5%b1%9e%e4%bd%a0%e7%9a%84nvim%e9%85%8d%e7%bd%ae%e6%8c%87%e8%a5%bf&body=http%3a%2f%2flocalhost%3a1313%2fzh%2fpost%2f%25E6%2589%2593%25E9%2580%25A0%25E4%25B8%2593%25E5%25B1%259E%25E4%25BD%25A0%25E7%259A%2584nvim%25E9%2585%258D%25E7%25BD%25AE%25E6%258C%2587%25E8%25A5%25BF%2f" role="button" aria-label="[i18n] shareOn [i18n] email">
+            <i class="email" aria-hidden="true"></i>
+            <span class="t" role="tooltip">[i18n] shareOn [i18n] email</span>
+        </a>
+    </li>
+    <li>
+        <a href="whatsapp://send?text=%e6%89%93%e9%80%a0%e4%b8%93%e5%b1%9e%e4%bd%a0%e7%9a%84nvim%e9%85%8d%e7%bd%ae%e6%8c%87%e8%a5%bf%20http%3a%2f%2flocalhost%3a1313%2fzh%2fpost%2f%25E6%2589%2593%25E9%2580%25A0%25E4%25B8%2593%25E5%25B1%259E%25E4%25BD%25A0%25E7%259A%2584nvim%25E9%2585%258D%25E7%25BD%25AE%25E6%258C%2587%25E8%25A5%25BF%2f" role="button" aria-label="[i18n] shareOn Whatsapp">
+            <i class="whatsapp" aria-hidden="true"></i>
+            <span class="t" role="tooltip">[i18n] shareOn Whatsapp</span>
+        </a>
+    </li>
+    <li>
+        <a rel="noopener noreferrer" target="_blank" href="https://telegram.me/share/url?text=%e6%89%93%e9%80%a0%e4%b8%93%e5%b1%9e%e4%bd%a0%e7%9a%84nvim%e9%85%8d%e7%bd%ae%e6%8c%87%e8%a5%bf&amp;url=http://localhost:1313/zh/post/%E6%89%93%E9%80%A0%E4%B8%93%E5%B1%9E%E4%BD%A0%E7%9A%84nvim%E9%85%8D%E7%BD%AE%E6%8C%87%E8%A5%BF/" role="button"
+            aria-label="[i18n] shareOn Telegram [i18n] inNewTab">
+            <i class="telegram" aria-hidden="true"></i>
+            <span class="t" role="tooltip">[i18n] shareOn Telegram</span>
+        </a>
+    </li>
+    <li>
+        <a rel="noopener noreferrer" target="_blank" href="https://bsky.app/intent/compose?text=%e6%89%93%e9%80%a0%e4%b8%93%e5%b1%9e%e4%bd%a0%e7%9a%84nvim%e9%85%8d%e7%bd%ae%e6%8c%87%e8%a5%bf&amp;url=http://localhost:1313/zh/post/%E6%89%93%E9%80%A0%E4%B8%93%E5%B1%9E%E4%BD%A0%E7%9A%84nvim%E9%85%8D%E7%BD%AE%E6%8C%87%E8%A5%BF/" role="button"
+            aria-label="[i18n] shareOn Bluesky [i18n] inNewTab">
+            <i class="bluesky" aria-hidden="true"></i>
+            <span class="t" role="tooltip">[i18n] shareOn Bluesky</span>
+        </a>
+    </li>
+    <li>
+        <a rel="noopener noreferrer" target="_blank" href="https://facebook.com/sharer/sharer.php?u=http://localhost:1313/zh/post/%E6%89%93%E9%80%A0%E4%B8%93%E5%B1%9E%E4%BD%A0%E7%9A%84nvim%E9%85%8D%E7%BD%AE%E6%8C%87%E8%A5%BF/" role="button"
+            aria-label="[i18n] shareOn Facebook [i18n] inNewTab">
+            <i class="facebook" aria-hidden="true"></i>
+            <span class="t" role="tooltip">[i18n] shareOn Facebook</span>
+        </a>
+    </li>
+    <li>
+        <a rel="noopener noreferrer" target="_blank" href="https://news.ycombinator.com/submitlink?u=http://localhost:1313/zh/post/%E6%89%93%E9%80%A0%E4%B8%93%E5%B1%9E%E4%BD%A0%E7%9A%84nvim%E9%85%8D%E7%BD%AE%E6%8C%87%E8%A5%BF/&amp;t=%e6%89%93%e9%80%a0%e4%b8%93%e5%b1%9e%e4%bd%a0%e7%9a%84nvim%e9%85%8d%e7%bd%ae%e6%8c%87%e8%a5%bf" role="button"
+            aria-label="[i18n] shareOn Hackernews [i18n] inNewTab">
+            <i class="hackernews" aria-hidden="true"></i>
+            <span class="t" role="tooltip">[i18n] shareOn Hackernews</span>
+        </a>
+    </li>
+    <li>
+        <a rel="noopener noreferrer" target="_blank" href="https://www.linkedin.com/shareArticle?mini=true&amp;url=http://localhost:1313/zh/post/%E6%89%93%E9%80%A0%E4%B8%93%E5%B1%9E%E4%BD%A0%E7%9A%84nvim%E9%85%8D%E7%BD%AE%E6%8C%87%E8%A5%BF/&amp;title=%e6%89%93%e9%80%a0%e4%b8%93%e5%b1%9e%e4%bd%a0%e7%9a%84nvim%e9%85%8d%e7%bd%ae%e6%8c%87%e8%a5%bf&amp;summary=%e6%89%93%e9%80%a0%e4%b8%93%e5%b1%9e%e4%bd%a0%e7%9a%84nvim%e9%85%8d%e7%bd%ae%e6%8c%87%e8%a5%bf&amp;source=http://localhost:1313/zh/post/%E6%89%93%E9%80%A0%E4%B8%93%E5%B1%9E%E4%BD%A0%E7%9A%84nvim%E9%85%8D%E7%BD%AE%E6%8C%87%E8%A5%BF/" role="button"
+            aria-label="[i18n] shareOn Linkedin [i18n] inNewTab">
+            <i class="linkedin" aria-hidden="true"></i>
+            <span class="t" role="tooltip">[i18n] shareOn Linkedin</span>
+        </a>
+    </li>
+    <li>
+        <a rel="noopener noreferrer" target="_blank" href="https://pinterest.com/pin/create/button/?url=http://localhost:1313/zh/post/%E6%89%93%E9%80%A0%E4%B8%93%E5%B1%9E%E4%BD%A0%E7%9A%84nvim%E9%85%8D%E7%BD%AE%E6%8C%87%E8%A5%BF/&amp;media=http://localhost:1313/zh/post/%E6%89%93%E9%80%A0%E4%B8%93%E5%B1%9E%E4%BD%A0%E7%9A%84nvim%E9%85%8D%E7%BD%AE%E6%8C%87%E8%A5%BF/&amp;description=%e6%89%93%e9%80%a0%e4%b8%93%e5%b1%9e%e4%bd%a0%e7%9a%84nvim%e9%85%8d%e7%bd%ae%e6%8c%87%e8%a5%bf" role="button"
+            aria-label="[i18n] shareOn Pinterest [i18n] inNewTab">
+            <i class="pinterest" aria-hidden="true"></i>
+            <span class="t" role="tooltip">[i18n] shareOn Pinterest</span>
+        </a>
+    </li>
+    <li>
+        <a rel="noopener noreferrer" target="_blank" href="https://reddit.com/submit/?url=http://localhost:1313/zh/post/%E6%89%93%E9%80%A0%E4%B8%93%E5%B1%9E%E4%BD%A0%E7%9A%84nvim%E9%85%8D%E7%BD%AE%E6%8C%87%E8%A5%BF/&amp;resubmit=true&amp;title=%e6%89%93%e9%80%a0%e4%b8%93%e5%b1%9e%e4%bd%a0%e7%9a%84nvim%e9%85%8d%e7%bd%ae%e6%8c%87%e8%a5%bf" role="button"
+            aria-label="[i18n] shareOn Reddit [i18n] inNewTab">
+            <i class="reddit" aria-hidden="true"></i>
+            <span class="t" role="tooltip">[i18n] shareOn Reddit</span>
+        </a>
+    </li>
+    <li>
+        <a rel="noopener noreferrer" target="_blank" href="https://www.tumblr.com/widgets/share/tool?posttype=link&amp;title=%e6%89%93%e9%80%a0%e4%b8%93%e5%b1%9e%e4%bd%a0%e7%9a%84nvim%e9%85%8d%e7%bd%ae%e6%8c%87%e8%a5%bf&amp;caption=%e6%89%93%e9%80%a0%e4%b8%93%e5%b1%9e%e4%bd%a0%e7%9a%84nvim%e9%85%8d%e7%bd%ae%e6%8c%87%e8%a5%bf&amp;content=http://localhost:1313/zh/post/%E6%89%93%E9%80%A0%E4%B8%93%E5%B1%9E%E4%BD%A0%E7%9A%84nvim%E9%85%8D%E7%BD%AE%E6%8C%87%E8%A5%BF/&amp;canonicalUrl=http://localhost:1313/zh/post/%E6%89%93%E9%80%A0%E4%B8%93%E5%B1%9E%E4%BD%A0%E7%9A%84nvim%E9%85%8D%E7%BD%AE%E6%8C%87%E8%A5%BF/" role="button"
+            aria-label="[i18n] shareOn Tumblr [i18n] inNewTab">
+            <i class="tumblr" aria-hidden="true"></i>
+            <span class="t" role="tooltip">[i18n] shareOn Tumblr</span>
+        </a>
+    </li>
+    <li>
+        <a rel="noopener noreferrer" target="_blank" href="http://vk.com/share.php?title=%e6%89%93%e9%80%a0%e4%b8%93%e5%b1%9e%e4%bd%a0%e7%9a%84nvim%e9%85%8d%e7%bd%ae%e6%8c%87%e8%a5%bf&amp;url=http://localhost:1313/zh/post/%E6%89%93%E9%80%A0%E4%B8%93%E5%B1%9E%E4%BD%A0%E7%9A%84nvim%E9%85%8D%E7%BD%AE%E6%8C%87%E8%A5%BF/" role="button"
+            aria-label="[i18n] shareOn Vk [i18n] inNewTab">
+            <i class="vk" aria-hidden="true"></i>
+            <span class="t" role="tooltip">[i18n] shareOn Vk</span>
+        </a>
+    </li>
+    <li>
+        <a rel="noopener noreferrer" target="_blank" href="https://twitter.com/intent/tweet/?text=%e6%89%93%e9%80%a0%e4%b8%93%e5%b1%9e%e4%bd%a0%e7%9a%84nvim%e9%85%8d%e7%bd%ae%e6%8c%87%e8%a5%bf&amp;url=http://localhost:1313/zh/post/%E6%89%93%E9%80%A0%E4%B8%93%E5%B1%9E%E4%BD%A0%E7%9A%84nvim%E9%85%8D%E7%BD%AE%E6%8C%87%E8%A5%BF/" role="button"
+            aria-label="[i18n] shareOn Twitter [i18n] inNewTab">
+            <i class="twitter" aria-hidden="true"></i>
+            <span class="t" role="tooltip">[i18n] shareOn Twitter</span>
+        </a>
+    </li>
+    <li>
+        <a rel="noopener noreferrer" target="_blank" href="https://www.xing.com/app/user?op=share;url=http://localhost:1313/zh/post/%E6%89%93%E9%80%A0%E4%B8%93%E5%B1%9E%E4%BD%A0%E7%9A%84nvim%E9%85%8D%E7%BD%AE%E6%8C%87%E8%A5%BF/;title=%e6%89%93%e9%80%a0%e4%b8%93%e5%b1%9e%e4%bd%a0%e7%9a%84nvim%e9%85%8d%e7%bd%ae%e6%8c%87%e8%a5%bf" role="button"
+            aria-label="[i18n] shareOn Xing [i18n] inNewTab">
+            <i class="xing" aria-hidden="true"></i>
+            <span class="t" role="tooltip">[i18n] shareOn Xing</span>
+        </a>
+    </li>
+            </ul>
+        </nav>
+</details>
+    </div>
+    <div class="pagewidth">
+        </div>
+        <!-- main/footer.html -->
+    <hr class="hide">
+        <footer id="main-footer">
+            <div class="column column--multicols pagewidth" style="--multicols: 2"><div id="main-footer-primary"
+                        aria-labelledby="footer-1">
+                        <p><strong class="section-title">whale4rain <i class="icon copyleft"></i> 2025</strong></p>
+<p>Some rights reserved.</p>
+<br>
+<strong class="section-title">noting here</strong>
+<p>hello world!</p>
+
+                    </div>
+                <div id="main-footer-secondary" class="column" style="--col: 15rem">
+                        <div id="coffee-counter">
+                            <strong class="section-title">[i18n] coffeeStat</strong>
+                            <p>[i18n] coffeeCount4 [i18n] cup[i18n] coffeeCountPost</p>
+                        </div>                    
+                    <!-- menu.html -->
+    <nav id="menu-footer" class="has-aria-label-top" aria-label="[i18n] keepInTouch">
+        <ul role="presentation">
+            <li><a href="http://localhost:1313/zh/" aria-label="figma">        
+                    <i class="icon figma" aria-hidden="true"></i>
+                    <span class="t" role="tooltip">figma</span>
+                </a>
+            </li>
+            <li><a href="http://localhost:1313/zh/" aria-label="hashnode">        
+                    <i class="icon hashnode" aria-hidden="true"></i>
+                    <span class="t" role="tooltip">hashnode</span>
+                </a>
+            </li>
+            <li><a href="http://localhost:1313/zh/" aria-label="email">        
+                    <i class="icon email" aria-hidden="true"></i>
+                    <span class="t" role="tooltip">email</span>
+                </a>
+            </li>
+            <li><a href="http://localhost:1313/zh/" aria-label="linkedin">        
+                    <i class="icon linkedin" aria-hidden="true"></i>
+                    <span class="t" role="tooltip">linkedin</span>
+                </a>
+            </li>
+            <li><a href="http://localhost:1313/zh/" aria-label="karya karsa">        
+                    <i class="icon karyakarsa" aria-hidden="true"></i>
+                    <span class="t" role="tooltip">karya karsa</span>
+                </a>
+            </li>
+        </ul>
+    </nav>
+                </div>
+            </div>
+        </footer>
+    </main>
+    <!-- footer.html -->
+<footer id="body-footer" class="pagewidth" style="display: none;">
+    <div id="background-footer" class="background" role="presentation"></div>
+    <!-- focusMode.html -->
+    <div id="focusMode" class="hide">
+        <input
+            id="defocusAuxElement"
+            accesskey="d" type="checkbox"
+            onclick="focusMode()"
+            aria-keyshortcuts="d"
+            aria-label="[i18n] focusMode"
+            >
+            <label id="focusModeButton" for="defocusAuxElement" aria-label="[i18n] focusMode">
+                ⦿ <span class="t" role="tooltip">[i18n] focusMode</span>
+            </label>
+    </div>
+    <!-- a11y.html --><details id="has-a11y" class="presentation js-details" name="on-deck" aria-haspopup="true" aria-labelledby="has-a11y-summary">
+    <summary id="has-a11y-summary" accesskey="a" aria-keyshortcuts="a">
+        <span>&nbsp;[i18n] accessibility</span>
+        <kbd class="key" aria-hidden="true">a</kbd>
+    </summary>
+    <!-- a11y console -->
+    <fieldset id="a11y" role="region" disabled>
+        <!-- brightness & contrast -->
+        <div id="setColorScheme" role="group" aria-label="[i18n] colorSettings">
+            <!-- darkMode.html -->
+    <input
+        id="lightSwitch"
+        type="checkbox"
+        onclick="setColor()"
+        aria-label="[i18n] darkMode"
+        >
+        <label for="lightSwitch">
+            <div class="has-aria-label off" role="status" aria-label="[i18n] light"></div>
+            <div class="has-aria-label on" role="status" aria-label="[i18n] dark"></div>
+            <div id="lightSwitchIndicator" aria-hidden="true"></div>
+        </label>
+            <!-- contrast.html -->
+    <fieldset id="setContrast">
+        <legend>[i18n] contrast</legend>
+        <input
+            id="lessContrast"
+            type="radio" name="setContrast" value="less"
+            onclick="setColor()"
+            >
+            <label for="lessContrast">
+                <span>[i18n] lessContrast</span>
+            </label>
+        <input
+            id="defaultContrast"
+            type="radio" name="setContrast" value="default"
+            onclick="setColor()"
+            >
+            <label for="defaultContrast">
+                <span>[i18n] defaultContrast</span>
+            </label>
+        <input
+            id="moreContrast"
+            type="radio" name="setContrast" value="more"
+            onclick="setColor()"
+            >
+            <label for="moreContrast">
+                <span>[i18n] moreContrast</span>
+            </label>
+    </fieldset>
+        </div>
+        <!-- colorPalette.html -->
+    <div id="setColorPalette" style="display:none;">
+        <label for="colorPalette">[i18n] colorPalette</label>
+        <select id="colorPalette" name="colorPalette" oninput="setColorPalette()" aria-label="[i18n] colorPalette">
+            <option value="defaultColor">[i18n] defaultColor</option>
+            <option value="deuteranopia">[i18n] deuteranopia</option>
+            <option value="protanopia">[i18n] protanopia</option>
+            <option value="tritanopia">[i18n] tritanopia</option>
+            <option value="monochrome">[i18n] monochrome</option>
+        </select>
+    </div>
+        <!-- fontsize.html -->
+    <div class="has-aria-label-top" aria-label="[i18n] fontSize">
+        <label class="range" for="fontSize" aria-label="[i18n] fontSize">
+            <input
+                id="fontSize"
+                type="range" min="8" max="12" step="0.5"
+                oninput="setFontSize()">
+            <output
+                id="fontSizeState"
+                onclick="resetFontSize()"
+                aria-live="polite"
+                >10</output>
+        </label>
+    </div>
+        <!-- baselineStretch.html -->
+    <div id="setBaselineStretch" class="has-aria-label-top" aria-label="[i18n] baselineStretch">
+        <label class="range" for="baselineStretch">
+            <input
+                id="baselineStretch"
+                type="range" min="0.8" max="1.2" step="0.05"
+                oninput="setStretch()"
+                >
+            <output
+                id="baselineStretchState"
+                onclick="resetStretch()"
+                aria-live="polite"
+                >1</output>
+        </label>
+    </div>
+        <!-- OpenDyslexic.html -->
+    <div id="setOpenDyslexic">
+        <input
+            id="OpenDyslexic"
+            type="checkbox"
+            onclick="useOpenDyslexic()"
+            aria-label="[i18n] OpenDyslexic"
+            >
+            <label
+                class="has-aria-label-top"
+                for="OpenDyslexic"
+                aria-label="[i18n] OpenDyslexic"
+                >
+                <span id="OpenDyslexicState" aria-hidden="true">
+                    <span id="OpenDyslexicIndicator"></span>
+                </span>
+            </label>
+    </div>
+        <!-- menu.html -->
+    <menu
+        id="a11y-menu"
+        class="hide"
+        role="toolbar"
+        aria-label="[i18n] menuControls"
+        >
+        <button
+            id="saveButton" class="reverse"
+            onclick="saveA11y()"
+            disabled>[i18n] save
+        </button>
+        <button
+            id="resetButton" class="has-aria-label"
+            onclick="resetA11y()"
+            aria-label="[i18n] reset"
+            disabled>
+        </button>
+        <button
+            id="closeButton" class="has-aria-label"
+            onclick="closeA11yConsole()"
+            aria-label="[i18n] close"
+            >
+        </button>
+    </menu>
+        <noscript>
+            <center id="noScript" role="alert">[i18n] noScript</center>
+        </noscript>
+        <center id="noLocalStorage" class="hide" role="alert">[i18n] noLocalStorage</center>
+    </fieldset>
+    <div class="screening js-cpn" role="presentation" aria-hidden="true"></div>
+</details>
+
+
+    <!-- bionread.html -->
+    <div id="useBionRead" class="hide">
+        <input
+            id="bionReadSwitch"
+            accesskey="b" type="checkbox"
+            onclick="bionRead()"
+            aria-keyshortcuts="b"
+            aria-label="[i18n] bionRead"
+            >
+            <label id="bionReadButton" for="bionReadSwitch">
+                <span><strong>Bion</strong>Read</span>
+                <kbd class="key" aria-hidden="true">b</kbd>
+            </label>
+    </div>
+    <!-- [top] bypass block -->
+    <nav aria-label="[i18n] bypass">
+        <a id="to-top" href="#top" title="[i18n] toTop" accesskey="c" aria-keyshortcuts="c" aria-label="[i18n] toTop">
+            <kbd class="key" aria-hidden="true">c</kbd>
+        </a>
+    </nav>
+</footer>
+
+    
+    <!-- [post] single.html --><script>document.getElementById('setColorPalette').setAttribute('style', 'display:flex;');</script>
+    <div id="bionReadSnapshot" hidden></div>
+    <!-- [background] baseof.html -->
+    <div id="background-body"
+        role="presentation">
+        <div id="grain" hidden></div>
+        <div id="dwclock" hidden>
+            <div id="min">
+                <div class="hand"></div>
+            </div>
+            <div id="hour">
+                <div class="hand"></div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

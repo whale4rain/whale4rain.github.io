@@ -10,77 +10,86 @@
     
       <webMaster>whale</webMaster>
     <copyright>Copyright 2025 (c) Foxxi</copyright>
-    <lastBuildDate>Fri, 14 Mar 2025 00:49:45 +0800</lastBuildDate>
+    <lastBuildDate>Sat, 15 Mar 2025 23:52:29 +0800</lastBuildDate>
     <atom:link href="http://localhost:1313/zh/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Easy</title>
-      <link>http://localhost:1313/zh/tags/easy/</link>
-      <pubDate>Thu, 13 Mar 2025 19:34:07 +0800</pubDate>
+      <title>Configuration</title>
+      <link>http://localhost:1313/zh/tags/configuration/</link>
+      <pubDate>Fri, 14 Mar 2025 18:20:58 +0800</pubDate>
       <author>whale</author>
-      <guid>http://localhost:1313/zh/tags/easy/</guid>
+      <guid>http://localhost:1313/zh/tags/configuration/</guid>
       <description></description>
       
     </item>
     <item>
-      <title>Tools</title>
-      <link>http://localhost:1313/zh/tags/tools/</link>
-      <pubDate>Thu, 13 Mar 2025 19:34:07 +0800</pubDate>
+      <title>Lazy.nvim</title>
+      <link>http://localhost:1313/zh/tags/lazy.nvim/</link>
+      <pubDate>Fri, 14 Mar 2025 18:20:58 +0800</pubDate>
       <author>whale</author>
-      <guid>http://localhost:1313/zh/tags/tools/</guid>
-      <description></description>
-      
-    </item>
-    <item>
-      <title>Web Build</title>
-      <link>http://localhost:1313/zh/tags/web-build/</link>
-      <pubDate>Thu, 13 Mar 2025 19:34:07 +0800</pubDate>
-      <author>whale</author>
-      <guid>http://localhost:1313/zh/tags/web-build/</guid>
+      <guid>http://localhost:1313/zh/tags/lazy.nvim/</guid>
       <description></description>
       
     </item>
     <item>
       <title>Nvim</title>
       <link>http://localhost:1313/zh/tags/nvim/</link>
-      <pubDate>Thu, 13 Mar 2025 19:26:36 +0800</pubDate>
+      <pubDate>Fri, 14 Mar 2025 18:20:58 +0800</pubDate>
       <author>whale</author>
       <guid>http://localhost:1313/zh/tags/nvim/</guid>
       <description></description>
       
     </item>
     <item>
-      <title>Old</title>
-      <link>http://localhost:1313/zh/tags/old/</link>
+      <title>Deprecated</title>
+      <link>http://localhost:1313/zh/tags/deprecated/</link>
+      <pubDate>Thu, 13 Mar 2025 19:34:07 +0800</pubDate>
+      <author>whale</author>
+      <guid>http://localhost:1313/zh/tags/deprecated/</guid>
+      <description></description>
+      
+    </item>
+    <item>
+      <title>Hexo</title>
+      <link>http://localhost:1313/zh/tags/hexo/</link>
+      <pubDate>Thu, 13 Mar 2025 19:34:07 +0800</pubDate>
+      <author>whale</author>
+      <guid>http://localhost:1313/zh/tags/hexo/</guid>
+      <description></description>
+      
+    </item>
+    <item>
+      <title>How-To</title>
+      <link>http://localhost:1313/zh/tags/how-to/</link>
+      <pubDate>Thu, 13 Mar 2025 19:34:07 +0800</pubDate>
+      <author>whale</author>
+      <guid>http://localhost:1313/zh/tags/how-to/</guid>
+      <description></description>
+      
+    </item>
+    <item>
+      <title>Web</title>
+      <link>http://localhost:1313/zh/tags/web/</link>
+      <pubDate>Thu, 13 Mar 2025 19:34:07 +0800</pubDate>
+      <author>whale</author>
+      <guid>http://localhost:1313/zh/tags/web/</guid>
+      <description></description>
+      
+    </item>
+    <item>
+      <title>Lazyvim</title>
+      <link>http://localhost:1313/zh/tags/lazyvim/</link>
       <pubDate>Thu, 13 Mar 2025 19:26:36 +0800</pubDate>
       <author>whale</author>
-      <guid>http://localhost:1313/zh/tags/old/</guid>
+      <guid>http://localhost:1313/zh/tags/lazyvim/</guid>
       <description></description>
       
     </item>
     <item>
-      <title>Authoring</title>
-      <link>http://localhost:1313/zh/tags/authoring/</link>
-      <pubDate>Mon, 03 Feb 2025 00:00:00 +0000</pubDate>
+      <title>Tools</title>
+      <link>http://localhost:1313/zh/tags/tools/</link>
+      <pubDate>Thu, 13 Mar 2025 19:26:36 +0800</pubDate>
       <author>whale</author>
-      <guid>http://localhost:1313/zh/tags/authoring/</guid>
-      <description></description>
-      
-    </item>
-    <item>
-      <title>History</title>
-      <link>http://localhost:1313/zh/tags/history/</link>
-      <pubDate>Mon, 03 Feb 2025 00:00:00 +0000</pubDate>
-      <author>whale</author>
-      <guid>http://localhost:1313/zh/tags/history/</guid>
-      <description></description>
-      
-    </item>
-    <item>
-      <title>Redaction</title>
-      <link>http://localhost:1313/zh/tags/redaction/</link>
-      <pubDate>Mon, 03 Feb 2025 00:00:00 +0000</pubDate>
-      <author>whale</author>
-      <guid>http://localhost:1313/zh/tags/redaction/</guid>
+      <guid>http://localhost:1313/zh/tags/tools/</guid>
       <description></description>
       
     </item>

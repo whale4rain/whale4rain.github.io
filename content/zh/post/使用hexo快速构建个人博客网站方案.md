@@ -7,8 +7,8 @@ date = '2025-03-13T19:34:07+08:00'
 type = "post"
 draft = false
 translationKey = ""
-tags = ["web build","tools","easy"]
-categories = ["tools build"]
+tags = ["web","how-to","hexo","Deprecated"]
+categories = ["how-to"]
 image = "https://cdn.jsdelivr.net/gh/whale4rain/picx-images-hosting@master/20250313/image.7snd6xto8o.png"
 +++
 

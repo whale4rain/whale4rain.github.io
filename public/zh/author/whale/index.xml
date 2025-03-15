@@ -10,8 +10,17 @@
     
       <webMaster>whale</webMaster>
     <copyright>Copyright 2025 (c) Foxxi</copyright>
-    <lastBuildDate>Fri, 14 Mar 2025 00:49:45 +0800</lastBuildDate>
+    <lastBuildDate>Sat, 15 Mar 2025 23:52:29 +0800</lastBuildDate>
     <atom:link href="http://localhost:1313/zh/author/whale/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>打造专属你的nvim配置指西</title>
+      <link>http://localhost:1313/zh/post/%E6%89%93%E9%80%A0%E4%B8%93%E5%B1%9E%E4%BD%A0%E7%9A%84nvim%E9%85%8D%E7%BD%AE%E6%8C%87%E8%A5%BF/</link>
+      <pubDate>Fri, 14 Mar 2025 18:20:58 +0800</pubDate>
+      <author>whale</author>
+      <guid>http://localhost:1313/zh/post/%E6%89%93%E9%80%A0%E4%B8%93%E5%B1%9E%E4%BD%A0%E7%9A%84nvim%E9%85%8D%E7%BD%AE%E6%8C%87%E8%A5%BF/</guid>
+      <description></description>
+      <enclosure url="https://jsd.cdn.zzko.cn/gh/whale4rain/picx-images-hosting@master/20250315/image.lvvvcsql2.webp" length="0" type="image/jpeg" />
+    </item>
     <item>
       <title>使用hexo快速构建个人博客网站方案</title>
       <link>http://localhost:1313/zh/post/%E4%BD%BF%E7%94%A8hexo%E5%BF%AB%E9%80%9F%E6%9E%84%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2%E7%BD%91%E7%AB%99%E6%96%B9%E6%A1%88/</link>
@@ -28,16 +37,7 @@
       <author>whale</author>
       <guid>http://localhost:1313/zh/post/lazyvim%E9%85%8D%E7%BD%AE%E7%BB%8F%E9%AA%8C/</guid>
       <description></description>
-      
-    </item>
-    <item>
-      <title>跨年</title>
-      <link>http://localhost:1313/zh/post/authoring-redaction-history/</link>
-      <pubDate>Mon, 03 Feb 2025 00:00:00 +0000</pubDate>
-      <author>whale</author>
-      <guid>http://localhost:1313/zh/post/authoring-redaction-history/</guid>
-      <description></description>
-      
+      <enclosure url="https://user-images.githubusercontent.com/292349/213447056-92290767-ea16-430c-8727-ce994c93e9cc.png" length="0" type="image/jpeg" />
     </item>
   </channel>
 </rss>

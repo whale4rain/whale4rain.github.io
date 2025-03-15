@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Lazy.nvim on Whale4Blog</title>
+    <link>http://localhost:1313/zh/tags/lazy.nvim/</link>
+    <description>[i18n] recent [i18n] in Lazy.nvim [i18n] on Whale4Blog</description>
+    <generator>Hugo 0.145.0</generator>
+    <language>zh-CN</language>
+    <managingEditor>whale</managingEditor>
+    
+      <webMaster>whale</webMaster>
+    <copyright>Copyright 2025 (c) Foxxi</copyright>
+    <lastBuildDate>Sat, 15 Mar 2025 23:52:29 +0800</lastBuildDate>
+    <atom:link href="http://localhost:1313/zh/tags/lazy.nvim/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>打造专属你的nvim配置指西</title>
+      <link>http://localhost:1313/zh/post/%E6%89%93%E9%80%A0%E4%B8%93%E5%B1%9E%E4%BD%A0%E7%9A%84nvim%E9%85%8D%E7%BD%AE%E6%8C%87%E8%A5%BF/</link>
+      <pubDate>Fri, 14 Mar 2025 18:20:58 +0800</pubDate>
+      <author>whale</author>
+      <guid>http://localhost:1313/zh/post/%E6%89%93%E9%80%A0%E4%B8%93%E5%B1%9E%E4%BD%A0%E7%9A%84nvim%E9%85%8D%E7%BD%AE%E6%8C%87%E8%A5%BF/</guid>
+      <description></description>
+      <enclosure url="https://jsd.cdn.zzko.cn/gh/whale4rain/picx-images-hosting@master/20250315/image.lvvvcsql2.webp" length="0" type="image/jpeg" />
+    </item>
+  </channel>
+</rss>
