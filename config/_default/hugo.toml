@@ -1,5 +1,5 @@
 title = "My Docs"
-baseurl = "http://localhost/"
+baseurl = "www.whale4blog.cn/"
 canonifyURLs = false
 disableAliases = true
 disableHugoGeneratorInject = true
