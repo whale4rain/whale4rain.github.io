@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Blog on My Docs</title>
+    <link>/blog/</link>
+    <description>Recent content in Blog on My Docs</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <copyright>Copyright (c) 2020-2024 Thulite</copyright>
+    <lastBuildDate>Fri, 04 Apr 2025 20:37:39 +0800</lastBuildDate>
+    <atom:link href="/blog/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>打造专属你的nvim配置指西</title>
+      <link>/blog/%E6%89%93%E9%80%A0%E4%B8%93%E5%B1%9E%E4%BD%A0%E7%9A%84nvim%E9%85%8D%E7%BD%AE%E6%8C%87%E8%A5%BF/</link>
+      <pubDate>Fri, 04 Apr 2025 20:37:39 +0800</pubDate>
+      <guid>/blog/%E6%89%93%E9%80%A0%E4%B8%93%E5%B1%9E%E4%BD%A0%E7%9A%84nvim%E9%85%8D%E7%BD%AE%E6%8C%87%E8%A5%BF/</guid>
+      <description>&lt;h2 id=&#34;前前言&#34;&gt;前前言&lt;/h2&gt;&#xA;&lt;p&gt;在配置完lazyvim，更新后报错，加上lazyvim的各种配置不是很对我胃口于是转向自己配置一个nvim，在lazy.nvim进行插件管理后发现配置一个nvim比你想象的简单，同时也可一个个人定制化的代码工具。&lt;/p&gt;&#xA;&lt;h2 id=&#34;why-nivm&#34;&gt;Why nivm?&lt;/h2&gt;&#xA;&lt;p&gt;一开始见到vim的时候觉得各种操作，什么hjkl控制移动，什么normal、insert、visual模式，只觉得麻烦和反人类。但是因为课程原因，强调命令行使用和操作的时候频繁的键盘鼠标切换让我难以专注，但是nvim的使用却更加舒服，而在不熟练时对于小项目的开发也非常舒服，而nvim在代码编辑这一操作上确实方便很多，转回各种文本编辑环境的时候还有些不适应。&lt;/p&gt;&#xA;&lt;p&gt;当然各种ide也有相应的快捷键，但是当面对无数个&lt;code&gt;ctrl+who&lt;/code&gt;时&lt;/p&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;p&gt;你的名字是？&lt;/p&gt;&lt;/blockquote&gt;&#xA;&lt;p&gt;这时候就会佩服vim切换模式编辑这一设计的高明之处——提供统一连续的操作逻辑，编辑时就编辑，操作时就操作，选择时就选择，明确同时减少中断，而相应的体验会在使用的越熟练时更加舒服。&lt;/p&gt;&#xA;&lt;h2 id=&#34;start-from-installration&#34;&gt;Start from installration&lt;/h2&gt;&#xA;&lt;p&gt;访问neovim官网下载nvim&lt;a href=&#34;https://neovim.io/&#34;&gt;https://neovim.io/&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;也可以在仓库release界面下载https://github.com/neovim/neovim/releases&lt;/p&gt;&#xA;&lt;p&gt;有了nvim还不够，nvim具有强大丰富的社区和插件，这就有各种不同的插件管理方案，我选择了lazy.nvim，和lazyvim不同，lazy.nvim不是一个nvim的发行版，不是一个开包即用的nvim，而是一个新兴的插件管理器，官网下载https://lazy.folke.io/installation&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;Requirements&lt;a href=&#34;https://lazy.folke.io/#%ef%b8%8f-requirements&#34;&gt;&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Neovim &amp;gt;= &lt;strong&gt;0.8.0&lt;/strong&gt; (needs to be built with &lt;strong&gt;LuaJIT&lt;/strong&gt;)&lt;/li&gt;&#xA;&lt;li&gt;Git &amp;gt;= &lt;strong&gt;2.19.0&lt;/strong&gt; (for partial clones support)&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;这时候可以开始配置了！&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

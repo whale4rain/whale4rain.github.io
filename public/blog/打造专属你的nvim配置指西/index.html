@@ -1,0 +1,854 @@
+<!doctype html>
+<html lang="en" data-bs-theme="auto">
+  <head>
+  <meta charset="utf-8">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1"><link rel="preload" href="/fonts/vendor/jost/jost-v4-latin-regular.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/fonts/vendor/jost/jost-v4-latin-500.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/fonts/vendor/jost/jost-v4-latin-700.woff2" as="font" type="font/woff2" crossorigin>
+<script 
+  src="/js/color-mode.86a91f050a481d0a3f0c72ac26543cb6228c770875981c58dcbc008fd3f875c8.js"
+  integrity="sha256-hqkfBQpIHQo/DHKsJlQ8tiKMdwh1mBxY3LwAj9P4dcg=">
+</script>
+
+
+<link rel="stylesheet" href="/main.5ad5358b57f00e1b0335db7ff121bac7633d93bb085cdf816c2be70d3a5b46a8e9f6442f717a0464c20de403c1d98e642686cd3bcf0553590c84cb22245a2150.css" integrity="sha512-WtU1i1fwDhsDNdt/8SG6x2M9k7sIXN+BbCvnDTpbRqjp9kQvcXoEZMIN5APB2Y5kJobNO88FU1kMhMsiJFohUA==" crossorigin="anonymous">
+
+<noscript><style>img.lazyload { display: none; }</style></noscript><base href="/blog/%E6%89%93%E9%80%A0%E4%B8%93%E5%B1%9E%E4%BD%A0%E7%9A%84nvim%E9%85%8D%E7%BD%AE%E6%8C%87%E8%A5%BF/">
+
+  <link rel="canonical" href="/blog/%E6%89%93%E9%80%A0%E4%B8%93%E5%B1%9E%E4%BD%A0%E7%9A%84nvim%E9%85%8D%E7%BD%AE%E6%8C%87%E8%A5%BF/">
+
+
+<title>打造专属你的nvim配置指西  |  My Docs</title>
+<meta name="description" content="打造专属你的nvim配置指西">
+
+    
+    <link rel="icon" href="/favicon.ico" sizes="32x32">
+    
+      <link rel="icon" href="/favicon.svg" type="image/svg+xml">
+    
+      <link
+        rel="apple-touch-icon"
+        href="/apple-touch-icon.png"
+        sizes="180x180"
+        type="image/png"
+      >
+      <link
+        rel="icon"
+        href="/favicon-192x192.png"
+        sizes="192x192"
+        type="image/png"
+      >
+      <link
+        rel="icon"
+        href="/favicon-512x512.png"
+        sizes="512x512"
+        type="image/png"
+      >
+<link rel="manifest" href="/manifest.webmanifest">
+
+<meta property="og:url" content="/blog/%E6%89%93%E9%80%A0%E4%B8%93%E5%B1%9E%E4%BD%A0%E7%9A%84nvim%E9%85%8D%E7%BD%AE%E6%8C%87%E8%A5%BF/">
+  <meta property="og:site_name" content="My Docs">
+  <meta property="og:title" content="打造专属你的nvim配置指西">
+  <meta property="og:description" content="打造专属你的nvim配置指西">
+  <meta property="og:locale" content="en">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="blog">
+    <meta property="article:published_time" content="2025-04-04T20:37:39+08:00">
+    <meta property="article:modified_time" content="2025-04-04T20:37:39+08:00">
+    <meta property="og:image" content="/cover.png">
+
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:image" content="/cover.png">
+  <meta name="twitter:title" content="打造专属你的nvim配置指西">
+  <meta name="twitter:description" content="打造专属你的nvim配置指西">
+      <meta name="twitter:site" content="@getdoks">
+
+    
+    <script type="application/ld+json">
+  {
+   "@context": "https://schema.org",
+   "@type": "BreadcrumbList",
+   "itemListElement": [
+     {
+       "@type": "ListItem",
+       "item": "/",
+       "name": "Whale4 Blog",
+       "position": 1
+     },
+     {
+       "@type": "ListItem",
+       "item": "/blog/",
+       "name": "Blog",
+       "position": 2
+     },
+     {
+       "@type": "ListItem",
+       "name": "打造专属你的nvim配置指西",
+       "position": 3
+     }
+   ]
+ }
+</script>
+  
+	
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "BlogPosting",
+      "headline": "打造专属你的nvim配置指西",
+      "description": "打造专属你的nvim配置指西",
+      "isPartOf": {
+        "@id": "/blog/%E6%89%93%E9%80%A0%E4%B8%93%E5%B1%9E%E4%BD%A0%E7%9A%84nvim%E9%85%8D%E7%BD%AE%E6%8C%87%E8%A5%BF/"
+      },
+      "mainEntityOfPage": {
+        "@id": "/blog/%E6%89%93%E9%80%A0%E4%B8%93%E5%B1%9E%E4%BD%A0%E7%9A%84nvim%E9%85%8D%E7%BD%AE%E6%8C%87%E8%A5%BF/"
+      },
+      "datePublished": "2025-04-04T20:37:39+08:00",
+      "dateModified": "2025-04-04T20:37:39+08:00",
+      "author": {
+        "@type": "Organization",
+        "name": "Thulite",
+        "url": "/"
+      },
+      "publisher": {
+        "@type": "Organization",
+        "name": "Thulite"
+      }
+    }
+  ]
+}
+</script>
+
+
+
+
+
+
+</head>
+
+  
+  <body class="single section blog" data-bs-spy="scroll" data-bs-target="#toc" data-bs-root-margin="0px 0px -60%" data-bs-smooth-scroll="true" tabindex="0">
+    <div class="sticky-top">
+<header class="navbar navbar-expand-lg">
+  <div class="container-lg">
+  
+    <a class="navbar-brand me-auto me-lg-3" href="/">My Docs</a>
+
+    
+    
+    <button type="button" id="searchToggleMobile" class="btn btn-link nav-link mx-2 d-lg-none" aria-label="Search website">
+      <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-search" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+        <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+        <circle cx="10" cy="10" r="7"></circle>
+        <line x1="21" y1="21" x2="15" y2="15"></line>
+      </svg>
+    </button>
+    
+    
+    <button class="btn btn-link nav-link mx-2 order-3 d-lg-none" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavMain" aria-controls="offcanvasNavMain" aria-label="Open main navigation menu">
+      <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-menu" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+        <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+        <line x1="4" y1="8" x2="20" y2="8"></line>
+        <line x1="4" y1="16" x2="20" y2="16"></line>
+      </svg>
+    </button>
+
+    
+    <div class="offcanvas offcanvas-end h-auto" tabindex="-1" id="offcanvasNavMain" aria-labelledby="offcanvasNavMainLabel">
+      <div class="offcanvas-header">
+        <h5 class="offcanvas-title" id="offcanvasNavMainLabel">My Docs</h5>
+        <button type="button" class="btn btn-link nav-link p-0 ms-auto" data-bs-dismiss="offcanvas" aria-label="Close">
+          <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-x" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+            <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+            <path d="M18 6l-12 12"></path>
+            <path d="M6 6l12 12"></path>
+         </svg>
+        </button>
+      </div>
+      
+      <div class="offcanvas-body d-flex flex-column flex-lg-row justify-content-between">
+        <ul class="navbar-nav flex-grow-1"><li class="nav-item">
+                <a class="nav-link" href="/docs/guides/example-guide/">Docs</a>
+              </li>
+            <li class="nav-item">
+                <a class="nav-link active" href="/blog/" aria-current="true">Blog</a>
+              </li>
+            </ul>
+
+        
+        
+        <button type="button" id="searchToggleDesktop" class="btn btn-link nav-link p-2 d-none d-lg-block" aria-label="Search website">
+          <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-search" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+            <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+            <circle cx="10" cy="10" r="7"></circle>
+            <line x1="21" y1="21" x2="15" y2="15"></line>
+          </svg>
+        </button>
+        
+        
+        
+        <button id="buttonColorMode" class="btn btn-link mx-auto nav-link p-0 ms-lg-2 me-lg-1" type="button" aria-label="Toggle theme">
+          <svg data-bs-theme-value="dark" xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-moon" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+            <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+            <path d="M12 3c.132 0 .263 0 .393 0a7.5 7.5 0 0 0 7.92 12.446a9 9 0 1 1 -8.313 -12.454z"></path>
+          </svg>
+          <svg data-bs-theme-value="light" xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-sun" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+            <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+            <path d="M12 12m-4 0a4 4 0 1 0 8 0a4 4 0 1 0 -8 0m-5 0h1m8 -9v1m8 8h1m-9 8v1m-6.4 -15.4l.7 .7m12.1 -.7l-.7 .7m0 11.4l.7 .7m-12.1 -.7l-.7 .7"></path>
+          </svg>
+        </button>
+        
+        <ul id="socialMenu" class="nav mx-auto flex-row order-lg-4">
+          <li class="nav-item">
+              <a class="nav-link social-link" href="https://github.com/thuliteio/doks"><svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-github" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none"></path><path d="M9 19c-4.3 1.4 -4.3 -2.5 -6 -3m12 5v-3.5c0 -1 .1 -1.4 -.5 -2c2.8 -.3 5.5 -1.4 5.5 -6a4.6 4.6 0 0 0 -1.3 -3.2a4.2 4.2 0 0 0 -.1 -3.2s-1.1 -.3 -3.5 1.3a12.3 12.3 0 0 0 -6.2 0c-2.4 -1.6 -3.5 -1.3 -3.5 -1.3a4.2 4.2 0 0 0 -.1 3.2a4.6 4.6 0 0 0 -1.3 3.2c0 4.6 2.7 5.7 5.5 6c-.6 .6 -.6 1.2 -.5 2v3.5"></path></svg><small class="ms-2 visually-hidden">GitHub</small></a>
+            </li>
+          </ul>
+        
+        </div>
+    </div>
+
+    
+    </div>
+</header>
+</div>
+
+<div class="modal" id="searchModal" tabindex="-1" aria-labelledby="searchModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-scrollable modal-fullscreen-md-down">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h1 class="modal-title fs-5 visually-hidden" id="searchModalLabel">Search</h1>
+        <button type="button" class="btn-close visually-hidden" data-bs-dismiss="modal" aria-label="Close"></button>
+        <div class="search-input flex-grow-1 d-none">
+          <form id="search-form" class="search-form" action="#" method="post" accept-charset="UTF-8" role="search">
+            <label for="query" class="visually-hidden">Search</label>
+            <div class="d-flex">
+              <input type="search" id="query" name="query" class="search-text form-control form-control-lg" placeholder="Search" aria-label="Search" maxlength="128" autocomplete="off">
+              <button type="button" class="btn btn-link text-decoration-none px-0 ms-3 d-md-none" data-bs-dismiss="modal" aria-label="Close">Cancel</button>
+            </div>
+          </form>
+        </div>
+      </div>
+      <div class="modal-body">
+        <p class="search-loading status message d-none mt-3 text-center">Loading search index…</p>
+        <p class="search-no-recent message d-none mt-3 text-center">No recent searches</p>
+        <p class="search-no-results message d-none mt-3 text-center">No results for "<strong><span class="query-no-results">Query here</span></strong>"</p>
+        <div id="searchResults" class="search-results"></div>
+        <template>
+          <article class="search-result list-view">
+            <div class="card my-3">
+              <div class="card-body">
+                <header>
+                  <h2 class="h5 title title-submitted mb-0"><a class="stretched-link text-decoration-none text-reset" href="#">Title here</a></h2>
+                  <div class="submitted d-none"><time class="created-date">Date here</time></div>
+                </header>
+                <div class="content">Summary here</div>
+              </div>
+            </div>
+          </article>
+        </template>
+      </div>
+      <div class="modal-footer">
+        <ul class="list-inline me-auto d-none d-md-block">
+          <li class="list-inline-item"><kbd class="me-2"><svg width="15" height="15" aria-label="Enter key" role="img"><g fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.2"><path d="M12 3.53088v3c0 1-1 2-2 2H4M7 11.53088l-3-3 3-3"></path></g></svg></kbd><span class="DocSearch-Label">to select</span></li>
+          <li class="list-inline-item"><kbd class="me-2"><svg width="15" height="15" aria-label="Arrow down" role="img"><g fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.2"><path d="M7.5 3.5v8M10.5 8.5l-3 3-3-3"></path></g></svg></kbd><kbd class="me-2"><svg width="15" height="15" aria-label="Arrow up" role="img"><g fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.2"><path d="M7.5 11.5v-8M10.5 6.5l-3-3-3 3"></path></g></svg></kbd><span class="DocSearch-Label">to navigate</span></li>
+          <li class="list-inline-item"><kbd class="me-2"><svg width="15" height="15" aria-label="Escape key" role="img"><g fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.2"><path d="M13.6167 8.936c-.1065.3583-.6883.962-1.4875.962-.7993 0-1.653-.9165-1.653-2.1258v-.5678c0-1.2548.7896-2.1016 1.653-2.1016.8634 0 1.3601.4778 1.4875 1.0724M9 6c-.1352-.4735-.7506-.9219-1.46-.8972-.7092.0246-1.344.57-1.344 1.2166s.4198.8812 1.3445.9805C8.465 7.3992 8.968 7.9337 9 8.5c.032.5663-.454 1.398-1.4595 1.398C6.6593 9.898 6 9 5.963 8.4851m-1.4748.5368c-.2635.5941-.8099.876-1.5443.876s-1.7073-.6248-1.7073-2.204v-.4603c0-1.0416.721-2.131 1.7073-2.131.9864 0 1.6425 1.031 1.5443 2.2492h-2.956"></path></g></svg></kbd><span class="DocSearch-Label">to close</span></li>
+        </ul>
+        <p class="d-md-none">Search by <a class="text-decoration-none" href="https://github.com/nextapps-de/flexsearch">FlexSearch</a></p>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+    <div class="wrap container-lg" role="document">
+      <div class="content">
+      
+        
+<article>
+<div class="row justify-content-center">
+  <div class="col-md-12 col-lg-10">
+    <div class="blog-header">
+      <h1>打造专属你的nvim配置指西</h1>
+      <p>
+  <small>April 4, 2025<span class="stretched-link position-relative reading-time text-nowrap" title="Estimated reading time"><svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-clock" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+        <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+        <path d="M3 12a9 9 0 1 0 18 0a9 9 0 0 0 -18 0"></path>
+        <path d="M12 7v5l3 3"></path>
+      </svg>7&nbsp;minutes</span></small>
+</p>
+
+    </div>
+  </div>
+  <div class="col-md-12 col-lg-9">
+    <h2 id="前前言">前前言</h2>
+<p>在配置完lazyvim，更新后报错，加上lazyvim的各种配置不是很对我胃口于是转向自己配置一个nvim，在lazy.nvim进行插件管理后发现配置一个nvim比你想象的简单，同时也可一个个人定制化的代码工具。</p>
+<h2 id="why-nivm">Why nivm?</h2>
+<p>一开始见到vim的时候觉得各种操作，什么hjkl控制移动，什么normal、insert、visual模式，只觉得麻烦和反人类。但是因为课程原因，强调命令行使用和操作的时候频繁的键盘鼠标切换让我难以专注，但是nvim的使用却更加舒服，而在不熟练时对于小项目的开发也非常舒服，而nvim在代码编辑这一操作上确实方便很多，转回各种文本编辑环境的时候还有些不适应。</p>
+<p>当然各种ide也有相应的快捷键，但是当面对无数个<code>ctrl+who</code>时</p>
+<blockquote>
+<p>你的名字是？</p></blockquote>
+<p>这时候就会佩服vim切换模式编辑这一设计的高明之处——提供统一连续的操作逻辑，编辑时就编辑，操作时就操作，选择时就选择，明确同时减少中断，而相应的体验会在使用的越熟练时更加舒服。</p>
+<h2 id="start-from-installration">Start from installration</h2>
+<p>访问neovim官网下载nvim<a href="https://neovim.io/">https://neovim.io/</a></p>
+<p>也可以在仓库release界面下载https://github.com/neovim/neovim/releases</p>
+<p>有了nvim还不够，nvim具有强大丰富的社区和插件，这就有各种不同的插件管理方案，我选择了lazy.nvim，和lazyvim不同，lazy.nvim不是一个nvim的发行版，不是一个开包即用的nvim，而是一个新兴的插件管理器，官网下载https://lazy.folke.io/installation</p>
+<p><strong>Requirements<a href="https://lazy.folke.io/#%ef%b8%8f-requirements"></a></strong></p>
+<ul>
+<li>Neovim &gt;= <strong>0.8.0</strong> (needs to be built with <strong>LuaJIT</strong>)</li>
+<li>Git &gt;= <strong>2.19.0</strong> (for partial clones support)</li>
+</ul>
+<p>这时候可以开始配置了！</p>
+<p>你也可以参考youtube上的教学视频，十分详细，对配置过程十分详细，也有对使用的说明，非常值得参考！https://youtu.be/6pAG3BHurdM</p>
+<h2 id="how-to-config-nvim">How to config nvim?</h2>
+<p>要知道如何配置，首先要知道配置逻辑，是点击安装按钮安装，还是在对应配置文件下添加代码，还是在文件夹中粘贴配置文件，安装nvim后，配置文件夹可能没有自动创建，下面让我们来手动操作：</p>
+<p><strong>For Linux/Macos</strong></p>
+<p>新建<code>.config/nvim</code>文件</p>
+<p><strong>For windows</strong></p>
+<p>新建<code>$env:LOCALAPPDATA\nvim</code>也就是<code>C:\Users\Yourself\AppData\Local\nvim</code></p>
+<p>之后的操作对于不同系统都是一样的，这同样意味着你配置一次后可以非常方便的在其他系统使用同样的配置文件（可能有的地方需要修改）</p>
+<p>在这个文件夹下构建下面的结构</p>
+
+
+
+<div class="expressive-code">
+  <figure class="frame not-content">
+  <figcaption class="header">
+    <span class="title"></span>
+  </figcaption>
+  <div class="highlight"><pre tabindex="0" class="chroma"><code class="language-cmd" data-lang="cmd"><span class="line"><span class="cl"><span class="p">|</span>   init.lua
+</span></span><span class="line"><span class="cl">+---lua //核心配置文件夹
+</span></span><span class="line"><span class="cl">    +---config  //除插件外的配置文件
+</span></span><span class="line"><span class="cl">    <span class="p">|</span>       colorscheme.lua  //主题配置
+</span></span><span class="line"><span class="cl">    <span class="p">|</span>       keymaps.lua      //键位设置
+</span></span><span class="line"><span class="cl">    <span class="p">|</span>       lazy.lua         //lazy.nvim管理插件
+</span></span><span class="line"><span class="cl">    <span class="p">|</span>       options.lua      //全局配置
+</span></span><span class="line"><span class="cl">    <span class="p">|</span>
+</span></span><span class="line"><span class="cl">    \---plugins  //插件配置文件
+</span></span><span class="line"><span class="cl">        <span class="p">|</span>
+</span></span><span class="line"><span class="cl">        \---lsp  //lsp配置(先不用管)</span></span></code></pre></div>
+  </figure>
+</div>
+<p>像上面创建文件及文件夹后我们进入下一步配置</p>
+<h2 id="overall-configration-in-config">Overall Configration in config</h2>
+<p>在配置插件文件之前，我们先了解config中的各个配置文件并进行配置，而你已经发现我们配置nvim使用的是<code>lua</code>语言，放心即使不会lua也可以实现完整的配置，因为lua是和python一样易读方便，而且也基本不需要确切的语法知识。</p>
+<p>你可以阅读来<a href="https://learnxinyminutes.com/lua/">learn Lua in Y minutes</a>先了解lua语言</p>
+<h3 id="initlua">init.lua</h3>
+<p>init.lua可以差不多视作neovim配置的中枢，在其他配置文件的内容都在init.lua中整合，使用如下语法</p>
+
+
+
+<div class="expressive-code">
+  <figure class="frame not-content">
+  <figcaption class="header">
+    <span class="title"></span>
+  </figcaption>
+  <div class="highlight"><pre tabindex="0" class="chroma"><code class="language-lua" data-lang="lua"><span class="line"><span class="cl"><span class="n">require</span><span class="p">(</span><span class="s2">&#34;config.options&#34;</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl"><span class="n">require</span><span class="p">(</span><span class="s2">&#34;config.keymaps&#34;</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl"><span class="n">require</span><span class="p">(</span><span class="s2">&#34;config.lazy&#34;</span><span class="p">)</span></span></span></code></pre></div>
+  </figure>
+</div>
+<p>在option.lua,keymaps.lua,lazy.lua中的配置只有在init.lua整合后才会发挥作用</p>
+<p>而繁多插件因为我们使用了lazy.nvim管理插件，其配置都在lazy.lua中进行配置</p>
+<h3 id="optionslua">options.lua</h3>
+<p>这个文件中放置nvim的各种配置</p>
+
+
+
+<div class="expressive-code">
+  <figure class="frame not-content">
+  <figcaption class="header">
+    <span class="title"></span>
+  </figcaption>
+  <div class="highlight"><pre tabindex="0" class="chroma"><code class="language-lua" data-lang="lua"><span class="line"><span class="cl"><span class="kd">local</span> <span class="n">opt</span> <span class="o">=</span> <span class="n">vim.opt</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="c1">-- Hint: use `:h &lt;option&gt;` to figure out the meaning if needed</span>
+</span></span><span class="line"><span class="cl"><span class="n">opt.clipboard</span> <span class="o">=</span> <span class="s2">&#34;unnamedplus&#34;</span> <span class="c1">-- use system clipboard</span>
+</span></span><span class="line"><span class="cl"><span class="n">opt.completeopt</span> <span class="o">=</span> <span class="p">{</span> <span class="s2">&#34;menu&#34;</span><span class="p">,</span> <span class="s2">&#34;menuone&#34;</span><span class="p">,</span> <span class="s2">&#34;noselect&#34;</span> <span class="p">}</span>
+</span></span><span class="line"><span class="cl"><span class="n">opt.mouse</span> <span class="o">=</span> <span class="s2">&#34;a&#34;</span> <span class="c1">-- allow the mouse to be used in Nvim</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="c1">-- Tab</span>
+</span></span><span class="line"><span class="cl"><span class="n">opt.autoindent</span> <span class="o">=</span> <span class="kc">true</span>
+</span></span><span class="line"><span class="cl"><span class="n">opt.tabstop</span> <span class="o">=</span> <span class="mi">4</span> <span class="c1">-- number of visual spaces per TAB</span>
+</span></span><span class="line"><span class="cl"><span class="n">opt.softtabstop</span> <span class="o">=</span> <span class="mi">4</span> <span class="c1">-- number of spacesin tab when editing</span>
+</span></span><span class="line"><span class="cl"><span class="n">opt.shiftwidth</span> <span class="o">=</span> <span class="mi">4</span> <span class="c1">-- insert 4 spaces on a tab</span>
+</span></span><span class="line"><span class="cl"><span class="n">opt.expandtab</span> <span class="o">=</span> <span class="kc">true</span> <span class="c1">-- tabs are spaces, mainly because of python</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="c1">-- UI config</span>
+</span></span><span class="line"><span class="cl"><span class="n">opt.number</span> <span class="o">=</span> <span class="kc">true</span> <span class="c1">-- show absolute number</span>
+</span></span><span class="line"><span class="cl"><span class="n">opt.relativenumber</span> <span class="o">=</span> <span class="kc">true</span> <span class="c1">-- add numbers to each line on the left side</span>
+</span></span><span class="line"><span class="cl"><span class="n">opt.cursorline</span> <span class="o">=</span> <span class="kc">true</span> <span class="c1">-- highlight cursor line underneath the cursor horizontally</span>
+</span></span><span class="line"><span class="cl"><span class="n">opt.splitbelow</span> <span class="o">=</span> <span class="kc">true</span> <span class="c1">-- open new vertical split bottom</span>
+</span></span><span class="line"><span class="cl"><span class="n">opt.splitright</span> <span class="o">=</span> <span class="kc">true</span> <span class="c1">-- open new horizontal splits right</span>
+</span></span><span class="line"><span class="cl"><span class="n">opt.termguicolors</span> <span class="o">=</span> <span class="kc">true</span> <span class="c1">-- enabl 24-bit RGB color in the TUI</span>
+</span></span><span class="line"><span class="cl"><span class="n">opt.showmode</span> <span class="o">=</span> <span class="kc">false</span> <span class="c1">-- we are experienced, wo don&#39;t need the &#34;-- INSERT --&#34; mode hint</span>
+</span></span><span class="line"><span class="cl"><span class="n">opt.signcolumn</span> <span class="o">=</span> <span class="s2">&#34;yes&#34;</span> <span class="c1">-- always show sign column</span>
+</span></span><span class="line"><span class="cl"><span class="c1">-- Searching</span>
+</span></span><span class="line"><span class="cl"><span class="n">opt.incsearch</span> <span class="o">=</span> <span class="kc">true</span> <span class="c1">-- search as characters are entered</span>
+</span></span><span class="line"><span class="cl"><span class="n">opt.hlsearch</span> <span class="o">=</span> <span class="kc">false</span> <span class="c1">-- do not highlight matches</span>
+</span></span><span class="line"><span class="cl"><span class="n">opt.ignorecase</span> <span class="o">=</span> <span class="kc">true</span> <span class="c1">-- ignore case in searches by default</span>
+</span></span><span class="line"><span class="cl"><span class="n">opt.smartcase</span> <span class="o">=</span> <span class="kc">true</span> <span class="c1">-- but make it case sensitive if an uppercase is entered</span></span></span></code></pre></div>
+  </figure>
+</div>
+<p>这些配置是相对总体的配置，比如对Tab对窗口的配置等，对UI的配置，因为很多内容都在插件中有直接的配置，所以这里的配置需求不是很多</p>
+<h3 id="keymaplua">keymap.lua</h3>
+<p>通过调整默认快捷键来得到更加舒服的编程体验</p>
+
+
+
+<div class="expressive-code">
+  <figure class="frame not-content">
+  <figcaption class="header">
+    <span class="title"></span>
+  </figcaption>
+  <div class="highlight"><pre tabindex="0" class="chroma"><code class="language-lua" data-lang="lua"><span class="line"><span class="cl"><span class="c1">-- define common options</span>
+</span></span><span class="line"><span class="cl"><span class="kd">local</span> <span class="n">opts</span> <span class="o">=</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">	<span class="n">noremap</span> <span class="o">=</span> <span class="kc">true</span><span class="p">,</span> <span class="c1">-- non-recursive</span>
+</span></span><span class="line"><span class="cl">	<span class="n">silent</span> <span class="o">=</span> <span class="kc">true</span><span class="p">,</span> <span class="c1">-- do not show message</span>
+</span></span><span class="line"><span class="cl"><span class="p">}</span>
+</span></span><span class="line"><span class="cl"><span class="n">vim.g</span><span class="p">.</span><span class="n">mapleader</span> <span class="o">=</span> <span class="s2">&#34; &#34;</span> <span class="c1">-- set leader to space</span>
+</span></span><span class="line"><span class="cl"><span class="kd">local</span> <span class="n">keymap</span> <span class="o">=</span> <span class="n">vim.keymap</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="c1">-----------------</span>
+</span></span><span class="line"><span class="cl"><span class="c1">-- Insert mode --</span>
+</span></span><span class="line"><span class="cl"><span class="c1">-----------------</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="n">keymap.set</span><span class="p">(</span><span class="s2">&#34;i&#34;</span><span class="p">,</span> <span class="s2">&#34;jk&#34;</span><span class="p">,</span> <span class="s2">&#34;&lt;Esc&gt;&#34;</span><span class="p">,</span> <span class="n">opts</span><span class="p">)</span> <span class="c1">-- jk to escape</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="c1">-----------------</span>
+</span></span><span class="line"><span class="cl"><span class="c1">-- Normal mode --</span>
+</span></span><span class="line"><span class="cl"><span class="c1">-----------------</span>
+</span></span><span class="line"><span class="cl"><span class="c1">-- switch $ to 9</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="n">keymap.set</span><span class="p">(</span><span class="s2">&#34;n&#34;</span><span class="p">,</span> <span class="s2">&#34;9&#34;</span><span class="p">,</span> <span class="s2">&#34;$&#34;</span><span class="p">,</span> <span class="n">opts</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="c1">-- Hint: see `:h vim.map.set()`</span>
+</span></span><span class="line"><span class="cl"><span class="c1">-- Better window navigation</span>
+</span></span><span class="line"><span class="cl"><span class="n">keymap.set</span><span class="p">(</span><span class="s2">&#34;n&#34;</span><span class="p">,</span> <span class="s2">&#34;&lt;C-h&gt;&#34;</span><span class="p">,</span> <span class="s2">&#34;&lt;C-w&gt;h&#34;</span><span class="p">,</span> <span class="n">opts</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl"><span class="n">keymap.set</span><span class="p">(</span><span class="s2">&#34;n&#34;</span><span class="p">,</span> <span class="s2">&#34;&lt;C-j&gt;&#34;</span><span class="p">,</span> <span class="s2">&#34;&lt;C-w&gt;j&#34;</span><span class="p">,</span> <span class="n">opts</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl"><span class="n">keymap.set</span><span class="p">(</span><span class="s2">&#34;n&#34;</span><span class="p">,</span> <span class="s2">&#34;&lt;C-k&gt;&#34;</span><span class="p">,</span> <span class="s2">&#34;&lt;C-w&gt;k&#34;</span><span class="p">,</span> <span class="n">opts</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl"><span class="n">keymap.set</span><span class="p">(</span><span class="s2">&#34;n&#34;</span><span class="p">,</span> <span class="s2">&#34;&lt;C-l&gt;&#34;</span><span class="p">,</span> <span class="s2">&#34;&lt;C-w&gt;l&#34;</span><span class="p">,</span> <span class="n">opts</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl"><span class="n">keymap.set</span><span class="p">(</span><span class="s2">&#34;n&#34;</span><span class="p">,</span> <span class="s2">&#34;&lt;leader&gt;sv&#34;</span><span class="p">,</span> <span class="s2">&#34;&lt;C-w&gt;v&#34;</span><span class="p">,</span> <span class="n">opts</span><span class="p">)</span> <span class="c1">-- split window vertically</span>
+</span></span><span class="line"><span class="cl"><span class="n">keymap.set</span><span class="p">(</span><span class="s2">&#34;n&#34;</span><span class="p">,</span> <span class="s2">&#34;&lt;leader&gt;sh&#34;</span><span class="p">,</span> <span class="s2">&#34;&lt;C-w&gt;s&#34;</span><span class="p">,</span> <span class="n">opts</span><span class="p">)</span> <span class="c1">-- split window horizontally</span>
+</span></span><span class="line"><span class="cl"><span class="c1">-- Better buffer navigation</span>
+</span></span><span class="line"><span class="cl"><span class="n">keymap.set</span><span class="p">(</span><span class="s2">&#34;n&#34;</span><span class="p">,</span> <span class="s2">&#34;&lt;leader&gt;bn&#34;</span><span class="p">,</span> <span class="s2">&#34;:BufferLineCycleNext&lt;CR&gt;&#34;</span><span class="p">,</span> <span class="n">opts</span><span class="p">)</span> <span class="c1">-- next buffer</span>
+</span></span><span class="line"><span class="cl"><span class="n">keymap.set</span><span class="p">(</span><span class="s2">&#34;n&#34;</span><span class="p">,</span> <span class="s2">&#34;&lt;leader&gt;bp&#34;</span><span class="p">,</span> <span class="s2">&#34;:BufferLineCyclePrev&lt;CR&gt;&#34;</span><span class="p">,</span> <span class="n">opts</span><span class="p">)</span> <span class="c1">-- previous buffer</span>
+</span></span><span class="line"><span class="cl"><span class="n">keymap.set</span><span class="p">(</span><span class="s2">&#34;n&#34;</span><span class="p">,</span> <span class="s2">&#34;&lt;leader&gt;bd&#34;</span><span class="p">,</span> <span class="s2">&#34;:BufferLineCloseLeft&lt;CR&gt;&#34;</span><span class="p">,</span> <span class="n">opts</span><span class="p">)</span> <span class="c1">-- close buffer</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="c1">--取消高亮</span>
+</span></span><span class="line"><span class="cl"><span class="n">keymap.set</span><span class="p">(</span><span class="s2">&#34;n&#34;</span><span class="p">,</span> <span class="s2">&#34;&lt;leader&gt;nh&#34;</span><span class="p">,</span> <span class="s2">&#34;:nohl&lt;CR&gt;&#34;</span><span class="p">,</span> <span class="n">opts</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl"><span class="c1">-- Resize with arrows</span>
+</span></span><span class="line"><span class="cl"><span class="c1">-- delta: 2 lines</span>
+</span></span><span class="line"><span class="cl"><span class="n">keymap.set</span><span class="p">(</span><span class="s2">&#34;n&#34;</span><span class="p">,</span> <span class="s2">&#34;&lt;C-Up&gt;&#34;</span><span class="p">,</span> <span class="s2">&#34;:resize -2&lt;CR&gt;&#34;</span><span class="p">,</span> <span class="n">opts</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl"><span class="n">keymap.set</span><span class="p">(</span><span class="s2">&#34;n&#34;</span><span class="p">,</span> <span class="s2">&#34;&lt;C-Down&gt;&#34;</span><span class="p">,</span> <span class="s2">&#34;:resize +2&lt;CR&gt;&#34;</span><span class="p">,</span> <span class="n">opts</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl"><span class="n">keymap.set</span><span class="p">(</span><span class="s2">&#34;n&#34;</span><span class="p">,</span> <span class="s2">&#34;&lt;C-Left&gt;&#34;</span><span class="p">,</span> <span class="s2">&#34;:vertical resize -2&lt;CR&gt;&#34;</span><span class="p">,</span> <span class="n">opts</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl"><span class="n">keymap.set</span><span class="p">(</span><span class="s2">&#34;n&#34;</span><span class="p">,</span> <span class="s2">&#34;&lt;C-Right&gt;&#34;</span><span class="p">,</span> <span class="s2">&#34;:vertical resize +2&lt;CR&gt;&#34;</span><span class="p">,</span> <span class="n">opts</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl"><span class="n">keymap.set</span><span class="p">(</span><span class="s2">&#34;n&#34;</span><span class="p">,</span> <span class="s2">&#34;&lt;leader&gt;wd&#34;</span><span class="p">,</span> <span class="s2">&#34;&lt;cmd&gt;close&lt;CR&gt;&#34;</span><span class="p">,</span> <span class="p">{</span> <span class="n">desc</span> <span class="o">=</span> <span class="s2">&#34;Close current split&#34;</span> <span class="p">})</span> <span class="c1">-- close current split window</span>
+</span></span><span class="line"><span class="cl"><span class="c1">-------------------</span>
+</span></span><span class="line"><span class="cl"><span class="c1">--plugin&#39;s keymap--</span>
+</span></span><span class="line"><span class="cl"><span class="c1">-------------------</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="c1">-- Treesitter context</span>
+</span></span><span class="line"><span class="cl"><span class="n">vim.keymap</span><span class="p">.</span><span class="n">set</span><span class="p">(</span><span class="s2">&#34;n&#34;</span><span class="p">,</span> <span class="s2">&#34;[c&#34;</span><span class="p">,</span> <span class="kr">function</span><span class="p">()</span>
+</span></span><span class="line"><span class="cl">	<span class="n">require</span><span class="p">(</span><span class="s2">&#34;treesitter-context&#34;</span><span class="p">).</span><span class="n">go_to_context</span><span class="p">(</span><span class="n">vim.v</span><span class="p">.</span><span class="n">count1</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl"><span class="kr">end</span><span class="p">,</span> <span class="n">opts</span><span class="p">)</span> <span class="c1">--- go to previous context</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="c1">-----------------</span>
+</span></span><span class="line"><span class="cl"><span class="c1">-- Visual mode --</span>
+</span></span><span class="line"><span class="cl"><span class="c1">-----------------</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="c1">-- Hint: start visual mode with the same area as the previous area and the same mode</span>
+</span></span><span class="line"><span class="cl"><span class="n">keymap.set</span><span class="p">(</span><span class="s2">&#34;v&#34;</span><span class="p">,</span> <span class="s2">&#34;&lt;&#34;</span><span class="p">,</span> <span class="s2">&#34;&lt;gv&#34;</span><span class="p">,</span> <span class="n">opts</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl"><span class="n">keymap.set</span><span class="p">(</span><span class="s2">&#34;v&#34;</span><span class="p">,</span> <span class="s2">&#34;&gt;&#34;</span><span class="p">,</span> <span class="s2">&#34;&gt;gv&#34;</span><span class="p">,</span> <span class="n">opts</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl"><span class="n">keymap.set</span><span class="p">(</span><span class="s2">&#34;v&#34;</span><span class="p">,</span> <span class="s2">&#34;J&#34;</span><span class="p">,</span> <span class="s2">&#34;:m &#39;&gt;+1&lt;CR&gt;gv=gv&#34;</span><span class="p">,</span> <span class="n">opts</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl"><span class="n">keymap.set</span><span class="p">(</span><span class="s2">&#34;v&#34;</span><span class="p">,</span> <span class="s2">&#34;K&#34;</span><span class="p">,</span> <span class="s2">&#34;:m &#39;&lt;-2&lt;CR&gt;gv=gv&#34;</span><span class="p">,</span> <span class="n">opts</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="c1">-----------------</span>
+</span></span><span class="line"><span class="cl"><span class="c1">---Visual Blok --</span>
+</span></span><span class="line"><span class="cl"><span class="c1">-----------------</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="n">keymap.set</span><span class="p">(</span><span class="s2">&#34;x&#34;</span><span class="p">,</span> <span class="s2">&#34;I&#34;</span><span class="p">,</span> <span class="s2">&#34;I&#34;</span><span class="p">,</span> <span class="n">opts</span><span class="p">)</span> <span class="c1">-- 确保 Shift + I 正常工作</span></span></span></code></pre></div>
+  </figure>
+</div>
+<p>其中<code>keymap.set(&quot;i&quot;, &quot;jk&quot;, &quot;&lt;Esc&gt;&quot;, opts) -- jk to escape</code>比较推荐，毕竟频繁使用遥远的<code>esc</code>对小指很不友好，而两种模式的切换是十分频繁，所以使用<code>jk</code>双键来替代<code>esc</code>。</p>
+<p>其中plugin的配置可以等对应插件配置完成后再进行配置</p>
+<p>其他的配置可以自己尝试不做赘述。</p>
+<p>其中主要修改<code>spec</code>和<code>colorscheme</code>的内容，其中</p>
+
+
+
+<div class="expressive-code">
+  <figure class="frame not-content">
+  <figcaption class="header">
+    <span class="title"></span>
+  </figcaption>
+  <div class="highlight"><pre tabindex="0" class="chroma"><code class="language-lua" data-lang="lua"><span class="line"><span class="cl"><span class="c1">-- Bootstrap lazy.nvim</span>
+</span></span><span class="line"><span class="cl"><span class="c1">--https://youtu.be/6pAG3BHurdM</span>
+</span></span><span class="line"><span class="cl"><span class="kd">local</span> <span class="n">lazypath</span> <span class="o">=</span> <span class="n">vim.fn</span><span class="p">.</span><span class="n">stdpath</span><span class="p">(</span><span class="s2">&#34;data&#34;</span><span class="p">)</span> <span class="o">..</span> <span class="s2">&#34;/lazy/lazy.nvim&#34;</span>
+</span></span><span class="line"><span class="cl"><span class="kr">if</span> <span class="ow">not</span> <span class="p">(</span><span class="n">vim.uv</span> <span class="ow">or</span> <span class="n">vim.loop</span><span class="p">).</span><span class="n">fs_stat</span><span class="p">(</span><span class="n">lazypath</span><span class="p">)</span> <span class="kr">then</span>
+</span></span><span class="line"><span class="cl">	<span class="kd">local</span> <span class="n">lazyrepo</span> <span class="o">=</span> <span class="s2">&#34;https://github.com/folke/lazy.nvim.git&#34;</span>
+</span></span><span class="line"><span class="cl">	<span class="kd">local</span> <span class="n">out</span> <span class="o">=</span> <span class="n">vim.fn</span><span class="p">.</span><span class="n">system</span><span class="p">({</span> <span class="s2">&#34;git&#34;</span><span class="p">,</span> <span class="s2">&#34;clone&#34;</span><span class="p">,</span> <span class="s2">&#34;--filter=blob:none&#34;</span><span class="p">,</span> <span class="s2">&#34;--branch=stable&#34;</span><span class="p">,</span> <span class="n">lazyrepo</span><span class="p">,</span> <span class="n">lazypath</span> <span class="p">})</span>
+</span></span><span class="line"><span class="cl">	<span class="kr">if</span> <span class="n">vim.v</span><span class="p">.</span><span class="n">shell_error</span> <span class="o">~=</span> <span class="mi">0</span> <span class="kr">then</span>
+</span></span><span class="line"><span class="cl">		<span class="n">vim.api</span><span class="p">.</span><span class="n">nvim_echo</span><span class="p">({</span>
+</span></span><span class="line"><span class="cl">			<span class="p">{</span> <span class="s2">&#34;Failed to clone lazy.nvim:</span><span class="se">\n</span><span class="s2">&#34;</span><span class="p">,</span> <span class="s2">&#34;ErrorMsg&#34;</span> <span class="p">},</span>
+</span></span><span class="line"><span class="cl">			<span class="p">{</span> <span class="n">out</span><span class="p">,</span> <span class="s2">&#34;WarningMsg&#34;</span> <span class="p">},</span>
+</span></span><span class="line"><span class="cl">			<span class="p">{</span> <span class="s2">&#34;</span><span class="se">\n</span><span class="s2">Press any key to exit...&#34;</span> <span class="p">},</span>
+</span></span><span class="line"><span class="cl">		<span class="p">},</span> <span class="kc">true</span><span class="p">,</span> <span class="p">{})</span>
+</span></span><span class="line"><span class="cl">		<span class="n">vim.fn</span><span class="p">.</span><span class="n">getchar</span><span class="p">()</span>
+</span></span><span class="line"><span class="cl">		<span class="n">os.exit</span><span class="p">(</span><span class="mi">1</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">	<span class="kr">end</span>
+</span></span><span class="line"><span class="cl"><span class="kr">end</span>
+</span></span><span class="line"><span class="cl"><span class="n">vim.opt</span><span class="p">.</span><span class="n">rtp</span><span class="p">:</span><span class="n">prepend</span><span class="p">(</span><span class="n">lazypath</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="c1">-- Make sure to setup `mapleader` and `maplocalleader` before</span>
+</span></span><span class="line"><span class="cl"><span class="c1">-- loading lazy.nvim so that mappings are correct.</span>
+</span></span><span class="line"><span class="cl"><span class="c1">-- This is also a good place to setup other settings (vim.opt)</span>
+</span></span><span class="line"><span class="cl"><span class="n">vim.g</span><span class="p">.</span><span class="n">mapleader</span> <span class="o">=</span> <span class="s2">&#34; &#34;</span>
+</span></span><span class="line"><span class="cl"><span class="n">vim.g</span><span class="p">.</span><span class="n">maplocalleader</span> <span class="o">=</span> <span class="s2">&#34;</span><span class="se">\\</span><span class="s2">&#34;</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="c1">-- 设置for Neovide</span>
+</span></span><span class="line"><span class="cl"><span class="kr">if</span> <span class="n">vim.g</span><span class="p">.</span><span class="n">neovide</span> <span class="kr">then</span>
+</span></span><span class="line"><span class="cl">	<span class="c1">-- 字体</span>
+</span></span><span class="line"><span class="cl">	<span class="n">vim.o</span><span class="p">.</span><span class="n">guifont</span> <span class="o">=</span> <span class="s2">&#34;FiraCode Nerd Font Mono:h11&#34;</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">	<span class="c1">-- 透明</span>
+</span></span><span class="line"><span class="cl">	<span class="c1">-- vim.g.neovide_opacity = 0.9</span>
+</span></span><span class="line"><span class="cl">	<span class="c1">-- vim.g.neovide_normal_opacity = 0.9</span>
+</span></span><span class="line"><span class="cl">	<span class="c1">-- 窗口颜色</span>
+</span></span><span class="line"><span class="cl">	<span class="n">vim.g</span><span class="p">.</span><span class="n">neovide_title_background_color</span> <span class="o">=</span> <span class="s2">&#34;#282828&#34;</span>
+</span></span><span class="line"><span class="cl">	<span class="c1">-- string.format(&#34;%x&#34;, vim.api.nvim_get_hl(0, { id = vim.api.nvim_get_hl_id_by_name(&#34;Normal&#34;) }).bg)</span>
+</span></span><span class="line"><span class="cl">	<span class="n">vim.g</span><span class="p">.</span><span class="n">neovide_title_text_color</span> <span class="o">=</span> <span class="s2">&#34;#ebdbb2&#34;</span>
+</span></span><span class="line"><span class="cl">	<span class="c1">-- 无空闲</span>
+</span></span><span class="line"><span class="cl">	<span class="n">vim.g</span><span class="p">.</span><span class="n">neovide_no_idle</span> <span class="o">=</span> <span class="kc">true</span>
+</span></span><span class="line"><span class="cl">	<span class="c1">-- 记住窗口大小</span>
+</span></span><span class="line"><span class="cl">	<span class="n">vim.g</span><span class="p">.</span><span class="n">neovide_remember_window_size</span> <span class="o">=</span> <span class="kc">true</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">	<span class="n">vim.g</span><span class="p">.</span><span class="n">neovide_cursor_vfx_mode</span> <span class="o">=</span> <span class="s2">&#34;wireframe&#34;</span>
+</span></span><span class="line"><span class="cl"><span class="kr">end</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="c1">-- Setup lazy.nvim</span>
+</span></span><span class="line"><span class="cl"><span class="n">require</span><span class="p">(</span><span class="s2">&#34;lazy&#34;</span><span class="p">).</span><span class="n">setup</span><span class="p">({</span>
+</span></span><span class="line"><span class="cl">	<span class="n">spec</span> <span class="o">=</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">		<span class="c1">-- import your plugins</span>
+</span></span><span class="line"><span class="cl">		<span class="p">{</span> <span class="n">import</span> <span class="o">=</span> <span class="s2">&#34;plugins&#34;</span> <span class="p">},</span>
+</span></span><span class="line"><span class="cl">		<span class="p">{</span> <span class="n">import</span> <span class="o">=</span> <span class="s2">&#34;config.colorscheme&#34;</span> <span class="p">},</span>
+</span></span><span class="line"><span class="cl">		<span class="p">{</span> <span class="n">import</span> <span class="o">=</span> <span class="s2">&#34;plugins.lsp&#34;</span> <span class="p">},</span>
+</span></span><span class="line"><span class="cl">		<span class="c1">--{import = &#34;plugins.nvim-treesitter&#34;},</span>
+</span></span><span class="line"><span class="cl">		<span class="c1">--{import = &#34;plugins.nvim-treesitter-context&#34;},</span>
+</span></span><span class="line"><span class="cl">		<span class="c1">--{import = &#34;plugins.lsp.mason&#34;},</span>
+</span></span><span class="line"><span class="cl">		<span class="c1">--{import = &#34;plugins.lsp.lspconfig&#34;},</span>
+</span></span><span class="line"><span class="cl">		<span class="c1">--{import = &#34;plugins.telescope&#34;},</span>
+</span></span><span class="line"><span class="cl">		<span class="c1">--{import = &#34;plugins.nvim-cmp&#34;},</span>
+</span></span><span class="line"><span class="cl">	<span class="p">},</span>
+</span></span><span class="line"><span class="cl">	<span class="n">opt</span> <span class="o">=</span> <span class="p">{</span> <span class="n">colorscheme</span> <span class="o">=</span> <span class="s2">&#34;gruvbox&#34;</span> <span class="p">},</span>
+</span></span><span class="line"><span class="cl">	<span class="c1">-- Configure any other settings here. See the documentation for more details.</span>
+</span></span><span class="line"><span class="cl">	<span class="c1">-- colorscheme that will be used when installing plugins.</span>
+</span></span><span class="line"><span class="cl">	<span class="n">install</span> <span class="o">=</span> <span class="p">{</span> <span class="n">colorscheme</span> <span class="o">=</span> <span class="p">{</span> <span class="s2">&#34;gruvbox&#34;</span> <span class="p">}</span> <span class="p">},</span>
+</span></span><span class="line"><span class="cl">	<span class="c1">-- automatically check for plugin updates</span>
+</span></span><span class="line"><span class="cl">	<span class="n">checker</span> <span class="o">=</span> <span class="p">{</span> <span class="n">enabled</span> <span class="o">=</span> <span class="kc">true</span> <span class="p">},</span>
+</span></span><span class="line"><span class="cl"><span class="p">})</span></span></span></code></pre></div>
+  </figure>
+</div>
+<p>其中主要修改<code>spec</code>和<code>colorscheme</code>的内容</p>
+
+
+
+<div class="expressive-code">
+  <figure class="frame not-content">
+  <figcaption class="header">
+    <span class="title"></span>
+  </figcaption>
+  <div class="highlight"><pre tabindex="0" class="chroma"><code class="language-lua" data-lang="lua"><span class="line"><span class="cl"><span class="n">spec</span> <span class="o">=</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">    <span class="c1">-- import your plugins</span>
+</span></span><span class="line"><span class="cl">    <span class="p">{</span> <span class="n">import</span> <span class="o">=</span> <span class="s2">&#34;plugins&#34;</span> <span class="p">},</span>
+</span></span><span class="line"><span class="cl">    <span class="p">{</span> <span class="n">import</span> <span class="o">=</span> <span class="s2">&#34;config.colorscheme&#34;</span><span class="p">},</span>
+</span></span><span class="line"><span class="cl">    <span class="p">{</span> <span class="n">import</span> <span class="o">=</span> <span class="s2">&#34;plugins.lsp&#34;</span><span class="p">}</span>
+</span></span><span class="line"><span class="cl">  <span class="p">},</span></span></span></code></pre></div>
+  </figure>
+</div>
+<p>就是指明配置的插件的位置，即是插件配置文件的放置处，<code>colorscheme</code>是主题的指明，而插件的安装只需要再plugins中放置插件配置再启动nvim就会自动安装</p>
+<h3 id="主题配置">主题配置</h3>
+
+
+
+<div class="expressive-code">
+  <figure class="frame not-content">
+  <figcaption class="header">
+    <span class="title"></span>
+  </figcaption>
+  <div class="highlight"><pre tabindex="0" class="chroma"><code class="language-lua" data-lang="lua"><span class="line"><span class="cl"><span class="kr">return</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">    <span class="p">{</span>
+</span></span><span class="line"><span class="cl">        <span class="s2">&#34;nyoom-engineering/oxocarbon.nvim&#34;</span><span class="p">,</span>
+</span></span><span class="line"><span class="cl">        <span class="c1">-- Add in any other configuration;</span>
+</span></span><span class="line"><span class="cl">        <span class="c1">--   event = foo,</span>
+</span></span><span class="line"><span class="cl">        <span class="c1">--   config = bar</span>
+</span></span><span class="line"><span class="cl">        <span class="c1">--   end,</span>
+</span></span><span class="line"><span class="cl">        <span class="n">config</span> <span class="o">=</span> <span class="kr">function</span><span class="p">()</span>
+</span></span><span class="line"><span class="cl">            <span class="n">vim.cmd</span><span class="p">.</span><span class="n">colorscheme</span><span class="p">(</span><span class="s2">&#34;oxocarbon&#34;</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">            <span class="c1">-- 透明背景</span>
+</span></span><span class="line"><span class="cl">            <span class="c1">--vim.api.nvim_set_hl(0, &#34;Normal&#34;, { bg = &#34;none&#34; })</span>
+</span></span><span class="line"><span class="cl">            <span class="c1">--vim.api.nvim_set_hl(0, &#34;NormalFloat&#34;, { bg = &#34;none&#34; })</span>
+</span></span><span class="line"><span class="cl">            <span class="c1">--vim.api.nvim_set_hl(0, &#34;NormalNC&#34;, { bg = &#34;none&#34; })</span>
+</span></span><span class="line"><span class="cl">        <span class="kr">end</span>
+</span></span><span class="line"><span class="cl">    <span class="p">},</span>
+</span></span><span class="line"><span class="cl"><span class="p">}</span></span></span></code></pre></div>
+  </figure>
+</div>
+<p>这就是lazy.nvim配置文件的配置框架</p>
+
+
+
+<div class="expressive-code">
+  <figure class="frame not-content">
+  <figcaption class="header">
+    <span class="title"></span>
+  </figcaption>
+  <div class="highlight"><pre tabindex="0" class="chroma"><code class="language-lua" data-lang="lua"><span class="line"><span class="cl"><span class="kr">return</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">    <span class="s2">&#34;插件的仓库名&#34;</span><span class="p">,</span>
+</span></span><span class="line"><span class="cl">    <span class="c1">--下面可以没有</span>
+</span></span><span class="line"><span class="cl">    <span class="n">config</span> <span class="o">=</span> <span class="kr">function</span><span class="p">()</span>
+</span></span><span class="line"><span class="cl">        <span class="p">...</span> <span class="c1">--配置设置</span>
+</span></span><span class="line"><span class="cl">    <span class="kr">end</span>
+</span></span><span class="line"><span class="cl"><span class="p">}</span></span></span></code></pre></div>
+  </figure>
+</div>
+<p>你可以在colorscheme.lua中添加其他的其他的主题配置</p>
+<p>而添加其他插件可以访问对应插件的仓库，下面一般会有配置的说明，如果没有直接写出<code>lazy.nvim</code>插件的配置，但是都可以直接转换成上面格式直接使用。</p>
+<h3 id="插件列表">插件列表</h3>
+<h3 id="lsp配置">lsp配置</h3>
+<p>lsp定义是“The Language Server Protocol (LSP) defines the protocol used between an editor or IDE and a language server that provides language features like auto complete, go to definition, find all references etc.（语言服务器协议（LSP）定义了编辑器或IDE与语言服务器之间使用的协议，该协议提供了自动完成，转到定义，查找所有引用等语言功能。）”</p>
+<p>其实就是为vim提供“自动完成，转到定义，查找所有引用等语言功能”，就是像vscode配置各种语言相同的功能，我们使用Mason来lsp管理</p>
+<ol>
+<li>mason.lua配置</li>
+<li>lspconfig.lua配置</li>
+</ol>
+<p>两个配置都要有</p>
+
+
+
+<div class="expressive-code">
+  <figure class="frame not-content">
+  <figcaption class="header">
+    <span class="title"></span>
+  </figcaption>
+  <div class="highlight"><pre tabindex="0" class="chroma"><code class="language-lua" data-lang="lua"><span class="line"><span class="cl"><span class="kr">return</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">	<span class="s2">&#34;williamboman/mason.nvim&#34;</span><span class="p">,</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">	<span class="n">dependencies</span> <span class="o">=</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">		<span class="s2">&#34;williamboman/mason-lspconfig.nvim&#34;</span><span class="p">,</span>
+</span></span><span class="line"><span class="cl">		<span class="s2">&#34;WhoIsSethDaniel/mason-tool-installer.nvim&#34;</span><span class="p">,</span>
+</span></span><span class="line"><span class="cl">	<span class="p">},</span>
+</span></span><span class="line"><span class="cl">	<span class="n">config</span> <span class="o">=</span> <span class="kr">function</span><span class="p">()</span>
+</span></span><span class="line"><span class="cl">		<span class="c1">-- import mason</span>
+</span></span><span class="line"><span class="cl">		<span class="kd">local</span> <span class="n">mason</span> <span class="o">=</span> <span class="n">require</span><span class="p">(</span><span class="s2">&#34;mason&#34;</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">		<span class="c1">-- import mason-lspconfig</span>
+</span></span><span class="line"><span class="cl">		<span class="kd">local</span> <span class="n">mason_lspconfig</span> <span class="o">=</span> <span class="n">require</span><span class="p">(</span><span class="s2">&#34;mason-lspconfig&#34;</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">		<span class="kd">local</span> <span class="n">mason_tool_installer</span> <span class="o">=</span> <span class="n">require</span><span class="p">(</span><span class="s2">&#34;mason-tool-installer&#34;</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">		<span class="c1">-- enable mason and configure icons</span>
+</span></span><span class="line"><span class="cl">		<span class="n">mason.setup</span><span class="p">({</span>
+</span></span><span class="line"><span class="cl">			<span class="n">ui</span> <span class="o">=</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">				<span class="n">icons</span> <span class="o">=</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">					<span class="n">package_installed</span> <span class="o">=</span> <span class="s2">&#34;✓&#34;</span><span class="p">,</span>
+</span></span><span class="line"><span class="cl">					<span class="n">package_pending</span> <span class="o">=</span> <span class="s2">&#34;➜&#34;</span><span class="p">,</span>
+</span></span><span class="line"><span class="cl">					<span class="n">package_uninstalled</span> <span class="o">=</span> <span class="s2">&#34;✗&#34;</span><span class="p">,</span>
+</span></span><span class="line"><span class="cl">				<span class="p">},</span>
+</span></span><span class="line"><span class="cl">			<span class="p">},</span>
+</span></span><span class="line"><span class="cl">		<span class="p">})</span>
+</span></span><span class="line"><span class="cl">		<span class="n">mason_lspconfig.setup</span><span class="p">({</span>
+</span></span><span class="line"><span class="cl">			<span class="n">ensure_installed</span> <span class="o">=</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">				<span class="s2">&#34;ruff&#34;</span><span class="p">,</span>
+</span></span><span class="line"><span class="cl">				<span class="s2">&#34;rust_analyzer&#34;</span><span class="p">,</span>
+</span></span><span class="line"><span class="cl">				<span class="s2">&#34;clangd&#34;</span><span class="p">,</span>
+</span></span><span class="line"><span class="cl">				<span class="s2">&#34;lua_ls&#34;</span><span class="p">,</span>
+</span></span><span class="line"><span class="cl">			<span class="p">},</span>
+</span></span><span class="line"><span class="cl">		<span class="p">})</span>
+</span></span><span class="line"><span class="cl">		<span class="n">mason_tool_installer.setup</span><span class="p">({</span>
+</span></span><span class="line"><span class="cl">			<span class="n">ensure_installed</span> <span class="o">=</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">				<span class="s2">&#34;stylua&#34;</span><span class="p">,</span>
+</span></span><span class="line"><span class="cl">				<span class="s2">&#34;prettier&#34;</span><span class="p">,</span>
+</span></span><span class="line"><span class="cl">				<span class="s2">&#34;isort&#34;</span><span class="p">,</span>
+</span></span><span class="line"><span class="cl">				<span class="s2">&#34;flake8&#34;</span><span class="p">,</span>
+</span></span><span class="line"><span class="cl">				<span class="s2">&#34;black&#34;</span><span class="p">,</span>
+</span></span><span class="line"><span class="cl">				<span class="s2">&#34;clang-format&#34;</span><span class="p">,</span>
+</span></span><span class="line"><span class="cl">				<span class="s2">&#34;cpplint&#34;</span><span class="p">,</span>
+</span></span><span class="line"><span class="cl">			<span class="p">},</span>
+</span></span><span class="line"><span class="cl">		<span class="p">})</span>
+</span></span><span class="line"><span class="cl">	<span class="kr">end</span><span class="p">,</span>
+</span></span><span class="line"><span class="cl"><span class="p">}</span></span></span></code></pre></div>
+  </figure>
+</div>
+<p>下面lspconfig配置</p>
+
+
+
+<div class="expressive-code">
+  <figure class="frame not-content">
+  <figcaption class="header">
+    <span class="title"></span>
+  </figcaption>
+  <div class="highlight"><pre tabindex="0" class="chroma"><code class="language-lua" data-lang="lua"><span class="line"><span class="cl"><span class="kr">return</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">	<span class="s2">&#34;neovim/nvim-lspconfig&#34;</span><span class="p">,</span>
+</span></span><span class="line"><span class="cl">	<span class="n">event</span> <span class="o">=</span> <span class="p">{</span> <span class="s2">&#34;BufReadPre&#34;</span><span class="p">,</span> <span class="s2">&#34;BufNewFile&#34;</span> <span class="p">},</span>
+</span></span><span class="line"><span class="cl">	<span class="n">dependencies</span> <span class="o">=</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">		<span class="s2">&#34;hrsh7th/cmp-nvim-lsp&#34;</span><span class="p">,</span>
+</span></span><span class="line"><span class="cl">		<span class="p">{</span> <span class="s2">&#34;antosha417/nvim-lsp-file-operations&#34;</span><span class="p">,</span> <span class="n">config</span> <span class="o">=</span> <span class="kc">true</span> <span class="p">},</span>
+</span></span><span class="line"><span class="cl">		<span class="p">{</span> <span class="s2">&#34;folke/neodev.nvim&#34;</span><span class="p">,</span> <span class="n">opts</span> <span class="o">=</span> <span class="p">{}</span> <span class="p">},</span>
+</span></span><span class="line"><span class="cl">	<span class="p">},</span>
+</span></span><span class="line"><span class="cl">	<span class="n">config</span> <span class="o">=</span> <span class="kr">function</span><span class="p">()</span>
+</span></span><span class="line"><span class="cl">		<span class="c1">-- import lspconfig plugin</span>
+</span></span><span class="line"><span class="cl">		<span class="kd">local</span> <span class="n">lspconfig</span> <span class="o">=</span> <span class="n">require</span><span class="p">(</span><span class="s2">&#34;lspconfig&#34;</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">		<span class="n">lspconfig.ruff</span><span class="p">.</span><span class="n">setup</span><span class="p">({</span>
+</span></span><span class="line"><span class="cl">			<span class="n">init_options</span> <span class="o">=</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">				<span class="n">settings</span> <span class="o">=</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">					<span class="c1">-- Ruff language server settings go here</span>
+</span></span><span class="line"><span class="cl">					<span class="n">enable</span> <span class="o">=</span> <span class="kc">true</span><span class="p">,</span>
+</span></span><span class="line"><span class="cl">					<span class="n">lint</span> <span class="o">=</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">						<span class="n">enabled</span> <span class="o">=</span> <span class="kc">true</span><span class="p">,</span>
+</span></span><span class="line"><span class="cl">						<span class="n">run</span> <span class="o">=</span> <span class="s2">&#34;onsave&#34;</span><span class="p">,</span>
+</span></span><span class="line"><span class="cl">						<span class="n">max_line_length</span> <span class="o">=</span> <span class="mi">120</span><span class="p">,</span>
+</span></span><span class="line"><span class="cl">					<span class="p">},</span>
+</span></span><span class="line"><span class="cl">					<span class="n">format</span> <span class="o">=</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">						<span class="n">enabled</span> <span class="o">=</span> <span class="kc">true</span><span class="p">,</span>
+</span></span><span class="line"><span class="cl">						<span class="n">run</span> <span class="o">=</span> <span class="s2">&#34;onSave&#34;</span><span class="p">,</span>
+</span></span><span class="line"><span class="cl">					<span class="p">},</span>
+</span></span><span class="line"><span class="cl">					<span class="n">fix</span> <span class="o">=</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">						<span class="n">enabled</span> <span class="o">=</span> <span class="kc">false</span><span class="p">,</span>
+</span></span><span class="line"><span class="cl">						<span class="n">run</span> <span class="o">=</span> <span class="s2">&#34;onSave&#34;</span><span class="p">,</span>
+</span></span><span class="line"><span class="cl">					<span class="p">},</span>
+</span></span><span class="line"><span class="cl">				<span class="p">},</span>
+</span></span><span class="line"><span class="cl">			<span class="p">},</span>
+</span></span><span class="line"><span class="cl">		<span class="p">})</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">		<span class="c1">-- import mason_lspconfig plugin</span>
+</span></span><span class="line"><span class="cl">		<span class="kd">local</span> <span class="n">mason_lspconfig</span> <span class="o">=</span> <span class="n">require</span><span class="p">(</span><span class="s2">&#34;mason-lspconfig&#34;</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">		<span class="c1">-- import cmp-nvim-lsp plugin</span>
+</span></span><span class="line"><span class="cl">		<span class="kd">local</span> <span class="n">cmp_nvim_lsp</span> <span class="o">=</span> <span class="n">require</span><span class="p">(</span><span class="s2">&#34;cmp_nvim_lsp&#34;</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">		<span class="kd">local</span> <span class="n">keymap</span> <span class="o">=</span> <span class="n">vim.keymap</span> <span class="c1">-- for conciseness</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">		<span class="n">vim.api</span><span class="p">.</span><span class="n">nvim_create_autocmd</span><span class="p">(</span><span class="s2">&#34;LspAttach&#34;</span><span class="p">,</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">			<span class="n">group</span> <span class="o">=</span> <span class="n">vim.api</span><span class="p">.</span><span class="n">nvim_create_augroup</span><span class="p">(</span><span class="s2">&#34;UserLspConfig&#34;</span><span class="p">,</span> <span class="p">{}),</span>
+</span></span><span class="line"><span class="cl">			<span class="n">callback</span> <span class="o">=</span> <span class="kr">function</span><span class="p">(</span><span class="n">ev</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">				<span class="c1">-- Buffer local mappings.</span>
+</span></span><span class="line"><span class="cl">				<span class="c1">-- See `:help vim.lsp.*` for documentation on any of the below functions</span>
+</span></span><span class="line"><span class="cl">				<span class="kd">local</span> <span class="n">opts</span> <span class="o">=</span> <span class="p">{</span> <span class="n">buffer</span> <span class="o">=</span> <span class="n">ev.buf</span><span class="p">,</span> <span class="n">silent</span> <span class="o">=</span> <span class="kc">true</span> <span class="p">}</span>
+</span></span><span class="line"><span class="cl">				<span class="kd">local</span> <span class="n">map</span> <span class="o">=</span> <span class="kr">function</span><span class="p">(</span><span class="n">keys</span><span class="p">,</span> <span class="n">func</span><span class="p">,</span> <span class="n">desc</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">					<span class="n">vim.keymap</span><span class="p">.</span><span class="n">set</span><span class="p">(</span><span class="s2">&#34;n&#34;</span><span class="p">,</span> <span class="n">keys</span><span class="p">,</span> <span class="n">func</span><span class="p">,</span> <span class="p">{</span> <span class="n">buffer</span> <span class="o">=</span> <span class="n">ev.buf</span><span class="p">,</span> <span class="n">desc</span> <span class="o">=</span> <span class="s2">&#34;LSP: &#34;</span> <span class="o">..</span> <span class="n">desc</span> <span class="p">})</span>
+</span></span><span class="line"><span class="cl">				<span class="kr">end</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">				<span class="n">opts.desc</span> <span class="o">=</span> <span class="s2">&#34;See available code actions&#34;</span>
+</span></span><span class="line"><span class="cl">				<span class="n">keymap.set</span><span class="p">({</span> <span class="s2">&#34;n&#34;</span><span class="p">,</span> <span class="s2">&#34;v&#34;</span> <span class="p">},</span> <span class="s2">&#34;&lt;leader&gt;ca&#34;</span><span class="p">,</span> <span class="n">vim.lsp</span><span class="p">.</span><span class="n">buf.code_action</span><span class="p">,</span> <span class="n">opts</span><span class="p">)</span> <span class="c1">-- see available code actions, in visual mode will apply to selection</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">				<span class="n">opts.desc</span> <span class="o">=</span> <span class="s2">&#34;Smart rename&#34;</span>
+</span></span><span class="line"><span class="cl">				<span class="n">keymap.set</span><span class="p">(</span><span class="s2">&#34;n&#34;</span><span class="p">,</span> <span class="s2">&#34;&lt;leader&gt;rn&#34;</span><span class="p">,</span> <span class="n">vim.lsp</span><span class="p">.</span><span class="n">buf.rename</span><span class="p">,</span> <span class="n">opts</span><span class="p">)</span> <span class="c1">-- smart rename</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">				<span class="n">opts.desc</span> <span class="o">=</span> <span class="s2">&#34;Show line diagnostics&#34;</span>
+</span></span><span class="line"><span class="cl">				<span class="n">keymap.set</span><span class="p">(</span><span class="s2">&#34;n&#34;</span><span class="p">,</span> <span class="s2">&#34;&lt;leader&gt;d&#34;</span><span class="p">,</span> <span class="n">vim.diagnostic</span><span class="p">.</span><span class="n">open_float</span><span class="p">,</span> <span class="n">opts</span><span class="p">)</span> <span class="c1">-- show diagnostics for line</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">				<span class="n">opts.desc</span> <span class="o">=</span> <span class="s2">&#34;Go to previous diagnostic&#34;</span>
+</span></span><span class="line"><span class="cl">				<span class="n">keymap.set</span><span class="p">(</span><span class="s2">&#34;n&#34;</span><span class="p">,</span> <span class="s2">&#34;[d&#34;</span><span class="p">,</span> <span class="n">vim.diagnostic</span><span class="p">.</span><span class="n">goto_prev</span><span class="p">,</span> <span class="n">opts</span><span class="p">)</span> <span class="c1">-- jump to previous diagnostic in buffer</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">				<span class="n">opts.desc</span> <span class="o">=</span> <span class="s2">&#34;Go to next diagnostic&#34;</span>
+</span></span><span class="line"><span class="cl">				<span class="n">keymap.set</span><span class="p">(</span><span class="s2">&#34;n&#34;</span><span class="p">,</span> <span class="s2">&#34;]d&#34;</span><span class="p">,</span> <span class="n">vim.diagnostic</span><span class="p">.</span><span class="n">goto_next</span><span class="p">,</span> <span class="n">opts</span><span class="p">)</span> <span class="c1">-- jump to next diagnostic in buffer</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">				<span class="n">opts.desc</span> <span class="o">=</span> <span class="s2">&#34;Show documentation for what is under cursor&#34;</span>
+</span></span><span class="line"><span class="cl">				<span class="n">keymap.set</span><span class="p">(</span><span class="s2">&#34;n&#34;</span><span class="p">,</span> <span class="s2">&#34;K&#34;</span><span class="p">,</span> <span class="n">vim.lsp</span><span class="p">.</span><span class="n">buf.hover</span><span class="p">,</span> <span class="n">opts</span><span class="p">)</span> <span class="c1">-- show documentation for what is under cursor</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">				<span class="n">opts.desc</span> <span class="o">=</span> <span class="s2">&#34;Restart LSP&#34;</span>
+</span></span><span class="line"><span class="cl">				<span class="n">keymap.set</span><span class="p">(</span><span class="s2">&#34;n&#34;</span><span class="p">,</span> <span class="s2">&#34;&lt;leader&gt;rs&#34;</span><span class="p">,</span> <span class="s2">&#34;:LspRestart&lt;CR&gt;&#34;</span><span class="p">,</span> <span class="n">opts</span><span class="p">)</span> <span class="c1">-- mapping to restart lsp if necessary</span>
+</span></span><span class="line"><span class="cl">			<span class="kr">end</span><span class="p">,</span>
+</span></span><span class="line"><span class="cl">		<span class="p">})</span>
+</span></span><span class="line"><span class="cl">		<span class="c1">-- used to enable autocompletion (assign to every lsp server config)</span>
+</span></span><span class="line"><span class="cl">		<span class="kd">local</span> <span class="n">capabilities</span> <span class="o">=</span> <span class="n">cmp_nvim_lsp.default_capabilities</span><span class="p">()</span>
+</span></span><span class="line"><span class="cl">		<span class="c1">-- -- 设置各种服务器的配置</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">		<span class="n">mason_lspconfig.setup_handlers</span><span class="p">({</span>
+</span></span><span class="line"><span class="cl">			<span class="c1">-- default handler for installed servers</span>
+</span></span><span class="line"><span class="cl">			<span class="kr">function</span><span class="p">(</span><span class="n">server_name</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">				<span class="n">lspconfig</span><span class="p">[</span><span class="n">server_name</span><span class="p">].</span><span class="n">setup</span><span class="p">({</span>
+</span></span><span class="line"><span class="cl">					<span class="n">capabilities</span> <span class="o">=</span> <span class="n">capabilities</span><span class="p">,</span>
+</span></span><span class="line"><span class="cl">				<span class="p">})</span>
+</span></span><span class="line"><span class="cl">			<span class="kr">end</span><span class="p">,</span>
+</span></span><span class="line"><span class="cl">			<span class="p">[</span><span class="s2">&#34;lua_ls&#34;</span><span class="p">]</span> <span class="o">=</span> <span class="kr">function</span><span class="p">()</span>
+</span></span><span class="line"><span class="cl">				<span class="c1">-- configure lua server (with special settings)</span>
+</span></span><span class="line"><span class="cl">				<span class="n">lspconfig</span><span class="p">[</span><span class="s2">&#34;lua_ls&#34;</span><span class="p">].</span><span class="n">setup</span><span class="p">({</span>
+</span></span><span class="line"><span class="cl">					<span class="n">capabilities</span> <span class="o">=</span> <span class="n">capabilities</span><span class="p">,</span>
+</span></span><span class="line"><span class="cl">					<span class="n">settings</span> <span class="o">=</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">						<span class="n">Lua</span> <span class="o">=</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">							<span class="c1">-- make the language server recognize &#34;vim&#34; global</span>
+</span></span><span class="line"><span class="cl">							<span class="n">diagnostics</span> <span class="o">=</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">								<span class="n">globals</span> <span class="o">=</span> <span class="p">{</span> <span class="s2">&#34;vim&#34;</span> <span class="p">},</span>
+</span></span><span class="line"><span class="cl">							<span class="p">},</span>
+</span></span><span class="line"><span class="cl">							<span class="n">completion</span> <span class="o">=</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">								<span class="n">callSnippet</span> <span class="o">=</span> <span class="s2">&#34;Replace&#34;</span><span class="p">,</span>
+</span></span><span class="line"><span class="cl">							<span class="p">},</span>
+</span></span><span class="line"><span class="cl">						<span class="p">},</span>
+</span></span><span class="line"><span class="cl">					<span class="p">},</span>
+</span></span><span class="line"><span class="cl">				<span class="p">})</span>
+</span></span><span class="line"><span class="cl">			<span class="kr">end</span><span class="p">,</span>
+</span></span><span class="line"><span class="cl">		<span class="p">})</span>
+</span></span><span class="line"><span class="cl">	<span class="kr">end</span><span class="p">,</span>
+</span></span><span class="line"><span class="cl"><span class="p">}</span></span></span></code></pre></div>
+  </figure>
+</div>
+<p><code>ensure_installed</code>中的是安装的语言配置，重新打开nvim安装完成后<code>:Mason</code>会出现下面界面，可以直接在下面配置语言，安装语言，DAP是debug支持，Linter是错误显示，Formatter是格式化代码，移动到对应语言下<code>I</code>安装，<code>X</code>卸载，非常方便，但是rust似乎没有很好的支持，参考前面我的rust配置可以配置</p>
+<h3 id="使用todo">使用TODO</h3>
+
+    </div>
+</div>
+</article>
+
+      
+      </div>
+    </div>
+    
+    
+
+    <footer class="footer text-muted">
+  <div class="container-lg">
+    <div class="row">
+      <div class="col-lg-8 text-center text-lg-start">
+        <ul class="list-inline">
+          <li class="list-inline-item"><a class="text-muted" href="/privacy/">Privacy Policy</a></li>
+        </ul>
+      </div>
+      <div class="col-lg-8 text-center text-lg-end">
+        <ul class="list-inline">
+          <li class="list-inline-item">Brought to you by <a class="text-muted" href="https://thulite.io/">Thulite</a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</footer>
+
+    
+
+<script async
+  src="/js/app.c17553444ec7c62f781ddbaa011948f6d85a1bab49420047d68a2b89852a8b36.js"
+  integrity="sha256-wXVTRE7Hxi94HduqARlI9thaG6tJQgBH1ooriYUqizY=">
+</script>
+
+
+
+
+
+<script async
+  src="/js/flexsearch.7b25ae2da7ab3cc745d4f8536e3f914f92ea8b1afad96ab9249c160c35e0648c.js"
+  integrity="sha256-eyWuLaerPMdF1PhTbj&#43;RT5Lqixr62Wq5JJwWDDXgZIw=">
+</script>
+<script async
+  src="/js/search-modal.84e29df89c748064b1285f1f49a8c4321b1dca6fcefc151f4d2bc426991bf350.js"
+  integrity="sha256-hOKd&#43;Jx0gGSxKF8fSajEMhsdym/O/BUfTSvEJpkb81A=">
+</script>
+
+    
+  </body>
+</html>
