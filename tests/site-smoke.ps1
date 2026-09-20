@@ -14,6 +14,9 @@ try {
     if ($homeHtml -notmatch 'Notes from the studio') {
         throw 'Home page does not contain the site title.'
     }
+    if ($homeHtml -notmatch 'Latest writing') {
+        throw 'Home page does not contain the latest-writing section.'
+    }
 }
 finally {
     if (Test-Path $outputDirectory) {

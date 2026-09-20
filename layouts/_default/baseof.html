@@ -5,14 +5,22 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="{{ site.Params.description }}">
     <title>{{ if .IsHome }}{{ site.Title }}{{ else }}{{ .Title }} · {{ site.Title }}{{ end }}</title>
+    {{ with resources.Get "css/main.css" }}
+      {{ $style := . | minify | fingerprint }}
+      <link rel="stylesheet" href="{{ $style.RelPermalink }}" integrity="{{ $style.Data.Integrity }}">
+    {{ end }}
   </head>
   <body>
-    <header>
-      <nav aria-label="主导航">
-        <a href="{{ site.Home.RelPermalink }}">{{ site.Title }}</a>
-        <a href="{{ "posts/" | relURL }}">文章</a>
+    <header class="site-header">
+      <nav class="site-nav shell" aria-label="主导航">
+        <a class="wordmark" href="{{ site.Home.RelPermalink }}">W4R<span>·</span></a>
+        <div class="nav-links">
+          <a href="{{ "posts/" | relURL }}">文章</a>
+          <a href="{{ "categories/" | relURL }}">分类</a>
+        </div>
       </nav>
     </header>
     <main>{{ block "main" . }}{{ end }}</main>
+    <footer class="site-footer shell"><span>© {{ now.Year }} {{ site.Title }}</span><span>Built with Hugo.</span></footer>
   </body>
 </html>

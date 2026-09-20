@@ -1,8 +1,13 @@
 {{ define "main" }}
-  <section>
+  <section class="page-intro shell">
+    <p class="eyebrow">ARCHIVE</p>
     <h1>{{ .Title }}</h1>
-    {{ range .Pages }}
-      <article><a href="{{ .RelPermalink }}">{{ .Title }}</a></article>
+  </section>
+  <section class="shell article-grid archive-grid">
+    {{ range .Pages.ByDate.Reverse }}
+      {{ partial "article-card.html" . }}
+    {{ else }}
+      <p class="empty-state">这里还没有内容。</p>
     {{ end }}
   </section>
 {{ end }}

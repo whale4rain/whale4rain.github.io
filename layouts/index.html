@@ -1,6 +1,20 @@
 {{ define "main" }}
-  <section>
-    <h1>{{ site.Title }}</h1>
-    <p>{{ site.Params.description }}</p>
+  <section class="hero shell">
+    <p class="eyebrow">PERSONAL NOTES / {{ now.Format "2006" }}</p>
+    <h1>想法、代码，<br>以及正在发生的事。</h1>
+    <p class="lede">{{ site.Params.description }}</p>
+  </section>
+  <section class="latest shell" aria-labelledby="latest-title">
+    <div class="section-heading">
+      <h2 id="latest-title">Latest writing</h2>
+      <a href="{{ "posts/" | relURL }}">查看全部 <span aria-hidden="true">→</span></a>
+    </div>
+    <div class="article-grid">
+      {{ range first 6 site.RegularPages.ByDate.Reverse }}
+        {{ partial "article-card.html" . }}
+      {{ else }}
+        <p class="empty-state">第一篇文章即将出现。</p>
+      {{ end }}
+    </div>
   </section>
 {{ end }}
