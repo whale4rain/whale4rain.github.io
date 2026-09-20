@@ -1,0 +1,13 @@
+baseURL = "https://whale4rain.github.io/"
+languageCode = "zh-CN"
+title = "Notes from the studio"
+
+[pagination]
+  pagerSize = 12
+
+[taxonomies]
+  category = "categories"
+  tag = "tags"
+
+[params]
+  description = "关于技术、设计和日常实践的短笺。"
