@@ -12,3 +12,7 @@ title = "Notes from the studio"
 
 [params]
   description = "关于技术、设计和日常实践的短笺。"
+
+[caches]
+  [caches.images]
+    dir = ':cacheDir/images'
