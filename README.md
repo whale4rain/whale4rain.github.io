@@ -51,6 +51,26 @@ tags: ["标签"]
 ---
 ```
 
+### 提交并发布文章
+
+写完一篇或多篇文章后，在项目根目录运行：
+
+```powershell
+.\scripts\publish-posts.ps1
+```
+
+脚本会依次执行 Hugo 生产构建、暂存 `content/posts/` 的新增/修改/删除、提交并推送到当前分支。默认提交信息是 `docs: publish blog posts`；需要自定义时：
+
+```powershell
+.\scripts\publish-posts.ps1 -Message "docs: publish JavaScript notes"
+```
+
+如果你明确要提交仓库中的**所有**改动，而不仅是文章，才使用下面的命令；它会执行 `git add .`：
+
+```powershell
+.\scripts\publish-posts.ps1 -All -Message "docs: publish blog updates"
+```
+
 ## 自动封面
 
 没有设置 `cover` 时，第一项分类决定背景色和图案系列：
