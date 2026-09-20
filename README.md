@@ -26,7 +26,20 @@ powershell -ExecutionPolicy Bypass -File tests/cover-smoke.ps1
 
 ## 写文章
 
-将 Markdown 文件放进 `content/posts/`。最小的 front matter 如下：
+在项目根目录执行（将名字替换成你的文章英文短名）：
+
+```powershell
+hugo new content posts/my-new-post.md
+hugo server -D
+```
+
+第一条命令会使用 `archetypes/posts.md` 生成 `content/posts/my-new-post.md`，自动填写日期、slug，并提供分段和代码块骨架。打开生成的文件，修改标题、摘要、分类和正文即可。文章默认 `draft: true`，所以预览草稿时需要 `-D`。
+
+准备发布时，将 `draft` 改成 `false`，确认日期不在未来，然后运行 `hugo --minify` 检查生产构建。生产构建默认不包含草稿；本地修改和 Git 提交本身不会自动把网站发布到线上，仍需执行你的部署流程。
+
+完整示例见 `content/posts/javascript-group-by.md`，包含段落、二级标题、表格、引用和多语言代码块。代码块开头标记 `javascript`、`powershell` 或 `text`，Hugo 会按对应语言处理显示。
+
+也可以直接将 Markdown 文件放进 `content/posts/`。最小的 front matter 如下：
 
 ```yaml
 ---
