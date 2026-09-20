@@ -1,5 +1,6 @@
 baseURL = "https://whale4rain.github.io/"
 languageCode = "zh-CN"
+defaultContentLanguage = "zh-cn"
 title = "Notes from the studio"
 
 [pagination]

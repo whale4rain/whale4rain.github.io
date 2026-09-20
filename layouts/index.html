@@ -1,16 +1,35 @@
 {{ define "main" }}
   <section class="hero shell">
-    <p class="eyebrow">PERSONAL NOTES / {{ now.Format "2006" }}</p>
-    <h1>想法、代码，<br>以及正在发生的事。</h1>
-    <p class="lede">{{ site.Params.description }}</p>
+    <p class="eyebrow">NOTES FROM THE STUDIO</p>
+    <h1>写下所见，<br>也留下所想<span class="accent">。</span></h1>
+    <p class="lede">{{ site.Params.description }}<br>让值得记住的事，有迹可循。</p>
   </section>
+  {{ $posts := where site.RegularPages "Section" "posts" }}
+  <div class="shell">
+    <nav class="category-nav" aria-label="文章分类">
+      <a class="is-active" href="{{ "posts/" | relURL }}">全部文章 <span>{{ len $posts }}</span></a>
+      {{ range site.Taxonomies.categories.Alphabetical }}<a href="{{ .Page.RelPermalink }}">{{ .Page.Title }}</a>{{ end }}
+    </nav>
+    {{ range first 1 $posts.ByDate.Reverse }}
+      <article class="featured">
+        <a class="featured-art" href="{{ .RelPermalink }}" aria-label="阅读：{{ .Title }}">{{ partial "cover.html" . }}</a>
+        <div class="featured-copy">
+          <p class="eyebrow">精选文章 / EDITOR'S PICK</p>
+          <h2><a href="{{ .RelPermalink }}">{{ .Title }}</a></h2>
+          <p class="featured-summary">{{ .Params.summary }}</p>
+          <p class="card-meta">{{ range first 1 (.GetTerms "categories") }}<a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a><span>·</span>{{ end }}<time datetime="{{ .Date.Format "2006-01-02" }}">{{ .Date.Format "2006.01.02" }}</time></p>
+          <a class="read-link" href="{{ .RelPermalink }}">阅读文章 <span aria-hidden="true">↗</span></a>
+        </div>
+      </article>
+    {{ end }}
+  </div>
   <section class="latest shell" aria-labelledby="latest-title">
     <div class="section-heading">
-      <h2 id="latest-title">Latest writing</h2>
+      <h2 id="latest-title">最近更新 <span>Latest writing</span></h2>
       <a href="{{ "posts/" | relURL }}">查看全部 <span aria-hidden="true">→</span></a>
     </div>
     <div class="article-grid">
-      {{ range first 6 site.RegularPages.ByDate.Reverse }}
+      {{ range first 6 $posts.ByDate.Reverse }}
         {{ partial "article-card.html" . }}
       {{ else }}
         <p class="empty-state">第一篇文章即将出现。</p>

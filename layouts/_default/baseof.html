@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="{{ site.Language.Lang }}">
+<html lang="zh-CN">
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -11,16 +11,18 @@
     {{ end }}
   </head>
   <body>
+    <a class="skip-link" href="#main">跳至正文</a>
     <header class="site-header">
       <nav class="site-nav shell" aria-label="主导航">
-        <a class="wordmark" href="{{ site.Home.RelPermalink }}">W4R<span>·</span></a>
+        <a class="wordmark" href="{{ site.Home.RelPermalink }}"><span class="brand-mark" aria-hidden="true">∿</span> W4R<span class="brand-caption">随想录</span></a>
         <div class="nav-links">
           <a href="{{ "posts/" | relURL }}">文章</a>
           <a href="{{ "categories/" | relURL }}">分类</a>
+          <a class="nav-rss" href="{{ "index.xml" | relURL }}">订阅 RSS ↗</a>
         </div>
       </nav>
     </header>
-    <main>{{ block "main" . }}{{ end }}</main>
-    <footer class="site-footer shell"><span>© {{ now.Year }} {{ site.Title }}</span><span>Built with Hugo.</span></footer>
+    <main id="main">{{ block "main" . }}{{ end }}</main>
+    <footer class="site-footer shell"><div><a class="footer-wordmark" href="{{ site.Home.RelPermalink }}">W4R.</a><p>保持好奇，慢慢记录。</p></div><div class="footer-note"><span>© {{ now.Year }} {{ site.Title }}</span><a href="{{ "index.xml" | relURL }}">通过 RSS 保持联系 ↗</a></div></footer>
   </body>
 </html>

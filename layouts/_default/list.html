@@ -3,6 +3,11 @@
     <p class="eyebrow">ARCHIVE</p>
     <h1>{{ .Title }}</h1>
   </section>
+  {{ if eq .Kind "taxonomy" }}
+  <section class="shell term-list archive-grid" aria-label="分类目录">
+    {{ range .Data.Terms.Alphabetical }}<a href="{{ .Page.RelPermalink }}"><span>{{ .Page.Title }}</span><small>{{ .Count }} 篇文章</small><span aria-hidden="true">↗</span></a>{{ else }}<p>这里还没有分类。</p>{{ end }}
+  </section>
+  {{ else }}
   <section class="shell article-grid archive-grid">
     {{ range .Pages.ByDate.Reverse }}
       {{ partial "article-card.html" . }}
@@ -10,4 +15,5 @@
       <p class="empty-state">这里还没有内容。</p>
     {{ end }}
   </section>
+  {{ end }}
 {{ end }}

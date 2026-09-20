@@ -1,6 +1,6 @@
 <article class="article-card">
   <a class="card-link" href="{{ .RelPermalink }}">
-    <div class="card-art" aria-hidden="true"><span>{{ .Date.Format "02" }}</span></div>
+    <div class="card-art" aria-hidden="true">{{ partial "cover.html" . }}</div>
     <div class="card-body">
       <p class="card-meta">{{ .Date.Format "2006.01.02" }} · {{ with .Params.categories }}{{ index . 0 }}{{ else }}文章{{ end }}</p>
       <h3>{{ .Title }}</h3>

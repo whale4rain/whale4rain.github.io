@@ -1,5 +1,6 @@
 {{ define "main" }}
   <article class="reading shell">
+    <a class="back-link" href="{{ "posts/" | relURL }}">← 返回文章</a>
     <header class="article-header">
       <p class="eyebrow">{{ with .Params.categories }}{{ index . 0 }}{{ else }}文章{{ end }}</p>
       <h1>{{ .Title }}</h1>
@@ -7,8 +8,8 @@
       <time datetime="{{ .Date.Format "2006-01-02" }}">{{ .Date.Format "2006.01.02" }}</time>
     </header>
     <div class="article-content">{{ .Content }}</div>
-    {{ with .Params.tags }}
-      <footer class="tag-list">{{ range . }}<a href="{{ "tags/" | relURL }}{{ . | urlize }}/"># {{ . }}</a>{{ end }}</footer>
+    {{ with .GetTerms "tags" }}
+      <footer class="tag-list">{{ range . }}<a href="{{ .RelPermalink }}"># {{ .LinkTitle }}</a>{{ end }}</footer>
     {{ end }}
   </article>
 {{ end }}

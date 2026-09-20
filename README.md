@@ -2,6 +2,8 @@
 
 一个使用 [Hugo](https://gohugo.io/) 构建的轻量静态博客。页面采用独立的编辑式视觉设计，内容用 Markdown 管理，不依赖运行时服务。
 
+页面使用暖白、陶土色和衬线标题，包含最新文章精选、分类入口和响应式文章网格。首页自动将最新文章作为精选展示。文章可在 front matter 添加 `cover: "/images/example.jpg"`（图片放在 `static/images/`）；未设置封面时使用内置的轻量 SVG 线条插画。分类、标签与 RSS 都由 Hugo 静态生成，无需客户端 JavaScript。
+
 ## 本地预览
 
 需要 Hugo Extended（当前项目使用 Hugo 0.145+）。
