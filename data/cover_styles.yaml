@@ -1,0 +1,32 @@
+default: essay
+styles:
+  tech:
+    categories: ["技术", "编程"]
+    background: "#DCE5EB"
+    ink: "#526675"
+    accent: "#849EAE"
+    motif: paths
+  design:
+    categories: ["设计", "产品"]
+    background: "#EBD8CC"
+    ink: "#806252"
+    accent: "#BB795C"
+    motif: arcs
+  essay:
+    categories: ["思考", "随笔"]
+    background: "#EAE4D8"
+    ink: "#716E5C"
+    accent: "#BE8064"
+    motif: waves
+  reading:
+    categories: ["阅读", "笔记"]
+    background: "#DEE5D8"
+    ink: "#596A55"
+    accent: "#8D9D79"
+    motif: pages
+  life:
+    categories: ["生活", "旅行"]
+    background: "#EFE5CB"
+    ink: "#837454"
+    accent: "#BE975D"
+    motif: landscape

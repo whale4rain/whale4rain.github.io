@@ -1,13 +1,16 @@
 {{ with .Params.cover }}
   <img class="cover-image" src="{{ . | relURL }}" alt="" loading="lazy">
 {{ else }}
-  <svg class="cover-drawing" viewBox="0 0 640 440" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
-    <rect width="640" height="440" fill="#e9e4da"/>
-    <circle cx="416" cy="143" r="64" fill="#c77659"/>
-    <g stroke="#68695b" stroke-width="1.3">
-      {{ range seq 0 13 }}<path d="M-40 {{ add 235 (mul . 13) }} C120 {{ sub 105 (mul . 3) }}, 213 {{ add 420 (mul . 6) }}, 375 {{ add 235 (mul . 9) }} S535 {{ add 175 (mul . 12) }}, 690 {{ add 248 (mul . 11) }}"/>{{ end }}
-    </g>
-    <path d="M105 83h24m-12-12v24" stroke="#68695b" stroke-width="1.3"/>
-    <circle cx="513" cy="332" r="4" fill="#68695b"/>
-  </svg>
+  {{- $config := site.Data.cover_styles -}}
+  {{- $style := index $config.styles $config.default -}}
+  {{- $category := "" -}}
+  {{- with .Params.categories }}{{ $category = index . 0 }}{{ end -}}
+  {{- range $config.styles -}}
+    {{- if in .categories $category }}{{ $style = . }}{{ end -}}
+  {{- end -}}
+  {{/* File path is independent of title, date, host and output route. */}}
+  {{- $identity := .File.Path -}}
+  {{- with .Params.slug }}{{ $identity = . }}{{ end -}}
+  {{- $seed := hash.FNV32a (printf "%s|%v" $identity (.Params.cover_seed | default "")) -}}
+  {{- partial "cover-art.html" (dict "style" $style "seed" $seed) -}}
 {{ end }}

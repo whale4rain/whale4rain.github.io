@@ -1,0 +1,50 @@
+{{- $s := .style -}}
+{{- $seed := .seed -}}
+{{- $variant := mod $seed 3 -}}
+{{- $x := add 355 (mod (div $seed 7) 105) -}}
+{{- $y := add 112 (mod (div $seed 17) 48) -}}
+{{- $radius := add 40 (mod (div $seed 31) 25) -}}
+{{- $count := add 8 (mod (div $seed 43) 5) -}}
+{{- $amplitude := add 20 (mod (div $seed 59) 65) -}}
+<svg class="cover-drawing" viewBox="0 0 640 440" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false">
+  <rect width="640" height="440" fill="{{ $s.background }}"/>
+  <g{{ if eq $variant 1 }} transform="translate(640 0) scale(-1 1)"{{ else if eq $variant 2 }} transform="translate(30 14) scale(.9)"{{ end }}>
+    {{ if eq $s.motif "paths" }}
+      <rect x="105" y="108" width="330" height="228" rx="12" fill="{{ $s.accent }}" opacity=".16"/>
+      <g stroke="{{ $s.ink }}" stroke-width="1.5">
+        {{ range seq 0 $count }}{{ $yline := add 128 (mul . 16) }}
+          <path d="M80 {{ $yline }} H{{ sub $x 110 }} L{{ sub $x 52 }} {{ sub $yline 44 }} H550"/>
+        {{ end }}
+      </g>
+      <circle cx="{{ $x }}" cy="164" r="21" fill="{{ $s.background }}" stroke="{{ $s.ink }}" stroke-width="2"/>
+      <circle cx="{{ $x }}" cy="164" r="7" fill="{{ $s.accent }}"/>
+    {{ else if eq $s.motif "arcs" }}
+      <rect x="146" y="150" width="170" height="178" rx="3" fill="{{ $s.accent }}" opacity=".7"/>
+      <circle cx="{{ $x }}" cy="{{ $y }}" r="{{ $radius }}" fill="{{ $s.accent }}"/>
+      <g stroke="{{ $s.ink }}" stroke-width="1.4">
+        {{ range seq 0 $count }}{{ $r := add 48 (mul . 10) }}<path d="M{{ sub 338 $r }} 330 V240 A{{ $r }} {{ $r }} 0 0 1 {{ add 338 $r }} 240 V330"/>{{ end }}
+      </g>
+    {{ else if eq $s.motif "pages" }}
+      <circle cx="{{ $x }}" cy="{{ $y }}" r="{{ $radius }}" fill="{{ $s.accent }}" opacity=".6"/>
+      <g stroke="{{ $s.ink }}" stroke-width="1.3">
+        {{ range seq 0 $count }}{{ $offset := mul . 8 }}
+          <path d="M{{ add 150 $offset }} {{ add 99 $offset }} L{{ add 360 $offset }} {{ add 120 $offset }} L{{ add 325 $offset }} {{ add 310 $offset }} L{{ add 115 $offset }} {{ add 289 $offset }} Z" fill="{{ $s.background }}"/>
+        {{ end }}
+      </g>
+    {{ else if eq $s.motif "landscape" }}
+      <circle cx="{{ $x }}" cy="{{ $y }}" r="{{ $radius }}" fill="{{ $s.accent }}"/>
+      <path d="M0 295 L155 {{ sub 220 $amplitude }} L325 298 L459 230 L640 299 V440 H0Z" fill="{{ $s.accent }}" opacity=".18"/>
+      <g stroke="{{ $s.ink }}" stroke-width="1.3">
+        {{ range seq 0 $count }}{{ $offset := mul . 11 }}
+          <path d="M-20 {{ add 290 $offset }} Q140 {{ sub 170 $amplitude }} 330 {{ add 290 $offset }} T660 {{ add 278 $offset }}"/>
+        {{ end }}
+      </g>
+    {{ else }}
+      <circle cx="{{ $x }}" cy="{{ $y }}" r="{{ $radius }}" fill="{{ $s.accent }}"/>
+      <g stroke="{{ $s.ink }}" stroke-width="1.3">
+        {{ range seq 0 $count }}<path d="M-40 {{ add 235 (mul . 13) }} C120 {{ sub 170 $amplitude }}, 213 {{ add 360 (mul . 6) }}, 375 {{ add 235 (mul . 9) }} S535 {{ add 175 (mul . 12) }}, 690 {{ add 248 (mul . 11) }}"/>{{ end }}
+      </g>
+    {{ end }}
+    <path d="M93 82h20m-10-10v20" stroke="{{ $s.ink }}" stroke-width="1.3"/>
+  </g>
+</svg>
