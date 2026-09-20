@@ -36,6 +36,9 @@ try {
     foreach ($case in $cases) {
         if ((Get-PostCover $case.Name) -notmatch $case.Color) { throw "Wrong palette: $($case.Name)" }
     }
+    if ((Get-PostCover 'tech') -notmatch 'preserveAspectRatio="xMidYMid slice"') {
+        throw 'Generated SVG cover does not fill a wide card.'
+    }
     $original = Get-PostCover 'tech'
     Build-Fixture
     if ((Get-PostCover 'tech') -cne $original) { throw 'Cover changed between builds.' }

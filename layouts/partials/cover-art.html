@@ -6,7 +6,7 @@
 {{- $radius := add 40 (mod (div $seed 31) 25) -}}
 {{- $count := add 8 (mod (div $seed 43) 5) -}}
 {{- $amplitude := add 20 (mod (div $seed 59) 65) -}}
-<svg class="cover-drawing" viewBox="0 0 640 440" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false">
+<svg class="cover-drawing" viewBox="0 0 640 440" preserveAspectRatio="xMidYMid slice" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false">
   <rect width="640" height="440" fill="{{ $s.background }}"/>
   <g{{ if eq $variant 1 }} transform="translate(640 0) scale(-1 1)"{{ else if eq $variant 2 }} transform="translate(30 14) scale(.9)"{{ end }}>
     {{ if eq $s.motif "paths" }}
