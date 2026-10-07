@@ -73,15 +73,10 @@ slug: "cpp-value-categories"
 ### 4. 总结对比表
 
 | **类别** | **缩写全称** | **核心特征** | **是否有身份标识(ID)?** | **资源是否可移动?** |
-
 |---|---|---|---|---|
-
 | **lvalue** | Left value | 持久的变量 | **有** | 否 |
-
 | **xvalue** | eXpiring value | 转换后的右值引用 | **有** | **是** |
-
 | **prvalue** | Pure rvalue | 字面量、计算中间值 | 否 | **是** |
-
 ### 举个实际例子：
 
 `std::string s1 = "hello"; 

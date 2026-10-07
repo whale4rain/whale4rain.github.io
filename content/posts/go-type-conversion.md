@@ -41,17 +41,11 @@ i := int(f) // i 变为 3，小数位丢失
 - **数字 转 String：** 使用 `strconv.Itoa` (int) 或 `strconv.FormatInt`。
 
 | **转换方向** | **推荐方法** | **理由** |
-
 |---|---|---|
-
 | `int` -> `string` | `strconv.Itoa(i)` | 速度快，语义明确 |
-
 | `int64` -> `string` | `strconv.FormatInt(i, 10)` | 灵活，性能高 |
-
 | `string` -> `int` | `strconv.Atoi(s)` | 简洁，含错误处理 |
-
 | 任意类型 -> `string` | `fmt.Sprintf("%v", x)` | **慎用**，反射实现，性能较差 |
-
 > [!IMPORTANT]
 
 ---
