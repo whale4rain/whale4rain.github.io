@@ -45,31 +45,19 @@ $ dmesg | grep oom
 ### 二、关键数据与现象
 
 | **指标** | **Concurrency=2** | **Concurrency=10** | **结论** |
-
 |---|---|---|---|
-
 | **任务结果** | 正常完成 | OOM 崩溃 | 高并发触发 OOM |
-
 | **输入文件大小** | 约 1MB | 约 1MB | 输入并非主要问题 |
-
 | **pprof 内存总量** | N/A | 87.03MB (采样) | 内存峰值过高 |
-
 ### pprof 内存热点数据 (Top 5)
 
 | **函数名** | **Flat %** | **Cumulative %** | **内存用途** |
-
 |---|---|---|---|
-
 | `bytes.growSlice` | 25.86% | 25.86% | 底层切片扩容开销 |
-
 | `excelize.(*xlsxWorksheet).prepareSheetXML` | 24.78% | 50.63% | **构建整个工作表的 XML DOM 结构** |
-
 | `encoding/xml.copyValue` | 17.40% | 68.03% | XML 数据序列化开销 |
-
 | `strings.(*Builder).WriteString` | 15.13% | 83.16% | 字符串拼接开销 |
-
 | `excelize.(*xlsxWorksheet).checkRow` | 4.02% | 87.18% | 行检查和处理 |
-
 结果Excel大小11mb，输入Excel1mb左右，我们分析excel解析的消耗
 
 ### 附：excel 解析占用分析
@@ -219,15 +207,10 @@ func logMem(tag string) {
 在20,000行小数据内容处理中看出解析excel到xml的操作中，多了200mb的内存分配操作
 
 |  | inuse_Space | alloc_Space |
-
 |---|---|---|
-
 | 解析前 | 21 | 138 |
-
 | 解析后 | 250.9 | 479 |
-
 | 差异 | 几乎翻了十倍 | 差了近四倍 |
-
 可以看到确实存在巨大内存损耗
 
 ![](/images/notion/excel-oom-child/img2.png)
@@ -670,17 +653,11 @@ go tool pprof http://localhost:xxxx/debug/pprof/heap
 ## 🍀修复结果
 
 | 项目 | 修复前 | 修复后 |
-
 |---|---|---|
-
 | 峰值 RSS | >4GB（20并发>8G) | <300MB |
-
 | 并发 10 | OOM | 正常 |
-
 | pprof Total | 4.40GB | <100MB |
-
 | 服务稳定性 | 不稳定 | 稳定 |
-
 项目要用`pprof`，`pprof`关注点和多次比较
 
 ---
