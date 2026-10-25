@@ -1,0 +1,3 @@
+{{- /* Same as Hugo's default, but drops blank lines at the start/end of a code block. */ -}}
+{{- $code := .Inner | strings.TrimRight " \n\t\r" | replaceRE `^(\s*\n)+` "" -}}
+{{- transform.Highlight $code .Type .Options -}}
