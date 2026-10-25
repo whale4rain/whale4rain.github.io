@@ -1,0 +1,7 @@
+{{ $lang := .Type | default "text" }}
+{{ if in (slice "plain" "plaintext" "txt") $lang }}{{ $lang = "text" }}{{ end }}
+{{ $code := .Inner | strings.TrimRight " \n\t\r" | replaceRE `^(\s*\n)+` "" }}
+<figure class="code">
+  <figcaption><span>{{ $lang }}</span><button class="copy" type="button">复制</button></figcaption>
+  {{ transform.Highlight $code .Type .Options }}
+</figure>

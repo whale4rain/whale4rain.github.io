@@ -1,23 +1,39 @@
 baseURL = "https://whale4rain.github.io/"
 languageCode = "zh-CN"
 defaultContentLanguage = "zh-cn"
-title = "Notes from the studio"
+title = "whale4rain"
+hasCJKLanguage = true
+enableGitInfo = false
 
 [pagination]
-  pagerSize = 12
+  pagerSize = 20
 
 [taxonomies]
   category = "categories"
   tag = "tags"
 
 [params]
-  description = "关于技术、设计和日常实践的短笺。"
+  description = "后端、分布式系统与编程语言的学习笔记。"
+  author = "whale4rain"
+  github = "https://github.com/whale4rain"
 
 [markup]
   [markup.highlight]
     codeFences = true
     noClasses = false
-    tabWidth = 2
+    tabWidth = 4
+    guessSyntax = false
+  [markup.tableOfContents]
+    startLevel = 1
+    endLevel = 3
+    ordered = false
+  [markup.goldmark.renderer]
+    unsafe = true
+  [markup.goldmark.extensions.passthrough]
+    enable = true
+    [markup.goldmark.extensions.passthrough.delimiters]
+      block = [["$$", "$$"], ["\\[", "\\]"]]
+      inline = [["$", "$"], ["\\(", "\\)"]]
 
 [caches]
   [caches.images]

@@ -1,0 +1,9 @@
+{{ define "main" }}
+  <header class="page-head">
+    <h1>{{ .Title }}</h1>
+    <p class="muted">共 {{ len .Data.Terms }} 个</p>
+  </header>
+  <div class="tag-cloud tag-cloud-lg">
+    {{ range .Data.Terms.ByCount }}<a href="{{ .Page.RelPermalink }}">{{ .Page.Title }}<small>{{ .Count }}</small></a>{{ else }}<p class="empty">这里还没有内容。</p>{{ end }}
+  </div>
+{{ end }}

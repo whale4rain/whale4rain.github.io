@@ -1,0 +1,4 @@
+<span class="meta">
+  <time datetime="{{ .Date.Format "2006-01-02" }}">{{ .Date.Format "2006-01-02" }}</time>
+  {{ with .GetTerms "tags" }}<span class="meta-tags">{{ range first 3 . }}<span>{{ .LinkTitle }}</span>{{ end }}</span>{{ end }}
+</span>

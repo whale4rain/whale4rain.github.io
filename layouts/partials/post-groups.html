@@ -1,0 +1,13 @@
+{{/* Context: a page collection. Renders posts grouped by year. */}}
+{{ range .GroupByDate "2006" }}
+  <section class="year-group">
+    <h2 class="year">{{ .Key }}<small>{{ len .Pages }}</small></h2>
+    <ul class="post-rows">
+      {{ range .Pages }}
+        <li><a href="{{ .RelPermalink }}"><span class="row-title">{{ .Title }}</span><time datetime="{{ .Date.Format "2006-01-02" }}">{{ .Date.Format "01-02" }}</time></a></li>
+      {{ end }}
+    </ul>
+  </section>
+{{ else }}
+  <p class="empty">这里还没有内容。</p>
+{{ end }}

@@ -1,19 +1,8 @@
 {{ define "main" }}
-  <section class="page-intro shell">
-    <p class="eyebrow">ARCHIVE</p>
-    <h1>{{ .Title }}</h1>
-  </section>
-  {{ if eq .Kind "taxonomy" }}
-  <section class="shell term-list archive-grid" aria-label="分类目录">
-    {{ range .Data.Terms.Alphabetical }}<a href="{{ .Page.RelPermalink }}"><span>{{ .Page.Title }}</span><small>{{ .Count }} 篇文章</small><span aria-hidden="true">↗</span></a>{{ else }}<p>这里还没有分类。</p>{{ end }}
-  </section>
-  {{ else }}
-  <section class="shell article-grid archive-grid">
-    {{ range .Pages.ByDate.Reverse }}
-      {{ partial "article-card.html" . }}
-    {{ else }}
-      <p class="empty-state">这里还没有内容。</p>
-    {{ end }}
-  </section>
-  {{ end }}
+  <header class="page-head">
+    {{ if eq .Kind "term" }}<p class="kicker">{{ .Data.Singular | humanize }}</p>{{ end }}
+    <h1>{{ if eq .Kind "term" }}# {{ end }}{{ .Title }}</h1>
+    <p class="muted">共 {{ len .Pages }} 篇</p>
+  </header>
+  {{ partial "post-groups.html" .Pages }}
 {{ end }}
