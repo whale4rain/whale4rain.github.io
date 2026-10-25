@@ -1,5 +1,5 @@
 baseURL = "https://whale4rain.github.io/"
-languageCode = "zh-CN"
+locale = "zh-CN"
 defaultContentLanguage = "zh-cn"
 title = "whale4rain"
 theme = "PaperMod"
