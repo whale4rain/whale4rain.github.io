@@ -81,7 +81,9 @@ create(ready file)
 需要良好的api设计避免问题
 zookeeper的read不仅有exits还会建立一个watch
 zookeeper保证在其在触发watch的请求时，先返回可能触发watch的请求，这就是删除Ready file会产生一个通知，而这个通知可以确保在读f2的请求响应之前发送给客户端
-<embed src="https://mit-public-courses-cn-translatio.gitbook.io/mit6-824/~gitbook/image?url=https%3A%2F%2F2933519158-files.gitbook.io%2F%7E%2Ffiles%2Fv0%2Fb%2Fgitbook-legacy-files%2Fo%2Fassets%252F-MAkokVMtbC7djI1pgSw%252F-MD4W2akBJ4UeYmSJJBt%252F-MD4kccYu9ubDOcG15Ac%252Fimage.png%3Falt%3Dmedia%26token%3Db48421c0-578d-48da-b558-f02bf1242a42&width=768&dpr=4&quality=100&sign=58f6b1e&sv=2"></embed>
+
+![](https://mit-public-courses-cn-translatio.gitbook.io/mit6-824/~gitbook/image?url=https%3A%2F%2F2933519158-files.gitbook.io%2F%7E%2Ffiles%2Fv0%2Fb%2Fgitbook-legacy-files%2Fo%2Fassets%252F-MAkokVMtbC7djI1pgSw%252F-MD4W2akBJ4UeYmSJJBt%252F-MD4kccYu9ubDOcG15Ac%252Fimage.png%3Falt%3Dmedia%26token%3Db48421c0-578d-48da-b558-f02bf1242a42&width=768&dpr=4&quality=100&sign=58f6b1e&sv=2)
+
 Zookeeper可以保证客户端在收到删除Ready file的通知之前，看到的都是配置更新前的数据（也就是，客户端读取配置读了一半，如果收到了Ready file删除的通知，就可以放弃这次读，再重试读了）
 <empty-block/>
 > Q:watch在哪
