@@ -2,17 +2,17 @@
 
 一个使用 [Hugo](https://gohugo.io/) 构建的技术博客，内容用 Markdown 管理。
 
-主题是自己写的极简风格，专为技术文章设计：
+主题使用 [PaperMod](https://github.com/adityatelange/hugo-PaperMod)（和 [Lil'Log](https://lilianweng.github.io/) 同款），以 git submodule 的形式放在 `themes/PaperMod`，固定在支持 Hugo 0.145 的版本。克隆仓库时需要带上子模块：
 
-- 冷色调（石板灰 + 冰蓝）、单栏、细线条、以文字为主的排版，自动跟随系统的浅色 / 深色模式，右上角可以手动切换
-- 文章页：阅读时长、目录（宽屏固定在右侧并高亮当前章节，窄屏折叠在正文上方）、标题锚点、上一篇 / 下一篇
-- 代码块：显示语言、一键复制，浅色 / 深色两套语法高亮配色
-- 数学公式：`$...$` 和 `$$...$$` 在构建时由 KaTeX 渲染，只有用到公式的页面才加载 KaTeX 样式
-- Mermaid：```` ```mermaid ```` 代码块会渲染成图，只有用到的页面才加载脚本
-- 搜索：任意页面按 `/` 或 `⌘K`（Windows 用 `Ctrl+K`）弹出搜索框，可搜标题、标签、摘要和正文；也可以直接打开 `/search/?q=关键词`。索引由 Hugo 生成为 `/index.json`，纯前端搜索，不依赖第三方服务
-- 归档：`/archives/` 按年、月展示所有文章的时间线；标签页展示所有标签及文章数
+```powershell
+git clone --recurse-submodules https://github.com/whale4rain/whale4rain.github.io.git
+# 已经克隆过的话：
+git submodule update --init
+```
 
-站点标题、简介和 GitHub 链接在 `hugo.toml` 的 `title` 与 `[params]` 里修改；首页的自我介绍在 `layouts/index.html`。样式全部在 `assets/css/main.css`，颜色集中定义在文件顶部的 CSS 变量里。
+- 站点配置（标题、简介、菜单、社交链接、阅读时间、目录等）都在 `hugo.toml`
+- 归档 `/archives/`、搜索 `/search/` 分别由 `content/archives.md`、`content/search.md` 生成
+- 本仓库只在 `layouts/` 里补充了三处：数学公式（`$...$`、`$$...$$`，构建时用 KaTeX 渲染）、Mermaid 图（```` ```mermaid ```` 代码块）、去掉代码块首尾空行。需要改样式时，新建 `assets/css/extended/custom.css` 即可覆盖主题样式，不要直接改 `themes/PaperMod`
 
 ## 本地预览
 

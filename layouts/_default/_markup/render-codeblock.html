@@ -1,7 +1,3 @@
-{{ $lang := .Type | default "text" }}
-{{ if in (slice "plain" "plaintext" "txt") $lang }}{{ $lang = "text" }}{{ end }}
-{{ $code := .Inner | strings.TrimRight " \n\t\r" | replaceRE `^(\s*\n)+` "" }}
-<figure class="code">
-  <figcaption><span>{{ $lang }}</span><button class="copy" type="button">复制</button></figcaption>
-  {{ transform.Highlight $code .Type .Options }}
-</figure>
+{{- /* Same as Hugo's default, but drops blank lines at the start/end of a code block. */ -}}
+{{- $code := .Inner | strings.TrimRight " \n\t\r" | replaceRE `^(\s*\n)+` "" -}}
+{{- transform.Highlight $code .Type .Options -}}

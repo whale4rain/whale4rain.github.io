@@ -19,7 +19,7 @@ try {
 
     $homeHtml = Get-Content -Raw -Encoding utf8 $homePage
     if ($homeHtml -notmatch 'whale4rain') { throw 'Home page does not contain the site title.' }
-    if ($homeHtml -notmatch 'post-card') { throw 'Home page does not list recent posts.' }
+    if ($homeHtml -notmatch 'post-entry') { throw 'Home page does not list recent posts.' }
 
     $technicalPostHtml = Get-Content -Raw -Encoding utf8 $technicalPostPage
     if ($technicalPostHtml -match '<pre[^>]+style=') {
@@ -28,16 +28,8 @@ try {
     if ($technicalPostHtml -notmatch 'class=["'']?chroma') {
         throw 'Technical post must use class-based syntax highlighting.'
     }
-    if ($technicalPostHtml -notmatch 'TableOfContents') {
+    if ($technicalPostHtml -notmatch 'class=["'']?toc') {
         throw 'Technical post must render a table of contents.'
-    }
-
-    $styleHref = [regex]::Match($technicalPostHtml, 'href=["'']?([^"'' >]+\.css)').Groups[1].Value
-    if (-not $styleHref) { throw 'Stylesheet link was not generated.' }
-    $stylePath = Join-Path $outputDirectory ($styleHref.TrimStart('/').Replace('/', [IO.Path]::DirectorySeparatorChar))
-    $style = Get-Content -Raw -Encoding utf8 $stylePath
-    if ($style -notmatch 'JetBrains Mono' -or $style -notmatch '\.chroma') {
-        throw 'Code typography and syntax theme styles are missing.'
     }
 }
 finally {

@@ -1,0 +1,11 @@
+{{- /* Render the page body first so the math / mermaid render hooks can flag what this page needs. */ -}}
+{{- if .IsPage }}{{ $_ := .Content }}{{ end -}}
+{{- if .Store.Get "hasMath" }}
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/katex.min.css" crossorigin="anonymous">
+{{- end }}
+{{- if .Store.Get "hasMermaid" }}
+<script type="module">
+  import mermaid from "https://cdn.jsdelivr.net/npm/mermaid@11.4.1/dist/mermaid.esm.min.mjs";
+  mermaid.initialize({ startOnLoad: true, theme: document.body.classList.contains("dark") ? "dark" : "default" });
+</script>
+{{- end }}
