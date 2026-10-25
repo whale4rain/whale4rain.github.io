@@ -1,0 +1,24 @@
+/* Site tweaks on top of PaperMod. */
+
+/* Add Chinese fonts to the theme's font stack (Windows otherwise falls back to SimSun). */
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial,
+    "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", "Noto Sans CJK SC", "Noto Sans SC", sans-serif;
+}
+
+/* PaperMod sets no code font, so browsers use their default monospace (a serif font on many Windows setups). */
+code, pre, kbd, samp {
+  font-family: "JetBrains Mono", "Cascadia Code", "SF Mono", SFMono-Regular, Menlo, Consolas,
+    "Liberation Mono", "PingFang SC", "Microsoft YaHei", monospace;
+}
+
+/* Keep images and embedded media within the text column. */
+.post-content img,
+.post-content embed,
+.post-content iframe,
+.post-content video {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  margin-inline: auto;
+}
