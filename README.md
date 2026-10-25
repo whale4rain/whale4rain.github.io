@@ -2,7 +2,7 @@
 
 一个使用 [Hugo](https://gohugo.io/) 构建的技术博客，内容用 Markdown 管理。
 
-主题使用 [PaperMod](https://github.com/adityatelange/hugo-PaperMod)（和 [Lil'Log](https://lilianweng.github.io/) 同款），以 git submodule 的形式放在 `themes/PaperMod`，固定在支持 Hugo 0.145 的版本。克隆仓库时需要带上子模块：
+主题使用 [PaperMod](https://github.com/adityatelange/hugo-PaperMod)（和 [Lil'Log](https://lilianweng.github.io/) 同款），以 git submodule 的形式放在 `themes/PaperMod`，跟随 PaperMod 最新版本（需要 Hugo 0.158+，部署使用 0.168.0）。更新主题：`git submodule update --remote themes/PaperMod`。克隆仓库时需要带上子模块：
 
 ```powershell
 git clone --recurse-submodules https://github.com/whale4rain/whale4rain.github.io.git
@@ -12,11 +12,11 @@ git submodule update --init
 
 - 站点配置（标题、简介、菜单、社交链接、阅读时间、目录等）都在 `hugo.toml`
 - 归档 `/archives/`、搜索 `/search/` 分别由 `content/archives.md`、`content/search.md` 生成
-- 本仓库只在 `layouts/` 里补充了三处：数学公式（`$...$`、`$$...$$`，构建时用 KaTeX 渲染）、Mermaid 图（```` ```mermaid ```` 代码块）、去掉代码块首尾空行。需要改样式时，新建 `assets/css/extended/custom.css` 即可覆盖主题样式，不要直接改 `themes/PaperMod`
+- 本仓库只在 `layouts/_markup` 和 `layouts/_partials` 里补充了三处：数学公式（`$...$`、`$$...$$`，构建时用 KaTeX 渲染）、Mermaid 图（```` ```mermaid ```` 代码块）、去掉代码块首尾空行。需要改样式时，新建 `assets/css/extended/custom.css` 即可覆盖主题样式，不要直接改 `themes/PaperMod`
 
 ## 本地预览
 
-需要 Hugo Extended（当前项目使用 Hugo 0.145+）。
+需要 Hugo Extended 0.158+（部署使用 0.168.0）。
 
 ```powershell
 hugo server -D
