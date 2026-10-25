@@ -1,0 +1,7 @@
+<li>
+  <a class="post-card" href="{{ .RelPermalink }}">
+    <h3>{{ .Title }}</h3>
+    {{ with .Params.summary }}<p>{{ . }}</p>{{ end }}
+    {{ partial "post-meta.html" . }}
+  </a>
+</li>

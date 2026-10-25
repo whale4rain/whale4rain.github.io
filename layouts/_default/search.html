@@ -1,0 +1,16 @@
+{{ define "main" }}
+  <header class="page-head">
+    <p class="kicker">search</p>
+    <h1>{{ .Title }}</h1>
+    <p class="muted">搜索标题、标签、摘要和正文。任意页面按 <kbd>/</kbd> 或 <kbd>⌘</kbd><kbd>K</kbd> 也能打开搜索。</p>
+  </header>
+  <div class="search-inline" data-search>
+    <label class="search-bar">
+      <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="m20 20-3.5-3.5"/></svg>
+      <input type="search" placeholder="输入关键词，例如 raft、内存模型" autocomplete="off" spellcheck="false" aria-label="搜索文章">
+    </label>
+    <p class="search-status muted" aria-live="polite"></p>
+    <ul class="search-results"></ul>
+  </div>
+  <noscript><p class="muted">搜索需要启用 JavaScript。</p></noscript>
+{{ end }}

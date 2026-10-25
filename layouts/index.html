@@ -1,27 +1,23 @@
 {{ define "main" }}
   {{ $posts := (where site.RegularPages "Section" "posts").ByDate.Reverse }}
   <section class="intro">
+    <p class="prompt"><span>$</span> whoami</p>
     <h1>{{ site.Title }}</h1>
     <p>{{ site.Params.description }}<br>主要写 Go、C++ 与分布式系统，偶尔记录线上问题的排查过程。</p>
+    <p class="intro-stats">
+      <a href="{{ "archives/" | relURL }}">{{ len $posts }} posts</a>
+      <a href="{{ "tags/" | relURL }}">{{ len site.Taxonomies.tags }} tags</a>
+      <button class="search-trigger-inline" type="button" data-search-open>search <kbd>/</kbd></button>
+    </p>
   </section>
 
   <section aria-labelledby="recent">
     <div class="section-head">
       <h2 id="recent">最近文章</h2>
-      <a href="{{ "posts/" | relURL }}">全部 {{ len $posts }} 篇 →</a>
+      <a href="{{ "archives/" | relURL }}">归档 →</a>
     </div>
     <ul class="post-cards">
-      {{ range first 8 $posts }}
-        <li>
-          <a class="post-card" href="{{ .RelPermalink }}">
-            <h3>{{ .Title }}</h3>
-            {{ with .Params.summary }}<p>{{ . }}</p>{{ end }}
-            {{ partial "post-meta.html" . }}
-          </a>
-        </li>
-      {{ else }}
-        <li class="empty">第一篇文章即将出现。</li>
-      {{ end }}
+      {{ range first 8 $posts }}{{ partial "post-card.html" . }}{{ else }}<li class="empty">第一篇文章即将出现。</li>{{ end }}
     </ul>
   </section>
 

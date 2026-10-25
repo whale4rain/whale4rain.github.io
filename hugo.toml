@@ -8,6 +8,9 @@ enableGitInfo = false
 [pagination]
   pagerSize = 20
 
+[outputs]
+  home = ["HTML", "RSS", "JSON"]
+
 [taxonomies]
   category = "categories"
   tag = "tags"

@@ -9,9 +9,11 @@ try {
     $homePage = Join-Path $outputDirectory 'index.html'
     $postListPage = Join-Path $outputDirectory 'posts/index.html'
     $tagsPage = Join-Path $outputDirectory 'tags/index.html'
+    $archivesPage = Join-Path $outputDirectory 'archives/index.html'
+    $searchIndex = Join-Path $outputDirectory 'index.json'
     $technicalPostPage = Join-Path $outputDirectory 'posts/go-memory-model/index.html'
 
-    foreach ($page in @($homePage, $postListPage, $tagsPage, $technicalPostPage)) {
+    foreach ($page in @($homePage, $postListPage, $tagsPage, $archivesPage, $searchIndex, $technicalPostPage)) {
         if (-not (Test-Path $page)) { throw "Page was not generated: $page" }
     }
 
